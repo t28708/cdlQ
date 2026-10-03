@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eff2f7"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/ad_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:minHeight="80dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="@color/gray"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+             />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="16dp">
+
+
+            <!-- Переключатели изображений -->
+
+
+            <ImageView
+                android:id="@+id/prev_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:src="@android:drawable/ic_media_previous"
+                android:contentDescription="Previous Image"
+                android:onClick="showPreviousImage" />
+
+            <ImageView
+                android:id="@+id/next_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="16dp"
+                android:contentDescription="Next Image"
+                android:onClick="showNextImage"
+                android:src="@android:drawable/ic_media_next" />
+
+            <!-- Изображение автомобиля -->
+            <ImageView
+                android:id="@+id/car_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/prev_image"
+                android:layout_centerHorizontal="true"
+                android:adjustViewBounds="true"
+                android:contentDescription="Car Image"
+                android:src="@drawable/pre_trip_a_steering_system" />
+
+
+            <!-- Точки на изображении -->
+            <ImageView
+                android:id="@+id/dot_image"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_alignStart="@id/car_image"
+                android:layout_alignTop="@id/car_image"
+                android:layout_marginStart="165dp"
+                android:layout_marginTop="156dp"
+                android:contentDescription="Clickable dot"
+                android:onClick="showPopupMessage"
+                android:src="@mipmap/ic_launcher" />
+
+            <ImageView
+                android:id="@+id/dot_image1"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_alignStart="@id/car_image"
+                android:layout_alignTop="@id/car_image"
+                android:layout_marginStart="69dp"
+                android:layout_marginTop="253dp"
+                android:contentDescription="Clickable dot"
+                android:onClick="showPopupMessage1"
+                android:src="@mipmap/ic_launcher" />
+
+            <ImageView
+                android:id="@+id/dot_image2"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_alignStart="@id/car_image"
+                android:layout_alignTop="@id/car_image"
+                android:layout_marginStart="254dp"
+                android:layout_marginTop="251dp"
+                android:contentDescription="Clickable dot"
+                android:onClick="showPopupMessage2"
+                android:src="@mipmap/ic_launcher" />
+
+            <ImageView
+                android:id="@+id/dot_image3"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_alignStart="@id/car_image"
+                android:layout_alignTop="@id/car_image"
+                android:layout_marginStart="139dp"
+                android:layout_marginTop="441dp"
+                android:contentDescription="Clickable dot"
+                android:onClick="showPopupMessage3"
+                android:src="@mipmap/ic_launcher" />
+
+            <ImageView
+                android:id="@+id/dot_image4"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_alignStart="@id/car_image"
+                android:layout_alignTop="@id/car_image"
+                android:layout_marginStart="205dp"
+                android:layout_marginTop="442dp"
+                android:contentDescription="Clickable dot"
+                android:onClick="showPopupMessage4"
+                android:src="@mipmap/ic_launcher" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</ScrollView>

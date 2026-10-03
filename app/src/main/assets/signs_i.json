@@ -1,0 +1,170 @@
+[
+  {
+    "image": "mutcd_i1_1.png",
+    "description": "Traffic signal speed",
+    "description_ru": "Скорость сигнала светофора",
+    "description_es": "Velocidad de la señal de tráfico"
+  },
+  {
+    "image": "mutcd_i2_1.png",
+    "description": "State line",
+    "description_ru": "Граница штата",
+    "description_es": "Línea estatal"
+  },
+  {
+    "image": "mutcd_i2_2.png",
+    "description": "River",
+    "description_ru": "Река",
+    "description_es": "Río"
+  },
+  {
+    "image": "mutcd_i2_3.png",
+    "description": "Grade separation identification (1-line)",
+    "description_ru": "Идентификация разделения уровней (1 линия)",
+    "description_es": "Identificación de separación de niveles (1 línea)"
+  },
+  {
+    "image": "mutcd_i2_3_28numbered_and_named29.png",
+    "description": "Grade separation identification (1-line)",
+    "description_ru": "Идентификация разделения уровней (1 линия)",
+    "description_es": "Identificación de separación de niveles (1 línea)"
+  },
+  {
+    "image": "mutcd_i2_3a.png",
+    "description": "Grade separation identification (2-line)",
+    "description_ru": "Идентификация разделения уровней (2 линии)",
+    "description_es": "Identificación de separación de niveles (2 líneas)"
+  },
+  {
+    "image": "mutcd_i2_3a_28numbered_and_named29.png",
+    "description": "Grade separation identification (2-line)",
+    "description_ru": "Идентификация разделения уровней (2 линии)",
+    "description_es": "Identificación de separación de niveles (2 líneas)"
+  },
+  {
+    "image": "mutcd_i2_4.png",
+    "description": "Future interstate corridor",
+    "description_ru": "Будущий коридор межштатной магистрали",
+    "description_es": "Futuro corredor interestatal"
+  },
+  {
+    "image": "mutcd_i2_4a.png",
+    "description": "Future I-XX Corridor",
+    "description_ru": "Будущий коридор I-XX",
+    "description_es": "Futuro corredor I-XX"
+  },
+  {
+    "image": "mutcd_i2_5.png",
+    "description": "Project information",
+    "description_ru": "Информация о проекте",
+    "description_es": "Información del proyecto"
+  },
+  {
+    "image": "mutcd_i2_5_28state29.png",
+    "description": "Project information",
+    "description_ru": "Информация о проекте",
+    "description_es": "Información del proyecto"
+  },
+  {
+    "image": "mutcd_i3_5.png",
+    "description": "Airport",
+    "description_ru": "Аэропорт",
+    "description_es": "Aeropuerto"
+  },
+  {
+    "image": "mutcd_i3_6.png",
+    "description": "Bus station",
+    "description_ru": "Автобусная станция",
+    "description_es": "Estación de autobuses"
+  },
+  {
+    "image": "mutcd_i3_7.png",
+    "description": "Train station",
+    "description_ru": "Железнодорожная станция",
+    "description_es": "Estación de tren"
+  },
+  {
+    "image": "mutcd_i3_8.png",
+    "description": "Light rail station",
+    "description_ru": "Станция легкорельсового транспорта",
+    "description_es": "Estación de tranvía"
+  },
+  {
+    "image": "mutcd_i3_9.png",
+    "description": "Vehicle Ferry Terminal",
+    "description_ru": "Терминал паромов для транспортных средств",
+    "description_es": "Terminal de ferry para vehículos"
+  },
+  {
+    "image": "mutcd_i3_10.png",
+    "description": "Passenger Only Ferry Terminal",
+    "description_ru": "Терминал паромов только для пассажиров",
+    "description_es": "Terminal de ferry solo para pasajeros"
+  },
+  {
+    "image": "mutcd_i3_10p.png",
+    "description": "Ferry",
+    "description_ru": "Паром",
+    "description_es": "Ferry"
+  },
+  {
+    "image": "mutcd_i4_1.png",
+    "description": "Library",
+    "description_ru": "Библиотека",
+    "description_es": "Biblioteca"
+  },
+  {
+    "image": "mutcd_i_11.png",
+    "description": "Recycling center",
+    "description_ru": "Центр переработки",
+    "description_es": "Centro de reciclaje"
+  },
+  {
+    "image": "mutcd_i_13_28alternate_legend29.png",
+    "description": "Emergency Notification",
+    "description_ru": "Экстренное уведомление",
+    "description_es": "Notificación de emergencia"
+  },
+  {
+    "image": "mutcd_i13_2.png",
+    "description": "Push to Exit",
+    "description_ru": "Нажмите для выхода",
+    "description_es": "Empuje para salir"
+  },
+  {
+    "image": "mutcd_i20_1.png",
+    "description": "Acknowledgement",
+    "description_ru": "Подтверждение",
+    "description_es": "Reconocimiento"
+  },
+  {
+    "image": "mutcd_i20_2.png",
+    "description": "Acknowledgement",
+    "description_ru": "Подтверждение",
+    "description_es": "Reconocimiento"
+  },
+  {
+    "image": "mutcd_i20_3.png",
+    "description": "Acknowledgement",
+    "description_ru": "Подтверждение",
+    "description_es": "Reconocimiento"
+  },
+  {
+    "image": "mutcd_i20_4.png",
+    "description": "Acknowledgement - Rest area",
+    "description_ru": "Подтверждение - Зона отдыха",
+    "description_es": "Reconocimiento - Área de descanso"
+  },
+  {
+    "image": "mutcd_i20_4a.png",
+    "description": "Acknowledgement - Welcome Center",
+    "description_ru": "Подтверждение - Центр приветствия",
+    "description_es": "Reconocimiento - Centro de bienvenida"
+  },
+  {
+    "image": "mutcd_i20_5p.png",
+    "description": "Acknowledgement",
+    "description_ru": "Подтверждение",
+    "description_es": "Reconocimiento"
+  }
+]

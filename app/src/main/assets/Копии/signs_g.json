@@ -1,0 +1,32 @@
+[
+  {
+    "image": "mutcd_g20_1.png",
+    "description": "G20-1 Road work next (distance) miles",
+    "description_ru": "G20-1 Дорожные работы через (расстояние) миль",
+    "description_es": "G20-1 Trabajos en carretera a (distancia) millas"
+  },
+  {
+    "image": "mutcd_g20_2.png",
+    "description": "G20-2 Road work ends",
+    "description_ru": "G20-2 Работы на дороге закончены",
+    "description_es": "G20-2 Fin de los trabajos en carretera"
+  },
+  {
+    "image": "mutcd_g20_4.png",
+    "description": "G20-4 Pilot car follow me",
+    "description_ru": "G20-4 Следуйте за пилотным автомобилем",
+    "description_es": "G20-4 Coche piloto, sígueme"
+  },
+  {
+    "image": "mutcd_g20_5ap.png",
+    "description": "G20-5aP Work zone",
+    "description_ru": "G20-5aP Зона дорожных работ",
+    "description_es": "G20-5aP Zona de trabajo"
+  },
+  {
+    "image": "mutcd_ia_23_1p.png",
+    "description": "IA-23-1P Turn Only In Direction Of Arrow Used with RDTS",
+    "description_ru": "IA-23-1P Поворот только в направлении стрелки, используется с RDTS",
+    "description_es": "IA-23-1P Giro solo en la dirección de la flecha, utilizado con RDTS"
+  }
+]

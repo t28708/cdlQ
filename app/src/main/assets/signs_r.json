@@ -1,0 +1,2756 @@
+[
+  {
+    "image": "mutcd_r1_1.png",
+    "description": "Stop",
+    "description_ru": "Стоп",
+    "description_es": "Alto"
+  },
+  {
+    "image": "mutcd_r1_2.png",
+    "description": "Yield",
+    "description_ru": "Уступи дорогу",
+    "description_es": "Ceda el paso"
+  },
+  {
+    "image": "mutcd_r1_2ap.png",
+    "description": "To oncoming traffic",
+    "description_ru": "Встречный поток",
+    "description_es": "Tráfico en sentido contrario"
+  },
+  {
+    "image": "mutcd_r1_2bp.png",
+    "description": "To traffic in circle",
+    "description_ru": "Круговое движение",
+    "description_es": "Tráfico en rotonda"
+  },
+  {
+    "image": "mutcd_r1_2cp.png",
+    "description": "To all lanes",
+    "description_ru": "На все полосы",
+    "description_es": "A todos los carriles"
+  },
+  {
+    "image": "mutcd_r1_3p.png",
+    "description": "All way",
+    "description_ru": "Вся дорога",
+    "description_es": "Todo el camino"
+  },
+  {
+    "image": "mutcd_r1_5r.png",
+    "description": "Yield here to pedestrians (right)",
+    "description_ru": "Уступи дорогу пешеходам (справа)",
+    "description_es": "Ceda el paso a los peatones (derecha)"
+  },
+  {
+    "image": "mutcd_r1_5l.png",
+    "description": "Yield here to pedestrians (left)",
+    "description_ru": "Уступи дорогу пешеходам (слева)",
+    "description_es": "Ceda el paso a los peatones (izquierda)"
+  },
+  {
+    "image": "mutcd_r1_5ar.png",
+    "description": "Yield here to school crossing (right)",
+    "description_ru": "Уступи дорогу школьному переходу (справа)",
+    "description_es": "Ceda el paso al cruce escolar (derecha)"
+  },
+  {
+    "image": "mutcd_r1_5al.png",
+    "description": "Yield here to school crossing (left)",
+    "description_ru": "Уступи дорогу школьному переходу (слева)",
+    "description_es": "Ceda el paso al cruce escolar (izquierda)"
+  },
+  {
+    "image": "mutcd_r1_5br.png",
+    "description": "Stop here for pedestrians (right)",
+    "description_ru": "Остановитесь здесь для пешеходов (справа)",
+    "description_es": "Deténgase aquí para peatones (derecha)"
+  },
+  {
+    "image": "mutcd_r1_5bl.png",
+    "description": "Stop here for pedestrians (left)",
+    "description_ru": "Остановитесь здесь для пешеходов (слева)",
+    "description_es": "Deténgase aquí para peatones (izquierda)"
+  },
+  {
+    "image": "mutcd_r1_5cr.png",
+    "description": "Stop here for school crossing (right)",
+    "description_ru": "Остановитесь здесь для школьного перехода (справа)",
+    "description_es": "Deténgase aquí para cruce escolar (derecha)"
+  },
+  {
+    "image": "mutcd_r1_5cl.png",
+    "description": "Stop here for school crossing (left)",
+    "description_ru": "Остановитесь здесь для школьного перехода (слева)",
+    "description_es": "Deténgase aquí para cruce escolar (izquierda)"
+  },
+  {
+    "image": "mutcd_r1_5dr.png",
+    "description": "Yield here to trail crossing (right)",
+    "description_ru": "Уступите дорогу пешеходной тропе (справа)",
+    "description_es": "Ceda el paso al cruce del sendero (derecha)"
+  },
+  {
+    "image": "mutcd_r1_5dl.png",
+    "description": "Yield here to trail crossing (left)",
+    "description_ru": "Уступите дорогу пешеходной тропе (слева)",
+    "description_es": "Ceda el paso al cruce del sendero (izquierda)"
+  },
+  {
+    "image": "mutcd_r1_5er.png",
+    "description": "Stop here for trail crossing (right)",
+    "description_ru": "Остановитесь здесь для пешеходной тропы (справа)",
+    "description_es": "Deténgase aquí para cruce de sendero (derecha)"
+  },
+  {
+    "image": "mutcd_r1_5el.png",
+    "description": "Stop here for trail crossing (left)",
+    "description_ru": "Остановитесь здесь для пешеходной тропы (слева)",
+    "description_es": "Deténgase aquí para cruce de sendero (izquierda)"
+  },
+  {
+    "image": "mutcd_r1_6_28yellow29.png",
+    "description": "In-street pedestrian crossing",
+    "description_ru": "Пешеходный переход на улице",
+    "description_es": "Cruce peatonal en la calle"
+  },
+  {
+    "image": "mutcd_r1_6.png",
+    "description": "In-street pedestrian crossing",
+    "description_ru": "Пешеходный переход на улице",
+    "description_es": "Cruce peatonal en la calle"
+  },
+  {
+    "image": "mutcd_r1_6a_28yellow29.png",
+    "description": "In-street pedestrian crossing",
+    "description_ru": "Пешеходный переход на улице",
+    "description_es": "Cruce peatonal en la calle"
+  },
+  {
+    "image": "mutcd_r1_6a.png",
+    "description": "In-street pedestrian crossing",
+    "description_ru": "Пешеходный переход на улице",
+    "description_es": "Cruce peatonal en la calle"
+  },
+  {
+    "image": "mutcd_r1_6b.png",
+    "description": "In-street school crossing",
+    "description_ru": "Школьный переход на улице",
+    "description_es": "Cruce escolar en la calle"
+  },
+  {
+    "image": "mutcd_r1_6c.png",
+    "description": "In-street school crossing",
+    "description_ru": "Школьный переход на улице",
+    "description_es": "Cruce escolar en la calle"
+  },
+  {
+    "image": "mutcd_r1_6d.png",
+    "description": "In-street trail crossing",
+    "description_ru": "Пешеходная тропа на улице",
+    "description_es": "Cruce de sendero en la calle"
+  },
+  {
+    "image": "mutcd_r1_6e.png",
+    "description": "In-street trail crossing",
+    "description_ru": "Пешеходная тропа на улице",
+    "description_es": "Cruce de sendero en la calle"
+  },
+  {
+    "image": "mutcd_r1_7.png",
+    "description": "Wait on stop",
+    "description_ru": "Ожидание на остановке",
+    "description_es": "Esperar en la parada"
+  },
+  {
+    "image": "mutcd_r1_7a.png",
+    "description": "Wait on stop - Go on slow",
+    "description_ru": "Ожидание на остановке - двигаться медленно",
+    "description_es": "Esperar en la parada - ir despacio"
+  },
+  {
+    "image": "mutcd_r1_8.png",
+    "description": "Go on slow",
+    "description_ru": "Езжайте медленно",
+    "description_es": "Vaya despacio"
+  },
+  {
+    "image": "mutcd_r1_9.png",
+    "description": "Overhead pedestrian crossing",
+    "description_ru": "Надпешеходный переход",
+    "description_es": "Paso peatonal elevado"
+  },
+  {
+    "image": "mutcd_r1_9_28fluorescent29.png",
+    "description": "Overhead pedestrian crossing",
+    "description_ru": "Надпешеходный переход",
+    "description_es": "Paso peatonal elevado"
+  },
+  {
+    "image": "mutcd_r1_9a.png",
+    "description": "Overhead pedestrian crossing",
+    "description_ru": "Надпешеходный переход",
+    "description_es": "Paso peatonal elevado"
+  },
+  {
+    "image": "mutcd_r1_9a_28fluorescent29.png",
+    "description": "Overhead pedestrian crossing",
+    "description_ru": "Надпешеходный переход",
+    "description_es": "Paso peatonal elevado"
+  },
+  {
+    "image": "mutcd_r1_9b.png",
+    "description": "Overhead school crossing",
+    "description_ru": "Перекрёсток для пешеходов у школы",
+    "description_es": "Cruce escolar elevado"
+  },
+  {
+    "image": "mutcd_r1_9c.png",
+    "description": "Overhead school crossing",
+    "description_ru": "Перекрёсток для пешеходов у школы",
+    "description_es": "Cruce escolar elevado"
+  },
+  {
+    "image": "mutcd_r1_10p.png",
+    "description": "Except right turn",
+    "description_ru": "За исключением правого поворота",
+    "description_es": "Excepto giro a la derecha"
+  },
+  {
+    "image": "mutcd_r2_1.png",
+    "description": "Speed limit",
+    "description_ru": "Ограничение скорости",
+    "description_es": "Límite de velocidad"
+  },
+  {
+    "image": "mutcd_r2_2.png",
+    "description": "Truck speed limit",
+    "description_ru": "Ограничение скорости для грузовиков",
+    "description_es": "Límite de velocidad para camiones"
+  },
+  {
+    "image": "mutcd_r2_2ap.png",
+    "description": "Buses speed limit",
+    "description_ru": "Ограничение скорости для автобусов",
+    "description_es": "Límite de velocidad para autobuses"
+  },
+  {
+    "image": "mutcd_r2_2bp.png",
+    "description": "Trucks and buses speed limit",
+    "description_ru": "Ограничение скорости для грузовиков и автобусов",
+    "description_es": "Límite de velocidad para camiones y autobuses"
+  },
+  {
+    "image": "mutcd_r2_2cp.png",
+    "description": "Vehicles over 5 tons speed limit",
+    "description_ru": "Ограничение скорости для транспортных средств свыше 5 тонн",
+    "description_es": "Límite de velocidad para vehículos de más de 5 toneladas"
+  },
+  {
+    "image": "mutcd_r2_3.png",
+    "description": "Night speed limit",
+    "description_ru": "Ограничение скорости ночью",
+    "description_es": "Límite de velocidad nocturna"
+  },
+  {
+    "image": "mutcd_r2_4.png",
+    "description": "Minimum speed limit",
+    "description_ru": "Минимальное ограничение скорости",
+    "description_es": "Límite mínimo de velocidad"
+  },
+  {
+    "image": "speed_limit_55_minimum_30_sign.png",
+    "description": "Combined speed limit",
+    "description_ru": "Комбинированное ограничение скорости",
+    "description_es": "Límite combinado de velocidad"
+  },
+  {
+    "image": "mutcd_r2_5p.png",
+    "description": "Unless otherwise posted",
+    "description_ru": "Если не указано иное",
+    "description_es": "A menos que se indique lo contrario"
+  },
+  {
+    "image": "mutcd_r2_5ap.png",
+    "description": "Citywide",
+    "description_ru": "По всему городу",
+    "description_es": "A nivel de la ciudad"
+  },
+  {
+    "image": "mutcd_r2_5bp.png",
+    "description": "Neighborhood",
+    "description_ru": "Окружение",
+    "description_es": "Vecindario"
+  },
+  {
+    "image": "mutcd_r2_5cp.png",
+    "description": "Residental",
+    "description_ru": "Жилой район",
+    "description_es": "Residencial"
+  },
+  {
+    "image": "mutcd_r2_6p.png",
+    "description": "Fines higher",
+    "description_ru": "Штрафы выше",
+    "description_es": "Multas más altas"
+  },
+  {
+    "image": "mutcd_r2_6ap.png",
+    "description": "Fines double",
+    "description_ru": "Двойные штрафы",
+    "description_es": "Multas dobles"
+  },
+  {
+    "image": "mutcd_r2_6bp.png",
+    "description": "Speeding fine",
+    "description_ru": "Штраф за превышение скорости",
+    "description_es": "Multa por exceso de velocidad"
+  },
+  {
+    "image": "mutcd_r2_10.png",
+    "description": "Begin higher/double fines zone",
+    "description_ru": "Начало зоны с повышенными/удвоенными штрафами",
+    "description_es": "Comienza la zona de multas más altas/dobladas"
+  },
+  {
+    "image": "mutcd_r2_11.png",
+    "description": "End higher/double fines zone",
+    "description_ru": "Конец зоны с повышенными/удвоенными штрафами",
+    "description_es": "Fin de la zona de multas más altas/dobladas"
+  },
+  {
+    "image": "mutcd_r2_12.png",
+    "description": "End work zone speed limit",
+    "description_ru": "Конец зоны ограниченной скорости для рабочих",
+    "description_es": "Fin del límite de velocidad en la zona de trabajo"
+  },
+  {
+    "image": "mutcd_r2_13.png",
+    "description": "End variable speed limit",
+    "description_ru": "Конец зоны с переменным ограничением скорости",
+    "description_es": "Fin del límite de velocidad variable"
+  },
+  {
+    "image": "mutcd_r2_14.png",
+    "description": "End truck speed limit",
+    "description_ru": "Конец ограничения скорости для грузовиков",
+    "description_es": "Fin del límite de velocidad para camiones"
+  },
+  {
+    "image": "mutcd_r3_1.png",
+    "description": "No right turn",
+    "description_ru": "Запрещён поворот направо",
+    "description_es": "No girar a la derecha"
+  },
+  {
+    "image": "mutcd_r3_1a.png",
+    "description": "No right turn for train (Activated, Blank-Out)",
+    "description_ru": "Запрещён поворот направо для поезда (Активировано, пустой экран)",
+    "description_es": "No girar a la derecha para el tren (Activado, en blanco)"
+  },
+  {
+    "image": "mutcd_r3_1b.png",
+    "description": "No right turn for trucks",
+    "description_ru": "Запрещён поворот направо для грузовиков",
+    "description_es": "No girar a la derecha para camiones"
+  },
+  {
+    "image": "mutcd_r3_1c.png",
+    "description": "No right turn for trucks and buses",
+    "description_ru": "Запрещён поворот направо для грузовиков и автобусов",
+    "description_es": "No girar a la derecha para camiones y autobuses"
+  },
+  {
+    "image": "mutcd_r3_1d.png",
+    "description": "No right turn for trucks over 4 tons",
+    "description_ru": "Запрещён поворот направо для грузовиков более 4 тонн",
+    "description_es": "No girar a la derecha para camiones de más de 4 toneladas"
+  },
+  {
+    "image": "mutcd_r3_1e.png",
+    "description": "No right turn except buses",
+    "description_ru": "Запрещён поворот направо, кроме автобусов",
+    "description_es": "No girar a la derecha excepto autobuses"
+  },
+  {
+    "image": "mutcd_r3_1f.png",
+    "description": "No right turn except buses and taxis",
+    "description_ru": "Запрещён поворот направо, кроме автобусов и такси",
+    "description_es": "No girar a la derecha excepto autobuses y taxis"
+  },
+  {
+    "image": "mutcd_r3_1g.png",
+    "description": "No right turn (times and days) (2-lines)",
+    "description_ru": "Запрещён поворот направо (время и дни) (2 строки)",
+    "description_es": "No girar a la derecha (horarios y días) (2 líneas)"
+  },
+  {
+    "image": "mutcd_r3_1h.png",
+    "description": "No right turn (times and days) (3-lines)",
+    "description_ru": "Запрещён поворот направо (время и дни) (3 строки)",
+    "description_es": "No girar a la derecha (horarios y días) (3 líneas)"
+  },
+  {
+    "image": "mutcd_r3_1h_281_time_span29.png",
+    "description": "No right turn (times and days) (3-lines)",
+    "description_ru": "Запрещён поворот направо (время и дни) (3 строки)",
+    "description_es": "No girar a la derecha (horarios y días) (3 líneas)"
+  },
+  {
+    "image": "mutcd_r3_2.png",
+    "description": "No left turn",
+    "description_ru": "Запрещён поворот налево",
+    "description_es": "No girar a la izquierda"
+  },
+  {
+    "image": "mutcd_r3_2a.png",
+    "description": "No left turn for train (Activated, Blank-Out)",
+    "description_ru": "Запрещён поворот налево для поезда (Активировано, пустой экран)",
+    "description_es": "No girar a la izquierda para el tren (Activado, en blanco)"
+  },
+  {
+    "image": "mutcd_r3_3.png",
+    "description": "No turns",
+    "description_ru": "Запрещены повороты",
+    "description_es": "No girar"
+  },
+  {
+    "image": "mutcd_r3_4.png",
+    "description": "No U-turn",
+    "description_ru": "Запрещён разворот",
+    "description_es": "No hacer giro en U"
+  },
+  {
+    "image": "mutcd_r3_5r.png",
+    "description": "Right turn only",
+    "description_ru": "Только поворот направо",
+    "description_es": "Solo giro a la derecha"
+  },
+  {
+    "image": "mutcd_r3_5l.png",
+    "description": "Left turn only",
+    "description_ru": "Только поворот налево",
+    "description_es": "Solo giro a la izquierda"
+  },
+  {
+    "image": "mutcd_r3_5a.png",
+    "description": "Straight through only",
+    "description_ru": "Только движение прямо",
+    "description_es": "Solo paso recto"
+  },
+  {
+    "image": "mutcd_r3_5bp.png",
+    "description": "Left lane",
+    "description_ru": "Левая полоса",
+    "description_es": "Carril izquierdo"
+  },
+  {
+    "image": "mutcd_r3_5cp.png",
+    "description": "Hov 2+",
+    "description_ru": "Hov 2+",
+    "description_es": "HOV 2+"
+  },
+  {
+    "image": "mutcd_r3_5dp.png",
+    "description": "Taxi lane",
+    "description_ru": "Полоса для такси",
+    "description_es": "Carril de taxis"
+  },
+  {
+    "image": "mutcd_r3_5fp.png",
+    "description": "Right lane",
+    "description_ru": "Правая полоса",
+    "description_es": "Carril derecho"
+  },
+  {
+    "image": "mutcd_r3_5gp.png",
+    "description": "Bus lane",
+    "description_ru": "Полоса для автобусов",
+    "description_es": "Carril de autobuses"
+  },
+  {
+    "image": "mutcd_r3_5hp.png",
+    "description": "Bike lane",
+    "description_ru": "Полоса для велосипедистов",
+    "description_es": "Carril para bicicletas"
+  },
+  {
+    "image": "mutcd_r3_6r.png",
+    "description": "Optional movement lane control, straight through and right turn",
+    "description_ru": "Контроль полосы с возможностью выбора движения, прямой ход и поворот направо",
+    "description_es": "Control de carril de movimiento opcional, ir recto y girar a la derecha"
+  },
+  {
+    "image": "mutcd_r3_6l.png",
+    "description": "Optional movement lane control, straight through and left turn",
+    "description_ru": "Контроль полосы с возможностью выбора движения, прямой ход и поворот налево",
+    "description_es": "Control de carril de movimiento opcional, ir recto y girar a la izquierda"
+  },
+  {
+    "image": "mutcd_r3_6a.png",
+    "description": "Optional movement lane control, U or left turn",
+    "description_ru": "Контроль полосы с возможностью выбора движения, U-образный или поворот налево",
+    "description_es": "Control de carril de movimiento opcional, giro en U o giro a la izquierda"
+  },
+  {
+    "image": "mutcd_r3_6b.png",
+    "description": "Optional movement lane control, double left turns",
+    "description_ru": "Контроль полосы с возможностью выбора движения, двойной поворот налево",
+    "description_es": "Control de carril de movimiento opcional, giros dobles a la izquierda"
+  },
+  {
+    "image": "mutcd_r3_7r.png",
+    "description": "Right lane must turn right",
+    "description_ru": "Правая полоса должна повернуть направо",
+    "description_es": "La carril derecho debe girar a la derecha"
+  },
+  {
+    "image": "mutcd_r3_7l.png",
+    "description": "Left lane must turn left",
+    "description_ru": "Левая полоса должна повернуть налево",
+    "description_es": "La carril izquierdo debe girar a la izquierda"
+  },
+  {
+    "image": "mutcd_r3_7ap.png",
+    "description": "Except buses",
+    "description_ru": "Кроме автобусов",
+    "description_es": "Excepto autobuses"
+  },
+  {
+    "image": "mutcd_r3_7bp.png",
+    "description": "Except bicycles",
+    "description_ru": "Кроме велосипедистов",
+    "description_es": "Excepto bicicletas"
+  },
+  {
+    "image": "mutcd_r3_8r.png",
+    "description": "Advance intersection lane control (two lanes) (right)",
+    "description_ru": "Управление полосами на перекрёстке (две полосы) (справа)",
+    "description_es": "Control de carriles de intersección avanzada (dos carriles) (derecha)"
+  },
+  {
+    "image": "mutcd_r3_8l.png",
+    "description": "Advance intersection lane control (two lanes) (left)",
+    "description_ru": "Управление полосами на перекрёстке (две полосы) (слева)",
+    "description_es": "Control de carriles de intersección avanzada (dos carriles) (izquierda)"
+  },
+  {
+    "image": "mutcd_r3_8ar.png",
+    "description": "Advance intersection lane control (three lanes) (right)",
+    "description_ru": "Управление полосами на перекрёстке (три полосы) (справа)",
+    "description_es": "Control de carriles de intersección avanzada (tres carriles) (derecha)"
+  },
+  {
+    "image": "mutcd_r3_8al.png",
+    "description": "Advance intersection lane control (three lanes) (left)",
+    "description_ru": "Управление полосами на перекрёстке (три полосы) (слева)",
+    "description_es": "Control de carriles de intersección avanzada (tres carriles) (izquierda)"
+  },
+  {
+    "image": "mutcd_r3_8b.png",
+    "description": "Advance intersection lane control (three lanes)",
+    "description_ru": "Управление полосами на перекрёстке (три полосы)",
+    "description_es": "Control de carriles de intersección avanzada (tres carriles)"
+  },
+  {
+    "image": "mutcd_r3_8xa.png",
+    "description": "Advance intersection lane control with bike lane",
+    "description_ru": "Управление полосами на перекрёстке с полосой для велосипедистов",
+    "description_es": "Control de carriles de intersección avanzada con carril para bicicletas"
+  },
+  {
+    "image": "mutcd_r3_8xb.png",
+    "description": "Advance intersection lane control with bike lane",
+    "description_ru": "Управление полосами на перекрёстке с полосой для велосипедистов",
+    "description_es": "Control de carriles de intersección avanzada con carril para bicicletas"
+  },
+  {
+    "image": "mutcd_r3_8xc.png",
+    "description": "Advance intersection lane control with bike lane",
+    "description_ru": "Управление полосами на перекрёстке с полосой для велосипедистов",
+    "description_es": "Control de carriles de intersección avanzada con carril para bicicletas"
+  },
+  {
+    "image": "mutcd_r3_8_28circular_intersection_129.png",
+    "description": "Advance circular intersection lane control (2 lanes)",
+    "description_ru": "Управление полосами на круговом перекрёстке (2 полосы)",
+    "description_es": "Control de carriles en intersección circular avanzada (2 carriles)"
+  },
+  {
+    "image": "mutcd_r3_8_28circular_intersection_329.png",
+    "description": "Advance circular intersection lane control (2 lanes)",
+    "description_ru": "Управление полосами на круговом перекрёстке (2 полосы)",
+    "description_es": "Control de carriles en intersección circular avanzada (2 carriles)"
+  },
+  {
+    "image": "mutcd_r3_8_28circular_intersection_229.png",
+    "description": "Advance circular intersection lane control (2 lanes)",
+    "description_ru": "Управление полосами на круговом перекрёстке (2 полосы)",
+    "description_es": "Control de carriles en intersección circular avanzada (2 carriles)"
+  },
+  {
+    "image": "mutcd_r3_8_28circular_intersection_429.png",
+    "description": "Advance circular intersection lane control (2 lanes)",
+    "description_ru": "Управление полосами на круговом перекрёстке (2 полосы)",
+    "description_es": "Control de carriles en intersección circular avanzada (2 carriles)"
+  },
+  {
+    "image": "mutcd_r3_9a.png",
+    "description": "Two-way left turn only (overhead)",
+    "description_ru": "Двусторонний поворот налево (над дорогой)",
+    "description_es": "Giro a la izquierda en dos direcciones solo (superior)"
+  },
+  {
+    "image": "mutcd_r3_9b.png",
+    "description": "Two-way left turn only (post-mounted)",
+    "description_ru": "Двусторонний поворот налево (на столбе)",
+    "description_es": "Giro a la izquierda en dos direcciones solo (montado en poste)"
+  },
+  {
+    "image": "mutcd_r3_9cp.png",
+    "description": "Begin",
+    "description_ru": "Начало",
+    "description_es": "Comenzar"
+  },
+  {
+    "image": "mutcd_r3_9dp.png",
+    "description": "End",
+    "description_ru": "Конец",
+    "description_es": "Fin"
+  },
+  {
+    "image": "mutcd_r3_9e.png",
+    "description": "Reversible lane control (overhead)",
+    "description_ru": "Управление обратной полосой (над головой)",
+    "description_es": "Control de carril reversible (superior)"
+  },
+  {
+    "image": "mutcd_r3_9f.png",
+    "description": "Reversible lane control (post-mounted)",
+    "description_ru": "Управление обратной полосой (установлено на столбе)",
+    "description_es": "Control de carril reversible (montado en poste)"
+  },
+  {
+    "image": "mutcd_r3_9h.png",
+    "description": "Advance reversible lane control transition",
+    "description_ru": "Переход к управлению обратной полосой",
+    "description_es": "Transición al control de carril reversible"
+  },
+  {
+    "image": "mutcd_r3_9g.png",
+    "description": "Advance reversible lane control transition",
+    "description_ru": "Переход к управлению обратной полосой",
+    "description_es": "Transición al control de carril reversible"
+  },
+  {
+    "image": "mutcd_r3_9i.png",
+    "description": "End reverse lane",
+    "description_ru": "Конец обратной полосы",
+    "description_es": "Fin del carril reversible"
+  },
+  {
+    "image": "mutcd_r3_10.png",
+    "description": "HOV 2+ only, 2 or more persons per vehicle (post-mounted)",
+    "description_ru": "Только для HOV 2+, 2 или более человека в транспортном средстве (установлено на столбе)",
+    "description_es": "Solo HOV 2+, 2 o más personas por vehículo (montado en poste)"
+  },
+  {
+    "image": "mutcd_r3_10a.png",
+    "description": "ILEV allowed (post-mounted)",
+    "description_ru": "Разрешены ILEV (установлено на столбе)",
+    "description_es": "ILEV permitido (montado en poste)"
+  },
+  {
+    "image": "mutcd_r3_11.png",
+    "description": "HOV 2+ only (times and days) (post-mounted)",
+    "description_ru": "Только для HOV 2+ (по времени и дням) (установлено на столбе)",
+    "description_es": "Solo HOV 2+ (por horas y días) (montado en poste)"
+  },
+  {
+    "image": "mutcd_r3_11a.png",
+    "description": "2 right lanes, HOV 2+ only (times and days) (post-mounted)",
+    "description_ru": "2 правые полосы, только для HOV 2+ (по времени и дням) (установлено на столбе)",
+    "description_es": "2 carriles derechos, solo HOV 2+ (por horas y días) (montado en poste)"
+  },
+  {
+    "image": "mutcd_r3_11b.png",
+    "description": "HOV 2+ only (full-time) (post-mounted)",
+    "description_ru": "Только для HOV 2+ (полный рабочий день) (установлено на столбе)",
+    "description_es": "Solo HOV 2+ (tiempo completo) (montado en poste)"
+  },
+  {
+    "image": "mutcd_r3_11c.png",
+    "description": "2 right lanes, HOV 2+ only (full-time) (post-mounted)",
+    "description_ru": "2 правые полосы, только для HOV 2+ (полный рабочий день) (установлено на столбе)",
+    "description_es": "2 carriles derechos, solo HOV 2+ (tiempo completo) (montado en poste)"
+  },
+  {
+    "image": "mutcd_r3_11d.png",
+    "description": "Right lane, buses only (times and days) (post-mounted)",
+    "description_ru": "Правая полоса, только для автобусов (по времени и дням) (установлено на столбе)",
+    "description_es": "Carril derecho, solo para autobuses (por horas y días) (montado en poste)"
+  },
+  {
+    "image": "mutcd_r3_11f.png",
+    "description": "Shoulder, buses only (times and days) (post-mounted)",
+    "description_ru": "Плечо, только для автобусов (по времени и дням) (установлено на столбе)",
+    "description_es": "Hombro, solo para autobuses (por horas y días) (montado en poste)"
+  },
+  {
+    "image": "mutcd_r3_11g.png",
+    "description": "Shoulder, buses and right turns only (times and days) (post-mounted)",
+    "description_ru": "Плечо, только для автобусов и поворотов направо (по времени и дням) (установлено на столбе)",
+    "description_es": "Hombro, solo para autobuses y giros a la derecha (por horas y días) (montado en poste)"
+  },
+  {
+    "image": "mutcd_r3_11hp.png",
+    "description": "Motorcycles allowed",
+    "description_ru": "Разрешены мотоциклы",
+    "description_es": "Se permiten motocicletas"
+  },
+  {
+    "image": "mutcd_r3_12.png",
+    "description": "HOV 2+ lane ahead (post-mounted)",
+    "description_ru": "Полоса HOV 2+ впереди (установлено на столбе)",
+    "description_es": "Carril HOV 2+ adelante (montado en poste)"
+  },
+  {
+    "image": "mutcd_r3_12a.png",
+    "description": "HOV lane ends (post-mounted)",
+    "description_ru": "Конец полосы HOV (установлено на столбе)",
+    "description_es": "Fin del carril HOV (montado en poste)"
+  },
+  {
+    "image": "mutcd_r3_12b.png",
+    "description": "HOV lane ends (distance) (post-mounted)",
+    "description_ru": "Конец полосы HOV (по расстоянию) (установлено на столбе)",
+    "description_es": "Fin del carril HOV (distancia) (montado en poste)"
+  },
+  {
+    "image": "mutcd_r3_12c.png",
+    "description": "HOV restriction ends (post-mounted)",
+    "description_ru": "Конец ограничения HOV (установлено на столбе)",
+    "description_es": "Fin de la restricción HOV (montado en poste)"
+  },
+  {
+    "image": "mutcd_r3_12d.png",
+    "description": "HOV restriction ends (distance) (post-mounted)",
+    "description_ru": "Конец ограничения HOV (по расстоянию) (установлено на столбе)",
+    "description_es": "Fin de la restricción HOV (distancia) (montado en poste)"
+  },
+  {
+    "image": "mutcd_r3_12e.png",
+    "description": "Left lane, HOV 2+ only (distance) (post-mounted)",
+    "description_ru": "Левая полоса, только для HOV 2+ (по расстоянию) (установлено на столбе)",
+    "description_es": "Carril izquierdo, solo HOV 2+ (distancia) (montado en poste)"
+  },
+  {
+    "image": "mutcd_r3_12f.png",
+    "description": "Bus lane ahead (post-mounted)",
+    "description_ru": "Полоса для автобусов впереди (установлено на столбе)",
+    "description_es": "Carril de autobuses adelante (montado en poste)"
+  },
+  {
+    "image": "mutcd_r3_12g.png",
+    "description": "Bus lane ends (post-mounted)",
+    "description_ru": "Конец полосы для автобусов (установлено на столбе)",
+    "description_es": "Fin del carril de autobuses (montado en poste)"
+  },
+  {
+    "image": "mutcd_r3_12h.png",
+    "description": "Bus lane ends (distance) (post-mounted)",
+    "description_ru": "Конец полосы для автобусов (по расстоянию) (установлено на столбе)",
+    "description_es": "Fin del carril de autobuses (distancia) (montado en poste)"
+  },
+  {
+    "image": "mutcd_r3_13.png",
+    "description": "HOV 2+ only, 2 or more persons per vehicle (overhead)",
+    "description_ru": "Только для HOV 2+, 2 или более человека в транспортном средстве (над головой)",
+    "description_es": "Solo HOV 2+, 2 o más personas por vehículo (superior)"
+  },
+  {
+    "image": "mutcd_r3_13a.png",
+    "description": "HOV 2+ only, 2 or more persons per vehicle (times and days) (overhead)",
+    "description_ru": "Только для HOV 2+, 2 или более человека в транспортном средстве (по времени и дням) (над головой)",
+    "description_es": "Solo HOV 2+, 2 o más personas por vehículo (por horas y días) (superior)"
+  },
+  {
+    "image": "mutcd_r3_14.png",
+    "description": "HOV 2+ only (times and days) (1-line) (overhead)",
+    "description_ru": "Только для HOV 2+ (по времени и дням) (1 линия) (над головой)",
+    "description_es": "Solo HOV 2+ (por horas y días) (1 línea) (superior)"
+  },
+  {
+    "image": "mutcd_r3_14a.png",
+    "description": "HOV 2+ only (times and days) (2-lines) (overhead)",
+    "description_ru": "Только для HOV 2+ (по времени и дням) (2 линии) (над головой)",
+    "description_es": "Solo HOV 2+ (por horas y días) (2 líneas) (superior)"
+  },
+  {
+    "image": "mutcd_r3_14b.png",
+    "description": "HOV 2+ only (full-time) (overhead)",
+    "description_ru": "Только для HOV 2+ (круглосуточно) (над головой)",
+    "description_es": "Solo HOV 2+ (tiempo completo) (superior)"
+  },
+  {
+    "image": "mutcd_r3_14c.png",
+    "description": "Buses and taxis only (times and days) (overhead)",
+    "description_ru": "Только для автобусов и такси (по времени и дням) (над головой)",
+    "description_es": "Solo autobuses y taxis (por horas y días) (superior)"
+  },
+  {
+    "image": "mutcd_r3_15.png",
+    "description": "HOV 2+ lane ahead (overhead)",
+    "description_ru": "Полоса HOV 2+ впереди (над головой)",
+    "description_es": "Carril HOV 2+ adelante (superior)"
+  },
+  {
+    "image": "mutcd_r3_15a.png",
+    "description": "HOV 2+ only begins (distance) (overhead)",
+    "description_ru": "Начало полосы только для HOV 2+ (по расстоянию) (над головой)",
+    "description_es": "Comienza solo HOV 2+ (distancia) (superior)"
+  },
+  {
+    "image": "mutcd_r3_15b.png",
+    "description": "HOV lane ends (overhead)",
+    "description_ru": "Конец полосы HOV (над головой)",
+    "description_es": "Fin del carril HOV (superior)"
+  },
+  {
+    "image": "mutcd_r3_15c.png",
+    "description": "HOV restriction ends (overhead)",
+    "description_ru": "Конец ограничения HOV (над головой)",
+    "description_es": "Fin de la restricción HOV (superior)"
+  },
+  {
+    "image": "mutcd_r3_15d.png",
+    "description": "Bus lane ahead (overhead)",
+    "description_ru": "Полоса для автобусов впереди (над головой)",
+    "description_es": "Carril de autobuses adelante (superior)"
+  },
+  {
+    "image": "mutcd_r3_15e.png",
+    "description": "Bus lane ends (overhead)",
+    "description_ru": "Конец полосы для автобусов (над головой)",
+    "description_es": "Fin del carril de autobuses (superior)"
+  },
+  {
+    "image": "mutcd_r3_17.png",
+    "description": "Bike lane",
+    "description_ru": "Велосипедная полоса",
+    "description_es": "Carril para bicicletas"
+  },
+  {
+    "image": "mutcd_r3_17ap.png",
+    "description": "Ahead",
+    "description_ru": "Впереди",
+    "description_es": "Adelante"
+  },
+  {
+    "image": "mutcd_r3_17bp.png",
+    "description": "Ends",
+    "description_ru": "Конец",
+    "description_es": "Fin"
+  },
+  {
+    "image": "mutcd_r3_18.png",
+    "description": "No U or left turn",
+    "description_ru": "Запрещён разворот или поворот налево",
+    "description_es": "No está permitido giro en U o giro a la izquierda"
+  },
+  {
+    "image": "mutcd_r3_19.png",
+    "description": "Lane for left turn only",
+    "description_ru": "Полоса только для поворота налево",
+    "description_es": "Carril solo para giro a la izquierda"
+  },
+  {
+    "image": "mutcd_r3_19a.png",
+    "description": "Lane for U turn only",
+    "description_ru": "Полоса только для разворота",
+    "description_es": "Carril solo para giro en U"
+  },
+  {
+    "image": "mutcd_r3_19b.png",
+    "description": "Lane for U and left turns only",
+    "description_ru": "Полоса только для разворота и поворота налево",
+    "description_es": "Carril solo para giros en U y a la izquierda"
+  },
+  {
+    "image": "mutcd_r3_20r.png",
+    "description": "Begin right turn lane",
+    "description_ru": "Начало полосы для поворота направо",
+    "description_es": "Comienza el carril para giro a la derecha"
+  },
+  {
+    "image": "mutcd_r3_20l.png",
+    "description": "Begin left turn lane",
+    "description_ru": "Начало полосы для поворота налево",
+    "description_es": "Comienza el carril para giro a la izquierda"
+  },
+  {
+    "image": "mutcd_r3_23.png",
+    "description": "All turns from right lane (used at jug handles)",
+    "description_ru": "Все повороты с правой полосы (используется на кольцевых развязках)",
+    "description_es": "Todos los giros desde el carril derecho (usado en rotondas)"
+  },
+  {
+    "image": "mutcd_r3_23a.png",
+    "description": "U turn from right lane (used at jug handles)",
+    "description_ru": "Разворот с правой полосы (используется на кольцевых развязках)",
+    "description_es": "Giro en U desde el carril derecho (usado en rotondas)"
+  },
+  {
+    "image": "mutcd_r3_24.png",
+    "description": "All turns (diagonal right arrow) (used at jug handles)",
+    "description_ru": "Все повороты (диагональная стрелка вправо) (используется на кольцевых развязках)",
+    "description_es": "Todos los giros (flecha diagonal derecha) (usado en rotondas)"
+  },
+  {
+    "image": "mutcd_r3_24a.png",
+    "description": "U and left turns (diagonal right arrow) (used at jug handles)",
+    "description_ru": "Развороты и повороты налево (диагональная стрелка вправо) (используется на кольцевых развязках)",
+    "description_es": "Giros en U y a la izquierda (flecha diagonal derecha) (usado en rotondas)"
+  },
+  {
+    "image": "mutcd_r3_24b.png",
+    "description": "U turn (diagonal right arrow) (used at jug handles)",
+    "description_ru": "Разворот (диагональная стрелка вправо) (используется на кольцевых развязках)",
+    "description_es": "Giro en U (flecha diagonal derecha) (usado en rotondas)"
+  },
+  {
+    "image": "mutcd_r3_25.png",
+    "description": "All turns (right arrow) (used at jug handles)",
+    "description_ru": "Все повороты (стрелка вправо) (используется на кольцевых развязках)",
+    "description_es": "Todos los giros (flecha a la derecha) (usado en rotondas)"
+  },
+  {
+    "image": "mutcd_r3_25a.png",
+    "description": "U and left turns (right arrow) (used at jug handles)",
+    "description_ru": "Развороты и повороты налево (стрелка вправо) (используется на кольцевых развязках)",
+    "description_es": "Giros en U y a la izquierda (flecha a la derecha) (usado en rotondas)"
+  },
+  {
+    "image": "mutcd_r3_25b.png",
+    "description": "U turn (right arrow) (used at jug handles)",
+    "description_ru": "Разворот (стрелка вправо) (используется на кольцевых развязках)",
+    "description_es": "Giro en U (flecha a la derecha) (usado en rotondas)"
+  },
+  {
+    "image": "mutcd_r3_26.png",
+    "description": "U and left turns (straight arrow) (used at jug handles)",
+    "description_ru": "Развороты и повороты налево (прямая стрелка) (используется на кольцевых развязках)",
+    "description_es": "Giros en U y a la izquierda (flecha recta) (usado en rotondas)"
+  },
+  {
+    "image": "mutcd_r3_26a.png",
+    "description": "U turn (straight arrow) (used at jug handles)",
+    "description_ru": "Разворот (прямая стрелка) (используется на кольцевых развязках)",
+    "description_es": "Giro en U (flecha recta) (usado en rotondas)"
+  },
+  {
+    "image": "mutcd_r3_27.png",
+    "description": "No straight through",
+    "description_ru": "Прямой проезд запрещён",
+    "description_es": "No se permite el paso recto"
+  },
+  {
+    "image": "mutcd_r3_28.png",
+    "description": "Toll pricing",
+    "description_ru": "Плата за проезд",
+    "description_es": "Tarifas de peaje"
+  },
+  {
+    "image": "mutcd_r3_29p.png",
+    "description": "Pay Toll",
+    "description_ru": "Платите за проезд",
+    "description_es": "Pagar peaje"
+  },
+  {
+    "image": "mutcd_r3_30p.png",
+    "description": "Take Ticket",
+    "description_ru": "Возьмите билет",
+    "description_es": "Tome el boleto"
+  },
+  {
+    "image": "mutcd_r3_31.png",
+    "description": "Electronic Toll Collection Pass Only",
+    "description_ru": "Только электронный пропуск для сбора платы за проезд",
+    "description_es": "Solo pase de cobro electrónico de peaje"
+  },
+  {
+    "image": "mutcd_r3_32p.png",
+    "description": "No Cash",
+    "description_ru": "Без наличных",
+    "description_es": "No efectivo"
+  },
+  {
+    "image": "mutcd_r3_33r.png",
+    "description": "Right lane must exit",
+    "description_ru": "Правая полоса должна выходить",
+    "description_es": "El carril derecho debe salir"
+  },
+  {
+    "image": "mutcd_r3_33l.png",
+    "description": "Left lane must exit",
+    "description_ru": "Левая полоса должна выходить",
+    "description_es": "El carril izquierdo debe salir"
+  },
+  {
+    "image": "mutcd_r3_33ar.png",
+    "description": "Right lane must exit",
+    "description_ru": "Правая полоса должна выходить",
+    "description_es": "El carril derecho debe salir"
+  },
+  {
+    "image": "mutcd_r3_33al.png",
+    "description": "Left lane must exit",
+    "description_ru": "Левая полоса должна выходить",
+    "description_es": "El carril izquierdo debe salir"
+  },
+  {
+    "image": "mutcd_r3_40.png",
+    "description": "HOV 2+, 2 or more persons per vehicle (post-mounted)",
+    "description_ru": "HOV 2+, 2 или более человек в автомобиле (установлен на столбе)",
+    "description_es": "HOV 2+, 2 o más personas por vehículo (montado en poste)"
+  },
+  {
+    "image": "mutcd_r3_42.png",
+    "description": "Express lane ends (post-mounted)",
+    "description_ru": "Конец полосы экспресс-дорожного движения (установлен на столбе)",
+    "description_es": "Fin de la vía exprés (montado en poste)"
+  },
+  {
+    "image": "mutcd_r3_42a.png",
+    "description": "Express lane ends (distance) (post-mounted)",
+    "description_ru": "Конец полосы экспресс-дорожного движения (расстояние) (установлен на столбе)",
+    "description_es": "Fin de la vía exprés (distancia) (montado en poste)"
+  },
+  {
+    "image": "mutcd_r3_42b.png",
+    "description": "Express restriction ends (post-mounted)",
+    "description_ru": "Конец ограничения для экспресс-дорожного движения (установлен на столбе)",
+    "description_es": "Fin de la restricción exprés (montado en poste)"
+  },
+  {
+    "image": "mutcd_r3_42c.png",
+    "description": "Express restriction ends (distance) (post-mounted)",
+    "description_ru": "Конец ограничения для экспресс-дорожного движения (расстояние) (установлен на столбе)",
+    "description_es": "Fin de la restricción exprés (distancia) (montado en poste)"
+  },
+  {
+    "image": "mutcd_r3_43.png",
+    "description": "HOV 2+, 2 or more persons per vehicle (overhead)",
+    "description_ru": "HOV 2+, 2 или более человек в автомобиле (подвешенный знак)",
+    "description_es": "HOV 2+, 2 o más personas por vehículo (superior)"
+  },
+  {
+    "image": "mutcd_r3_44.png",
+    "description": "Toll Road Pass Only (Overhead)",
+    "description_ru": "Только пропуск для платной дороги (подвешенный знак)",
+    "description_es": "Solo pase para carretera de peaje (superior)"
+  },
+  {
+    "image": "mutcd_r3_44a.png",
+    "description": "Toll Road Pass or High Occupancy Vehicle (HOV) (Overhead)",
+    "description_ru": "Пропуск для платной дороги или транспортных средств с высоким уровнем занятости (HOV) (подвешенный знак)",
+    "description_es": "Pase para carretera de peaje o vehículo de alta ocupación (HOV) (superior)"
+  },
+  {
+    "image": "mutcd_r3_44b.png",
+    "description": "Express lane only (Overhead)",
+    "description_ru": "Только экспресс-полоса (подвешенный знак)",
+    "description_es": "Solo vía exprés (superior)"
+  },
+  {
+    "image": "mutcd_r3_45.png",
+    "description": "Express lane ends (Overhead)",
+    "description_ru": "Конец экспресс-полосы (подвешенный знак)",
+    "description_es": "Fin de la vía exprés (superior)"
+  },
+  {
+    "image": "mutcd_r3_45a.png",
+    "description": "Express restriction ends (Overhead)",
+    "description_ru": "Конец ограничения для экспресс-дорожного движения (подвешенный знак)",
+    "description_es": "Fin de la restricción exprés (superior)"
+  },
+  {
+    "image": "mutcd_r3_48.png",
+    "description": "Toll Costs on Express Lane (Overhead)",
+    "description_ru": "Стоимость проезда по экспресс-полосе (подвешенный знак)",
+    "description_es": "Costos de peaje en la vía exprés (superior)"
+  },
+  {
+    "image": "mutcd_r3_48a.png",
+    "description": "Toll Costs on Express Lane or HOV (Overhead)",
+    "description_ru": "Стоимость проезда по экспресс-полосе или HOV (подвешенный знак)",
+    "description_es": "Costos de peaje en la vía exprés o HOV (superior)"
+  },
+  {
+    "image": "mutcd_r3_51.png",
+    "description": "Travel on shoulder allowed (times and days)",
+    "description_ru": "Движение по обочине разрешено (время и дни)",
+    "description_es": "Viajar por el arcén permitido (horarios y días)"
+  },
+  {
+    "image": "mutcd_r3_51ap.png",
+    "description": "No trucks",
+    "description_ru": "Грузовикам запрещено",
+    "description_es": "No camiones"
+  },
+  {
+    "image": "mutcd_r3_51bp.png",
+    "description": "No trucks or buses",
+    "description_ru": "Грузовикам и автобусам запрещено",
+    "description_es": "No camiones ni autobuses"
+  },
+  {
+    "image": "mutcd_r3_51cp.png",
+    "description": "Emergency stopping only other times",
+    "description_ru": "Остановка только в экстренных случаях в другое время",
+    "description_es": "Parada solo en emergencias en otros momentos"
+  },
+  {
+    "image": "mutcd_r3_51d.png",
+    "description": "Travel on shoulder allowed when flashing",
+    "description_ru": "Движение по обочине разрешено при мигающем свете",
+    "description_es": "Viajar por el arcén permitido cuando esté parpadeando"
+  },
+  {
+    "image": "mutcd_r3_51e.png",
+    "description": "Travel on shoulder on green arrow only",
+    "description_ru": "Движение по обочине только при зелёной стрелке",
+    "description_es": "Viajar por el arcén solo con la flecha verde"
+  },
+  {
+    "image": "mutcd_r3_52.png",
+    "description": "End travel on shoulder",
+    "description_ru": "Конец движения по обочине",
+    "description_es": "Fin de viajar por el arcén"
+  },
+  {
+    "image": "mutcd_r3_52a.png",
+    "description": "Travel on shoulder ends (distance)",
+    "description_ru": "Конец движения по обочине (расстояние)",
+    "description_es": "Fin de viajar por el arcén (distancia)"
+  },
+  {
+    "image": "mutcd_r3_52b.png",
+    "description": "Shoulder must exit (distance)",
+    "description_ru": "Обочина должна быть покинута (расстояние)",
+    "description_es": "El arcén debe ser abandonado (distancia)"
+  },
+  {
+    "image": "mutcd_r3_52c.png",
+    "description": "Travel on shoulder begins (distance)",
+    "description_ru": "Начало движения по обочине (расстояние)",
+    "description_es": "Comienza viajar por el arcén (distancia)"
+  },
+  {
+    "image": "mutcd_r3_56.png",
+    "description": "Begin exit lane",
+    "description_ru": "Начало полосы для выезда",
+    "description_es": "Comienza el carril de salida"
+  },
+  {
+    "image": "mutcd_r3_57p.png",
+    "description": "To traffic on shoulder",
+    "description_ru": "Для движения по обочине",
+    "description_es": "Para el tráfico en el arcén"
+  },
+  {
+    "image": "mutcd_r4_1.png",
+    "description": "Do not pass",
+    "description_ru": "Не обгонять",
+    "description_es": "No adelantar"
+  },
+  {
+    "image": "mutcd_r4_2.png",
+    "description": "Pass with care",
+    "description_ru": "Обгонять с осторожностью",
+    "description_es": "Adelantar con cuidado"
+  },
+  {
+    "image": "mutcd_r4_3.png",
+    "description": "Slower traffic keep right",
+    "description_ru": "Медленный транспорт держитесь правее",
+    "description_es": "Tráfico lento manténgase a la derecha"
+  },
+  {
+    "image": "mutcd_r4_4.png",
+    "description": "Begin right turn lane yield to bikes",
+    "description_ru": "Начало полосы для правого поворота, уступите велосипедистам",
+    "description_es": "Comienza el carril de giro a la derecha, ceda el paso a las bicicletas"
+  },
+  {
+    "image": "mutcd_r4_5.png",
+    "description": "Trucks use right lane",
+    "description_ru": "Грузовики должны использовать правую полосу",
+    "description_es": "Los camiones deben usar el carril derecho"
+  },
+  {
+    "image": "mutcd_r4_7.png",
+    "description": "Keep right",
+    "description_ru": "Держитесь правой стороны",
+    "description_es": "Manténgase a la derecha"
+  },
+  {
+    "image": "mutcd_r4_7a.png",
+    "description": "Keep right",
+    "description_ru": "Держитесь правой стороны",
+    "description_es": "Manténgase a la derecha"
+  },
+  {
+    "image": "mutcd_r4_7b.png",
+    "description": "Keep right",
+    "description_ru": "Держитесь правой стороны",
+    "description_es": "Manténgase a la derecha"
+  },
+  {
+    "image": "mutcd_r4_7c.png",
+    "description": "Keep right of obstacle",
+    "description_ru": "Держитесь справа от препятствия",
+    "description_es": "Manténgase a la derecha del obstáculo"
+  },
+  {
+    "image": "mutcd_r4_8.png",
+    "description": "Keep left",
+    "description_ru": "Держитесь левой стороны",
+    "description_es": "Manténgase a la izquierda"
+  },
+  {
+    "image": "mutcd_r4_8a.png",
+    "description": "Keep left",
+    "description_ru": "Держитесь левой стороны",
+    "description_es": "Manténgase a la izquierda"
+  },
+  {
+    "image": "mutcd_r4_8b.png",
+    "description": "Keep left",
+    "description_ru": "Держитесь левой стороны",
+    "description_es": "Manténgase a la izquierda"
+  },
+  {
+    "image": "mutcd_r4_8c.png",
+    "description": "Keep left of obstacle",
+    "description_ru": "Держитесь слева от препятствия",
+    "description_es": "Manténgase a la izquierda del obstáculo"
+  },
+  {
+    "image": "mutcd_r4_9.png",
+    "description": "Stay in lane",
+    "description_ru": "Оставайтесь в полосе",
+    "description_es": "Manténgase en el carril"
+  },
+  {
+    "image": "mutcd_r4_9a.png",
+    "description": "Stay in lane to merge point",
+    "description_ru": "Оставайтесь в полосе до точки слияния",
+    "description_es": "Manténgase en el carril hasta el punto de fusión"
+  },
+  {
+    "image": "mutcd_r4_10.png",
+    "description": "Runaway vehicles only",
+    "description_ru": "Только для бегущих транспортных средств",
+    "description_es": "Solo para vehículos fuera de control"
+  },
+  {
+    "image": "mutcd_r4_12.png",
+    "description": "Slow vehicles with five or more following vehicles must use turn-out",
+    "description_ru": "Медленные транспортные средства с пятью или более следующими транспортными средствами должны использовать место для остановки",
+    "description_es": "Los vehículos lentos con cinco o más vehículos detrás deben usar el área de estacionamiento"
+  },
+  {
+    "image": "mutcd_r4_13.png",
+    "description": "Slow vehicles must use turn-out ahead",
+    "description_ru": "Медленные транспортные средства должны использовать место для остановки впереди",
+    "description_es": "Los vehículos lentos deben usar el área de estacionamiento más adelante"
+  },
+  {
+    "image": "mutcd_r4_14.png",
+    "description": "Slow vehicles must turn out",
+    "description_ru": "Медленные транспортные средства должны уступить дорогу",
+    "description_es": "Los vehículos lentos deben apartarse"
+  },
+  {
+    "image": "mutcd_r4_16.png",
+    "description": "Keep right except to pass",
+    "description_ru": "Держитесь правой стороны, кроме случаев обгона",
+    "description_es": "Manténgase a la derecha, excepto para adelantar"
+  },
+  {
+    "image": "mutcd_r4_17.png",
+    "description": "Do not drive on shoulder",
+    "description_ru": "Не ездить по обочине",
+    "description_es": "No conducir por el arcén"
+  },
+  {
+    "image": "mutcd_r4_18.png",
+    "description": "Do not pass on shoulder",
+    "description_ru": "Не обгонять на обочине",
+    "description_es": "No adelantar por el arcén"
+  },
+  {
+    "image": "mutcd_r4_19.png",
+    "description": "Bicycle passing clearance",
+    "description_ru": "Дистанция для обгона велосипедистов",
+    "description_es": "Espacio para adelantar a bicicletas"
+  },
+  {
+    "image": "mutcd_r4_20r.png",
+    "description": "All traffic must turn right",
+    "description_ru": "Всем транспортным средствам необходимо повернуть направо",
+    "description_es": "Todo el tráfico debe girar a la derecha"
+  },
+  {
+    "image": "mutcd_r4_20l.png",
+    "description": "All traffic must turn left",
+    "description_ru": "Всем транспортным средствам необходимо повернуть налево",
+    "description_es": "Todo el tráfico debe girar a la izquierda"
+  },
+  {
+    "image": "mutcd_r4_21r.png",
+    "description": "Right turn only",
+    "description_ru": "Только правый поворот",
+    "description_es": "Solo giro a la derecha"
+  },
+  {
+    "image": "mutcd_r4_21l.png",
+    "description": "Left turn only",
+    "description_ru": "Только левый поворот",
+    "description_es": "Solo giro a la izquierda"
+  },
+  {
+    "image": "mutcd_r5_1.png",
+    "description": "Do not enter",
+    "description_ru": "Не входить",
+    "description_es": "No entrar"
+  },
+  {
+    "image": "mutcd_r5_1a.png",
+    "description": "Wrong way",
+    "description_ru": "Движение в обратном направлении",
+    "description_es": "Sentido contrario"
+  },
+  {
+    "image": "mutcd_r5_1b.png",
+    "description": "Wrong way for bicycles",
+    "description_ru": "Движение в обратном направлении для велосипедистов",
+    "description_es": "Sentido contrario para bicicletas"
+  },
+  {
+    "image": "mutcd_r5_2.png",
+    "description": "No trucks",
+    "description_ru": "Запрещено движение для грузовиков",
+    "description_es": "No camiones"
+  },
+  {
+    "image": "mutcd_r5_2ap.png",
+    "description": "Except local delivery",
+    "description_ru": "За исключением местных поставок",
+    "description_es": "Excepto entrega local"
+  },
+  {
+    "image": "mutcd_r5_2b.png",
+    "description": "No thru trucks",
+    "description_ru": "Запрещено движение транзитных грузовиков",
+    "description_es": "No camiones de tránsito"
+  },
+  {
+    "image": "mutcd_r5_3.png",
+    "description": "No motorized vehicles",
+    "description_ru": "Запрещено движение моторизованных транспортных средств",
+    "description_es": "No vehículos motorizados"
+  },
+  {
+    "image": "mutcd_r5_4.png",
+    "description": "No commercial vehicles",
+    "description_ru": "Запрещено движение коммерческих транспортных средств",
+    "description_es": "No vehículos comerciales"
+  },
+  {
+    "image": "mutcd_r5_5.png",
+    "description": "No lugged vehicles",
+    "description_ru": "Запрещено движение транспортных средств с шинами с шипами",
+    "description_es": "No vehículos con neumáticos con clavos"
+  },
+  {
+    "image": "mutcd_r5_6.png",
+    "description": "No bicycles",
+    "description_ru": "Запрещено движение велосипедов",
+    "description_es": "No bicicletas"
+  },
+  {
+    "image": "mutcd_r5_7.png",
+    "description": "No non-motorized traffic",
+    "description_ru": "Запрещено движение немоторизованных транспортных средств",
+    "description_es": "No tráfico no motorizado"
+  },
+  {
+    "image": "mutcd_r5_8.png",
+    "description": "No motor-driven cycles",
+    "description_ru": "Запрещено движение моторных велосипедов",
+    "description_es": "No ciclos motorizados"
+  },
+  {
+    "image": "mutcd_r5_10.png",
+    "description": "No pedestrians, bicycles or motor-driven cycles",
+    "description_ru": "Запрещено движение пешеходов, велосипедистов и моторизованных велосипедов",
+    "description_es": "No peatones, bicicletas ni ciclos motorizados"
+  },
+  {
+    "image": "mutcd_r5_10a.png",
+    "description": "No pedestrians, bicycles or motor-driven cycles on freeway",
+    "description_ru": "Запрещено движение пешеходов, велосипедистов и моторизованных велосипедов на автомагистрали",
+    "description_es": "No peatones, bicicletas ni ciclos motorizados en la autopista"
+  },
+  {
+    "image": "mutcd_r5_10b.png",
+    "description": "No pedestrians or bicycles",
+    "description_ru": "Запрещено движение пешеходов или велосипедистов",
+    "description_es": "No peatones ni bicicletas"
+  },
+  {
+    "image": "mutcd_r5_10c.png",
+    "description": "No pedestrians",
+    "description_ru": "Запрещено движение пешеходов",
+    "description_es": "No peatones"
+  },
+  {
+    "image": "mutcd_r5_10dp.png",
+    "description": "On freeway",
+    "description_ru": "На автомагистрали",
+    "description_es": "En la autopista"
+  },
+  {
+    "image": "mutcd_r5_11.png",
+    "description": "No unauthorized vehicles",
+    "description_ru": "Запрещено движение несанкционированных транспортных средств",
+    "description_es": "No vehículos no autorizados"
+  },
+  {
+    "image": "mutcd_r5_12.png",
+    "description": "No thru traffic",
+    "description_ru": "Запрещено движение транзитного транспорта",
+    "description_es": "No tráfico de paso"
+  },
+  {
+    "image": "mutcd_r6_1r.png",
+    "description": "One way (right)",
+    "description_ru": "Одностороннее движение (направо)",
+    "description_es": "Solo en un sentido (derecha)"
+  },
+  {
+    "image": "mutcd_r6_1l.png",
+    "description": "One way (left)",
+    "description_ru": "Одностороннее движение (налево)",
+    "description_es": "Solo en un sentido (izquierda)"
+  },
+  {
+    "image": "mutcd_r6_2r.png",
+    "description": "One way (with arrow) (right)",
+    "description_ru": "Одностороннее движение (с стрелкой) (направо)",
+    "description_es": "Solo en un sentido (con flecha) (derecha)"
+  },
+  {
+    "image": "mutcd_r6_2l.png",
+    "description": "One way (with arrow) (left)",
+    "description_ru": "Одностороннее движение (с стрелкой) (налево)",
+    "description_es": "Solo en un sentido (con flecha) (izquierda)"
+  },
+  {
+    "image": "mutcd_r6_3.png",
+    "description": "Divided highway crossing",
+    "description_ru": "Пересечение разделённого шоссе",
+    "description_es": "Cruce de carretera dividida"
+  },
+  {
+    "image": "mutcd_r6_3a.png",
+    "description": "Divided highway crossing, T-intersection",
+    "description_ru": "Пересечение разделённого шоссе, T-образный перекрёсток",
+    "description_es": "Cruce de carretera dividida, intersección en T"
+  },
+  {
+    "image": "mutcd_r6_5p.png",
+    "description": "Roundabout circulation",
+    "description_ru": "Оборотное движение",
+    "description_es": "Circulación en rotonda"
+  },
+  {
+    "image": "mutcd_r6_6.png",
+    "description": "Begin one way",
+    "description_ru": "Начало одностороннего движения",
+    "description_es": "Comienza el tráfico unidireccional"
+  },
+  {
+    "image": "mutcd_r6_7.png",
+    "description": "End one way",
+    "description_ru": "Конец одностороннего движения",
+    "description_es": "Fin del tráfico unidireccional"
+  },
+  {
+    "image": "mutcd_r7_1.png",
+    "description": "No parking any time",
+    "description_ru": "Стоянка запрещена в любое время",
+    "description_es": "No estacionar en cualquier momento"
+  },
+  {
+    "image": "mutcd_r7_2.png",
+    "description": "No parking (times)",
+    "description_ru": "Стоянка запрещена (время)",
+    "description_es": "No estacionar (horarios)"
+  },
+  {
+    "image": "mutcd_r7_2a.png",
+    "description": "No parking (times) (alternative)",
+    "description_ru": "Стоянка запрещена (время) (альтернативное)",
+    "description_es": "No estacionar (horarios) (alternativo)"
+  },
+  {
+    "image": "mutcd_r7_3.png",
+    "description": "No parking except Sundays and Holidays",
+    "description_ru": "Стоянка запрещена, кроме воскресений и праздников",
+    "description_es": "No estacionar excepto domingos y feriados"
+  },
+  {
+    "image": "mutcd_r7_4.png",
+    "description": "No standing any time",
+    "description_ru": "Остановка запрещена в любое время",
+    "description_es": "No estacionarse en ningún momento"
+  },
+  {
+    "image": "mutcd_r7_4a.png",
+    "description": "No stopping any time",
+    "description_ru": "Запрещена остановка в любое время",
+    "description_es": "No detenerse en ningún momento"
+  },
+  {
+    "image": "mutcd_r7_5.png",
+    "description": "One hour parking",
+    "description_ru": "Одночасовая стоянка",
+    "description_es": "Estacionamiento por una hora"
+  },
+  {
+    "image": "mutcd_r7_6.png",
+    "description": "No parking, loading zone",
+    "description_ru": "Запрещена стоянка, зона для погрузки",
+    "description_es": "No estacionar, zona de carga"
+  },
+  {
+    "image": "mutcd_r7_8.png",
+    "description": "Reserved parking (wheelchair)",
+    "description_ru": "Зарезервированная парковка (для инвалидных колясок)",
+    "description_es": "Estacionamiento reservado (silla de ruedas)"
+  },
+  {
+    "image": "mutcd_r7_8ap.png",
+    "description": "Van accessible",
+    "description_ru": "Доступно для фургонов",
+    "description_es": "Accesible para furgonetas"
+  },
+  {
+    "image": "mutcd_r7_9.png",
+    "description": "No parking, bike lane",
+    "description_ru": "Запрещена стоянка, велодорожка",
+    "description_es": "No estacionar, carril para bicicletas"
+  },
+  {
+    "image": "mutcd_r7_9a.png",
+    "description": "No parking, bike lane",
+    "description_ru": "Запрещена стоянка, велодорожка",
+    "description_es": "No estacionar, carril para bicicletas"
+  },
+  {
+    "image": "mutcd_r7_10.png",
+    "description": "Back-in parking only",
+    "description_ru": "Только парковка задним ходом",
+    "description_es": "Solo estacionamiento en reversa"
+  },
+  {
+    "image": "mutcd_r7_20.png",
+    "description": "Parking fee station",
+    "description_ru": "Станция оплаты за парковку",
+    "description_es": "Estación de pago de estacionamiento"
+  },
+  {
+    "image": "mutcd_r7_21.png",
+    "description": "Two hour metered parking (times and days)",
+    "description_ru": "Двухчасовая парковка с оплатой по счетчику (время и дни)",
+    "description_es": "Estacionamiento medido por dos horas (horarios y días)"
+  },
+  {
+    "image": "mutcd_r7_21ap.png",
+    "description": "Parking payments",
+    "description_ru": "Оплата за парковку",
+    "description_es": "Pagos de estacionamiento"
+  },
+  {
+    "image": "mutcd_r7_22.png",
+    "description": "Metered parking (times and days)",
+    "description_ru": "Парковка с оплатой по счетчику (время и дни)",
+    "description_es": "Estacionamiento medido (horarios y días)"
+  },
+  {
+    "image": "mutcd_r7_107.png",
+    "description": "No parking, bus stop",
+    "description_ru": "Запрещена стоянка, автобусная остановка",
+    "description_es": "No estacionar, parada de autobús"
+  },
+  {
+    "image": "mutcd_r7_107a.png",
+    "description": "No parking, bus stop",
+    "description_ru": "Запрещена стоянка, автобусная остановка",
+    "description_es": "No estacionar, parada de autobús"
+  },
+  {
+    "image": "mutcd_r7_107b.png",
+    "description": "No parking, bus stop with transit pictograph",
+    "description_ru": "Запрещена стоянка, автобусная остановка с пиктограммой транспорта",
+    "description_es": "No estacionar, parada de autobús con pictograma de tránsito"
+  },
+  {
+    "image": "mutcd_r7_108.png",
+    "description": "Two hour parking (times)",
+    "description_ru": "Двухчасовая стоянка (время)",
+    "description_es": "Estacionamiento de dos horas (horarios)"
+  },
+  {
+    "image": "mutcd_r7_111.png",
+    "description": "No parking, except electric vehicles",
+    "description_ru": "Стоянка запрещена, кроме электрических автомобилей",
+    "description_es": "No estacionar, excepto vehículos eléctricos"
+  },
+  {
+    "image": "mutcd_r7_111a.png",
+    "description": "No parking, (times) except electric vehicles",
+    "description_ru": "Стоянка запрещена (время), кроме электрических автомобилей",
+    "description_es": "No estacionar (horarios), excepto vehículos eléctricos"
+  },
+  {
+    "image": "mutcd_r7_112.png",
+    "description": "Two hour parking, electric vehicles only",
+    "description_ru": "Двухчасовая стоянка, только для электрических автомобилей",
+    "description_es": "Estacionamiento de dos horas, solo vehículos eléctricos"
+  },
+  {
+    "image": "mutcd_r7_112a.png",
+    "description": "Two hour parking, electric vehicles only (times)",
+    "description_ru": "Двухчасовая стоянка, только для электрических автомобилей (время)",
+    "description_es": "Estacionamiento de dos horas, solo vehículos eléctricos (horarios)"
+  },
+  {
+    "image": "mutcd_r7_112b.png",
+    "description": "Two hour parking, electric vehicles only (times and days)",
+    "description_ru": "Двухчасовая стоянка, только для электрических автомобилей (время и дни)",
+    "description_es": "Estacionamiento de dos horas, solo vehículos eléctricos (horarios y días)"
+  },
+  {
+    "image": "mutcd_r7_113.png",
+    "description": "No parking, except while charging",
+    "description_ru": "Стоянка запрещена, кроме случаев зарядки",
+    "description_es": "No estacionar, excepto mientras se carga"
+  },
+  {
+    "image": "mutcd_r7_113ap.png",
+    "description": "Vehicle must be plugged in",
+    "description_ru": "Транспортное средство должно быть подключено",
+    "description_es": "El vehículo debe estar enchufado"
+  },
+  {
+    "image": "mutcd_r7_113bp.png",
+    "description": "Vacate stall when charging completed",
+    "description_ru": "Освободите место после завершения зарядки",
+    "description_es": "Libere el espacio cuando se complete la carga"
+  },
+  {
+    "image": "mutcd_r7_114.png",
+    "description": "Two hour, vehicle charging only",
+    "description_ru": "Двухчасовая стоянка, только для зарядки автомобилей",
+    "description_es": "Estacionamiento de dos horas, solo para carga de vehículos"
+  },
+  {
+    "image": "mutcd_r7_114a.png",
+    "description": "45 minute, vehicle charging only (times)",
+    "description_ru": "45 минут, только для зарядки автомобилей (время)",
+    "description_es": "45 minutos, solo para carga de vehículos (horarios)"
+  },
+  {
+    "image": "mutcd_r7_114b.png",
+    "description": "45 minute, vehicle charging only (times and days)",
+    "description_ru": "45 минут, только для зарядки автомобилей (время и дни)",
+    "description_es": "45 minutos, solo para carga de vehículos (horarios y días)"
+  },
+  {
+    "image": "mutcd_r7_200.png",
+    "description": "No parking and one hour parking (times) (combined)",
+    "description_ru": "Стоянка запрещена и стоянка на один час (время) (комбинированно)",
+    "description_es": "No estacionar y estacionamiento de una hora (horarios) (combinado)"
+  },
+  {
+    "image": "mutcd_r7_200a.png",
+    "description": "No parking and one hour parking (times) (combined)",
+    "description_ru": "Стоянка запрещена и стоянка на один час (время) (комбинированно)",
+    "description_es": "No estacionar y estacionamiento de una hora (horarios) (combinado)"
+  },
+  {
+    "image": "mutcd_r7_201p.png",
+    "description": "Tow away zone",
+    "description_ru": "Зона эвакуации",
+    "description_es": "Zona de remolque"
+  },
+  {
+    "image": "mutcd_r7_201ap.png",
+    "description": "Tow away zone",
+    "description_ru": "Зона эвакуации",
+    "description_es": "Zona de remolque"
+  },
+  {
+    "image": "mutcd_r7_202p.png",
+    "description": "This side of sign",
+    "description_ru": "Эта сторона знака",
+    "description_es": "Este lado de la señal"
+  },
+  {
+    "image": "mutcd_r7_203.png",
+    "description": "Snow emergency route, no parking during snow emergency, tow-away zone",
+    "description_ru": "Зона экстренной уборки снега, стоянка запрещена во время снежной тревоги, зона эвакуации",
+    "description_es": "Ruta de emergencia por nieve, no estacionar durante la emergencia por nieve, zona de remolque"
+  },
+  {
+    "image": "mutcd_r8_1.png",
+    "description": "No parking on pavement",
+    "description_ru": "Стоянка запрещена на проезжей части",
+    "description_es": "No estacionar en la calzada"
+  },
+  {
+    "image": "mutcd_r8_2.png",
+    "description": "No parking except on shoulder",
+    "description_ru": "Стоянка запрещена, кроме как на обочине",
+    "description_es": "No estacionar excepto en el arcén"
+  },
+  {
+    "image": "mutcd_r8_3.png",
+    "description": "No parking",
+    "description_ru": "Стоянка запрещена",
+    "description_es": "No estacionar"
+  },
+  {
+    "image": "mutcd_r8_3a.png",
+    "description": "No parking (text)",
+    "description_ru": "Стоянка запрещена (текст)",
+    "description_es": "No estacionar (texto)"
+  },
+  {
+    "image": "mutcd_r8_3c.png",
+    "description": "No parking on pavement",
+    "description_ru": "Стоянка запрещена на проезжей части",
+    "description_es": "No estacionar en la calzada"
+  },
+  {
+    "image": "mutcd_r8_3d.png",
+    "description": "No parking on bridge",
+    "description_ru": "Стоянка запрещена на мосту",
+    "description_es": "No estacionar en el puente"
+  },
+  {
+    "image": "mutcd_r8_3e.png",
+    "description": "No parking on tracks",
+    "description_ru": "Стоянка запрещена на рельсах",
+    "description_es": "No estacionar sobre las vías"
+  },
+  {
+    "image": "mutcd_r8_3f.png",
+    "description": "No parking except on shoulder",
+    "description_ru": "Стоянка запрещена, кроме как на обочине",
+    "description_es": "No estacionar excepto en el arcén"
+  },
+  {
+    "image": "mutcd_r8_4.png",
+    "description": "Emergency parking only",
+    "description_ru": "Только экстренная стоянка",
+    "description_es": "Solo estacionamiento de emergencia"
+  },
+  {
+    "image": "mutcd_r8_5.png",
+    "description": "No stopping on pavement",
+    "description_ru": "Остановка запрещена на проезжей части",
+    "description_es": "No detenerse en la calzada"
+  },
+  {
+    "image": "mutcd_r8_6.png",
+    "description": "No stopping except on shoulder",
+    "description_ru": "Остановка запрещена, кроме как на обочине",
+    "description_es": "No detenerse excepto en el arcén"
+  },
+  {
+    "image": "mutcd_r8_7.png",
+    "description": "Emergency stopping only",
+    "description_ru": "Только экстренная остановка",
+    "description_es": "Solo detención de emergencia"
+  },
+  {
+    "image": "mutcd_r8_8.png",
+    "description": "Do not stop on tracks",
+    "description_ru": "Не останавливайтесь на рельсах",
+    "description_es": "No detenerse sobre las vías"
+  },
+  {
+    "image": "mutcd_r8_9.png",
+    "description": "Tracks out of service",
+    "description_ru": "Рельсы вне эксплуатации",
+    "description_es": "Vías fuera de servicio"
+  },
+  {
+    "image": "mutcd_r8_10.png",
+    "description": "Stop here when flashing",
+    "description_ru": "Остановитесь здесь при мигающем свете",
+    "description_es": "Deténgase aquí cuando esté parpadeando"
+  },
+  {
+    "image": "mutcd_r8_10a.png",
+    "description": "Stop here when flashing (alternative)",
+    "description_ru": "Остановитесь здесь при мигающем свете (альтернативное)",
+    "description_es": "Deténgase aquí cuando esté parpadeando (alternativo)"
+  },
+  {
+    "image": "mutcd_r9_1.png",
+    "description": "Walk on left facing traffic",
+    "description_ru": "Идти слева, лицом к движению",
+    "description_es": "Caminar a la izquierda enfrentando el tráfico"
+  },
+  {
+    "image": "mutcd_r9_2.png",
+    "description": "Cross only at cross walks",
+    "description_ru": "Переходить только на пешеходных переходах",
+    "description_es": "Cruzar solo en pasos peatonales"
+  },
+  {
+    "image": "mutcd_r9_3.png",
+    "description": "No pedestrians crossing (symbol)",
+    "description_ru": "Пешеходам запрещено переходить (символ)",
+    "description_es": "No peatones cruzando (símbolo)"
+  },
+  {
+    "image": "mutcd_r9_3_a.png",
+    "description": "No pedestrians crossing",
+    "description_ru": "Пешеходам запрещено переходить",
+    "description_es": "No peatones cruzando"
+  },
+  {
+    "image": "mutcd_r9_3b.png",
+    "description": "Use crosswalk",
+    "description_ru": "Используйте пешеходный переход",
+    "description_es": "Use el paso peatonal"
+  },
+  {
+    "image": "mutcd_r9_3c.png",
+    "description": "Ride with traffic",
+    "description_ru": "Езжайте по направлению движения",
+    "description_es": "Circula con el tráfico"
+  },
+  {
+    "image": "mutcd_r9_4.png",
+    "description": "No hitchhiking (symbol)",
+    "description_ru": "Поднимание руки для автостопа запрещено (символ)",
+    "description_es": "No hacer autostop (símbolo)"
+  },
+  {
+    "image": "mutcd_r9_4a.png",
+    "description": "No hitchhiking",
+    "description_ru": "Поднимание руки для автостопа запрещено",
+    "description_es": "No hacer autostop"
+  },
+  {
+    "image": "mutcd_r9_5.png",
+    "description": "Bicycles use pedestrian signal",
+    "description_ru": "Велосипеды используют пешеходный сигнал",
+    "description_es": "Las bicicletas usan la señal peatonal"
+  },
+  {
+    "image": "mutcd_r9_6.png",
+    "description": "Bicycles yield to pedestrians",
+    "description_ru": "Велосипеды уступают дорогу пешеходам",
+    "description_es": "Las bicicletas ceden el paso a los peatones"
+  },
+  {
+    "image": "mutcd_r9_7.png",
+    "description": "Bicycles left, Pedestrians right",
+    "description_ru": "Велосипеды — влево, пешеходы — вправо",
+    "description_es": "Bicicletas a la izquierda, peatones a la derecha"
+  },
+  {
+    "image": "mutcd_r9_8.png",
+    "description": "Pedestrian Crosswalk",
+    "description_ru": "Пешеходный переход",
+    "description_es": "Paso peatonal"
+  },
+  {
+    "image": "mutcd_r9_9.png",
+    "description": "Sidewalk Closed",
+    "description_ru": "Тротуар закрыт",
+    "description_es": "Acera cerrada"
+  },
+  {
+    "image": "mutcd_r9_10.png",
+    "description": "Sidewalk Closed Use Other Side",
+    "description_ru": "Тротуар закрыт, используйте другую сторону",
+    "description_es": "Acera cerrada, use el otro lado"
+  },
+  {
+    "image": "mutcd_r9_11.png",
+    "description": "Sidewalk Closed Ahead Cross Here",
+    "description_ru": "Тротуар закрыт, переходите здесь",
+    "description_es": "Acera cerrada adelante, cruce aquí"
+  },
+  {
+    "image": "mutcd_r9_11a.png",
+    "description": "Sidewalk Closed Cross Here",
+    "description_ru": "Тротуар закрыт, переходите здесь",
+    "description_es": "Acera cerrada, cruce aquí"
+  },
+  {
+    "image": "mutcd_r9_12.png",
+    "description": "Bike lane closed",
+    "description_ru": "Велосипедная дорожка закрыта",
+    "description_es": "Carril bici cerrado"
+  },
+  {
+    "image": "mutcd_r9_13.png",
+    "description": "No skaters",
+    "description_ru": "Скейтбордистам запрещено",
+    "description_es": "No patinadores"
+  },
+  {
+    "image": "mutcd_r9_14.png",
+    "description": "No equestrians",
+    "description_ru": "Верховым ездцам запрещено",
+    "description_es": "No ecuestres"
+  },
+  {
+    "image": "mutcd_r9_15.png",
+    "description": "No snowmobiles",
+    "description_ru": "Снегоходам запрещено",
+    "description_es": "No motos de nieve"
+  },
+  {
+    "image": "mutcd_r9_16.png",
+    "description": "No all-terrain vehicles",
+    "description_ru": "Запрещены все внедорожники",
+    "description_es": "No vehículos todo terreno"
+  },
+  {
+    "image": "mutcd_r9_19p.png",
+    "description": "Except on shoulder",
+    "description_ru": "Исключая обочину",
+    "description_es": "Excepto en el arcén"
+  },
+  {
+    "image": "mutcd_r9_20.png",
+    "description": "Bicycles allowed use of full lane",
+    "description_ru": "Велосипедам разрешено использовать всю полосу",
+    "description_es": "Se permite a las bicicletas usar todo el carril"
+  },
+  {
+    "image": "mutcd_r9_21.png",
+    "description": "Bicycles use shoulder only",
+    "description_ru": "Велосипеды могут использовать только обочину",
+    "description_es": "Las bicicletas solo pueden usar el arcén"
+  },
+  {
+    "image": "mutcd_r9_22.png",
+    "description": "Bicycles must exit",
+    "description_ru": "Велосипедисты должны выехать",
+    "description_es": "Las bicicletas deben salir"
+  },
+  {
+    "image": "mutcd_r9_23.png",
+    "description": "Bicycle all turns from bike lane",
+    "description_ru": "Велосипеды — все повороты с велосипедной дорожки",
+    "description_es": "Bicicletas, todos los giros desde el carril bici"
+  },
+  {
+    "image": "mutcd_r9_23al_28202329.png",
+    "description": "Bicycle left turn from bike lane",
+    "description_ru": "Велосипеды — поворот налево с велосипедной дорожки",
+    "description_es": "Bicicletas giro a la izquierda desde el carril bici"
+  },
+  {
+    "image": "mutcd_r9_23bl.png",
+    "description": "Bicycle left turn must use turn box",
+    "description_ru": "Велосипеды — поворот налево обязаны использовать поворотную коробку",
+    "description_es": "Bicicletas giro a la izquierda deben usar la caja de giro"
+  },
+  {
+    "image": "mutcd_r9_23cl.png",
+    "description": "Bicycle left turn must use turn box",
+    "description_ru": "Велосипеды — поворот налево обязаны использовать поворотную коробку",
+    "description_es": "Bicicletas giro a la izquierda deben usar la caja de giro"
+  },
+  {
+    "image": "mutcd_r9_24.png",
+    "description": "Bicycle all turns (diagonal right arrow)",
+    "description_ru": "Велосипеды — все повороты (диагональная стрелка вправо)",
+    "description_es": "Bicicletas, todos los giros (flecha diagonal a la derecha)"
+  },
+  {
+    "image": "mutcd_r9_24a.png",
+    "description": "Bicycle all turns (right arrow)",
+    "description_ru": "Велосипеды — все повороты (стрелка вправо)",
+    "description_es": "Bicicletas, todos los giros (flecha a la derecha)"
+  },
+  {
+    "image": "mutcd_r9_25.png",
+    "description": "Bicycle U and left turns (diagonal right arrow)",
+    "description_ru": "Велосипеды — разворот и повороты налево (диагональная стрелка вправо)",
+    "description_es": "Bicicletas, giros a la izquierda y U (flecha diagonal a la derecha)"
+  },
+  {
+    "image": "mutcd_r9_25a.png",
+    "description": "Bicycle U and left turns (right arrow)",
+    "description_ru": "Велосипеды — разворот и повороты налево (стрелка вправо)",
+    "description_es": "Bicicletas, giros a la izquierda y U (flecha a la derecha)"
+  },
+  {
+    "image": "mutcd_r9_25b.png",
+    "description": "Bicycle U and left turns (straight arrow)",
+    "description_ru": "Велосипеды — разворот и повороты налево (прямая стрелка)",
+    "description_es": "Bicicletas, giros a la izquierda y U (flecha recta)"
+  },
+  {
+    "image": "mutcd_r9_26.png",
+    "description": "Bicycle U turn (diagonal right arrow)",
+    "description_ru": "Велосипеды — разворот (диагональная стрелка вправо)",
+    "description_es": "Bicicletas, giro en U (flecha diagonal a la derecha)"
+  },
+  {
+    "image": "mutcd_r9_26a.png",
+    "description": "Bicycle U turn (right arrow)",
+    "description_ru": "Велосипеды — разворот (стрелка вправо)",
+    "description_es": "Bicicletas, giro en U (flecha a la derecha)"
+  },
+  {
+    "image": "mutcd_r9_26b.png",
+    "description": "Bicycle U turn (straight arrow)",
+    "description_ru": "Велосипеды — разворот (прямая стрелка)",
+    "description_es": "Bicicletas, giro en U (flecha recta)"
+  },
+  {
+    "image": "mutcd_r9_27.png",
+    "description": "Bicycle left turn (diagonal right arrow)",
+    "description_ru": "Велосипеды — поворот налево (диагональная стрелка вправо)",
+    "description_es": "Bicicletas, giro a la izquierda (flecha diagonal a la derecha)"
+  },
+  {
+    "image": "mutcd_r9_27a.png",
+    "description": "Bicycle left turn (right arrow)",
+    "description_ru": "Велосипеды — поворот налево (стрелка вправо)",
+    "description_es": "Bicicletas, giro a la izquierda (flecha a la derecha)"
+  },
+  {
+    "image": "mutcd_r9_27b.png",
+    "description": "Bicycle left turn (straight arrow)",
+    "description_ru": "Велосипеды — поворот налево (прямая стрелка)",
+    "description_es": "Bicicletas, giro a la izquierda (flecha recta)"
+  },
+  {
+    "image": "mutcd_r10_1.png",
+    "description": "Cross only on green",
+    "description_ru": "Переходить только на зелёный",
+    "description_es": "Cruce solo con verde"
+  },
+  {
+    "image": "mutcd_r10_2.png",
+    "description": "Cross only on pedestrian signal",
+    "description_ru": "Переходить только по пешеходному сигналу",
+    "description_es": "Cruce solo con la señal peatonal"
+  },
+  {
+    "image": "mutcd_r10_3.png",
+    "description": "Push button for pedestrian signal",
+    "description_ru": "Нажмите кнопку для пешеходного сигнала",
+    "description_es": "Presione el botón para la señal peatonal"
+  },
+  {
+    "image": "mutcd_r10_3a.png",
+    "description": "Push button to cross street, wait for pedestrian signal",
+    "description_ru": "Нажмите кнопку для перехода через улицу, ждите пешеходного сигнала",
+    "description_es": "Presione el botón para cruzar la calle, espere la señal peatonal"
+  },
+  {
+    "image": "mutcd_r10_3b.png",
+    "description": "Crosswalk signal instructions",
+    "description_ru": "Инструкции для пешеходного перехода",
+    "description_es": "Instrucciones para el paso peatonal"
+  },
+  {
+    "image": "mutcd_r10_3c.png",
+    "description": "Crosswalk signal instructions",
+    "description_ru": "Инструкции для пешеходного перехода",
+    "description_es": "Instrucciones para el paso peatonal"
+  },
+  {
+    "image": "mutcd_r10_3d.png",
+    "description": "Crosswalk signal instructions",
+    "description_ru": "Инструкции для пешеходного перехода",
+    "description_es": "Instrucciones para el paso peatonal"
+  },
+  {
+    "image": "mutcd_r10_3e.png",
+    "description": "Crosswalk signal instructions",
+    "description_ru": "Инструкции для пешеходного перехода",
+    "description_es": "Instrucciones para el paso peatonal"
+  },
+  {
+    "image": "mutcd_r10_3f.png",
+    "description": "Crosswalk signal instructions",
+    "description_ru": "Инструкции для пешеходного перехода",
+    "description_es": "Instrucciones para el paso peatonal"
+  },
+  {
+    "image": "mutcd_r10_3g.png",
+    "description": "Crosswalk signal instructions",
+    "description_ru": "Инструкции для пешеходного перехода",
+    "description_es": "Instrucciones para el paso peatonal"
+  },
+  {
+    "image": "mutcd_r10_3h.png",
+    "description": "Crosswalk signal instructions",
+    "description_ru": "Инструкции для пешеходного перехода",
+    "description_es": "Instrucciones para el paso peatonal"
+  },
+  {
+    "image": "mutcd_r10_3i.png",
+    "description": "Crosswalk signal instructions",
+    "description_ru": "Инструкции для пешеходного перехода",
+    "description_es": "Instrucciones para el paso peatonal"
+  },
+  {
+    "image": "mutcd_r10_4.png",
+    "description": "Push button for green",
+    "description_ru": "Нажмите кнопку для зелёного сигнала",
+    "description_es": "Presione el botón para el verde"
+  },
+  {
+    "image": "mutcd_r10_4a.png",
+    "description": "Push button to cross street, wait for green",
+    "description_ru": "Нажмите кнопку для перехода через улицу, ждите зелёный сигнал",
+    "description_es": "Presione el botón para cruzar la calle, espere el verde"
+  },
+  {
+    "image": "mutcd_r10_5.png",
+    "description": "Left on green arrow only",
+    "description_ru": "Поворот налево только на зелёную стрелку",
+    "description_es": "Giro a la izquierda solo con flecha verde"
+  },
+  {
+    "image": "mutcd_r10_6.png",
+    "description": "Stop here on red",
+    "description_ru": "Остановитесь здесь на красный",
+    "description_es": "Deténgase aquí en rojo"
+  },
+  {
+    "image": "mutcd_r10_6ar.png",
+    "description": "Stop here on red (alternative) (right)",
+    "description_ru": "Остановитесь здесь на красный (альтернативный вариант) (справа)",
+    "description_es": "Deténgase aquí en rojo (alternativo) (derecha)"
+  },
+  {
+    "image": "mutcd_r10_6a.png",
+    "description": "Stop here on red (alternative) (left)",
+    "description_ru": "Остановитесь здесь на красный (альтернативный вариант) (слева)",
+    "description_es": "Deténgase aquí en rojo (alternativo) (izquierda)"
+  },
+  {
+    "image": "mutcd_r10_7.png",
+    "description": "Do not block intersection",
+    "description_ru": "Не блокируйте перекрёсток",
+    "description_es": "No bloquee la intersección"
+  },
+  {
+    "image": "mutcd_r10_8.png",
+    "description": "Use lane with green arrow",
+    "description_ru": "Используйте полосу с зелёной стрелкой",
+    "description_es": "Use el carril con flecha verde"
+  },
+  {
+    "image": "mutcd_r10_10r.png",
+    "description": "Right turn signal",
+    "description_ru": "Сигнал поворота направо",
+    "description_es": "Señal de giro a la derecha"
+  },
+  {
+    "image": "mutcd_r10_10l.png",
+    "description": "Left turn signal",
+    "description_ru": "Сигнал поворота налево",
+    "description_es": "Señal de giro a la izquierda"
+  },
+  {
+    "image": "mutcd_r10_10a.png",
+    "description": "U turn Signal",
+    "description_ru": "Сигнал для разворота",
+    "description_es": "Señal de giro en U"
+  },
+  {
+    "image": "mutcd_r10_10br.png",
+    "description": "Right lane signal",
+    "description_ru": "Сигнал для правой полосы",
+    "description_es": "Señal para el carril derecho"
+  },
+  {
+    "image": "mutcd_r10_10bl.png",
+    "description": "Left lane Signal",
+    "description_ru": "Сигнал для левой полосы",
+    "description_es": "Señal para el carril izquierdo"
+  },
+  {
+    "image": "mutcd_r10_10cr.png",
+    "description": "Right turn lane signal",
+    "description_ru": "Сигнал для полосы поворота направо",
+    "description_es": "Señal para carril de giro a la derecha"
+  },
+  {
+    "image": "mutcd_r10_10cl.png",
+    "description": "Left turn lane signal",
+    "description_ru": "Сигнал для полосы поворота налево",
+    "description_es": "Señal para el carril de giro a la izquierda"
+  },
+  {
+    "image": "mutcd_r10_11a.png",
+    "description": "No turn on red",
+    "description_ru": "Поворот запрещён на красный",
+    "description_es": "No girar en rojo"
+  },
+  {
+    "image": "mutcd_r10_11.png",
+    "description": "No turn on circular red",
+    "description_ru": "Поворот запрещён на круглый красный",
+    "description_es": "No girar en rojo circular"
+  },
+  {
+    "image": "mutcd_r10_11b.png",
+    "description": "No turn on red",
+    "description_ru": "Поворот запрещён на красный",
+    "description_es": "No girar en rojo"
+  },
+  {
+    "image": "mutcd_r10_11c.png",
+    "description": "No turn on red except from right lane",
+    "description_ru": "Поворот запрещён на красный, кроме как с правой полосы",
+    "description_es": "No girar en rojo, excepto desde el carril derecho"
+  },
+  {
+    "image": "mutcd_r10_11d.png",
+    "description": "No turn on red from this lane",
+    "description_ru": "Поворот запрещён на красный с этой полосы",
+    "description_es": "No girar en rojo desde este carril"
+  },
+  {
+    "image": "mutcd_r10_12.png",
+    "description": "Left turn yield on green",
+    "description_ru": "Поворот налево с уступкой на зелёный",
+    "description_es": "Giro a la izquierda ceda el paso en verde"
+  },
+  {
+    "image": "mutcd_r10_12a.png",
+    "description": "Left turn yield on flashing yellow arrow",
+    "description_ru": "Поворот налево с уступкой на мигающую жёлтую стрелку",
+    "description_es": "Giro a la izquierda ceda el paso en flecha amarilla intermitente"
+  },
+  {
+    "image": "mutcd_r10_12b.png",
+    "description": "Left turn yield to bicycle",
+    "description_ru": "Поворот налево с уступкой велосипеду",
+    "description_es": "Giro a la izquierda ceda el paso a la bicicleta"
+  },
+  {
+    "image": "mutcd_r10_13.png",
+    "description": "Emergency signal",
+    "description_ru": "Экстренный сигнал",
+    "description_es": "Señal de emergencia"
+  },
+  {
+    "image": "mutcd_r10_14.png",
+    "description": "Emergency signal - stop on flashing red",
+    "description_ru": "Экстренный сигнал - остановка на мигающий красный",
+    "description_es": "Señal de emergencia - pare en rojo intermitente"
+  },
+  {
+    "image": "mutcd_r10_14a.png",
+    "description": "Emergency signal - stop on flashing red (overhead)",
+    "description_ru": "Экстренный сигнал - остановка на мигающий красный (над головой)",
+    "description_es": "Señal de emergencia - pare en rojo intermitente (arriba)"
+  },
+  {
+    "image": "mutcd_r10_14b.png",
+    "description": "Stop here on flashing red",
+    "description_ru": "Остановитесь здесь на мигающий красный",
+    "description_es": "Deténgase aquí en rojo intermitente"
+  },
+  {
+    "image": "mutcd_r10_15r.png",
+    "description": "Turning vehicles yield to pedestrians (right)",
+    "description_ru": "Поворотные транспортные средства уступают пешеходам (справа)",
+    "description_es": "Vehículos en giro ceden el paso a los peatones (derecha)"
+  },
+  {
+    "image": "mutcd_r10_15r_28fluorescent29.png",
+    "description": "Turning vehicles yield to pedestrians (right)",
+    "description_ru": "Поворотные транспортные средства уступают пешеходам (справа)",
+    "description_es": "Vehículos en giro ceden el paso a los peatones (derecha)"
+  },
+  {
+    "image": "mutcd_r10_15l.png",
+    "description": "Turning vehicles yield to pedestrians (left)",
+    "description_ru": "Поворотные транспортные средства уступают пешеходам (слева)",
+    "description_es": "Vehículos en giro ceden el paso a los peatones (izquierda)"
+  },
+  {
+    "image": "mutcd_r10_15l_28fluorescent29.png",
+    "description": "Turning vehicles yield to pedestrians (left)",
+    "description_ru": "Поворотные транспортные средства уступают пешеходам (слева)",
+    "description_es": "Vehículos en giro ceden el paso a los peatones (izquierda)"
+  },
+  {
+    "image": "mutcd_r10_15a.png",
+    "description": "Turning vehicles stop for pedestrians",
+    "description_ru": "Поворотные транспортные средства останавливаются для пешеходов",
+    "description_es": "Vehículos en giro se detienen para los peatones"
+  },
+  {
+    "image": "mutcd_r10_16.png",
+    "description": "U-turn yield to right turn",
+    "description_ru": "Разворот уступает повороту направо",
+    "description_es": "Giro en U cede el paso a giro a la derecha"
+  },
+  {
+    "image": "mutcd_r10_17a.png",
+    "description": "Right on red arrow after stop",
+    "description_ru": "Поворот направо на красную стрелку после остановки",
+    "description_es": "Giro a la derecha con flecha roja después de la parada"
+  },
+  {
+    "image": "mutcd_r10_18.png",
+    "description": "Traffic laws photo enforced",
+    "description_ru": "Фотографическая фиксация нарушений ПДД",
+    "description_es": "Foto de las leyes de tráfico aplicadas"
+  },
+  {
+    "image": "mutcd_r10_18a.png",
+    "description": "Traffic signal photo enforced",
+    "description_ru": "Фотографическая фиксация нарушений на светофоре",
+    "description_es": "Foto de la señal de tráfico aplicada"
+  },
+  {
+    "image": "mutcd_r10_19p.png",
+    "description": "Photo enforced (symbol)",
+    "description_ru": "Фотографическая фиксация (символ)",
+    "description_es": "Foto de aplicación (símbolo)"
+  },
+  {
+    "image": "mutcd_r10_19ap.png",
+    "description": "Photo enforced",
+    "description_ru": "Фотографическая фиксация нарушений",
+    "description_es": "Foto de aplicación"
+  },
+  {
+    "image": "mutcd_r10_20ap_283_lines29.png",
+    "description": "Days & times (for use with R10-11 series) (3 lines)",
+    "description_ru": "Дни и время (для использования с серией R10-11) (3 строки)",
+    "description_es": "Días y horas (para usar con la serie R10-11) (3 líneas)"
+  },
+  {
+    "image": "mutcd_r10_20ap_282_lines29.png",
+    "description": "Days & times (for use with R10-11 series) (2 lines)",
+    "description_ru": "Дни и время (для использования с серией R10-11) (2 строки)",
+    "description_es": "Días y horas (para usar con la serie R10-11) (2 líneas)"
+  },
+  {
+    "image": "mutcd_r10_22.png",
+    "description": "Bicycles to request green wait on line",
+    "description_ru": "Велосипеды должны запрашивать зелёный сигнал, ожидая на линии",
+    "description_es": "Las bicicletas deben solicitar el verde esperando en la línea"
+  },
+  {
+    "image": "mutcd_r10_23.png",
+    "description": "Crosswalk - stop on red",
+    "description_ru": "Пешеходный переход - остановка на красный",
+    "description_es": "Paso de peatones - pare en rojo"
+  },
+  {
+    "image": "mutcd_r10_23a.png",
+    "description": "Stop on red - yield on flashing red after stop",
+    "description_ru": "Остановка на красный - уступите на мигающий красный после остановки",
+    "description_es": "Pare en rojo - ceda el paso en rojo intermitente después de la parada"
+  },
+  {
+    "image": "mutcd_r10_24.png",
+    "description": "Bicycle push button for green light",
+    "description_ru": "Кнопка для велосипедистов для зелёного света",
+    "description_es": "Botón para bicicletas para luz verde"
+  },
+  {
+    "image": "mutcd_r10_25.png",
+    "description": "Push button for warning lights - wait for gap in traffic",
+    "description_ru": "Кнопка для предупреждающих огней - ждите перерыва в движении",
+    "description_es": "Botón para luces de advertencia - espere un hueco en el tráfico"
+  },
+  {
+    "image": "mutcd_r10_26.png",
+    "description": "Bicycle push button for green light with arrow",
+    "description_ru": "Кнопка для велосипедистов для зелёного света с стрелкой",
+    "description_es": "Botón para bicicletas para luz verde con flecha"
+  },
+  {
+    "image": "mutcd_r10_27.png",
+    "description": "Left turn yield on flashing red arrow after stop",
+    "description_ru": "Поворот налево с уступкой на мигающую красную стрелку после остановки",
+    "description_es": "Giro a la izquierda ceda el paso en flecha roja intermitente después de la parada"
+  },
+  {
+    "image": "mutcd_r10_28.png",
+    "description": "One vehicle per green",
+    "description_ru": "Одно транспортное средство на зелёный",
+    "description_es": "Un vehículo por verde"
+  },
+  {
+    "image": "mutcd_r10_29.png",
+    "description": "1 vehicle per green each lane",
+    "description_ru": "Одно транспортное средство на зелёный для каждой полосы",
+    "description_es": "1 vehículo por verde en cada carril"
+  },
+  {
+    "image": "mutcd_r10_30.png",
+    "description": "Right turn on red must yield to U-turn",
+    "description_ru": "Поворот направо на красный должен уступить развороту",
+    "description_es": "Giro a la derecha en rojo debe ceder al giro en U"
+  },
+  {
+    "image": "mutcd_r10_31p.png",
+    "description": "At signal",
+    "description_ru": "На сигнале",
+    "description_es": "En la señal"
+  },
+  {
+    "image": "mutcd_r10_32p.png",
+    "description": "Push button for 2 seconds for extra crossing time",
+    "description_ru": "Нажмите кнопку на 2 секунды для дополнительного времени на переход",
+    "description_es": "Mantenga presionado el botón durante 2 segundos para tiempo adicional de cruce"
+  },
+  {
+    "image": "mutcd_r10_40.png",
+    "description": "Bicycle signal mandatory movement (turn)",
+    "description_ru": "Велосипедный сигнал обязательного движения (поворот)",
+    "description_es": "Señal de bicicleta movimiento obligatorio (giro)"
+  },
+  {
+    "image": "mutcd_r10_40a.png",
+    "description": "Bicycle signal mandatory movement (thru)",
+    "description_ru": "Велосипедный сигнал обязательного движения (проезд)",
+    "description_es": "Señal de bicicleta movimiento obligatorio (pasar)"
+  },
+  {
+    "image": "mutcd_r10_41.png",
+    "description": "Bicycle signal optional movement (thru and turn)",
+    "description_ru": "Велосипедный сигнал необязательного движения (проезд и поворот)",
+    "description_es": "Señal de bicicleta movimiento opcional (pasar y giro)"
+  },
+  {
+    "image": "mutcd_r10_41a.png",
+    "description": "Bicycle signal optional movement (left and right turns)",
+    "description_ru": "Велосипедный сигнал необязательного движения (повороты налево и направо)",
+    "description_es": "Señal de bicicleta movimiento opcional (giro izquierdo y derecho)"
+  },
+  {
+    "image": "mutcd_r10_41b.png",
+    "description": "Bicycle signal optional movement (all)",
+    "description_ru": "Велосипедный сигнал необязательного движения (все направления)",
+    "description_es": "Señal de bicicleta movimiento opcional (todos)"
+  },
+  {
+    "image": "mutcd_r10_41c.png",
+    "description": "Bicycle signal optional movement (left and thru)",
+    "description_ru": "Велосипедный сигнал необязательного движения (поворот налево и проезд)",
+    "description_es": "Señal de bicicleta movimiento opcional (izquierda y pasar)"
+  },
+  {
+    "image": "mutcd_r11_1.png",
+    "description": "Keep off median",
+    "description_ru": "Оставаться вне median",
+    "description_es": "Mantenerse fuera de la mediana"
+  },
+  {
+    "image": "mutcd_r11_2.png",
+    "description": "Road closed",
+    "description_ru": "Дорога закрыта",
+    "description_es": "Carretera cerrada"
+  },
+  {
+    "image": "mutcd_r11_2a.png",
+    "description": "Street closed",
+    "description_ru": "Улица закрыта",
+    "description_es": "Calle cerrada"
+  },
+  {
+    "image": "mutcd_r11_2b.png",
+    "description": "Bridge out",
+    "description_ru": "Мост разрушен",
+    "description_es": "Puente fuera"
+  },
+  {
+    "image": "mutcd_r11_2c.png",
+    "description": "Path closed",
+    "description_ru": "Путь закрыт",
+    "description_es": "Camino cerrado"
+  },
+  {
+    "image": "mutcd_r11_3.png",
+    "description": "Road closed (distance) miles ahead, local traffic only",
+    "description_ru": "Дорога закрыта (расстояние) миль впереди, только для местного движения",
+    "description_es": "Carretera cerrada (distancia) millas adelante, solo tráfico local"
+  },
+  {
+    "image": "mutcd_r11_3a.png",
+    "description": "Street closed (distance) miles ahead, local traffic only",
+    "description_ru": "Улица закрыта (расстояние) миль впереди, только для местного движения",
+    "description_es": "Calle cerrada (distancia) millas adelante, solo tráfico local"
+  },
+  {
+    "image": "mutcd_r11_3b.png",
+    "description": "Bridge out (distance) miles ahead, local traffic only",
+    "description_ru": "Мост разрушен (расстояние) миль впереди, только для местного движения",
+    "description_es": "Puente fuera (distancia) millas adelante, solo tráfico local"
+  },
+  {
+    "image": "mutcd_r11_4.png",
+    "description": "Road closed to thru traffic",
+    "description_ru": "Дорога закрыта для транзитного движения",
+    "description_es": "Carretera cerrada para tráfico de paso"
+  },
+  {
+    "image": "mutcd_r12_1.png",
+    "description": "Weight limit",
+    "description_ru": "Ограничение по весу",
+    "description_es": "Límite de peso"
+  },
+  {
+    "image": "mutcd_r12_2.png",
+    "description": "Axle weight limit",
+    "description_ru": "Ограничение по весу на ось",
+    "description_es": "Límite de peso por eje"
+  },
+  {
+    "image": "mutcd_r12_4.png",
+    "description": "Weight limit with per axle and gross",
+    "description_ru": "Ограничение по весу с учетом оси и общего веса",
+    "description_es": "Límite de peso con por eje y bruto"
+  },
+  {
+    "image": "mutcd_r12_5.png",
+    "description": "Weight limit with truck symbols",
+    "description_ru": "Ограничение по весу с символами для грузовиков",
+    "description_es": "Límite de peso con símbolos de camión"
+  },
+  {
+    "image": "mutcd_r12_6.png",
+    "description": "Weight limit with special hauling vehicles",
+    "description_ru": "Ограничение по весу для специальных транспортных средств",
+    "description_es": "Límite de peso con vehículos de transporte especial"
+  },
+  {
+    "image": "mutcd_r12_7.png",
+    "description": "Emergency vehicle weight limit",
+    "description_ru": "Ограничение по весу для экстренных транспортных средств",
+    "description_es": "Límite de peso para vehículos de emergencia"
+  },
+  {
+    "image": "mutcd_r12_7ap.png",
+    "description": "Emergency vehicle weight limit",
+    "description_ru": "Ограничение по весу для экстренных транспортных средств",
+    "description_es": "Límite de peso para vehículos de emergencia"
+  },
+  {
+    "image": "mutcd_r13_1.png",
+    "description": "Trucks over 10 tons must enter weigh station next right",
+    "description_ru": "Грузовики свыше 10 тонн должны войти на пункт взвешивания на следующем повороте направо",
+    "description_es": "Camiones de más de 10 toneladas deben entrar a la estación de pesaje en la próxima derecha"
+  },
+  {
+    "image": "mutcd_r14_1.png",
+    "description": "Truck route sign",
+    "description_ru": "Знак маршрута для грузовиков",
+    "description_es": "Señal de ruta para camiones"
+  },
+  {
+    "image": "mutcd_r14_2.png",
+    "description": "Hazardous material route",
+    "description_ru": "Маршрут для опасных материалов",
+    "description_es": "Ruta para materiales peligrosos"
+  },
+  {
+    "image": "mutcd_r14_3.png",
+    "description": "Hazardous material prohibited",
+    "description_ru": "Запрещено перевозить опасные материалы",
+    "description_es": "Materiales peligrosos prohibidos"
+  },
+  {
+    "image": "mutcd_r14_4.png",
+    "description": "National Network Route",
+    "description_ru": "Маршрут национальной сети",
+    "description_es": "Ruta de la red nacional"
+  },
+  {
+    "image": "mutcd_r14_5.png",
+    "description": "National Network prohibited",
+    "description_ru": "Запрещено использование национальной сети",
+    "description_es": "Red nacional prohibida"
+  },
+  {
+    "image": "mutcd_r15_1.png",
+    "description": "Railroad crossing (crossbuck)",
+    "description_ru": "Железнодорожный переезд (крестовина)",
+    "description_es": "Cruce ferroviario (cruz de San Andrés)"
+  },
+  {
+    "image": "mutcd_r15_2p.png",
+    "description": "Number of tracks",
+    "description_ru": "Количество путей",
+    "description_es": "Número de vías"
+  },
+  {
+    "image": "mutcd_r15_3p.png",
+    "description": "Vehicles required to stop are exempt from this regulation",
+    "description_ru": "Транспортные средства, обязанные остановиться, освобождены от этого правила",
+    "description_es": "Los vehículos que deben detenerse están exentos de esta regulación"
+  },
+  {
+    "image": "mutcd_r15_4a.png",
+    "description": "Light rail only in right lane",
+    "description_ru": "Легкорельсовый транспорт только в правом ряду",
+    "description_es": "Tránsito ferroviario ligero solo en el carril derecho"
+  },
+  {
+    "image": "mutcd_r15_4b.png",
+    "description": "Light rail only in left lane",
+    "description_ru": "Легкорельсовый транспорт только в левом ряду",
+    "description_es": "Tránsito ferroviario ligero solo en el carril izquierdo"
+  },
+  {
+    "image": "mutcd_r15_4c.png",
+    "description": "Light rail only in center lane",
+    "description_ru": "Легкорельсовый транспорт только в центральном ряду",
+    "description_es": "Tránsito ferroviario ligero solo en el carril central"
+  },
+  {
+    "image": "mutcd_r15_5.png",
+    "description": "Do not pass stopped trains",
+    "description_ru": "Не обгонять остановившиеся поезда",
+    "description_es": "No adelantar a trenes detenidos"
+  },
+  {
+    "image": "mutcd_r15_5a.png",
+    "description": "Do not pass stopped train",
+    "description_ru": "Не обгонять остановившийся поезд",
+    "description_es": "No adelantar al tren detenido"
+  },
+  {
+    "image": "mutcd_r15_6.png",
+    "description": "Do not drive on tracks",
+    "description_ru": "Не заезжать на пути",
+    "description_es": "No conducir sobre las vías"
+  },
+  {
+    "image": "mutcd_r15_6a.png",
+    "description": "Do not drive on tracks",
+    "description_ru": "Не заезжать на пути",
+    "description_es": "No conducir sobre las vías"
+  },
+  {
+    "image": "mutcd_r15_7.png",
+    "description": "Divided highway transit rail crossing",
+    "description_ru": "Разделённая автомагистраль с железнодорожным переездом",
+    "description_es": "Cruce de ferrocarril en carretera dividida"
+  },
+  {
+    "image": "mutcd_r15_7a.png",
+    "description": "Divided highway transit rail crossing (T-intersection)",
+    "description_ru": "Разделённая автомагистраль с железнодорожным переездом (Т-образное пересечение)",
+    "description_es": "Cruce ferroviario en carretera dividida (intersección en T)"
+  },
+  {
+    "image": "mutcd_r15_8.png",
+    "description": "Look both ways at track",
+    "description_ru": "Смотрите в обе стороны перед переходом путей",
+    "description_es": "Mire en ambas direcciones antes de cruzar las vías"
+  },
+  {
+    "image": "mutcd_r16_3.png",
+    "description": "Move over or reduce speed for vehicles stopped on shoulder",
+    "description_ru": "Перестроиться или снизить скорость, если на обочине остановлены транспортные средства",
+    "description_es": "Cambiar de carril o reducir la velocidad para vehículos detenidos en el arcén"
+  },
+  {
+    "image": "mutcd_r16_4.png",
+    "description": "Minor crashes, move vehicles from travel lanes",
+    "description_ru": "Незначительные аварии, уберите автомобили с проезжей части",
+    "description_es": "Choques menores, mueva los vehículos fuera de los carriles de tráfico"
+  },
+  {
+    "image": "mutcd_r16_5.png",
+    "description": "Lights on when using wipers",
+    "description_ru": "Включать свет, когда используются стеклоочистители",
+    "description_es": "Luces encendidas cuando se usan limpiaparabrisas"
+  },
+  {
+    "image": "mutcd_r16_6.png",
+    "description": "Lights on when raining",
+    "description_ru": "Включать свет при дожде",
+    "description_es": "Luces encendidas cuando llueve"
+  },
+  {
+    "image": "mutcd_r16_7.png",
+    "description": "Turn on headlights next (distance) miles",
+    "description_ru": "Включить фары на следующем (расстояние) миль",
+    "description_es": "Encienda los faros en los próximos (distancia) millas"
+  },
+  {
+    "image": "mutcd_r16_8.png",
+    "description": "Turn on headlights",
+    "description_ru": "Включить фары",
+    "description_es": "Encender los faros"
+  },
+  {
+    "image": "mutcd_r16_9.png",
+    "description": "Check headlights",
+    "description_ru": "Проверьте фары",
+    "description_es": "Revisar los faros"
+  },
+  {
+    "image": "mutcd_r16_10.png",
+    "description": "Begin daytime headlight section",
+    "description_ru": "Начало использования фар в дневное время",
+    "description_es": "Comenzar sección de faros de día"
+  },
+  {
+    "image": "mutcd_r16_11.png",
+    "description": "End daytime headlight section",
+    "description_ru": "Конец использования фар в дневное время",
+    "description_es": "Finalizar sección de faros de día"
+  },
+  {
+    "image": "mutcd_r16_15.png",
+    "description": "No hand-held phone use by driver",
+    "description_ru": "Запрещено использование мобильного телефона водителем",
+    "description_es": "No se permite el uso de teléfono móvil de mano por el conductor"
+  },
+  {
+    "image": "mutcd_r16_15a.png",
+    "description": "No hand-held phone use by driver",
+    "description_ru": "Запрещено использование мобильного телефона водителем",
+    "description_es": "No se permite el uso de teléfono móvil de mano por el conductor"
+  },
+  {
+    "image": "mutcd_r22_2.png",
+    "description": "Turn off 2-way radios and cell phones",
+    "description_ru": "Выключите двухсторонние радиостанции и мобильные телефоны",
+    "description_es": "Apague las radios bidireccionales y los teléfonos móviles"
+  }
+]

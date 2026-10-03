@@ -1,0 +1,656 @@
+[
+  {
+    "image": "mutcd_d1_1.png",
+    "description": "D1-1 Destination (1-line)",
+    "description_ru": "D1-1 Назначение (1 линия)",
+    "description_es": "D1-1 Destino (1 línea)"
+  },
+  {
+    "image": "mutcd_d1_1a.png",
+    "description": "D1-1a Destination and Distance (1-line)",
+    "description_ru": "D1-1a Назначение и расстояние (1 линия)",
+    "description_es": "D1-1a Destino y distancia (1 línea)"
+  },
+  {
+    "image": "mutcd_d1_1b.png",
+    "description": "D1-1b Bicycle Destination (1-line)",
+    "description_ru": "D1-1b Велосипедное назначение (1 линия)",
+    "description_es": "D1-1b Destino en bicicleta (1 línea)"
+  },
+  {
+    "image": "mutcd_d1_1c.png",
+    "description": "D1-1c Bicycle Destination and Distance (1-line)",
+    "description_ru": "D1-1c Велосипедное назначение и расстояние (1 линия)",
+    "description_es": "D1-1c Destino en bicicleta y distancia (1 línea)"
+  },
+  {
+    "image": "mutcd_d1_1d.png",
+    "description": "D1-1d Destination (Circular Intersection) (1-line)",
+    "description_ru": "D1-1d Назначение (Круговое пересечение) (1 линия)",
+    "description_es": "D1-1d Destino (Intersección circular) (1 línea)"
+  },
+  {
+    "image": "mutcd_d1_1e.png",
+    "description": "D1-1e Destination with route shield (Circular Intersection) (1-line)",
+    "description_ru": "D1-1e Назначение с щитом маршрута (Круговое пересечение) (1 линия)",
+    "description_es": "D1-1e Destino con escudo de ruta (Intersección circular) (1 línea)"
+  },
+  {
+    "image": "mutcd_d1_2.png",
+    "description": "D1-2 Destination (2-lines)",
+    "description_ru": "D1-2 Назначение (2 линии)",
+    "description_es": "D1-2 Destino (2 líneas)"
+  },
+  {
+    "image": "mutcd_d1_2a.png",
+    "description": "D1-2a Destination and Distance (2-line)",
+    "description_ru": "D1-2a Назначение и расстояние (2 линии)",
+    "description_es": "D1-2a Destino y distancia (2 líneas)"
+  },
+  {
+    "image": "mutcd_d1_2b.png",
+    "description": "D1-2b Bicycle Destination (2-line)",
+    "description_ru": "D1-2b Велосипедное назначение (2 линии)",
+    "description_es": "D1-2b Destino en bicicleta (2 líneas)"
+  },
+  {
+    "image": "mutcd_d1_2c.png",
+    "description": "D1-2c Bicycle Destination and Distance (2-line)",
+    "description_ru": "D1-2c Велосипедное назначение и расстояние (2 линии)",
+    "description_es": "D1-2c Destino en bicicleta y distancia (2 líneas)"
+  },
+  {
+    "image": "mutcd_d1_2d.png",
+    "description": "D1-2d Destination (Circular Intersection) (2-lines)",
+    "description_ru": "D1-2d Назначение (Круговое пересечение) (2 линии)",
+    "description_es": "D1-2d Destino (Intersección circular) (2 líneas)"
+  },
+  {
+    "image": "mutcd_d1_3.png",
+    "description": "D1-3 Destination (3-lines)",
+    "description_ru": "D1-3 Назначение (3 линии)",
+    "description_es": "D1-3 Destino (3 líneas)"
+  },
+  {
+    "image": "mutcd_d1_3a.png",
+    "description": "D1-3a Destination and Distance (3-lines)",
+    "description_ru": "D1-3a Назначение и расстояние (3 линии)",
+    "description_es": "D1-3a Destino y distancia (3 líneas)"
+  },
+  {
+    "image": "mutcd_d1_3b.png",
+    "description": "D1-3b Bicycle Destination (3-line)",
+    "description_ru": "D1-3b Велосипедное назначение (3 линии)",
+    "description_es": "D1-3b Destino en bicicleta (3 líneas)"
+  },
+  {
+    "image": "mutcd_d1_3c.png",
+    "description": "D1-3c Bicycle Destination and Distance (3-lines)",
+    "description_ru": "D1-3c Велосипедное назначение и расстояние (3 линии)",
+    "description_es": "D1-3c Destino en bicicleta y distancia (3 líneas)"
+  },
+  {
+    "image": "mutcd_d1_3d.png",
+    "description": "D1-3d Destination (Circular Intersection) (3-lines)",
+    "description_ru": "D1-3d Назначение (Круговое пересечение) (3 линии)",
+    "description_es": "D1-3d Destino (Intersección circular) (3 líneas)"
+  },
+  {
+    "image": "mutcd_d1_5.png",
+    "description": "D1-5 Circular Intersection Destination (Diagrammatic)",
+    "description_ru": "D1-5 Назначение (Круговое пересечение) (Диаграмматическое)",
+    "description_es": "D1-5 Destino (Intersección circular) (Diagrama)"
+  },
+  {
+    "image": "mutcd_d1_5a.png",
+    "description": "D1-5a Circular Intersection Destination (Diagrammatic)",
+    "description_ru": "D1-5a Назначение (Круговое пересечение) (Диаграмматическое)",
+    "description_es": "D1-5a Destino (Intersección circular) (Diagrama)"
+  },
+  {
+    "image": "mutcd_d2_1.png",
+    "description": "D2-1 Distance (1-line)",
+    "description_ru": "D2-1 Расстояние (1 линия)",
+    "description_es": "D2-1 Distancia (1 línea)"
+  },
+  {
+    "image": "mutcd_d2_1a.png",
+    "description": "D2-1a Bicycle Distance (1-line)",
+    "description_ru": "D2-1a Велосипедное расстояние (1 линия)",
+    "description_es": "D2-1a Distancia en bicicleta (1 línea)"
+  },
+  {
+    "image": "mutcd_d2_2.png",
+    "description": "D2-2 Distance (2-lines)",
+    "description_ru": "D2-2 Расстояние (2 линии)",
+    "description_es": "D2-2 Distancia (2 líneas)"
+  },
+  {
+    "image": "mutcd_d2_2a.png",
+    "description": "D2-2a Bicycle Distance (2-lines)",
+    "description_ru": "D2-2a Велосипедное расстояние (2 линии)",
+    "description_es": "D2-2a Distancia en bicicleta (2 líneas)"
+  },
+  {
+    "image": "mutcd_d2_3.png",
+    "description": "D2-3 Distance (3-lines)",
+    "description_ru": "D2-3 Расстояние (3 линии)",
+    "description_es": "D2-3 Distancia (3 líneas)"
+  },
+  {
+    "image": "mutcd_d2_3a.png",
+    "description": "D2-3a Bicycle Distance (3-lines)",
+    "description_ru": "D2-3a Велосипедное расстояние (3 линии)",
+    "description_es": "D2-3a Distancia en bicicleta (3 líneas)"
+  },
+  {
+    "image": "mutcd_d3_1.png",
+    "description": "D3-1 Street Name",
+    "description_ru": "D3-1 Название улицы",
+    "description_es": "D3-1 Nombre de la calle"
+  },
+  {
+    "image": "mutcd_d3_1a.png",
+    "description": "D3-1a Street Name with route shield",
+    "description_ru": "D3-1a Название улицы с маршрутом",
+    "description_es": "D3-1a Nombre de la calle con escudo de ruta"
+  },
+  {
+    "image": "mutcd_d3_2.png",
+    "description": "D3-2 Advance street name (2-lines)",
+    "description_ru": "D3-2 Предупреждающее название улицы (2 линии)",
+    "description_es": "D3-2 Nombre de la calle adelantado (2 líneas)"
+  },
+  {
+    "image": "mutcd_d3_2c.png",
+    "description": "D3-2 Advance street name (3-lines)",
+    "description_ru": "D3-2 Предупреждающее название улицы (3 линии)",
+    "description_es": "D3-2 Nombre de la calle adelantado (3 líneas)"
+  },
+  {
+    "image": "mutcd_d3_2a.png",
+    "description": "D3-2 Advance street name (3-lines)",
+    "description_ru": "D3-2 Предупреждающее название улицы (3 линии)",
+    "description_es": "D3-2 Nombre de la calle adelantado (3 líneas)"
+  },
+  {
+    "image": "mutcd_d3_2b.png",
+    "description": "D3-2 Advance street name (4-lines)",
+    "description_ru": "D3-2 Предупреждающее название улицы (4 линии)",
+    "description_es": "D3-2 Nombre de la calle adelantado (4 líneas)"
+  },
+  {
+    "image": "mutcd_d4_1.png",
+    "description": "D4-1 Parking area",
+    "description_ru": "D4-1 Парковочная зона",
+    "description_es": "D4-1 Área de estacionamiento"
+  },
+  {
+    "image": "mutcd_d4_2.png",
+    "description": "D4-2 Park - Ride",
+    "description_ru": "D4-2 Парковка и поездка",
+    "description_es": "D4-2 Estacionar y montar"
+  },
+  {
+    "image": "mutcd_d4_3.png",
+    "description": "D4-3 Bicycle parking area",
+    "description_ru": "D4-3 Велосипедная парковка",
+    "description_es": "D4-3 Área de estacionamiento para bicicletas"
+  },
+  {
+    "image": "mutcd_d4_4.png",
+    "description": "D4-4 Bicycle-sharing station",
+    "description_ru": "D4-4 Станция для проката велосипедов",
+    "description_es": "D4-4 Estación de bicicletas compartidas"
+  },
+  {
+    "image": "mutcd_d4_4a.png",
+    "description": "D4-4a Bicycle lockers",
+    "description_ru": "D4-4a Велосипедные шкафы",
+    "description_es": "D4-4a Taquillas para bicicletas"
+  },
+  {
+    "image": "mutcd_d5_1.png",
+    "description": "D5-1 Rest area (distance)",
+    "description_ru": "D5-1 Зона отдыха (расстояние)",
+    "description_es": "D5-1 Área de descanso (distancia)"
+  },
+  {
+    "image": "mutcd_d5_1a.png",
+    "description": "D5-1a Rest area next right",
+    "description_ru": "D5-1a Зона отдыха, следующая справа",
+    "description_es": "D5-1a Área de descanso a la derecha"
+  },
+  {
+    "image": "mutcd_d5_2.png",
+    "description": "D5-2 Rest area (diagonal right arrow)",
+    "description_ru": "D5-2 Зона отдыха (диагональная правая стрелка)",
+    "description_es": "D5-2 Área de descanso (flecha diagonal derecha)"
+  },
+  {
+    "image": "mutcd_d5_2a.png",
+    "description": "D5-2a Rest area gore",
+    "description_ru": "D5-2a Зона отдыха (гибкая полоса)",
+    "description_es": "D5-2a Área de descanso (zona gore)"
+  },
+  {
+    "image": "mutcd_d5_5.png",
+    "description": "D5-5 Rest area",
+    "description_ru": "D5-5 Зона отдыха",
+    "description_es": "D5-5 Área de descanso"
+  },
+  {
+    "image": "mutcd_d5_6.png",
+    "description": "D5-6 Next rest area (distance) miles",
+    "description_ru": "D5-6 Следующая зона отдыха (расстояние) миль",
+    "description_es": "D5-6 Próxima área de descanso (distancia) millas"
+  },
+  {
+    "image": "mutcd_d5_7.png",
+    "description": "D5-7 Rest area - tourist info center (distance)",
+    "description_ru": "D5-7 Зона отдыха - центр туристической информации (расстояние)",
+    "description_es": "D5-7 Área de descanso - centro de información turística (distancia)"
+  },
+  {
+    "image": "mutcd_d5_7a.png",
+    "description": "D5-7a Rest area - tourist info center next right",
+    "description_ru": "D5-7a Зона отдыха - центр туристической информации, следующий справа",
+    "description_es": "D5-7a Área de descanso - centro de información turística a la derecha"
+  },
+  {
+    "image": "mutcd_d5_8.png",
+    "description": "D5-8 Rest area - tourist info center (diagonal right arrow)",
+    "description_ru": "D5-8 Зона отдыха - центр туристической информации (диагональная правая стрелка)",
+    "description_es": "D5-8 Área de descanso - centro de información turística (flecha diagonal derecha)"
+  },
+  {
+    "image": "mutcd_d5_9.png",
+    "description": "D5-9 Parking area (distance)",
+    "description_ru": "D5-9 Парковка (расстояние)",
+    "description_es": "D5-9 Área de estacionamiento (distancia)"
+  },
+  {
+    "image": "mutcd_d5_9a.png",
+    "description": "D5-9a Parking area (diagonal right arrow)",
+    "description_ru": "D5-9a Парковка (диагональная правая стрелка)",
+    "description_es": "D5-9a Área de estacionamiento (flecha diagonal derecha)"
+  },
+  {
+    "image": "mutcd_d5_9b.png",
+    "description": "D5-9b Parking area gore",
+    "description_ru": "D5-9b Парковка (гибкая полоса)",
+    "description_es": "D5-9b Área de estacionamiento (zona gore)"
+  },
+  {
+    "image": "mutcd_d5_10.png",
+    "description": "D5-10 Picnic area (distance)",
+    "description_ru": "D5-10 Пикниковая зона (расстояние)",
+    "description_es": "D5-10 Área de picnic (distancia)"
+  },
+  {
+    "image": "mutcd_d5_10a.png",
+    "description": "D5-10a Picnic area (diagonal right arrow)",
+    "description_ru": "D5-10a Пикниковая зона (диагональная правая стрелка)",
+    "description_es": "D5-10a Área de picnic (flecha diagonal derecha)"
+  },
+  {
+    "image": "mutcd_d5_10b.png",
+    "description": "D5-10b Picnic area gore",
+    "description_ru": "D5-10b Пикниковая зона (гибкая полоса)",
+    "description_es": "D5-10b Área de picnic (zona gore)"
+  },
+  {
+    "image": "mutcd_d5_11.png",
+    "description": "D5-11 Scenic area (distance)",
+    "description_ru": "D5-11 Смотровая зона (расстояние)",
+    "description_es": "D5-11 Área panorámica (distancia)"
+  },
+  {
+    "image": "mutcd_d5_11a.png",
+    "description": "D5-11a Scenic area (diagonal right arrow)",
+    "description_ru": "D5-11a Смотровая зона (диагональная правая стрелка)",
+    "description_es": "D5-11a Área panorámica (flecha diagonal derecha)"
+  },
+  {
+    "image": "mutcd_d5_11b.png",
+    "description": "D5-11b Scenic area gore",
+    "description_ru": "D5-11b Смотровая зона (гибкая полоса)",
+    "description_es": "D5-11b Área panorámica (zona gore)"
+  },
+  {
+    "image": "mutcd_d5_12.png",
+    "description": "D5-12 Interstate oasis",
+    "description_ru": "D5-12 Оазис на межштатной трассе",
+    "description_es": "D5-12 Oasis interestatal"
+  },
+  {
+    "image": "mutcd_d5_12ap.png",
+    "description": "D5-12aP Interstate oasis",
+    "description_ru": "D5-12aP Оазис на межштатной трассе",
+    "description_es": "D5-12aP Oasis interestatal"
+  },
+  {
+    "image": "mutcd_d5_12b.png",
+    "description": "D5-12b Interstate oasis",
+    "description_ru": "D5-12b Оазис на межштатной трассе",
+    "description_es": "D5-12b Oasis interestatal"
+  },
+  {
+    "image": "mutcd_d5_13.png",
+    "description": "D5-13 Brake check area (distance)",
+    "description_ru": "D5-13 Место проверки тормозов (расстояние)",
+    "description_es": "D5-13 Área de revisión de frenos (distancia)"
+  },
+  {
+    "image": "mutcd_d5_14.png",
+    "description": "D5-14 Brake check area (diagonal right arrow)",
+    "description_ru": "D5-14 Место проверки тормозов (диагональная правая стрелка)",
+    "description_es": "D5-14 Área de revisión de frenos (flecha diagonal derecha)"
+  },
+  {
+    "image": "mutcd_d5_15.png",
+    "description": "D5-15 Chain-up area (distance)",
+    "description_ru": "D5-15 Место для установки цепей (расстояние)",
+    "description_es": "D5-15 Área para poner cadenas (distancia)"
+  },
+  {
+    "image": "mutcd_d5_16.png",
+    "description": "D5-16 Chain-up area (diagonal right arrow)",
+    "description_ru": "D5-16 Место для установки цепей (диагональная правая стрелка)",
+    "description_es": "D5-16 Área para poner cadenas (flecha diagonal derecha)"
+  },
+  {
+    "image": "mutcd_d8_1.png",
+    "description": "D8-1 Weigh station (distance)",
+    "description_ru": "D8-1 Пункт взвешивания (расстояние)",
+    "description_es": "D8-1 Estación de pesaje (distancia)"
+  },
+  {
+    "image": "mutcd_d8_1a.png",
+    "description": "D8-1a Weigh station ahead",
+    "description_ru": "D8-1a Пункт взвешивания впереди",
+    "description_es": "D8-1a Estación de pesaje adelante"
+  },
+  {
+    "image": "mutcd_d8_2.png",
+    "description": "D8-2 Weigh station next right",
+    "description_ru": "D8-2 Пункт взвешивания справа",
+    "description_es": "D8-2 Estación de pesaje a la derecha"
+  },
+  {
+    "image": "mutcd_d8_3.png",
+    "description": "D8-3 Weigh station (diagonal right arrow)",
+    "description_ru": "D8-3 Пункт взвешивания (диагональная правая стрелка)",
+    "description_es": "D8-3 Estación de pesaje (flecha diagonal derecha)"
+  },
+  {
+    "image": "mutcd_d10_1.png",
+    "description": "D10-1 Reference location (1 digit)",
+    "description_ru": "D10-1 Справочная точка (1 цифра)",
+    "description_es": "D10-1 Ubicación de referencia (1 dígito)"
+  },
+  {
+    "image": "mutcd_d10_1a.png",
+    "description": "D10-1a Intermediate reference location (1 digit)",
+    "description_ru": "D10-1a Промежуточная справочная точка (1 цифра)",
+    "description_es": "D10-1a Ubicación de referencia intermedia (1 dígito)"
+  },
+  {
+    "image": "mutcd_d10_2.png",
+    "description": "D10-2 Reference location (2 digit)",
+    "description_ru": "D10-2 Справочная точка (2 цифры)",
+    "description_es": "D10-2 Ubicación de referencia (2 dígitos)"
+  },
+  {
+    "image": "mutcd_d10_2a.png",
+    "description": "D10-2a Intermediate reference location (2 digit)",
+    "description_ru": "D10-2a Промежуточная справочная точка (2 цифры)",
+    "description_es": "D10-2a Ubicación de referencia intermedia (2 dígitos)"
+  },
+  {
+    "image": "mutcd_d10_3.png",
+    "description": "D10-3 Reference location (3 digit)",
+    "description_ru": "D10-3 Справочная точка (3 цифры)",
+    "description_es": "D10-3 Ubicación de referencia (3 dígitos)"
+  },
+  {
+    "image": "mutcd_d10_3a.png",
+    "description": "D10-3a Intermediate reference location (3 digit)",
+    "description_ru": "D10-3a Промежуточная справочная точка (3 цифры)",
+    "description_es": "D10-3a Ubicación de referencia intermedia (3 dígitos)"
+  },
+  {
+    "image": "mutcd_d10_4.png",
+    "description": "D10-4 Enhanced reference location",
+    "description_ru": "D10-4 Усиленная справочная точка",
+    "description_es": "D10-4 Ubicación de referencia mejorada"
+  },
+  {
+    "image": "mutcd_d10_5.png",
+    "description": "D10-5 Intermediate enhanced reference location",
+    "description_ru": "D10-5 Промежуточная усиленная справочная точка",
+    "description_es": "D10-5 Ubicación de referencia mejorada intermedia"
+  },
+  {
+    "image": "mutcd_d11_1.png",
+    "description": "D11-1 Bike route",
+    "description_ru": "D11-1 Велосипедный маршрут",
+    "description_es": "D11-1 Ruta de bicicleta"
+  },
+  {
+    "image": "mutcd_d11_1bp.png",
+    "description": "D11-1bP Bike route",
+    "description_ru": "D11-1bP Велосипедный маршрут",
+    "description_es": "D11-1bP Ruta de bicicleta"
+  },
+  {
+    "image": "mutcd_d11_1c.png",
+    "description": "D11-1c Bike route with destination",
+    "description_ru": "D11-1c Велосипедный маршрут с конечной точкой",
+    "description_es": "D11-1c Ruta de bicicleta con destino"
+  },
+  {
+    "image": "mutcd_d11_10a.png",
+    "description": "D11-10a Shared-use path destination (1-line)",
+    "description_ru": "D11-10a Конечная точка для общего пути (1 строка)",
+    "description_es": "D11-10a Destino de sendero compartido (1 línea)"
+  },
+  {
+    "image": "mutcd_d11_10b.png",
+    "description": "D11-10b Shared-use path destination (2-lines)",
+    "description_ru": "D11-10b Конечная точка для общего пути (2 строки)",
+    "description_es": "D11-10b Destino de sendero compartido (2 líneas)"
+  },
+  {
+    "image": "mutcd_d11_10c.png",
+    "description": "D11-10c Shared-use path destination (3-lines)",
+    "description_ru": "D11-10c Конечная точка для общего пути (3 строки)",
+    "description_es": "D11-10c Destino de sendero compartido (3 líneas)"
+  },
+  {
+    "image": "mutcd_d11_10d.png",
+    "description": "D11-10d Shared-use path destination and distance (1-line)",
+    "description_ru": "D11-10d Конечная точка для общего пути и расстояние (1 строка)",
+    "description_es": "D11-10d Destino de sendero compartido y distancia (1 línea)"
+  },
+  {
+    "image": "mutcd_d11_10e.png",
+    "description": "D11-10e Shared-use path destination and distance (2-lines)",
+    "description_ru": "D11-10e Конечная точка для общего пути и расстояние (2 строки)",
+    "description_es": "D11-10e Destino de sendero compartido y distancia (2 líneas)"
+  },
+  {
+    "image": "mutcd_d11_10f.png",
+    "description": "D11-10f Shared-use path destination and distance (3-lines)",
+    "description_ru": "D11-10f Конечная точка для общего пути и расстояние (3 строки)",
+    "description_es": "D11-10f Destino de sendero compartido y distancia (3 líneas)"
+  },
+  {
+    "image": "mutcd_d11_11.png",
+    "description": "D11-11 Bicycles permitted",
+    "description_ru": "D11-11 Велосипеды разрешены",
+    "description_es": "D11-11 Bicicletas permitidas"
+  },
+  {
+    "image": "mutcd_d11_12.png",
+    "description": "D11-12 Pedestrians permitted",
+    "description_ru": "D11-12 Пешеходы разрешены",
+    "description_es": "D11-12 Peatones permitidos"
+  },
+  {
+    "image": "mutcd_d11_13.png",
+    "description": "D11-13 Skaters permitted",
+    "description_ru": "D11-13 Скейтбордисты разрешены",
+    "description_es": "D11-13 Patinadores permitidos"
+  },
+  {
+    "image": "mutcd_d11_14.png",
+    "description": "D11-14 Equestrians permitted",
+    "description_ru": "D11-14 Всадники разрешены",
+    "description_es": "D11-14 Jinetes permitidos"
+  },
+  {
+    "image": "mutcd_d11_20l.png",
+    "description": "D11-20 Bicycle left turn may use turn box",
+    "description_ru": "D11-20 Велосипедный поворот налево может использовать коробку поворота",
+    "description_es": "D11-20 Giro a la izquierda en bicicleta puede usar caja de giro"
+  },
+  {
+    "image": "mutcd_d11_20al.png",
+    "description": "D11-20a Bicycle left turn box",
+    "description_ru": "D11-20a Коробка для велосипедного поворота налево",
+    "description_es": "D11-20a Caja de giro a la izquierda en bicicleta"
+  },
+  {
+    "image": "mutcd_d12_1.png",
+    "description": "D12-1 Radio-Weather information",
+    "description_ru": "D12-1 Радио-Информация о погоде",
+    "description_es": "D12-1 Información sobre el clima en radio"
+  },
+  {
+    "image": "mutcd_d12_1a.png",
+    "description": "D12-1a Radio-Traffic information",
+    "description_ru": "D12-1a Радио-Информация о движении",
+    "description_es": "D12-1a Información sobre el tráfico en radio"
+  },
+  {
+    "image": "mutcd_d12_1bp.png",
+    "description": "D12-1bP Urgent message when flashing",
+    "description_ru": "D12-1bP Срочное сообщение при мигании",
+    "description_es": "D12-1bP Mensaje urgente cuando parpadea"
+  },
+  {
+    "image": "mutcd_d12_2.png",
+    "description": "D12-2 Carpool information",
+    "description_ru": "D12-2 Информация о карпулинге",
+    "description_es": "D12-2 Información sobre carpooling"
+  },
+  {
+    "image": "mutcd_d12_3.png",
+    "description": "D12-3 Channel 9 monitored",
+    "description_ru": "D12-3 Канал 9 мониторится",
+    "description_es": "D12-3 Canal 9 monitoreado"
+  },
+  {
+    "image": "mutcd_d12_4.png",
+    "description": "D12-4 Emergency call 911",
+    "description_ru": "D12-4 Экстренный вызов 911",
+    "description_es": "D12-4 Llamada de emergencia 911"
+  },
+  {
+    "image": "mutcd_d12_5.png",
+    "description": "D12-5 Travel info call 511 (pictograph)",
+    "description_ru": "D12-5 Информация о путешествиях по телефону 511 (пиктограмма)",
+    "description_es": "D12-5 Información de viaje llame al 511 (pictograma)"
+  },
+  {
+    "image": "mutcd_d12_5a.png",
+    "description": "D12-5a Travel info call 511",
+    "description_ru": "D12-5a Информация о путешествиях по телефону 511",
+    "description_es": "D12-5a Información de viaje llame al 511"
+  },
+  {
+    "image": "mutcd_d12_6.png",
+    "description": "D12-6 Roadside assistance",
+    "description_ru": "D12-6 Дорожная помощь",
+    "description_es": "D12-6 Asistencia en la carretera"
+  },
+  {
+    "image": "mutcd_d13_1.png",
+    "description": "D13-1 Crossover",
+    "description_ru": "D13-1 Перекресток",
+    "description_es": "D13-1 Cruce"
+  },
+  {
+    "image": "mutcd_d13_2.png",
+    "description": "D13-2 Crossover (Distance)",
+    "description_ru": "D13-2 Перекресток (расстояние)",
+    "description_es": "D13-2 Cruce (distancia)"
+  },
+  {
+    "image": "mutcd_d13_3.png",
+    "description": "D13-3 Freeway entrance",
+    "description_ru": "D13-3 Въезд на автомагистраль",
+    "description_es": "D13-3 Entrada a la autopista"
+  },
+  {
+    "image": "mutcd_d13_3a.png",
+    "description": "D13-3a Freeway entrance",
+    "description_ru": "D13-3a Въезд на автомагистраль",
+    "description_es": "D13-3a Entrada a la autopista"
+  },
+  {
+    "image": "mutcd_d15_1_28route_shield29.png",
+    "description": "D15-1 Combination lane use/destination with route shield",
+    "description_ru": "D15-1 Совмещение использования полосы/назначение с маршрутом",
+    "description_es": "D15-1 Uso combinado de carril/destino con escudo de ruta"
+  },
+  {
+    "image": "mutcd_d15_1_28street_name29.png",
+    "description": "D15-1 Combination lane use/destination with street name",
+    "description_ru": "D15-1 Совмещение использования полосы/назначение с названием улицы",
+    "description_es": "D15-1 Uso combinado de carril/destino con nombre de calle"
+  },
+  {
+    "image": "mutcd_d17_1.png",
+    "description": "D17-1 Next truck lane (distance)",
+    "description_ru": "D17-1 Следующая полоса для грузовиков (расстояние)",
+    "description_es": "D17-1 Próximo carril para camiones (distancia)"
+  },
+  {
+    "image": "mutcd_d17_2.png",
+    "description": "D17-2 Truck lane (distance)",
+    "description_ru": "D17-2 Полоса для грузовиков (расстояние)",
+    "description_es": "D17-2 Carril para camiones (distancia)"
+  },
+  {
+    "image": "mutcd_d17_3.png",
+    "description": "D17-3 Next passing lane (distance)",
+    "description_ru": "D17-3 Следующая полоса для обгона (расстояние)",
+    "description_es": "D17-3 Próximo carril de adelantamiento (distancia)"
+  },
+  {
+    "image": "mutcd_d17_4.png",
+    "description": "D17-4 Passing lane (distance)",
+    "description_ru": "D17-4 Полоса для обгона (расстояние)",
+    "description_es": "D17-4 Carril de adelantamiento (distancia)"
+  },
+  {
+    "image": "mutcd_d17_5.png",
+    "description": "D17-5 Emergency turn-out (distance)",
+    "description_ru": "D17-5 Экстренный съезд (расстояние)",
+    "description_es": "D17-5 Salida de emergencia (distancia)"
+  },
+  {
+    "image": "mutcd_d17_6.png",
+    "description": "D17-6 Emergency turn-out (diagonal right arrow)",
+    "description_ru": "D17-6 Экстренный съезд (диагональная правая стрелка)",
+    "description_es": "D17-6 Salida de emergencia (flecha diagonal derecha)"
+  },
+  {
+    "image": "mutcd_d17_7.png",
+    "description": "D17-7 Slow vehicle turn-out (distance)",
+    "description_ru": "D17-7 Съезд для медленно движущихся транспортных средств (расстояние)",
+    "description_es": "D17-7 Salida para vehículos lentos (distancia)"
+  }
+]

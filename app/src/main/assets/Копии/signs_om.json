@@ -1,0 +1,80 @@
+[
+  {
+    "image": "mutcd_om1_1.png",
+    "description": "OM1-1 Object Marker",
+    "description_ru": "OM1-1 Маркер объекта",
+    "description_es": "OM1-1 Marcador de objeto"
+  },
+  {
+    "image": "mutcd_om1_2.png",
+    "description": "OM1-2 Object Marker",
+    "description_ru": "OM1-2 Маркер объекта",
+    "description_es": "OM1-2 Marcador de objeto"
+  },
+  {
+    "image": "mutcd_om1_3.png",
+    "description": "OM1-3 Object Marker",
+    "description_ru": "OM1-3 Маркер объекта",
+    "description_es": "OM1-3 Marcador de objeto"
+  },
+  {
+    "image": "mutcd_om2_1v.png",
+    "description": "OM2-1V Vertical Culvert Marker",
+    "description_ru": "OM2-1V Вертикальный маркер водопропускной трубы",
+    "description_es": "OM2-1V Marcador vertical de alcantarilla"
+  },
+  {
+    "image": "mutcd_om2_1h.png",
+    "description": "OM2-1H Horizontal Culvert Marker",
+    "description_ru": "OM2-1H Горизонтальный маркер водопропускной трубы",
+    "description_es": "OM2-1H Marcador horizontal de alcantarilla"
+  },
+  {
+    "image": "mutcd_om2_2v.png",
+    "description": "OM2-2V Vertical Culvert Marker",
+    "description_ru": "OM2-2V Вертикальный маркер водопропускной трубы",
+    "description_es": "OM2-2V Marcador vertical de alcantarilla"
+  },
+  {
+    "image": "mutcd_om2_2h.png",
+    "description": "OM2-2H Horizontal Culvert Marker",
+    "description_ru": "OM2-2H Горизонтальный маркер водопропускной трубы",
+    "description_es": "OM2-2H Marcador horizontal de alcantarilla"
+  },
+  {
+    "image": "mutcd_om3_r.png",
+    "description": "OM3-R Right Object Marker",
+    "description_ru": "OM3-R Правый маркер объекта",
+    "description_es": "OM3-R Marcador de objeto derecho"
+  },
+  {
+    "image": "mutcd_om3_c.png",
+    "description": "OM3-C Chevron Object Marker",
+    "description_ru": "OM3-C Объект с маркировкой в виде шеврона",
+    "description_es": "OM3-C Marcador de objeto en forma de cheurón"
+  },
+  {
+    "image": "mutcd_om3_l.png",
+    "description": "OM3-L Left Object Marker",
+    "description_ru": "OM3-L Левый маркер объекта",
+    "description_es": "OM3-L Marcador de objeto izquierdo"
+  },
+  {
+    "image": "mutcd_om4_1.png",
+    "description": "OM4-1 End Of Road Marker",
+    "description_ru": "OM4-1 Маркер конца дороги",
+    "description_es": "OM4-1 Marcador de fin de camino"
+  },
+  {
+    "image": "mutcd_om4_2.png",
+    "description": "OM4-2 End Of Road Marker",
+    "description_ru": "OM4-2 Маркер конца дороги",
+    "description_es": "OM4-2 Marcador de fin de camino"
+  },
+  {
+    "image": "mutcd_om4_3.png",
+    "description": "OM4-3 End Of Road Marker",
+    "description_ru": "OM4-3 Маркер конца дороги",
+    "description_es": "OM4-3 Marcador de fin de camino"
+  }
+]

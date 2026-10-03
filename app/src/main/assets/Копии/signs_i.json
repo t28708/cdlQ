@@ -1,0 +1,170 @@
+[
+  {
+    "image": "mutcd_i1_1.png",
+    "description": "I1-1 Traffic signal speed",
+    "description_ru": "I1-1 Скорость сигнала светофора",
+    "description_es": "I1-1 Velocidad de la señal de tráfico"
+  },
+  {
+    "image": "mutcd_i2_1.png",
+    "description": "I2-1 State line",
+    "description_ru": "I2-1 Граница штата",
+    "description_es": "I2-1 Línea estatal"
+  },
+  {
+    "image": "mutcd_i2_2.png",
+    "description": "I2-2 River",
+    "description_ru": "I2-2 Река",
+    "description_es": "I2-2 Río"
+  },
+  {
+    "image": "mutcd_i2_3.png",
+    "description": "I2-3 Grade separation identification (1-line)",
+    "description_ru": "I2-3 Идентификация разделения уровней (1 линия)",
+    "description_es": "I2-3 Identificación de separación de niveles (1 línea)"
+  },
+  {
+    "image": "mutcd_i2_3_28numbered_and_named29.png",
+    "description": "I2-3 Grade separation identification (1-line)",
+    "description_ru": "I2-3 Идентификация разделения уровней (1 линия)",
+    "description_es": "I2-3 Identificación de separación de niveles (1 línea)"
+  },
+  {
+    "image": "mutcd_i2_3a.png",
+    "description": "I2-3a Grade separation identification (2-line)",
+    "description_ru": "I2-3a Идентификация разделения уровней (2 линии)",
+    "description_es": "I2-3a Identificación de separación de niveles (2 líneas)"
+  },
+  {
+    "image": "mutcd_i2_3a_28numbered_and_named29.png",
+    "description": "I2-3a Grade separation identification (2-line)",
+    "description_ru": "I2-3a Идентификация разделения уровней (2 линии)",
+    "description_es": "I2-3a Identificación de separación de niveles (2 líneas)"
+  },
+  {
+    "image": "mutcd_i2_4.png",
+    "description": "I2-4 Future interstate corridor",
+    "description_ru": "I2-4 Будущий коридор межштатной магистрали",
+    "description_es": "I2-4 Futuro corredor interestatal"
+  },
+  {
+    "image": "mutcd_i2_4a.png",
+    "description": "I2-4a Future I-XX Corridor",
+    "description_ru": "I2-4a Будущий коридор I-XX",
+    "description_es": "I2-4a Futuro corredor I-XX"
+  },
+  {
+    "image": "mutcd_i2_5.png",
+    "description": "I2-5 Project information",
+    "description_ru": "I2-5 Информация о проекте",
+    "description_es": "I2-5 Información del proyecto"
+  },
+  {
+    "image": "mutcd_i2_5_28state29.png",
+    "description": "I2-5 Project information",
+    "description_ru": "I2-5 Информация о проекте",
+    "description_es": "I2-5 Información del proyecto"
+  },
+  {
+    "image": "mutcd_i3_5.png",
+    "description": "I3-5 Airport",
+    "description_ru": "I3-5 Аэропорт",
+    "description_es": "I3-5 Aeropuerto"
+  },
+  {
+    "image": "mutcd_i3_6.png",
+    "description": "I3-6 Bus station",
+    "description_ru": "I3-6 Автобусная станция",
+    "description_es": "I3-6 Estación de autobuses"
+  },
+  {
+    "image": "mutcd_i3_7.png",
+    "description": "I3-7 Train station",
+    "description_ru": "I3-7 Железнодорожная станция",
+    "description_es": "I3-7 Estación de tren"
+  },
+  {
+    "image": "mutcd_i3_8.png",
+    "description": "I3-8 Light rail station",
+    "description_ru": "I3-8 Станция легкорельсового транспорта",
+    "description_es": "I3-8 Estación de tranvía"
+  },
+  {
+    "image": "mutcd_i3_9.png",
+    "description": "I3-9 Vehicle Ferry Terminal",
+    "description_ru": "I3-9 Терминал паромов для транспортных средств",
+    "description_es": "I3-9 Terminal de ferry para vehículos"
+  },
+  {
+    "image": "mutcd_i3_10.png",
+    "description": "I3-10 Passenger Only Ferry Terminal",
+    "description_ru": "I3-10 Терминал паромов только для пассажиров",
+    "description_es": "I3-10 Terminal de ferry solo para pasajeros"
+  },
+  {
+    "image": "mutcd_i3_10p.png",
+    "description": "I3-10P Ferry",
+    "description_ru": "I3-10P Паром",
+    "description_es": "I3-10P Ferry"
+  },
+  {
+    "image": "mutcd_i4_1.png",
+    "description": "I4-1 Library",
+    "description_ru": "I4-1 Библиотека",
+    "description_es": "I4-1 Biblioteca"
+  },
+  {
+    "image": "mutcd_i_11.png",
+    "description": "I4-2 Recycling center",
+    "description_ru": "I4-2 Центр переработки",
+    "description_es": "I4-2 Centro de reciclaje"
+  },
+  {
+    "image": "mutcd_i_13_28alternate_legend29.png",
+    "description": "I13-1 Emergency Notification",
+    "description_ru": "I13-1 Экстренное уведомление",
+    "description_es": "I13-1 Notificación de emergencia"
+  },
+  {
+    "image": "mutcd_i13_2.png",
+    "description": "I13-2 Push to Exit",
+    "description_ru": "I13-2 Нажмите для выхода",
+    "description_es": "I13-2 Empuje para salir"
+  },
+  {
+    "image": "mutcd_i20_1.png",
+    "description": "I20-1 Acknowledgement",
+    "description_ru": "I20-1 Подтверждение",
+    "description_es": "I20-1 Reconocimiento"
+  },
+  {
+    "image": "mutcd_i20_2.png",
+    "description": "I20-2 Acknowledgement",
+    "description_ru": "I20-2 Подтверждение",
+    "description_es": "I20-2 Reconocimiento"
+  },
+  {
+    "image": "mutcd_i20_3.png",
+    "description": "I20-3 Acknowledgement",
+    "description_ru": "I20-3 Подтверждение",
+    "description_es": "I20-3 Reconocimiento"
+  },
+  {
+    "image": "mutcd_i20_4.png",
+    "description": "I20-4 Acknowledgement - Rest area",
+    "description_ru": "I20-4 Подтверждение - Зона отдыха",
+    "description_es": "I20-4 Reconocimiento - Área de descanso"
+  },
+  {
+    "image": "mutcd_i20_4a.png",
+    "description": "I20-4a Acknowledgement - Welcome Center",
+    "description_ru": "I20-4a Подтверждение - Центр приветствия",
+    "description_es": "I20-4a Reconocimiento - Centro de bienvenida"
+  },
+  {
+    "image": "mutcd_i20_5p.png",
+    "description": "I20-5P Acknowledgement",
+    "description_ru": "I20-5P Подтверждение",
+    "description_es": "I20-5P Reconocimiento"
+  }
+]

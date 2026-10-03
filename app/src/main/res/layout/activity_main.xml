@@ -1,0 +1,1643 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eff2f7"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <FrameLayout
+            android:id="@+id/ad_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:minHeight="80dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="25dp"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp">
+
+            <!-- Текстовый элемент -->
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="CDL Global"
+                android:textAlignment="center"
+                android:textColor="@color/gray"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <!-- Кнопка смены языка -->
+            <Button
+                android:id="@+id/btn_change_language"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Сменить язык"
+                android:drawableEnd="@drawable/icons8_language_48"
+                android:backgroundTint="@color/blue"
+                android:textColor="@color/white"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:padding="10dp" />
+
+            <Button
+                android:id="@+id/btn_remove_ads"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No Ads"
+                android:layout_marginStart="8dp"
+                android:backgroundTint="#FFD700"
+                android:textColor="@color/black"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:padding="10dp"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/tv_premium_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PREMIUM"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#FFD700"
+                android:background="@drawable/rounded_corner_background" 
+                android:padding="8dp"
+                android:layout_marginStart="8dp"
+                android:visibility="gone"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+
+
+            <!-- First row with 3 buttons -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/pre_trip_1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/gray"
+                    android:onClick="openPreTripPage"
+                    android:text="Pre-trip (A)"
+                    android:textSize="16sp"
+                    android:textColor="#fff"/>
+
+                <Button
+                    android:id="@+id/pre_trip_2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/gray"
+                    android:text="Pre-trip (B)"
+                    android:textSize="16sp"
+                    android:onClick="openPreTripPageB"
+                    android:textColor="#fff"/>
+
+                <Button
+                    android:id="@+id/pre_trip_3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/gray"
+                    android:text="Pre-trip (C)"
+                    android:onClick="openPreTripPageC"
+                    android:textSize="16sp"
+                    android:textColor="#fff"/>
+            </LinearLayout>
+
+            <!-- Second row with 2 buttons -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/pre_trip_4"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/gray"
+                    android:text="COUPLING SYSTEM"
+                    android:onClick="openPreTripCouplingSystem"
+                    android:textSize="16sp"
+                    android:textColor="#fff"/>
+
+                <Button
+                    android:id="@+id/learnEnglish"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:backgroundTint="#4C8D91"
+                    android:text="Учим термины"
+                    android:onClick="openVocabularyActivity"
+                    android:textSize="16sp"
+                    android:textColor="#fff"/>
+
+                <Button
+                    android:id="@+id/learnEnglishSpanish"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:backgroundTint="#FF8000"
+                    android:text="Aprender términos"
+                    android:onClick="openVocabularyActivity"
+                    android:textSize="16sp"
+                    android:visibility="gone"
+                    android:textColor="#fff"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <!-- Текст НА русском языке -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_weight="1"
+                android:text="Road signs in the USA"
+                android:textColor="@color/gray"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <!-- First row with 2 buttons -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/check_sign_r"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/gray"
+                    android:onClick="openCheckSignR"
+                    android:text="Regulatory signs"
+                    android:textSize="16sp"
+                    android:textColor="#fff"/>
+
+                <Button
+                    android:id="@+id/check_sign_w"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/gray"
+                    android:text="Warning signs"
+                    android:textSize="16sp"
+                    android:onClick="openCheckSignW"
+                    android:textColor="#fff"/>
+            </LinearLayout>
+
+            <!-- First row with 2 buttons -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/check_sign_o"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/gray"
+                    android:onClick="openCheckSignO"
+                    android:text="Object markers"
+                    android:textSize="16sp"
+                    android:textColor="#fff"/>
+
+                <Button
+                    android:id="@+id/check_sign_m"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/gray"
+                    android:text="Route marker"
+                    android:textSize="16sp"
+                    android:onClick="openCheckSignM"
+                    android:textColor="#fff"/>
+            </LinearLayout>
+
+            <!-- First row with 2 buttons -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/check_sign_d"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/gray"
+                    android:onClick="openCheckSignD"
+                    android:text="Destination signs"
+                    android:textSize="16sp"
+                    android:textColor="#fff"/>
+
+                <Button
+                    android:id="@+id/check_sign_g"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/gray"
+                    android:text="Construction"
+                    android:textSize="16sp"
+                    android:onClick="openCheckSignG"
+                    android:textColor="#fff"/>
+            </LinearLayout>
+
+            <!-- First row with 2 buttons -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/check_sign_d9"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/gray"
+                    android:onClick="openCheckSignD9"
+                    android:text="Motorist services"
+                    android:textSize="16sp"
+                    android:textColor="#fff"/>
+
+                <Button
+                    android:id="@+id/check_sign_i"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/gray"
+                    android:text="General"
+                    android:textSize="16sp"
+                    android:onClick="openCheckSignI"
+                    android:textColor="#fff"/>
+            </LinearLayout>
+
+            <!-- First row with 2 buttons -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/check_sign_e"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/gray"
+                    android:onClick="openCheckSignE"
+                    android:text="Freeway, expressway"
+                    android:textSize="16sp"
+                    android:textColor="#fff"/>
+
+                <Button
+                    android:id="@+id/check_sign_s"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/gray"
+                    android:onClick="openCheckSignS"
+                    android:text="School"
+                    android:textSize="16sp"
+                    android:textColor="#fff"/>
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+        <!-- Первый блок RU-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:id="@+id/linear_theoryRU"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <!-- Текст НА русском языке -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_weight="1"
+                android:text="Сдача на Permit"
+                android:textColor="@color/gray"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <!-- Первый заголовок и его содержимое -->
+            <TextView
+                android:id="@+id/tvTitle1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginBottom="10dp"
+                android:background="#fff"
+                android:drawableEnd="@android:drawable/ic_menu_more"
+                android:drawablePadding="8dp"
+                android:gravity="center_vertical"
+                android:padding="16dp"
+                android:text="General Knowledge"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+
+            <LinearLayout
+                android:id="@+id/llContent1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/btn1_1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="8dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/gray"
+                        android:onClick="startNewActivityGeneral1"
+                        android:text="Часть 1"
+                        android:textSize="16sp"
+                        android:textColor="#fff"
+                        android:visibility="gone"
+                        android:enabled="false"/>
+
+                    <Button
+                        android:id="@+id/btn1_2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/gray"
+                        android:onClick="startNewActivityGeneral2"
+                        android:text="Часть 2"
+                        android:textSize="16sp"
+                        android:textColor="#fff"
+                        android:visibility="gone"
+                        android:enabled="false"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/btn1_3"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="8dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/gray"
+                        android:onClick="startNewActivityGeneral3"
+                        android:text="Часть 3"
+                        android:textSize="16sp"
+                        android:textColor="#fff"
+                        android:visibility="gone"
+                        android:enabled="false"/>
+
+                    <Button
+                        android:id="@+id/btn1_4"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/gray"
+                        android:onClick="startNewActivityGeneral4"
+                        android:text="Часть 4"
+                        android:textSize="16sp"
+                        android:textColor="#fff"
+                        android:visibility="gone"
+                        android:enabled="false"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/btn1_5"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="8dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/gray"
+                        android:onClick="startNewActivityGeneral5"
+                        android:text="Часть 5"
+                        android:textSize="16sp"
+                        android:textColor="#fff"
+                        android:visibility="gone"
+                        android:enabled="false"/>
+
+                    <Button
+                        android:id="@+id/btn1_6"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/gray"
+                        android:onClick="startNewActivityGeneral6"
+                        android:text="Часть 6"
+                        android:textSize="16sp"
+                        android:textColor="#fff"
+                        android:visibility="gone"
+                        android:enabled="false"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/btn1_7"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="8dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/gray"
+                        android:onClick="startNewActivityGeneral7"
+                        android:text="Часть 7"
+                        android:textSize="16sp"
+                        android:textColor="#fff"
+                        android:visibility="gone"
+                        android:enabled="false"/>
+
+                    <Button
+                        android:id="@+id/btn1_8"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/gray"
+                        android:onClick="startNewActivityGeneral8"
+                        android:text="Часть 8"
+                        android:textSize="16sp"
+                        android:textColor="#fff"
+                        android:visibility="gone"
+                        android:enabled="false"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/btn1_9"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="8dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/gray"
+                        android:onClick="startNewActivityGeneral9"
+                        android:text="Часть 9"
+                        android:textSize="16sp"
+                        android:textColor="#fff"
+                        android:visibility="gone"
+                        android:enabled="false"/>
+
+                    <Button
+                        android:id="@+id/btn1_10"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/gray"
+                        android:onClick="startNewActivityGeneral10"
+                        android:text="Часть 10"
+                        android:textSize="16sp"
+                        android:textColor="#fff"
+                        android:visibility="gone"
+                        android:enabled="false"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/btn1_11"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="8dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/gray"
+                        android:onClick="startNewActivityGeneral11"
+                        android:text="Часть 11"
+                        android:textSize="16sp"
+                        android:textColor="#fff"
+                        android:visibility="gone"
+                        android:enabled="false"/>
+
+                    <Button
+                        android:id="@+id/btn1_12"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/gray"
+                        android:onClick="startNewActivityGeneral12"
+                        android:text="Часть 12"
+                        android:textSize="16sp"
+                        android:textColor="#fff"
+                        android:visibility="gone"
+                        android:enabled="false"/>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <!-- Второй заголовок и его содержимое -->
+            <TextView
+                android:id="@+id/tvTitle2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="#fff"
+                android:drawableEnd="@android:drawable/ic_menu_more"
+                android:drawablePadding="8dp"
+                android:gravity="start"
+                android:padding="16dp"
+                android:text="AirBrakes"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:id="@+id/llContent2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/btn2_1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="8dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/gray"
+                        android:onClick="startNewActivityAir1"
+                        android:text="Часть 1"
+                        android:textSize="16sp"
+                        android:textColor="#fff"
+                        android:visibility="gone"
+                        android:enabled="false"/>
+
+                    <Button
+                        android:id="@+id/btn2_2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/gray"
+                        android:onClick="startNewActivityAir2"
+                        android:text="Часть 2"
+                        android:textSize="16sp"
+                        android:textColor="#fff"
+                        android:visibility="gone"
+                        android:enabled="false"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/btn2_3"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="8dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/gray"
+                        android:onClick="startNewActivityAir3"
+                        android:text="Часть 3"
+                        android:textSize="16sp"
+                        android:textColor="#fff"
+                        android:visibility="gone"
+                        android:enabled="false"/>
+
+                    <Button
+                        android:id="@+id/btn2_4"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/gray"
+                        android:onClick="startNewActivityAir4"
+                        android:text="Часть 4"
+                        android:textSize="16sp"
+                        android:textColor="#fff"
+                        android:visibility="gone"
+                        android:enabled="false"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <!-- Третий заголовок и его содержимое -->
+            <TextView
+                android:id="@+id/tvTitle3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="#fff"
+                android:drawableEnd="@android:drawable/ic_menu_more"
+                android:drawablePadding="8dp"
+                android:gravity="start"
+                android:padding="16dp"
+                android:text="Combinated Vehicle"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:id="@+id/llContent3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/btn3_1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="8dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/gray"
+                        android:onClick="startNewActivityCombinated1"
+                        android:text="Часть 1"
+                        android:textSize="16sp"
+                        android:textColor="#fff"
+                        android:visibility="gone"
+                        android:enabled="false"/>
+
+                    <Button
+                        android:id="@+id/btn3_2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/gray"
+                        android:onClick="startNewActivityCombinated2"
+                        android:text="Часть 2"
+                        android:textSize="16sp"
+                        android:textColor="#fff"
+                        android:visibility="gone"
+                        android:enabled="false"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/btn3_3"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="8dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/gray"
+                        android:onClick="startNewActivityCombinated3"
+                        android:text="Часть 3"
+                        android:textSize="16sp"
+                        android:textColor="#fff"
+                        android:visibility="gone"
+                        android:enabled="false"/>
+
+                    <Button
+                        android:id="@+id/btn3_4"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/gray"
+                        android:onClick="startNewActivityCombinated4"
+                        android:text="Часть 4"
+                        android:textSize="16sp"
+                        android:textColor="#fff"
+                        android:visibility="gone"
+                        android:enabled="false"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- Второй блок ENGLISH-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linear_theoryUA"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical"
+            android:visibility="gone"
+            android:padding="8dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_weight="1"
+                android:text="CDL Permit Test"
+                android:textColor="@color/gray"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <!-- Аналогичная структура для второго блока -->
+            <TextView
+                android:id="@+id/tvTitle4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="#fff"
+                android:drawableEnd="@android:drawable/ic_menu_more"
+                android:drawablePadding="8dp"
+                android:gravity="start"
+                android:padding="16dp"
+                android:text="General Knowledge"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:id="@+id/llContent1UA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/btnUA1_1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="8dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/gray"
+                        android:onClick="startNewActivityGeneralUA1"
+                        android:text="Часть 1"
+                        android:textSize="16sp"
+                        android:textColor="#fff" />
+
+                    <Button
+                        android:id="@+id/btnUA1_2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/gray"
+                        android:onClick="startNewActivityGeneralUA2"
+                        android:text="Часть 2"
+                        android:textSize="16sp"
+                        android:textColor="#fff" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/btnUA1_3"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="8dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/gray"
+                        android:onClick="startNewActivityGeneralUA3"
+                        android:text="Часть 3"
+                        android:textSize="16sp"
+                        android:textColor="#fff" />
+
+                    <Button
+                        android:id="@+id/btnUA1_4"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/gray"
+                        android:onClick="startNewActivityGeneralUA4"
+                        android:text="Часть 4"
+                        android:textSize="16sp"
+                        android:textColor="#fff" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/btnUA1_5"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="8dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/gray"
+                        android:onClick="startNewActivityGeneralUA5"
+                        android:text="Часть 5"
+                        android:textSize="16sp"
+                        android:textColor="#fff" />
+
+                    <Button
+                        android:id="@+id/btnUA1_6"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/gray"
+                        android:onClick="startNewActivityGeneralUA6"
+                        android:text="Часть 6"
+                        android:textSize="16sp"
+                        android:textColor="#fff" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/btnUA1_7"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="8dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/gray"
+                        android:onClick="startNewActivityGeneralUA7"
+                        android:text="Часть 7"
+                        android:textSize="16sp"
+                        android:textColor="#fff" />
+
+                    <Button
+                        android:id="@+id/btnUA1_8"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/gray"
+                        android:onClick="startNewActivityGeneralUA8"
+                        android:text="Часть 8"
+                        android:textSize="16sp"
+                        android:textColor="#fff" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/btnUA1_9"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="8dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/gray"
+                        android:onClick="startNewActivityGeneralUA9"
+                        android:text="Часть 9"
+                        android:textSize="16sp"
+                        android:textColor="#fff" />
+
+                    <Button
+                        android:id="@+id/btnUA1_10"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/gray"
+                        android:onClick="startNewActivityGeneralUA10"
+                        android:text="Часть 10"
+                        android:textSize="16sp"
+                        android:textColor="#fff" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/btnUA1_11"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="8dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/gray"
+                        android:onClick="startNewActivityGeneralUA11"
+                        android:text="Часть 11"
+                        android:textSize="16sp"
+                        android:textColor="#fff" />
+
+                    <Button
+                        android:id="@+id/btnUA1_12"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/gray"
+                        android:onClick="startNewActivityGeneralUA12"
+                        android:text="Часть 12"
+                        android:textSize="16sp"
+                        android:textColor="#fff" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/tvTitle5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="#fff"
+                android:drawableEnd="@android:drawable/ic_menu_more"
+                android:drawablePadding="8dp"
+                android:gravity="start"
+                android:padding="16dp"
+                android:text="AirBrakes"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:id="@+id/llContent5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/btnUA2_1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="8dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/gray"
+                        android:onClick="startNewActivityAirUA1"
+                        android:text="Часть 1"
+                        android:textSize="16sp"
+                        android:textColor="#fff" />
+
+                    <Button
+                        android:id="@+id/btnUA2_2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/gray"
+                        android:onClick="startNewActivityAirUA2"
+                        android:text="Часть 2"
+                        android:textSize="16sp"
+                        android:textColor="#fff" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/btnUA2_3"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="8dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/gray"
+                        android:onClick="startNewActivityAirUA3"
+                        android:text="Часть 3"
+                        android:textSize="16sp"
+                        android:textColor="#fff" />
+
+                    <Button
+                        android:id="@+id/btnUA2_4"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/gray"
+                        android:onClick="startNewActivityAirUA4"
+                        android:text="Часть 4"
+                        android:textSize="16sp"
+                        android:textColor="#fff" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/tvTitle6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="#fff"
+                android:drawableEnd="@android:drawable/ic_menu_more"
+                android:drawablePadding="8dp"
+                android:gravity="start"
+                android:padding="16dp"
+                android:text="Combinated Vehicle"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:id="@+id/llContent6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/btnUA3_1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="8dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/gray"
+                        android:onClick="startNewActivityCombinatedUA1"
+                        android:text="Часть 1"
+                        android:textSize="16sp"
+                        android:textColor="#fff" />
+
+                    <Button
+                        android:id="@+id/btnUA3_2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/gray"
+                        android:onClick="startNewActivityCombinatedUA2"
+                        android:text="Часть 2"
+                        android:textSize="16sp"
+                        android:textColor="#fff" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/btnUA3_3"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="8dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/gray"
+                        android:onClick="startNewActivityCombinatedUA3"
+                        android:text="Часть 3"
+                        android:textSize="16sp"
+                        android:textColor="#fff" />
+
+                    <Button
+                        android:id="@+id/btnUA3_4"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/gray"
+                        android:onClick="startNewActivityCombinatedUA4"
+                        android:text="Часть 4"
+                        android:textSize="16sp"
+                        android:textColor="#fff" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <!-- Третий блок ИСПАНСКИЙ блок -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linear_theoryES"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical"
+            android:visibility="gone"
+            android:padding="8dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_weight="1"
+                android:text="Examen para el permiso"
+                android:textColor="@color/gray"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <!-- Аналогичная структура для второго блока -->
+            <TextView
+                android:id="@+id/tvTitleES4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="#fff"
+                android:drawableEnd="@android:drawable/ic_menu_more"
+                android:drawablePadding="8dp"
+                android:gravity="start"
+                android:padding="16dp"
+                android:text="General Knowledge"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:id="@+id/ESContent4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/btnES1_1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="8dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/gray"
+                        android:onClick="startNewActivityGeneralES1"
+                        android:text="Parte 1"
+                        android:textSize="16sp"
+                        android:textColor="#fff" />
+
+                    <Button
+                        android:id="@+id/btnES1_2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/gray"
+                        android:onClick="startNewActivityGeneralES2"
+                        android:text="Parte 2"
+                        android:textSize="16sp"
+                        android:textColor="#fff" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/btnES1_3"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="8dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/gray"
+                        android:onClick="startNewActivityGeneralES3"
+                        android:text="Parte 3"
+                        android:textSize="16sp"
+                        android:textColor="#fff" />
+
+                    <Button
+                        android:id="@+id/btnES1_4"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/gray"
+                        android:onClick="startNewActivityGeneralES4"
+                        android:text="Parte 4"
+                        android:textSize="16sp"
+                        android:textColor="#fff" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/btnES1_5"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="8dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/gray"
+                        android:onClick="startNewActivityGeneralES5"
+                        android:text="Parte 5"
+                        android:textSize="16sp"
+                        android:textColor="#fff" />
+
+                    <Button
+                        android:id="@+id/btnES1_6"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/gray"
+                        android:onClick="startNewActivityGeneralES6"
+                        android:text="Parte 6"
+                        android:textSize="16sp"
+                        android:textColor="#fff" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/btnES1_7"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="8dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/gray"
+                        android:onClick="startNewActivityGeneralES7"
+                        android:text="Parte 7"
+                        android:textSize="16sp"
+                        android:textColor="#fff" />
+
+                    <Button
+                        android:id="@+id/btnES1_8"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/gray"
+                        android:onClick="startNewActivityGeneralES8"
+                        android:text="Parte 8"
+                        android:textSize="16sp"
+                        android:textColor="#fff" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/btnES1_9"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="8dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/gray"
+                        android:onClick="startNewActivityGeneralES9"
+                        android:text="Parte 9"
+                        android:textSize="16sp"
+                        android:textColor="#fff" />
+
+                    <Button
+                        android:id="@+id/btnES1_10"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/gray"
+                        android:onClick="startNewActivityGeneralES10"
+                        android:text="Parte 10"
+                        android:textSize="16sp"
+                        android:textColor="#fff" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/btnES1_11"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="8dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/gray"
+                        android:onClick="startNewActivityGeneralES11"
+                        android:text="Parte 11"
+                        android:textSize="16sp"
+                        android:textColor="#fff" />
+
+                    <Button
+                        android:id="@+id/btnES1_12"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/gray"
+                        android:onClick="startNewActivityGeneralES12"
+                        android:text="Parte 12"
+                        android:textSize="16sp"
+                        android:textColor="#fff" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/tvTitleES5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="#fff"
+                android:drawableEnd="@android:drawable/ic_menu_more"
+                android:drawablePadding="8dp"
+                android:gravity="start"
+                android:padding="16dp"
+                android:text="AirBrakes"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:id="@+id/ESContent5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/btnES2_1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="8dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/gray"
+                        android:onClick="startNewActivityAirES1"
+                        android:text="Parte 1"
+                        android:textSize="16sp"
+                        android:textColor="#fff" />
+
+                    <Button
+                        android:id="@+id/btnES2_2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/gray"
+                        android:onClick="startNewActivityAirES2"
+                        android:text="Parte 2"
+                        android:textSize="16sp"
+                        android:textColor="#fff" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/btnES2_3"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="8dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/gray"
+                        android:onClick="startNewActivityAirES3"
+                        android:text="Parte 3"
+                        android:textSize="16sp"
+                        android:textColor="#fff" />
+
+                    <Button
+                        android:id="@+id/btnES2_4"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/gray"
+                        android:onClick="startNewActivityAirES4"
+                        android:text="Parte 4"
+                        android:textSize="16sp"
+                        android:textColor="#fff" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/tvTitleES6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="#fff"
+                android:drawableEnd="@android:drawable/ic_menu_more"
+                android:drawablePadding="8dp"
+                android:gravity="start"
+                android:padding="16dp"
+                android:text="Combinated Vehicle"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:id="@+id/ESContent6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/btnES3_1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="8dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/gray"
+                        android:onClick="startNewActivityCombinatedES1"
+                        android:text="Parte 1"
+                        android:textSize="16sp"
+                        android:textColor="#fff" />
+
+                    <Button
+                        android:id="@+id/btnES3_2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/gray"
+                        android:onClick="startNewActivityCombinatedES2"
+                        android:text="Parte 2"
+                        android:textSize="16sp"
+                        android:textColor="#fff" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/btnES3_3"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="8dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/gray"
+                        android:onClick="startNewActivityCombinatedES3"
+                        android:text="Parte 3"
+                        android:textSize="16sp"
+                        android:textColor="#fff" />
+
+                    <Button
+                        android:id="@+id/btnES3_4"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/gray"
+                        android:onClick="startNewActivityCombinatedES4"
+                        android:text="Parte 4"
+                        android:textSize="16sp"
+                        android:textColor="#fff" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:id="@+id/textReviews"
+                android:layout_height="wrap_content"
+                android:text="Если наше приложение оказалось полезным для вас, пожалуйста, уделите одну минуту на оставление отзыва."
+                android:textSize="16sp"
+                android:textColor="#000000"
+                android:layout_marginBottom="8dp"/>
+
+            <Button
+                android:id="@+id/reviewButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Оставить отзыв"
+                android:onClick="openReviewPage"/>
+
+        </LinearLayout>
+
+
+
+
+
+        <TextView
+            android:id="@+id/tv_restore_purchases"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Already purchased? Restore access"
+            android:textColor="#888888"
+            android:textSize="14sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:padding="8dp"
+            android:clickable="true"
+            android:focusable="true"/>
+
+    </LinearLayout>
+</ScrollView>

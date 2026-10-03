@@ -1,0 +1,1712 @@
+[
+  {
+    "image": "mutcd_w1_1r.png",
+    "description": "W1-1R Turn (right)",
+    "description_ru": "W1-1R Поворот (направо)",
+    "description_es": "W1-1R Giro (a la derecha)"
+  },
+  {
+    "image": "mutcd_w1_1l.png",
+    "description": "W1-1L Turn (left)",
+    "description_ru": "W1-1L Поворот (налево)",
+    "description_es": "W1-1L Giro (a la izquierda)"
+  },
+  {
+    "image": "mutcd_w1_2r.png",
+    "description": "W1-2R Curve (right)",
+    "description_ru": "W1-2R Кривой поворот (направо)",
+    "description_es": "W1-2R Curva (a la derecha)"
+  },
+  {
+    "image": "mutcd_w1_2l.png",
+    "description": "W1-2L Curve (left)",
+    "description_ru": "W1-2L Кривой поворот (налево)",
+    "description_es": "W1-2L Curva (a la izquierda)"
+  },
+  {
+    "image": "mutcd_w1_3r.png",
+    "description": "W1-3R Reverse turn (right)",
+    "description_ru": "W1-3R Обратный поворот (направо)",
+    "description_es": "W1-3R Giro inverso (a la derecha)"
+  },
+  {
+    "image": "mutcd_w1_3l.png",
+    "description": "W1-3L Reverse turn (left)",
+    "description_ru": "W1-3L Обратный поворот (налево)",
+    "description_es": "W1-3L Giro inverso (a la izquierda)"
+  },
+  {
+    "image": "mutcd_w1_4r.png",
+    "description": "W1-4R Reverse curve (right)",
+    "description_ru": "W1-4R Обратная кривизна (направо)",
+    "description_es": "W1-4R Curva inversa (a la derecha)"
+  },
+  {
+    "image": "mutcd_w1_4l.png",
+    "description": "W1-4L Reverse curve (left)",
+    "description_ru": "W1-4L Обратная кривизна (налево)",
+    "description_es": "W1-4L Curva inversa (a la izquierda)"
+  },
+  {
+    "image": "mutcd_w1_5r.png",
+    "description": "W1-5R Winding road (right)",
+    "description_ru": "W1-5R Извилистая дорога (направо)",
+    "description_es": "W1-5R Carretera sinuosa (a la derecha)"
+  },
+  {
+    "image": "mutcd_w1_5l.png",
+    "description": "W1-5L Winding road (left)",
+    "description_ru": "W1-5L Извилистая дорога (налево)",
+    "description_es": "W1-5L Carretera sinuosa (a la izquierda)"
+  },
+  {
+    "image": "mutcd_w1_6r.png",
+    "description": "W1-6R Arrow (right)",
+    "description_ru": "W1-6R Стрела (направо)",
+    "description_es": "W1-6R Flecha (a la derecha)"
+  },
+  {
+    "image": "mutcd_w1_6l.png",
+    "description": "W1-6L Arrow (left)",
+    "description_ru": "W1-6L Стрела (налево)",
+    "description_es": "W1-6L Flecha (a la izquierda)"
+  },
+  {
+    "image": "mutcd_w1_7.png",
+    "description": "W1-7 Two-direction large arrow",
+    "description_ru": "W1-7 Двусторонняя большая стрела",
+    "description_es": "W1-7 Flecha grande bidireccional"
+  },
+  {
+    "image": "mutcd_w1_8r.png",
+    "description": "W1-8R Chevron (right)",
+    "description_ru": "W1-8R Челн (направо)",
+    "description_es": "W1-8R Chevron (a la derecha)"
+  },
+  {
+    "image": "mutcd_w1_8l.png",
+    "description": "W1-8L Chevron (left)",
+    "description_ru": "W1-8L Челн (налево)",
+    "description_es": "W1-8L Chevron (a la izquierda)"
+  },
+  {
+    "image": "mutcd_w1_10r.png",
+    "description": "W1-10R Curve with side road (right)",
+    "description_ru": "W1-10R Поворот с боковой дорогой (направо)",
+    "description_es": "W1-10R Curva con carretera secundaria (a la derecha)"
+  },
+  {
+    "image": "mutcd_w1_10l.png",
+    "description": "W1-10L Curve with side road (left)",
+    "description_ru": "W1-10L Поворот с боковой дорогой (налево)",
+    "description_es": "W1-10L Curva con carretera secundaria (a la izquierda)"
+  },
+  {
+    "image": "mutcd_w1_10ar.png",
+    "description": "W1-10aR Curve with crossroad (right)",
+    "description_ru": "W1-10aR Поворот с перекрестком (направо)",
+    "description_es": "W1-10aR Curva con cruce de caminos (a la derecha)"
+  },
+  {
+    "image": "mutcd_w1_10al.png",
+    "description": "W1-10aL Curve with crossroad (left)",
+    "description_ru": "W1-10aL Поворот с перекрестком (налево)",
+    "description_es": "W1-10aL Curva con cruce de caminos (a la izquierda)"
+  },
+  {
+    "image": "mutcd_w1_10br.png",
+    "description": "W1-10bR Curve with tangent (right)",
+    "description_ru": "W1-10bR Поворот с касательной (направо)",
+    "description_es": "W1-10bR Curva con tangente (a la derecha)"
+  },
+  {
+    "image": "mutcd_w1_10bl.png",
+    "description": "W1-10bL Curve with tangent (left)",
+    "description_ru": "W1-10bL Поворот с касательной (налево)",
+    "description_es": "W1-10bL Curva con tangente (a la izquierda)"
+  },
+  {
+    "image": "mutcd_w1_10cr.png",
+    "description": "W1-10cR Curve with tangent from side (right)",
+    "description_ru": "W1-10cR Поворот с касательной с боковой дороги (направо)",
+    "description_es": "W1-10cR Curva con tangente desde el lado (a la derecha)"
+  },
+  {
+    "image": "mutcd_w1_10cl.png",
+    "description": "W1-10cL Curve with tangent from side (left)",
+    "description_ru": "W1-10cL Поворот с касательной с боковой дороги (налево)",
+    "description_es": "W1-10cL Curva con tangente desde el lado (a la izquierda)"
+  },
+  {
+    "image": "mutcd_w1_10dr.png",
+    "description": "W1-10dR Reverse curve with side road (right)",
+    "description_ru": "W1-10dR Обратный поворот с боковой дорогой (направо)",
+    "description_es": "W1-10dR Curva inversa con carretera secundaria (a la derecha)"
+  },
+  {
+    "image": "mutcd_w1_10dl.png",
+    "description": "W1-10dL Reverse curve with side road (left)",
+    "description_ru": "W1-10dL Обратный поворот с боковой дорогой (налево)",
+    "description_es": "W1-10dL Curva inversa con carretera secundaria (a la izquierda)"
+  },
+  {
+    "image": "mutcd_w1_10er.png",
+    "description": "W1-10eR Reverse curve with crossroad (right)",
+    "description_ru": "W1-10eR Обратный поворот с перекрестком (направо)",
+    "description_es": "W1-10eR Curva inversa con cruce de caminos (a la derecha)"
+  },
+  {
+    "image": "mutcd_w1_10el.png",
+    "description": "W1-10eL Reverse curve with crossroad (left)",
+    "description_ru": "W1-10eL Обратный поворот с перекрестком (налево)",
+    "description_es": "W1-10eL Curva inversa con cruce de caminos (a la izquierda)"
+  },
+  {
+    "image": "mutcd_w1_11r.png",
+    "description": "W1-11R Hairpin curve (right)",
+    "description_ru": "W1-11R Крутой поворот (направо)",
+    "description_es": "W1-11R Curva cerrada (a la derecha)"
+  },
+  {
+    "image": "mutcd_w1_11l.png",
+    "description": "W1-11L Hairpin curve (left)",
+    "description_ru": "W1-11L Крутой поворот (налево)",
+    "description_es": "W1-11L Curva cerrada (a la izquierda)"
+  },
+  {
+    "image": "mutcd_w1_13r.png",
+    "description": "W1-13R Truck rollover warning (right)",
+    "description_ru": "W1-13R Предупреждение о переворачивании грузовика (направо)",
+    "description_es": "W1-13R Advertencia de vuelco de camión (a la derecha)"
+  },
+  {
+    "image": "mutcd_w1_13l.png",
+    "description": "W1-13L Truck rollover warning (left)",
+    "description_ru": "W1-13L Предупреждение о переворачивании грузовика (налево)",
+    "description_es": "W1-13L Advertencia de vuelco de camión (a la izquierda)"
+  },
+  {
+    "image": "mutcd_w1_15r.png",
+    "description": "W1-15R 270 degree loop curve (right)",
+    "description_ru": "W1-15R Поворот на 270 градусов (направо)",
+    "description_es": "W1-15R Curva de 270 grados (a la derecha)"
+  },
+  {
+    "image": "mutcd_w1_15l.png",
+    "description": "W1-15L 270 degree loop curve (left)",
+    "description_ru": "W1-15L Поворот на 270 градусов (налево)",
+    "description_es": "W1-15L Curva de 270 grados (a la izquierda)"
+  },
+  {
+    "image": "mutcd_w2_1.png",
+    "description": "W2-1 Crossroad",
+    "description_ru": "W2-1 Перекресток",
+    "description_es": "W2-1 Cruce de caminos"
+  },
+  {
+    "image": "mutcd_w2_2r.png",
+    "description": "W2-2R Side road (right)",
+    "description_ru": "W2-2R Боковая дорога (направо)",
+    "description_es": "W2-2R Carretera secundaria (a la derecha)"
+  },
+  {
+    "image": "mutcd_w2_2l.png",
+    "description": "W2-2L Side road (left)",
+    "description_ru": "W2-2L Боковая дорога (налево)",
+    "description_es": "W2-2L Carretera secundaria (a la izquierda)"
+  },
+  {
+    "image": "mutcd_w2_3r.png",
+    "description": "W2-3R Side road at an acute angle (right)",
+    "description_ru": "W2-3R Боковая дорога под острым углом (направо)",
+    "description_es": "W2-3R Carretera secundaria en ángulo agudo (a la derecha)"
+  },
+  {
+    "image": "mutcd_w2_3l.png",
+    "description": "W2-3L Side road at an acute angle (left)",
+    "description_ru": "W2-3L Боковая дорога под острым углом (налево)",
+    "description_es": "W2-3L Carretera secundaria en ángulo agudo (a la izquierda)"
+  },
+  {
+    "image": "mutcd_w2_3ar.png",
+    "description": "W2-3aR Side road at an obtuse angle (right)",
+    "description_ru": "W2-3aR Боковая дорога под тупым углом (направо)",
+    "description_es": "W2-3aR Carretera secundaria en ángulo obtuso (a la derecha)"
+  },
+  {
+    "image": "mutcd_w2_3al.png",
+    "description": "W2-3aL Side road at an obtuse angle (left)",
+    "description_ru": "W2-3aL Боковая дорога под тупым углом (налево)",
+    "description_es": "W2-3aL Carretera secundaria en ángulo obtuso (a la izquierda)"
+  },
+  {
+    "image": "mutcd_w2_4.png",
+    "description": "W2-4 T-intersection",
+    "description_ru": "W2-4 Т-образный перекресток",
+    "description_es": "W2-4 Intersección en T"
+  },
+  {
+    "image": "mutcd_w2_5.png",
+    "description": "W2-5 Y-intersection",
+    "description_ru": "W2-5 Y-образный перекресток",
+    "description_es": "W2-5 Intersección en Y"
+  },
+  {
+    "image": "mutcd_w2_6.png",
+    "description": "W2-6 Roundabout",
+    "description_ru": "W2-6 Кольцевая развязка",
+    "description_es": "W2-6 Glorieta"
+  },
+  {
+    "image": "mutcd_w2_7r.png",
+    "description": "W2-7R Offset side roads (right and left)",
+    "description_ru": "W2-7R Смещенные боковые дороги (направо и налево)",
+    "description_es": "W2-7R Carreteras secundarias desplazadas (derecha e izquierda)"
+  },
+  {
+    "image": "mutcd_w2_7l.png",
+    "description": "W2-7L Offset side roads (left and right)",
+    "description_ru": "W2-7L Смещенные боковые дороги (налево и направо)",
+    "description_es": "W2-7L Carreteras secundarias desplazadas (izquierda y derecha)"
+  },
+  {
+    "image": "mutcd_w2_8r.png",
+    "description": "W2-8R Double side roads (right)",
+    "description_ru": "W2-8R Двойные боковые дороги (направо)",
+    "description_es": "W2-8R Doble carretera secundaria (a la derecha)"
+  },
+  {
+    "image": "mutcd_w2_8l.png",
+    "description": "W2-8L Double side roads (left)",
+    "description_ru": "W2-8L Двойные боковые дороги (налево)",
+    "description_es": "W2-8L Doble carretera secundaria (a la izquierda)"
+  },
+  {
+    "image": "mutcd_w2_10.png",
+    "description": "W2-10 Traffic Entering When Flashing",
+    "description_ru": "W2-10 Движение при мигающем сигнале",
+    "description_es": "W2-10 Tráfico entrando cuando parpadea"
+  },
+  {
+    "image": "mutcd_w2_11.png",
+    "description": "W2-11 Traffic Approaching When Flashing",
+    "description_ru": "W2-11 Движение приближается при мигающем сигнале",
+    "description_es": "W2-11 Tráfico acercándose cuando parpadea"
+  },
+  {
+    "image": "mutcd_w3_1.png",
+    "description": "W3-1 Stop sign ahead",
+    "description_ru": "W3-1 Знак остановки впереди",
+    "description_es": "W3-1 Señal de alto adelante"
+  },
+  {
+    "image": "mutcd_w3_2.png",
+    "description": "W3-2 Yield sign ahead",
+    "description_ru": "W3-2 Знак уступи дорогу впереди",
+    "description_es": "W3-2 Señal de ceda el paso adelante"
+  },
+  {
+    "image": "mutcd_w3_3.png",
+    "description": "W3-3 Traffic light ahead",
+    "description_ru": "W3-3 Светофор впереди",
+    "description_es": "W3-3 Semáforo adelante"
+  },
+  {
+    "image": "mutcd_w3_4.png",
+    "description": "W3-4 Be prepared to stop",
+    "description_ru": "W3-4 Будьте готовы остановиться",
+    "description_es": "W3-4 Prepárese para detenerse"
+  },
+  {
+    "image": "mutcd_w3_5.png",
+    "description": "W3-5 Speed limit ahead",
+    "description_ru": "W3-5 Ограничение скорости впереди",
+    "description_es": "W3-5 Límite de velocidad adelante"
+  },
+  {
+    "image": "mutcd_w3_5a.png",
+    "description": "W3-5a Speed zone ahead",
+    "description_ru": "W3-5a Зона ограничения скорости впереди",
+    "description_es": "W3-5a Zona de velocidad adelante"
+  },
+  {
+    "image": "mutcd_w3_5b.png",
+    "description": "W3-5b Variable Speed Zone Ahead",
+    "description_ru": "W3-5b Зона переменной скорости впереди",
+    "description_es": "W3-5b Zona de velocidad variable adelante"
+  },
+  {
+    "image": "mutcd_w3_5c.png",
+    "description": "W3-5c Truck Speed Zone Ahead",
+    "description_ru": "W3-5c Зона ограничения скорости для грузовиков впереди",
+    "description_es": "W3-5c Zona de velocidad para camiones adelante"
+  },
+  {
+    "image": "mutcd_w3_6.png",
+    "description": "W3-6 Draw bridge ahead",
+    "description_ru": "W3-6 Подъемный мост впереди",
+    "description_es": "W3-6 Puente levadizo adelante"
+  },
+  {
+    "image": "mutcd_w3_7.png",
+    "description": "W3-7 Ramp meter ahead",
+    "description_ru": "W3-7 Метрическая система на съезде впереди",
+    "description_es": "W3-7 Medidor de rampa adelante"
+  },
+  {
+    "image": "mutcd_w3_8.png",
+    "description": "W3-8 Ramp metered when flashing",
+    "description_ru": "W3-8 Сигнализация съезда включена",
+    "description_es": "W3-8 Rampa medida cuando parpadea"
+  },
+  {
+    "image": "mutcd_w3_9.png",
+    "description": "W3-9 Traffic Using Shoulder (times and days)",
+    "description_ru": "W3-9 Движение по обочине (время и дни)",
+    "description_es": "W3-9 Tráfico usando el arcén (horarios y días)"
+  },
+  {
+    "image": "mutcd_w4_1r.png",
+    "description": "W4-1R Merge (right)",
+    "description_ru": "W4-1R Слияние (направо)",
+    "description_es": "W4-1R Fusión (a la derecha)"
+  },
+  {
+    "image": "mutcd_w4_1l.png",
+    "description": "W4-1L Merge (left)",
+    "description_ru": "W4-1L Слияние (налево)",
+    "description_es": "W4-1L Fusión (a la izquierda)"
+  },
+  {
+    "image": "mutcd_w4_2r.png",
+    "description": "W4-2R Lane ends (right)",
+    "description_ru": "W4-2R Конец полосы (направо)",
+    "description_es": "W4-2R Fin de carril (a la derecha)"
+  },
+  {
+    "image": "mutcd_w4_2l.png",
+    "description": "W4-2L Lane ends (left)",
+    "description_ru": "W4-2L Конец полосы (налево)",
+    "description_es": "W4-2L Fin de carril (a la izquierda)"
+  },
+  {
+    "image": "mutcd_w4_3r.png",
+    "description": "W4-3R Added right lane",
+    "description_ru": "W4-3R Дополнительная полоса справа",
+    "description_es": "W4-3R Carril adicional a la derecha"
+  },
+  {
+    "image": "mutcd_w4_3l.png",
+    "description": "W4-3L Added left lane",
+    "description_ru": "W4-3L Дополнительная полоса слева",
+    "description_es": "W4-3L Carril adicional a la izquierda"
+  },
+  {
+    "image": "mutcd_w4_4p.png",
+    "description": "W4-4P Cross traffic does not stop",
+    "description_ru": "W4-4P Пересекающийся транспорт не останавливается",
+    "description_es": "W4-4P El tráfico cruzado no se detiene"
+  },
+  {
+    "image": "mutcd_w4_4apr.png",
+    "description": "W4-4aPR Traffic from right does not stop",
+    "description_ru": "W4-4aPR Трафик справа не останавливается",
+    "description_es": "W4-4aPR El tráfico desde la derecha no se detiene"
+  },
+  {
+    "image": "mutcd_w4_4ap.png",
+    "description": "W4-4aPL Traffic from left does not stop",
+    "description_ru": "W4-4aPL Трафик слева не останавливается",
+    "description_es": "W4-4aPL El tráfico desde la izquierda no se detiene"
+  },
+  {
+    "image": "mutcd_w4_4bp.png",
+    "description": "W4-4bP Oncoming traffic does not stop",
+    "description_ru": "W4-4bP Встречный трафик не останавливается",
+    "description_es": "W4-4bP El tráfico en sentido contrario no se detiene"
+  },
+  {
+    "image": "mutcd_w4_5r.png",
+    "description": "W4-5R Merge right (entering roadway)",
+    "description_ru": "W4-5R Слияние направо (въезд на дорогу)",
+    "description_es": "W4-5R Fusión a la derecha (entrada a la vía)"
+  },
+  {
+    "image": "mutcd_w4_5l.png",
+    "description": "W4-5L Merge left (entering roadway)",
+    "description_ru": "W4-5L Слияние налево (въезд на дорогу)",
+    "description_es": "W4-5L Fusión a la izquierda (entrada a la vía)"
+  },
+  {
+    "image": "mutcd_w4_5ap.png",
+    "description": "W4-5aP No merge area",
+    "description_ru": "W4-5aP Нет зоны слияния",
+    "description_es": "W4-5aP Sin área de fusión"
+  },
+  {
+    "image": "mutcd_w4_6r.png",
+    "description": "W4-6R Added right lane (entering roadway)",
+    "description_ru": "W4-6R Дополнительная полоса справа (въезд на дорогу)",
+    "description_es": "W4-6R Carril adicional a la derecha (entrada a la vía)"
+  },
+  {
+    "image": "mutcd_w4_6l.png",
+    "description": "W4-6L Added left lane (entering roadway)",
+    "description_ru": "W4-6L Дополнительная полоса слева (въезд на дорогу)",
+    "description_es": "W4-6L Carril adicional a la izquierda (entrada a la vía)"
+  },
+  {
+    "image": "mutcd_w4_7r.png",
+    "description": "W4-7R Heavy merge from right",
+    "description_ru": "W4-7R Интенсивное слияние справа",
+    "description_es": "W4-7R Fusión intensa desde la derecha"
+  },
+  {
+    "image": "mutcd_w4_7l.png",
+    "description": "W4-7L Heavy merge from left",
+    "description_ru": "W4-7L Интенсивное слияние слева",
+    "description_es": "W4-7L Fusión intensa desde la izquierda"
+  },
+  {
+    "image": "mutcd_w4_8.png",
+    "description": "W4-8 Single lane transition",
+    "description_ru": "W4-8 Переход на одну полосу",
+    "description_es": "W4-8 Transición a un solo carril"
+  },
+  {
+    "image": "mutcd_w5_1.png",
+    "description": "W5-1 Road narrows",
+    "description_ru": "W5-1 Дорога сужается",
+    "description_es": "W5-1 Carretera se estrecha"
+  },
+  {
+    "image": "mutcd_w5_2.png",
+    "description": "W5-2 Narrow bridge",
+    "description_ru": "W5-2 Узкий мост",
+    "description_es": "W5-2 Puente estrecho"
+  },
+  {
+    "image": "mutcd_w5_2a.png",
+    "description": "W5-2a Narrow Underpass",
+    "description_ru": "W5-2a Узкий подземный переход",
+    "description_es": "W5-2a Paso subterráneo estrecho"
+  },
+  {
+    "image": "mutcd_w5_3.png",
+    "description": "W5-3 One lane bridge",
+    "description_ru": "W5-3 Однополосный мост",
+    "description_es": "W5-3 Puente de un solo carril"
+  },
+  {
+    "image": "mutcd_w5_3a.png",
+    "description": "W5-3a One lane underpass",
+    "description_ru": "W5-3a Однополосный подземный переход",
+    "description_es": "W5-3a Paso subterráneo de un solo carril"
+  },
+  {
+    "image": "mutcd_w5_4.png",
+    "description": "W5-4 Ramp narrows",
+    "description_ru": "W5-4 Полоса сужается",
+    "description_es": "W5-4 La rampa se estrecha"
+  },
+  {
+    "image": "mutcd_w5_4a.png",
+    "description": "W5-4a Path narrows",
+    "description_ru": "W5-4a Тропа сужается",
+    "description_es": "W5-4a El camino se estrecha"
+  },
+  {
+    "image": "mutcd_w6_1.png",
+    "description": "W6-1 Divided highway begins",
+    "description_ru": "W6-1 Начало разделенной дороги",
+    "description_es": "W6-1 Comienza la carretera dividida"
+  },
+  {
+    "image": "mutcd_w6_2.png",
+    "description": "W6-2 Divided highway ends",
+    "description_ru": "W6-2 Конец разделенной дороги",
+    "description_es": "W6-2 Fin de la carretera dividida"
+  },
+  {
+    "image": "mutcd_w6_3.png",
+    "description": "W6-3 Two-way traffic",
+    "description_ru": "W6-3 Двухстороннее движение",
+    "description_es": "W6-3 Tráfico en ambos sentidos"
+  },
+  {
+    "image": "mutcd_w6_5.png",
+    "description": "W6-5 Two-way traffic (3-Lane, two lanes in the opposing direction)",
+    "description_ru": "W6-5 Двухстороннее движение (3 полосы, две в противоположном направлении)",
+    "description_es": "W6-5 Tráfico en ambos sentidos (3 carriles, dos en dirección opuesta)"
+  },
+  {
+    "image": "mutcd_w6_5a.png",
+    "description": "W6-5a Two-way traffic (3-Lane, one lane in the opposing direction)",
+    "description_ru": "W6-5a Двухстороннее движение (3 полосы, одна в противоположном направлении)",
+    "description_es": "W6-5a Tráfico en ambos sentidos (3 carriles, uno en dirección opuesta)"
+  },
+  {
+    "image": "mutcd_w7_1.png",
+    "description": "W7-1 Steep grade/hill",
+    "description_ru": "W7-1 Крутой склон/холм",
+    "description_es": "W7-1 Pendiente empinada/colina"
+  },
+  {
+    "image": "mutcd_w7_2p.png",
+    "description": "W7-2P Use low gear",
+    "description_ru": "W7-2P Используйте низшую передачу",
+    "description_es": "W7-2P Use baja marcha"
+  },
+  {
+    "image": "mutcd_w7_2bp.png",
+    "description": "W7-2bP Trucks use lower gear",
+    "description_ru": "W7-2bP Грузовики используют низшую передачу",
+    "description_es": "W7-2bP Los camiones usan marcha baja"
+  },
+  {
+    "image": "mutcd_w7_3p.png",
+    "description": "W7-3P (percent) grade ahead",
+    "description_ru": "W7-3P (процент) наклон впереди",
+    "description_es": "W7-3P (porcentaje) pendiente adelante"
+  },
+  {
+    "image": "mutcd_w7_3ap.png",
+    "description": "W7-3aP Next (distance) miles ahead",
+    "description_ru": "W7-3aP Следующие (расстояние) мили впереди",
+    "description_es": "W7-3aP Siguientes (distancia) millas adelante"
+  },
+  {
+    "image": "mutcd_w7_3bp.png",
+    "description": "W7-3bP (percent) grade (distance) miles ahead",
+    "description_ru": "W7-3bP (процент) наклон (расстояние) мили впереди",
+    "description_es": "W7-3bP (porcentaje) pendiente (distancia) millas adelante"
+  },
+  {
+    "image": "mutcd_w7_4.png",
+    "description": "W7-4 Runaway truck ramp (distance)",
+    "description_ru": "W7-4 Рамп для безконтрольных грузовиков (расстояние)",
+    "description_es": "W7-4 Rampa para camiones fuera de control (distancia)"
+  },
+  {
+    "image": "mutcd_w7_4b.png",
+    "description": "W7-4b Runaway truck ramp",
+    "description_ru": "W7-4b Рамп для безконтрольных грузовиков",
+    "description_es": "W7-4b Rampa para camiones fuera de control"
+  },
+  {
+    "image": "mutcd_w7_4c.png",
+    "description": "W7-4c Truck escape ramp",
+    "description_ru": "W7-4c Рамп для спасения грузовиков",
+    "description_es": "W7-4c Rampa de escape para camiones"
+  },
+  {
+    "image": "mutcd_w7_4dp.png",
+    "description": "W7-4dP Sand",
+    "description_ru": "W7-4dP Песок",
+    "description_es": "W7-4dP Arena"
+  },
+  {
+    "image": "mutcd_w7_4ep.png",
+    "description": "W7-4eP Gravel",
+    "description_ru": "W7-4eP Гравий",
+    "description_es": "W7-4eP Grava"
+  },
+  {
+    "image": "mutcd_w7_4fp.png",
+    "description": "W7-4fP Paved",
+    "description_ru": "W7-4fP Асфальтированное",
+    "description_es": "W7-4fP Pavimentado"
+  },
+  {
+    "image": "mutcd_w7_5.png",
+    "description": "W7-5 Hill (bicycle)",
+    "description_ru": "W7-5 Холм (для велосипедистов)",
+    "description_es": "W7-5 Colina (para bicicletas)"
+  },
+  {
+    "image": "mutcd_w7_6.png",
+    "description": "W7-6 Hill blocks view",
+    "description_ru": "W7-6 Холм ограничивает обзор",
+    "description_es": "W7-6 Colina bloquea la vista"
+  },
+  {
+    "image": "mutcd_w8_1.png",
+    "description": "W8-1 Bump",
+    "description_ru": "W8-1 Кочки",
+    "description_es": "W8-1 Bache"
+  },
+  {
+    "image": "mutcd_w8_2.png",
+    "description": "W8-2 Dip",
+    "description_ru": "W8-2 Низина",
+    "description_es": "W8-2 Hondonada"
+  },
+  {
+    "image": "mutcd_w8_3.png",
+    "description": "W8-3 Pavement ends",
+    "description_ru": "W8-3 Конец покрытия",
+    "description_es": "W8-3 Fin del pavimento"
+  },
+  {
+    "image": "mutcd_w8_4.png",
+    "description": "W8-4 Soft shoulder",
+    "description_ru": "W8-4 Мягкая обочина",
+    "description_es": "W8-4 Arrollo blando"
+  },
+  {
+    "image": "mutcd_w8_5.png",
+    "description": "W8-5 Slippery when wet ahead",
+    "description_ru": "W8-5 Скользко при влажности впереди",
+    "description_es": "W8-5 Resbaladizo cuando esté mojado adelante"
+  },
+  {
+    "image": "mutcd_w8_5p.png",
+    "description": "W8-5P When wet",
+    "description_ru": "W8-5P Когда мокро",
+    "description_es": "W8-5P Cuando esté mojado"
+  },
+  {
+    "image": "mutcd_w8_5ap.png",
+    "description": "W8-5aP Ice",
+    "description_ru": "W8-5aP Лед",
+    "description_es": "W8-5aP Hielo"
+  },
+  {
+    "image": "mutcd_w8_5bp.png",
+    "description": "W8-5bP Steel deck",
+    "description_ru": "W8-5bP Стальная поверхность",
+    "description_es": "W8-5bP Puente de acero"
+  },
+  {
+    "image": "mutcd_w8_5cp.png",
+    "description": "W8-5cP Excess oil",
+    "description_ru": "W8-5cP Избыточное масло",
+    "description_es": "W8-5cP Aceite en exceso"
+  },
+  {
+    "image": "mutcd_w8_6.png",
+    "description": "W8-6 Truck crossing",
+    "description_ru": "W8-6 Перехождение грузовиков",
+    "description_es": "W8-6 Cruce de camiones"
+  },
+  {
+    "image": "mutcd_w8_7.png",
+    "description": "W8-7 Loose gravel",
+    "description_ru": "W8-7 Сыпучий гравий",
+    "description_es": "W8-7 Grava suelta"
+  },
+  {
+    "image": "mutcd_w8_8.png",
+    "description": "W8-8 Rough road",
+    "description_ru": "W8-8 Неровная дорога",
+    "description_es": "W8-8 Camino áspero"
+  },
+  {
+    "image": "mutcd_w8_9.png",
+    "description": "W8-9 Low shoulder",
+    "description_ru": "W8-9 Низкая обочина",
+    "description_es": "W8-9 Arrollo bajo"
+  },
+  {
+    "image": "mutcd_w8_10.png",
+    "description": "W8-10 Bicycle slippery when wet ahead",
+    "description_ru": "W8-10 Скользко для велосипедистов впереди",
+    "description_es": "W8-10 Resbaladizo para bicicletas cuando esté mojado adelante"
+  },
+  {
+    "image": "mutcd_w8_10p.png",
+    "description": "W8-10P Slippery when wet",
+    "description_ru": "W8-10P Скользко, когда мокро",
+    "description_es": "W8-10P Resbaladizo cuando esté mojado"
+  },
+  {
+    "image": "mutcd_w8_11.png",
+    "description": "W8-11 Uneven lanes",
+    "description_ru": "W8-11 Неровные полосы",
+    "description_es": "W8-11 Carriles desiguales"
+  },
+  {
+    "image": "mutcd_w8_12.png",
+    "description": "W8-12 No center line",
+    "description_ru": "W8-12 Нет центральной линии",
+    "description_es": "W8-12 Sin línea central"
+  },
+  {
+    "image": "mutcd_w8_13.png",
+    "description": "W8-13 Bridge ices before road",
+    "description_ru": "W8-13 Мост замерзает раньше дороги",
+    "description_es": "W8-13 El puente se congela antes que la carretera"
+  },
+  {
+    "image": "mutcd_w8_14.png",
+    "description": "W8-14 Fallen rocks",
+    "description_ru": "W8-14 Падение камней",
+    "description_es": "W8-14 Rocas caídas"
+  },
+  {
+    "image": "mutcd_w8_15.png",
+    "description": "W8-15 Grooved pavement",
+    "description_ru": "W8-15 Ребристое покрытие",
+    "description_es": "W8-15 Pavimento estriado"
+  },
+  {
+    "image": "mutcd_w8_15ap.png",
+    "description": "W8-15aP Motorcycle",
+    "description_ru": "W8-15aP Мотоцикл",
+    "description_es": "W8-15aP Motocicleta"
+  },
+  {
+    "image": "mutcd_w8_16.png",
+    "description": "W8-16 Metal bridge deck",
+    "description_ru": "W8-16 Металлическая мостовая поверхность",
+    "description_es": "W8-16 Puente de metal"
+  },
+  {
+    "image": "mutcd_w8_17r.png",
+    "description": "W8-17R Right shoulder drop-off ahead",
+    "description_ru": "W8-17R Сплошной обрыв обочины справа впереди",
+    "description_es": "W8-17R Desprendimiento en el arcén derecho adelante"
+  },
+  {
+    "image": "mutcd_w8_17l.png",
+    "description": "W8-17L Left shoulder drop-off ahead",
+    "description_ru": "W8-17L Обрыв обочины слева впереди",
+    "description_es": "W8-17L Desprendimiento en el arcén izquierdo adelante"
+  },
+  {
+    "image": "mutcd_w8_17p.png",
+    "description": "W8-17P Shoulder drop-off",
+    "description_ru": "W8-17P Обрыв обочины",
+    "description_es": "W8-17P Desprendimiento del arcén"
+  },
+  {
+    "image": "mutcd_w8_18.png",
+    "description": "W8-18 Road may flood",
+    "description_ru": "W8-18 Возможен разлив дороги",
+    "description_es": "W8-18 Posible inundación en la carretera"
+  },
+  {
+    "image": "mutcd_w8_19.png",
+    "description": "W8-19 Depth gauge",
+    "description_ru": "W8-19 Индикатор глубины",
+    "description_es": "W8-19 Medidor de profundidad"
+  },
+  {
+    "image": "mutcd_w8_21.png",
+    "description": "W8-21 Gusty Winds Area",
+    "description_ru": "W8-21 Район сильного ветра",
+    "description_es": "W8-21 Zona de vientos fuertes"
+  },
+  {
+    "image": "mutcd_w8_22.png",
+    "description": "W8-22 Fog area",
+    "description_ru": "W8-22 Район тумана",
+    "description_es": "W8-22 Zona de niebla"
+  },
+  {
+    "image": "mutcd_w8_23.png",
+    "description": "W8-23 No shoulder ahead",
+    "description_ru": "W8-23 Впереди нет обочины",
+    "description_es": "W8-23 Sin arcén adelante"
+  },
+  {
+    "image": "mutcd_w8_25.png",
+    "description": "W8-25 Shoulder ends",
+    "description_ru": "W8-25 Обочина заканчивается",
+    "description_es": "W8-25 Fin del arcén"
+  },
+  {
+    "image": "mutcd_w8_26.png",
+    "description": "W8-26 Road Ends (distance)",
+    "description_ru": "W8-26 Конец дороги (расстояние)",
+    "description_es": "W8-26 Fin del camino (distancia)"
+  },
+  {
+    "image": "mutcd_w8_26a.png",
+    "description": "W8-26a Street Ends (distance)",
+    "description_ru": "W8-26a Конец улицы (расстояние)",
+    "description_es": "W8-26a Fin de la calle (distancia)"
+  },
+  {
+    "image": "mutcd_w9_1.png",
+    "description": "W9-1R Right lane ends",
+    "description_ru": "W9-1R Правая полоса заканчивается",
+    "description_es": "W9-1R Carril derecho termina"
+  },
+  {
+    "image": "mutcd_w9_1l.png",
+    "description": "W9-1L Lane lane ends",
+    "description_ru": "W9-1L Левая полоса заканчивается",
+    "description_es": "W9-1L Carril izquierdo termina"
+  },
+  {
+    "image": "mutcd_w9_4.png",
+    "description": "W9-4 Lanes Merge",
+    "description_ru": "W9-4 Слияние полос",
+    "description_es": "W9-4 Fusión de carriles"
+  },
+  {
+    "image": "mutcd_w9_5.png",
+    "description": "W9-5 Bicycle Lane Ends",
+    "description_ru": "W9-5 Конец велосипедной дорожки",
+    "description_es": "W9-5 Fin del carril bici"
+  },
+  {
+    "image": "mutcd_w9_5a.png",
+    "description": "W9-5a Bicycles Merging",
+    "description_ru": "W9-5a Слияние с велосипедистами",
+    "description_es": "W9-5a Fusión de bicicletas"
+  },
+  {
+    "image": "mutcd_w9_6.png",
+    "description": "W9-6 Pay toll (distance) cars (price)",
+    "description_ru": "W9-6 Платите за проезд (расстояние) легковые (цена)",
+    "description_es": "W9-6 Pague peaje (distancia) autos (precio)"
+  },
+  {
+    "image": "mutcd_w9_6a.png",
+    "description": "W9-6a Stop Ahead Pay Toll Cars (price)",
+    "description_ru": "W9-6a Остановка впереди – платите за проезд (цена)",
+    "description_es": "W9-6a Alto adelante – Pague peaje autos (precio)"
+  },
+  {
+    "image": "mutcd_w9_6bp.png",
+    "description": "W9-6bP Pay toll (distance) cars (price)",
+    "description_ru": "W9-6bP Платите за проезд (расстояние) легковые (цена)",
+    "description_es": "W9-6bP Pague peaje (distancia) autos (precio)"
+  },
+  {
+    "image": "mutcd_w9_6cp.png",
+    "description": "W9-6cP Stop Ahead Pay Toll",
+    "description_ru": "W9-6cP Остановка впереди — платите за проезд",
+    "description_es": "W9-6cP Alto adelante — pague peaje"
+  },
+  {
+    "image": "mutcd_w9_6dp.png",
+    "description": "W9-6dP Stop Ahead Pay Toll",
+    "description_ru": "W9-6dP Остановка впереди — платите за проезд",
+    "description_es": "W9-6dP Alto adelante — pague peaje"
+  },
+  {
+    "image": "mutcd_w9_6e.png",
+    "description": "W9-6e Take Ticket (distance)",
+    "description_ru": "W9-6e Возьмите билет (расстояние)",
+    "description_es": "W9-6e Tome boleto (distancia)"
+  },
+  {
+    "image": "mutcd_w9_6f.png",
+    "description": "W9-6f Stop Ahead Take Ticket",
+    "description_ru": "W9-6f Остановка впереди — возьмите билет",
+    "description_es": "W9-6f Alto adelante — tome boleto"
+  },
+  {
+    "image": "mutcd_w9_6gp.png",
+    "description": "W9-6gP Take Ticket (distance)",
+    "description_ru": "W9-6gP Возьмите билет (расстояние)",
+    "description_es": "W9-6gP Tome boleto (distancia)"
+  },
+  {
+    "image": "mutcd_w9_6hp.png",
+    "description": "W9-6hP Stop Ahead Take Ticket",
+    "description_ru": "W9-6hP Остановка впереди — возьмите билет",
+    "description_es": "W9-6hP Alto adelante — tome boleto"
+  },
+  {
+    "image": "mutcd_w9_7r.png",
+    "description": "W9-7R Right lane for exit only",
+    "description_ru": "W9-7R Правая полоса — только для съезда",
+    "description_es": "W9-7R Carril derecho solo para salida"
+  },
+  {
+    "image": "mutcd_w9_7l.png",
+    "description": "W9-7L Left lane for exit only",
+    "description_ru": "W9-7L Левая полоса — только для съезда",
+    "description_es": "W9-7L Carril izquierdo solo para salida"
+  },
+  {
+    "image": "mutcd_w10_1.png",
+    "description": "W10-1 Railroad crossing ahead",
+    "description_ru": "W10-1 Впереди железнодорожный переезд",
+    "description_es": "W10-1 Cruce ferroviario adelante"
+  },
+  {
+    "image": "mutcd_w10_1ap.png",
+    "description": "W10-1aP Exempt",
+    "description_ru": "W10-1aP Освобождено (например, от остановки)",
+    "description_es": "W10-1aP Exento"
+  },
+  {
+    "image": "mutcd_w10_2r.png",
+    "description": "W10-2R Crossroads with parallel tracks (right)",
+    "description_ru": "W10-2R Перекресток с параллельными путями (справа)",
+    "description_es": "W10-2R Cruce con vías paralelas (derecha)"
+  },
+  {
+    "image": "mutcd_w10_2l.png",
+    "description": "W10-2L Crossroads with parallel tracks (left)",
+    "description_ru": "W10-2L Перекресток с параллельными путями (слева)",
+    "description_es": "W10-2L Cruce con vías paralelas (izquierda)"
+  },
+  {
+    "image": "mutcd_w10_3r.png",
+    "description": "W10-3R Side road with parallel tracks (right)",
+    "description_ru": "W10-3R Боковая дорога с параллельными путями (справа)",
+    "description_es": "W10-3R Camino lateral con vías paralelas (derecha)"
+  },
+  {
+    "image": "mutcd_w10_3l.png",
+    "description": "W10-3L Side road with parallel tracks (left)",
+    "description_ru": "W10-3L Боковая дорога с параллельными путями (слева)",
+    "description_es": "W10-3L Camino lateral con vías paralelas (izquierda)"
+  },
+  {
+    "image": "mutcd_w10_4r.png",
+    "description": "W10-4R T intersection with parallel tracks (right)",
+    "description_ru": "W10-4R Т-образный перекресток с параллельными путями (справа)",
+    "description_es": "W10-4R Intersección en T con vías paralelas (derecha)"
+  },
+  {
+    "image": "mutcd_w10_4l.png",
+    "description": "W10-4L T intersection with parallel tracks (left)",
+    "description_ru": "W10-4L Т-образный перекресток с параллельными путями (слева)",
+    "description_es": "W10-4L Intersección en T con vías paralelas (izquierda)"
+  },
+  {
+    "image": "mutcd_w10_5.png",
+    "description": "W10-5 Low ground clearance railroad crossing",
+    "description_ru": "W10-5 Железнодорожный переезд с низким клиренсом",
+    "description_es": "W10-5 Cruce ferroviario con poca distancia al suelo"
+  },
+  {
+    "image": "mutcd_w10_5p.png",
+    "description": "W10-5P Low ground clearance plaque",
+    "description_ru": "W10-5P Табличка: низкий клиренс",
+    "description_es": "W10-5P Placa: poca distancia al suelo"
+  },
+  {
+    "image": "mutcd_w10_7.png",
+    "description": "W10-7 Light rail transit approaching sign (Activated, blank-out)",
+    "description_ru": "W10-7 Приближается легкорельсовый транспорт (знак активируется)",
+    "description_es": "W10-7 Señal de tranvía ligero aproximándose (activado)"
+  },
+  {
+    "image": "mutcd_w10_8.png",
+    "description": "W10-8 Trains may exceed (speed)",
+    "description_ru": "W10-8 Поезда могут превышать (скорость)",
+    "description_es": "W10-8 Los trenes pueden exceder (velocidad)"
+  },
+  {
+    "image": "mutcd_w10_9.png",
+    "description": "W10-9 No train horn warning",
+    "description_ru": "W10-9 Без звукового сигнала поезда",
+    "description_es": "W10-9 Sin bocina de tren"
+  },
+  {
+    "image": "mutcd_w10_9p.png",
+    "description": "W10-9P No train horn plaque",
+    "description_ru": "W10-9P Табличка: без звукового сигнала поезда",
+    "description_es": "W10-9P Placa: sin bocina de tren"
+  },
+  {
+    "image": "mutcd_w10_11.png",
+    "description": "W10-11 Storage space symbol",
+    "description_ru": "W10-11 Символ места ожидания перед переездом",
+    "description_es": "W10-11 Símbolo de espacio de almacenamiento"
+  },
+  {
+    "image": "mutcd_w10_11a.png",
+    "description": "W10-11a XX feet between tracks and highway",
+    "description_ru": "W10-11a XX футов между рельсами и дорогой",
+    "description_es": "W10-11a XX pies entre las vías y la carretera"
+  },
+  {
+    "image": "mutcd_w10_11b.png",
+    "description": "W10-11b XX feet between highway and tracks behind you",
+    "description_ru": "W10-11b XX футов между дорогой и рельсами позади вас",
+    "description_es": "W10-11b XX pies entre la carretera y las vías detrás de usted"
+  },
+  {
+    "image": "mutcd_w10_12l.png",
+    "description": "W10-12R Skewed crossing ahead (right)",
+    "description_ru": "W10-12R Впереди диагональный переезд (справа)",
+    "description_es": "W10-12R Cruce sesgado adelante (derecha)"
+  },
+  {
+    "image": "mutcd_w10_12r.png",
+    "description": "W10-12L Skewed crossing ahead (left)",
+    "description_ru": "W10-12L Впереди диагональный переезд (слева)",
+    "description_es": "W10-12L Cruce sesgado adelante (izquierda)"
+  },
+  {
+    "image": "mutcd_w10_13p.png",
+    "description": "W10-13P No gates or lights",
+    "description_ru": "W10-13P Без шлагбаума и сигналов",
+    "description_es": "W10-13P Sin barreras ni luces"
+  },
+  {
+    "image": "mutcd_w10_14p.png",
+    "description": "W10-14P Next crossing",
+    "description_ru": "W10-14P Следующий переезд",
+    "description_es": "W10-14P Próximo cruce"
+  },
+  {
+    "image": "mutcd_w10_14ap.png",
+    "description": "W10-14aP Use next crossing",
+    "description_ru": "W10-14aP Используйте следующий переезд",
+    "description_es": "W10-14aP Use el próximo cruce"
+  },
+  {
+    "image": "mutcd_w10_15p.png",
+    "description": "W10-15P Rough crossing",
+    "description_ru": "W10-15P Неровный переезд",
+    "description_es": "W10-15P Cruce irregular"
+  },
+  {
+    "image": "mutcd_w10_16.png",
+    "description": "W10-16 Another train coming (Activated, Blank-Out)",
+    "description_ru": "W10-16 Приближается другой поезд (активируется)",
+    "description_es": "W10-16 Otro tren aproximándose (activado)"
+  },
+  {
+    "image": "mutcd_w10_21.png",
+    "description": "W10-21 Busway Crossing",
+    "description_ru": "W10-21 Пересечение автобусной полосы",
+    "description_es": "W10-21 Cruce de vía de autobuses"
+  },
+  {
+    "image": "mutcd_w10_21ap.png",
+    "description": "W10-21aP Signal Ahead",
+    "description_ru": "W10-21aP Впереди светофор",
+    "description_es": "W10-21aP Señal adelante"
+  },
+  {
+    "image": "mutcd_w11_1.png",
+    "description": "W11-1 Bicycle",
+    "description_ru": "W11-1 Велосипедисты",
+    "description_es": "W11-1 Bicicletas"
+  },
+  {
+    "image": "mutcd_w11_2.png",
+    "description": "W11-2 Pedestrians",
+    "description_ru": "W11-2 Пешеходы",
+    "description_es": "W11-2 Peatones"
+  },
+  {
+    "image": "mutcd_w11_3.png",
+    "description": "W11-3 Deer",
+    "description_ru": "W11-3 Олени",
+    "description_es": "W11-3 Venados"
+  },
+  {
+    "image": "mutcd_w11_4.png",
+    "description": "W11-4 Cattle",
+    "description_ru": "W11-4 Крупный рогатый скот",
+    "description_es": "W11-4 Ganado"
+  },
+  {
+    "image": "mutcd_w11_5.png",
+    "description": "W11-5 Farm vehicles",
+    "description_ru": "W11-5 Сельскохозяйственная техника",
+    "description_es": "W11-5 Vehículos agrícolas"
+  },
+  {
+    "image": "mutcd_w11_6.png",
+    "description": "W11-6 Snowmobile",
+    "description_ru": "W11-6 Снегоход",
+    "description_es": "W11-6 Moto de nieve"
+  },
+  {
+    "image": "mutcd_w11_7.png",
+    "description": "W11-7 Equestrian",
+    "description_ru": "W11-7 Верховая езда",
+    "description_es": "W11-7 Ecuestre"
+  },
+  {
+    "image": "mutcd_w11_8.png",
+    "description": "W11-8 Emergency vehicle",
+    "description_ru": "W11-8 Аварийные (спец) транспортные средства",
+    "description_es": "W11-8 Vehículo de emergencia"
+  },
+  {
+    "image": "mutcd_w11_9.png",
+    "description": "W11-9 Handicapped",
+    "description_ru": "W11-9 Инвалиды на дороге",
+    "description_es": "W11-9 Personas con discapacidad"
+  },
+  {
+    "image": "mutcd_w11_10.png",
+    "description": "W11-10 Truck",
+    "description_ru": "W11-10 Грузовики",
+    "description_es": "W11-10 Camiones"
+  },
+  {
+    "image": "mutcd_w11_11.png",
+    "description": "W11-11 Golf cart",
+    "description_ru": "W11-11 Гольф-кар",
+    "description_es": "W11-11 Carrito de golf"
+  },
+  {
+    "image": "mutcd_w11_12p.png",
+    "description": "W11-12P Emergency signal ahead",
+    "description_ru": "W11-12P Впереди аварийный сигнал",
+    "description_es": "W11-12P Señal de emergencia adelante"
+  },
+  {
+    "image": "mutcd_w11_14.png",
+    "description": "W11-14 Horse-drawn vehicles",
+    "description_ru": "W11-14 Повозки с лошадьми",
+    "description_es": "W11-14 Vehículos tirados por caballos"
+  },
+  {
+    "image": "mutcd_w11_15.png",
+    "description": "W11-15 Bicycle and pedestrians",
+    "description_ru": "W11-15 Велосипедисты и пешеходы",
+    "description_es": "W11-15 Bicicletas y peatones"
+  },
+  {
+    "image": "mutcd_w11_15p.png",
+    "description": "W11-15P Trail x-ing",
+    "description_ru": "W11-15P Пересечение тропы",
+    "description_es": "W11-15P Cruce de sendero"
+  },
+  {
+    "image": "mutcd_w11_15a.png",
+    "description": "W11-15a Trail crossing",
+    "description_ru": "W11-15a Пересечение тропы",
+    "description_es": "W11-15a Cruce de sendero"
+  },
+  {
+    "image": "mutcd_w11_16.png",
+    "description": "W11-16 Bear",
+    "description_ru": "W11-16 Медведь",
+    "description_es": "W11-16 Oso"
+  },
+  {
+    "image": "mutcd_w11_17.png",
+    "description": "W11-17 Sheep",
+    "description_ru": "W11-17 Овцы",
+    "description_es": "W11-17 Ovejas"
+  },
+  {
+    "image": "mutcd_w11_18.png",
+    "description": "W11-18 Ram",
+    "description_ru": "W11-18 Баран",
+    "description_es": "W11-18 Carnero"
+  },
+  {
+    "image": "mutcd_w11_19.png",
+    "description": "W11-19 Donkey",
+    "description_ru": "W11-19 Осёл",
+    "description_es": "W11-19 Burro"
+  },
+  {
+    "image": "mutcd_w11_20.png",
+    "description": "W11-20 Elk",
+    "description_ru": "W11-20 Лось",
+    "description_es": "W11-20 Alce"
+  },
+  {
+    "image": "mutcd_w11_21.png",
+    "description": "W11-21 Moose",
+    "description_ru": "W11-21 Лось",
+    "description_es": "W11-21 Alce"
+  },
+  {
+    "image": "mutcd_w11_22.png",
+    "description": "W11-22 Wild horse",
+    "description_ru": "W11-22 Дикая лошадь",
+    "description_es": "W11-22 Caballo salvaje"
+  },
+  {
+    "image": "mutcd_w12_1.png",
+    "description": "W12-1 Double arrow",
+    "description_ru": "W12-1 Двойная стрелка",
+    "description_es": "W12-1 Flecha doble"
+  },
+  {
+    "image": "mutcd_w12_2.png",
+    "description": "W12-2 Low clearance",
+    "description_ru": "W12-2 Низкий просвет",
+    "description_es": "W12-2 Altura limitada"
+  },
+  {
+    "image": "mutcd_w12_2a.png",
+    "description": "W12-2a Low Clearance (Overhead)",
+    "description_ru": "W12-2a Низкий просвет (над головой)",
+    "description_es": "W12-2a Altura limitada (superior)"
+  },
+  {
+    "image": "mutcd_w12_2b.png",
+    "description": "W12-2b Low Clearance (Overhead)",
+    "description_ru": "W12-2b Низкий просвет (над головой)",
+    "description_es": "W12-2b Altura limitada (superior)"
+  },
+  {
+    "image": "mutcd_w13_1p.png",
+    "description": "W13-1P Speed advisory",
+    "description_ru": "W13-1P Рекомендуемая скорость",
+    "description_es": "W13-1P Velocidad recomendada"
+  },
+  {
+    "image": "mutcd_w13_1ap.png",
+    "description": "W13-1aP Speed advisory Confirmation",
+    "description_ru": "W13-1aP Подтверждение рекомендуемой скорости",
+    "description_es": "W13-1aP Confirmación de velocidad recomendada"
+  },
+  {
+    "image": "mutcd_w13_2.png",
+    "description": "W13-2 Exit speed advisory",
+    "description_ru": "W13-2 Рекомендуемая скорость на съезде",
+    "description_es": "W13-2 Velocidad recomendada en salida"
+  },
+  {
+    "image": "mutcd_w13_3.png",
+    "description": "W13-3 Ramp speed advisory",
+    "description_ru": "W13-3 Рекомендуемая скорость на съездной рампе",
+    "description_es": "W13-3 Velocidad recomendada en rampa"
+  },
+  {
+    "image": "mutcd_w13_6.png",
+    "description": "W13-6 Exit speed advisory (270 degree loop curve)",
+    "description_ru": "W13-6 Рекомендуемая скорость на съезде (петля 270°)",
+    "description_es": "W13-6 Velocidad salida recomendada (curva de 270 grados)"
+  },
+  {
+    "image": "mutcd_w13_7.png",
+    "description": "W13-7 Ramp speed advisory (270 degree loop curve)",
+    "description_ru": "W13-7 Рекомендуемая скорость на рампе (петля 270°)",
+    "description_es": "W13-7 Velocidad rampa recomendada (curva de 270 grados)"
+  },
+  {
+    "image": "mutcd_w13_8.png",
+    "description": "W13-8 Exit speed advisory (hairpin curve)",
+    "description_ru": "W13-8 Рекомендуемая скорость на съезде (резкий поворот)",
+    "description_es": "W13-8 Velocidad salida recomendada (curva cerrada)"
+  },
+  {
+    "image": "mutcd_w13_9.png",
+    "description": "W13-9 Ramp speed advisory (hairpin curve)",
+    "description_ru": "W13-9 Рекомендуемая скорость на рампе (резкий поворот)",
+    "description_es": "W13-9 Velocidad rampa recomendada (curva cerrada)"
+  },
+  {
+    "image": "mutcd_w13_10.png",
+    "description": "W13-10 Exit speed advisory (turn)",
+    "description_ru": "W13-10 Рекомендуемая скорость на съезде (поворот)",
+    "description_es": "W13-10 Velocidad recomendada en salida (curva)"
+  },
+  {
+    "image": "mutcd_w13_11.png",
+    "description": "W13-11 Ramp speed advisory (turn)",
+    "description_ru": "W13-11 Рекомендуемая скорость на рампе (поворот)",
+    "description_es": "W13-11 Velocidad recomendada en rampa (curva)"
+  },
+  {
+    "image": "mutcd_w13_12.png",
+    "description": "W13-12 Exit speed advisory (truck rollover)",
+    "description_ru": "W13-12 Рекомендуемая скорость на съезде (опасность опрокидывания грузовика)",
+    "description_es": "W13-12 Velocidad salida recomendada (vuelco de camión)"
+  },
+  {
+    "image": "mutcd_w13_13.png",
+    "description": "W13-13 Ramp speed advisory (truck rollover)",
+    "description_ru": "W13-13 Рекомендуемая скорость на рампе (опасность опрокидывания грузовика)",
+    "description_es": "W13-13 Velocidad rampa recomendada (vuelco de camión)"
+  },
+  {
+    "image": "mutcd_w13_20.png",
+    "description": "W13-20 Variable Speed Feedback",
+    "description_ru": "W13-20 Отображение переменной скорости",
+    "description_es": "W13-20 Comentarios de velocidad variable"
+  },
+  {
+    "image": "mutcd_w13_20ap.png",
+    "description": "W13-20aP Variable Speed Feedback",
+    "description_ru": "W13-20aP Отображение переменной скорости",
+    "description_es": "W13-20aP Comentarios de velocidad variable"
+  },
+  {
+    "image": "mutcd_w14_1.png",
+    "description": "W14-1 Dead end",
+    "description_ru": "W14-1 Тупик",
+    "description_es": "W14-1 Calle sin salida"
+  },
+  {
+    "image": "mutcd_w14_1ar.png",
+    "description": "W14-1aR Dead end on the right",
+    "description_ru": "W14-1aR Тупик справа",
+    "description_es": "W14-1aR Calle sin salida a la derecha"
+  },
+  {
+    "image": "mutcd_w14_1al.png",
+    "description": "W14-1aL Dead end on the left",
+    "description_ru": "W14-1aL Тупик слева",
+    "description_es": "W14-1aL Calle sin salida a la izquierda"
+  },
+  {
+    "image": "mutcd_w14_2.png",
+    "description": "W14-2 No outlet",
+    "description_ru": "W14-2 Без выезда",
+    "description_es": "W14-2 Sin salida"
+  },
+  {
+    "image": "mutcd_w14_2ar.png",
+    "description": "W14-2aR No outlet on the right",
+    "description_ru": "W14-2aR Без выезда справа",
+    "description_es": "W14-2aR Sin salida a la derecha"
+  },
+  {
+    "image": "mutcd_w14_2al.png",
+    "description": "W14-2aL No outlet on the left",
+    "description_ru": "W14-2aL Без выезда слева",
+    "description_es": "W14-2aL Sin salida a la izquierda"
+  },
+  {
+    "image": "mutcd_w14_3.png",
+    "description": "W14-3 No passing zone",
+    "description_ru": "W14-3 Зона, где обгон запрещён",
+    "description_es": "W14-3 Zona de no adelantar"
+  },
+  {
+    "image": "mutcd_w15_1.png",
+    "description": "W15-1 Playground",
+    "description_ru": "W15-1 Детская площадка",
+    "description_es": "W15-1 Parque infantil"
+  },
+  {
+    "image": "mutcd_w16_1p.png",
+    "description": "W16-1P In Road",
+    "description_ru": "W16-1P На дороге",
+    "description_es": "W16-1P En la carretera"
+  },
+  {
+    "image": "mutcd_w16_1ap.png",
+    "description": "W16-1aP In Street",
+    "description_ru": "W16-1aP На улице",
+    "description_es": "W16-1aP En la calle"
+  },
+  {
+    "image": "mutcd_w16_2p.png",
+    "description": "W16-2P (distance) feet",
+    "description_ru": "W16-2P (расстояние) футов",
+    "description_es": "W16-2P (distancia) pies"
+  },
+  {
+    "image": "mutcd_w16_2ap.png",
+    "description": "W16-2aP (distance) feet",
+    "description_ru": "W16-2aP (расстояние) футов",
+    "description_es": "W16-2aP (distancia) pies"
+  },
+  {
+    "image": "mutcd_w16_3p.png",
+    "description": "W16-3P (distance) miles",
+    "description_ru": "W16-3P (расстояние) миль",
+    "description_es": "W16-3P (distancia) millas"
+  },
+  {
+    "image": "mutcd_w16_3ap.png",
+    "description": "W16-3aP (distance) miles",
+    "description_ru": "W16-3aP (расстояние) миль",
+    "description_es": "W16-3aP (distancia) millas"
+  },
+  {
+    "image": "mutcd_w16_4p.png",
+    "description": "W16-4P Next (distance) feet",
+    "description_ru": "W16-4P Следующие (расстояние) футов",
+    "description_es": "W16-4P Próximos (distancia) pies"
+  },
+  {
+    "image": "mutcd_w16_5pr.png",
+    "description": "W16-5PR Supplemental arrow to the right",
+    "description_ru": "W16-5PR Дополнительная стрелка направо",
+    "description_es": "W16-5PR Flecha suplementaria a la derecha"
+  },
+  {
+    "image": "mutcd_w16_5pl.png",
+    "description": "W16-5PL Supplemental arrow to the left",
+    "description_ru": "W16-5PL Дополнительная стрелка налево",
+    "description_es": "W16-5PL Flecha suplementaria a la izquierda"
+  },
+  {
+    "image": "mutcd_w16_6pr.png",
+    "description": "W16-6PR Supplemental arrow to the right",
+    "description_ru": "W16-6PR Дополнительная стрелка направо",
+    "description_es": "W16-6PR Flecha suplementaria a la derecha"
+  },
+  {
+    "image": "mutcd_w16_6pl.png",
+    "description": "W16-6PL Supplemental arrow to the left",
+    "description_ru": "W16-6PL Дополнительная стрелка налево",
+    "description_es": "W16-6PL Flecha suplementaria a la izquierda"
+  },
+  {
+    "image": "mutcd_w16_7pr.png",
+    "description": "W16-7PR Downward diagonal arrow to the right",
+    "description_ru": "W16-7PR Диагональная стрелка вниз направо",
+    "description_es": "W16-7PR Flecha diagonal descendente a la derecha"
+  },
+  {
+    "image": "mutcd_w16_7pl.png",
+    "description": "W16-7PL Downward diagonal arrow to the left",
+    "description_ru": "W16-7PL Диагональная стрелка вниз налево",
+    "description_es": "W16-7PL Flecha diagonal descendente a la izquierda"
+  },
+  {
+    "image": "mutcd_w16_7ap.png",
+    "description": "W16-7aP Dual Downward Diagonal Arrow",
+    "description_ru": "W16-7aP Две диагональные стрелки вниз",
+    "description_es": "W16-7aP Doble flecha diagonal descendente"
+  },
+  {
+    "image": "mutcd_w16_8p.png",
+    "description": "W16-8P Advance Street Name Plaque",
+    "description_ru": "W16-8P Табличка с названием улицы заранее",
+    "description_es": "W16-8P Placa con nombre de calle (adelantada)"
+  },
+  {
+    "image": "mutcd_w16_8ap.png",
+    "description": "W16-8aP Advance Street Name Plaque (double arrow)",
+    "description_ru": "W16-8aP Табличка с названием улицы заранее (двойная стрелка)",
+    "description_es": "W16-8aP Placa con nombre de calle (flecha doble)"
+  },
+  {
+    "image": "mutcd_w16_9p.png",
+    "description": "W16-9P Ahead",
+    "description_ru": "W16-9P Впереди",
+    "description_es": "W16-9P Adelante"
+  },
+  {
+    "image": "mutcd_w16_10p.png",
+    "description": "W16-10P Photo enforced (symbol)",
+    "description_ru": "W16-10P Контроль с помощью камеры (символ)",
+    "description_es": "W16-10P Controlado por cámara (símbolo)"
+  },
+  {
+    "image": "mutcd_w16_10ap.png",
+    "description": "W16-10aP Photo enforced",
+    "description_ru": "W16-10aP Контроль с помощью камеры",
+    "description_es": "W16-10aP Controlado por cámara"
+  },
+  {
+    "image": "mutcd_w16_11p.png",
+    "description": "W16-11P HOV",
+    "description_ru": "W16-11P Полоса для автомобилей с несколькими пассажирами (HOV)",
+    "description_es": "W16-11P Carril para vehículos de alta ocupación (HOV)"
+  },
+  {
+    "image": "mutcd_w16_12p.png",
+    "description": "W16-12P Traffic circle plaque",
+    "description_ru": "W16-12P Табличка: круговое движение",
+    "description_es": "W16-12P Placa de rotonda"
+  },
+  {
+    "image": "mutcd_w16_12ap.png",
+    "description": "W16-12aP Roundabout junction plaque",
+    "description_ru": "W16-12aP Табличка: перекрёсток с круговым движением",
+    "description_es": "W16-12aP Placa de intersección en rotonda"
+  },
+  {
+    "image": "mutcd_w16_13p.png",
+    "description": "W16-13P When flashing",
+    "description_ru": "W16-13P При мигающем сигнале",
+    "description_es": "W16-13P Cuando parpadea"
+  },
+  {
+    "image": "mutcd_w16_15p.png",
+    "description": "W16-15P New",
+    "description_ru": "W16-15P Новый знак/изменение",
+    "description_es": "W16-15P Nuevo"
+  },
+  {
+    "image": "mutcd_w16_16p.png",
+    "description": "W16-16P Last Exit Before Toll (1-line plaque)",
+    "description_ru": "W16-16P Последний съезд перед платной дорогой (1 строка)",
+    "description_es": "W16-16P Última salida antes del peaje (1 línea)"
+  },
+  {
+    "image": "mutcd_w16_16ap.png",
+    "description": "W16-16aP Last Exit Before Toll (2-line plaque)",
+    "description_ru": "W16-16aP Последний съезд перед платной дорогой (2 строки)",
+    "description_es": "W16-16aP Última salida antes del peaje (2 líneas)"
+  },
+  {
+    "image": "mutcd_w16_17p.png",
+    "description": "W16-17P Toll",
+    "description_ru": "W16-17P Платная дорога",
+    "description_es": "W16-17P Peaje"
+  },
+  {
+    "image": "mutcd_w16_18p.png",
+    "description": "W16-18P Notice",
+    "description_ru": "W16-18P Объявление",
+    "description_es": "W16-18P Aviso"
+  },
+  {
+    "image": "mutcd_w16_19p.png",
+    "description": "W16-19P Last In Corridor",
+    "description_ru": "W16-19P Последний в коридоре",
+    "description_es": "W16-19P Último en el corredor"
+  },
+  {
+    "image": "mutcd_w16_20p.png",
+    "description": "W16-20P Except Bicycles",
+    "description_ru": "W16-20P За исключением велосипедов",
+    "description_es": "W16-20P Excepto bicicletas"
+  },
+  {
+    "image": "mutcd_w16_21p.png",
+    "description": "W16-21P 2-Way Bicycle Cross Traffic",
+    "description_ru": "W16-21P Двустороннее велосипедное пересечение",
+    "description_es": "W16-21P Cruce de bicicletas en ambos sentidos"
+  },
+  {
+    "image": "mutcd_w17_1.png",
+    "description": "W17-1 Speed hump",
+    "description_ru": "W17-1 Искусственная неровность (лежачий полицейский)",
+    "description_es": "W17-1 Resalto de velocidad"
+  },
+  {
+    "image": "mutcd_w18_1.png",
+    "description": "W18-1 No traffic signs",
+    "description_ru": "W18-1 Нет дорожных знаков",
+    "description_es": "W18-1 No hay señales de tráfico"
+  },
+  {
+    "image": "mutcd_w19_1.png",
+    "description": "W19-1 Freeway ends (distance)",
+    "description_ru": "W19-1 Конец автомагистрали (через расстояние)",
+    "description_es": "W19-1 Fin de autopista (distancia)"
+  },
+  {
+    "image": "mutcd_w19_2.png",
+    "description": "W19-2 Expressway ends (distance)",
+    "description_ru": "W19-2 Конец скоростной дороги (через расстояние)",
+    "description_es": "W19-2 Fin de vía rápida (distancia)"
+  },
+  {
+    "image": "mutcd_w19_3.png",
+    "description": "W19-3 Freeway ends",
+    "description_ru": "W19-3 Конец автомагистрали",
+    "description_es": "W19-3 Fin de autopista"
+  },
+  {
+    "image": "mutcd_w19_4.png",
+    "description": "W19-4 Expressway ends",
+    "description_ru": "W19-4 Конец скоростной дороги",
+    "description_es": "W19-4 Fin de vía rápida"
+  },
+  {
+    "image": "mutcd_w19_5.png",
+    "description": "W19-5 All traffic must exit",
+    "description_ru": "W19-5 Всем водителям необходимо съехать",
+    "description_es": "W19-5 Todo el tráfico debe salir"
+  },
+  {
+    "image": "mutcd_w23_2.png",
+    "description": "W23-2 New traffic pattern ahead",
+    "description_ru": "W23-2 Новый порядок движения впереди",
+    "description_es": "W23-2 Nuevo patrón de tráfico más adelante"
+  },
+  {
+    "image": "mutcd_w23_2a.png",
+    "description": "W23-2a New Signal Operation Ahead",
+    "description_ru": "W23-2a Новая работа светофора впереди",
+    "description_es": "W23-2a Nuevo funcionamiento del semáforo más adelante"
+  },
+  {
+    "image": "mutcd_w25_1.png",
+    "description": "W25-1 Oncoming traffic has extended green",
+    "description_ru": "W25-1 Встречный транспорт имеет продлённый зелёный",
+    "description_es": "W25-1 El tráfico en sentido contrario tiene luz verde prolongada"
+  },
+  {
+    "image": "mutcd_w25_2.png",
+    "description": "W25-2 Oncoming traffic may have extended green",
+    "description_ru": "W25-2 У встречного транспорта может быть продлённый зелёный",
+    "description_es": "W25-2 El tráfico en sentido contrario puede tener luz verde prolongada"
+  },
+  {
+    "image": "mutcd_w26_1.png",
+    "description": "W26-1 Watch For Stopped Traffic",
+    "description_ru": "W26-1 Осторожно: возможна остановившаяся пробка",
+    "description_es": "W26-1 Precaución: tráfico detenido"
+  },
+    {
+    "image": "mutcd_om1_1.png",
+    "description": "OM1-1 Object Marker",
+    "description_ru": "OM1-1 Маркер объекта",
+    "description_es": "OM1-1 Marcador de objeto"
+  },
+  {
+    "image": "mutcd_om1_2.png",
+    "description": "OM1-2 Object Marker",
+    "description_ru": "OM1-2 Маркер объекта",
+    "description_es": "OM1-2 Marcador de objeto"
+  },
+  {
+    "image": "mutcd_om1_3.png",
+    "description": "OM1-3 Object Marker",
+    "description_ru": "OM1-3 Маркер объекта",
+    "description_es": "OM1-3 Marcador de objeto"
+  },
+  {
+    "image": "mutcd_om2_1v.png",
+    "description": "OM2-1V Vertical Culvert Marker",
+    "description_ru": "OM2-1V Вертикальный маркер водопропускной трубы",
+    "description_es": "OM2-1V Marcador vertical de alcantarilla"
+  },
+  {
+    "image": "mutcd_om2_1h.png",
+    "description": "OM2-1H Horizontal Culvert Marker",
+    "description_ru": "OM2-1H Горизонтальный маркер водопропускной трубы",
+    "description_es": "OM2-1H Marcador horizontal de alcantarilla"
+  },
+  {
+    "image": "mutcd_om2_2v.png",
+    "description": "OM2-2V Vertical Culvert Marker",
+    "description_ru": "OM2-2V Вертикальный маркер водопропускной трубы",
+    "description_es": "OM2-2V Marcador vertical de alcantarilla"
+  },
+  {
+    "image": "mutcd_om2_2h.png",
+    "description": "OM2-2H Horizontal Culvert Marker",
+    "description_ru": "OM2-2H Горизонтальный маркер водопропускной трубы",
+    "description_es": "OM2-2H Marcador horizontal de alcantarilla"
+  },
+  {
+    "image": "mutcd_om3_r.png",
+    "description": "OM3-R Right Object Marker",
+    "description_ru": "OM3-R Правый маркер объекта",
+    "description_es": "OM3-R Marcador de objeto derecho"
+  },
+  {
+    "image": "mutcd_om3_c.png",
+    "description": "OM3-C Chevron Object Marker",
+    "description_ru": "OM3-C Объект с маркировкой в виде шеврона",
+    "description_es": "OM3-C Marcador de objeto en forma de cheurón"
+  },
+  {
+    "image": "mutcd_om3_l.png",
+    "description": "OM3-L Left Object Marker",
+    "description_ru": "OM3-L Левый маркер объекта",
+    "description_es": "OM3-L Marcador de objeto izquierdo"
+  },
+  {
+    "image": "mutcd_om4_1.png",
+    "description": "OM4-1 End Of Road Marker",
+    "description_ru": "OM4-1 Маркер конца дороги",
+    "description_es": "OM4-1 Marcador de fin de camino"
+  },
+  {
+    "image": "mutcd_om4_2.png",
+    "description": "OM4-2 End Of Road Marker",
+    "description_ru": "OM4-2 Маркер конца дороги",
+    "description_es": "OM4-2 Marcador de fin de camino"
+  },
+  {
+    "image": "mutcd_om4_3.png",
+    "description": "OM4-3 End Of Road Marker",
+    "description_ru": "OM4-3 Маркер конца дороги",
+    "description_es": "OM4-3 Marcador de fin de camino"
+  }
+]

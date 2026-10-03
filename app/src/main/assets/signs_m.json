@@ -1,0 +1,554 @@
+[
+  {
+    "image": "mutcd_m1_1_282_digits29.png",
+    "description": "Interstate Route Marker (2 digits)",
+    "description_ru": "Маркер межштатной трассы (2 цифры)",
+    "description_es": "Marcador de ruta interestatal (2 dígitos)"
+  },
+  {
+    "image": "mutcd_m1_1_283_digits29.png",
+    "description": "Interstate Route Marker (3 digits)",
+    "description_ru": "Маркер межштатной трассы (3 цифры)",
+    "description_es": "Marcador de ruta interestatal (3 dígitos)"
+  },
+  {
+    "image": "i_95_28fl29.png",
+    "description": "Interstate Route Marker with State (2 digits)",
+    "description_ru": "Маркер межштатной трассы с указанием штата (2 цифры)",
+    "description_es": "Marcador de ruta interestatal con estado (2 dígitos)"
+  },
+  {
+    "image": "i_595_28fl29.png",
+    "description": "Interstate Route Marker with State (3 digits)",
+    "description_ru": "Маркер межштатной трассы с указанием штата (3 цифры)",
+    "description_es": "Marcador de ruta interestatal con estado (3 dígitos)"
+  },
+  {
+    "image": "mutcd_m1_2.png",
+    "description": "Off interstate business route marker (loop) (2 digits)",
+    "description_ru": "Маркер делового маршрута (петля) вне межштатной трассы (2 цифры)",
+    "description_es": "Marcador de ruta comercial fuera de autopista (bucle) (2 dígitos)"
+  },
+  {
+    "image": "business_loop_205.png",
+    "description": "Off interstate business route marker (loop) (3 digits)",
+    "description_ru": "Маркер делового маршрута (петля) вне межштатной трассы (3 цифры)",
+    "description_es": "Marcador de ruta comercial fuera de autopista (bucle) (3 dígitos)"
+  },
+  {
+    "image": "mutcd_m1_3.png",
+    "description": "Off interstate business route marker (spur) (2 digits)",
+    "description_ru": "Маркер делового маршрута (ответвление) вне межштатной трассы (2 цифры)",
+    "description_es": "Marcador de ruta comercial fuera de autopista (ramal) (2 dígitos)"
+  },
+  {
+    "image": "business_spur_385.png",
+    "description": "Off interstate business route marker (spur) (3 digits)",
+    "description_ru": "Маркер делового маршрута (ответвление) вне межштатной трассы (3 цифры)",
+    "description_es": "Marcador de ruta comercial fuera de autopista (ramal) (3 dígitos)"
+  },
+  {
+    "image": "mutcd_m1_4_282_digits29.png",
+    "description": "US route marker (2 digits)",
+    "description_ru": "Маркер федеральной трассы США (2 цифры)",
+    "description_es": "Marcador de ruta de EE.UU. (2 dígitos)"
+  },
+  {
+    "image": "mutcd_m1_4_283_digits29.png",
+    "description": "US route marker (3 digits)",
+    "description_ru": "Маркер федеральной трассы США (3 цифры)",
+    "description_es": "Marcador de ruta de EE.UU. (3 dígitos)"
+  },
+  {
+    "image": "mutcd_m1_5.png",
+    "description": "State Route Marker (2 digits)",
+    "description_ru": "Маркер шоссейного маршрута штата (2 цифры)",
+    "description_es": "Marcador de ruta estatal (2 dígitos)"
+  },
+  {
+    "image": "ellipse_sign_297.png",
+    "description": "State Route Marker (3 digits)",
+    "description_ru": "Маркер шоссейного маршрута штата (3 цифры)",
+    "description_es": "Marcador de ruta estatal (3 dígitos)"
+  },
+  {
+    "image": "clinton_county_16.png",
+    "description": "County Route Marker",
+    "description_ru": "Маркер окружного маршрута",
+    "description_es": "Marcador de ruta del condado"
+  },
+  {
+    "image": "mutcd_m1_7.png",
+    "description": "Forest Route",
+    "description_ru": "Лесной маршрут",
+    "description_es": "Ruta forestal"
+  },
+  {
+    "image": "mutcd_m1_8.png",
+    "description": "State or local Bicycle Route",
+    "description_ru": "Велосипедный маршрут штата или местного уровня",
+    "description_es": "Ruta ciclista estatal o local"
+  },
+  {
+    "image": "mutcd_m1_8a.png",
+    "description": "State or local Bicycle route",
+    "description_ru": "Велосипедный маршрут штата или местного уровня",
+    "description_es": "Ruta ciclista estatal o local"
+  },
+  {
+    "image": "mutcd_m1_8b.png",
+    "description": "Non-numbered bicycle route (2 lines)",
+    "description_ru": "Ненумерованный велосипедный маршрут (2 строки)",
+    "description_es": "Ruta ciclista sin número (2 líneas)"
+  },
+  {
+    "image": "mutcd_m1_8c.png",
+    "description": "Non-numbered bicycle route (3 lines)",
+    "description_ru": "Ненумерованный велосипедный маршрут (3 строки)",
+    "description_es": "Ruta ciclista sin número (3 líneas)"
+  },
+  {
+    "image": "mutcd_m1_9.png",
+    "description": "U.S. bicycle route",
+    "description_ru": "Велосипедный маршрут США",
+    "description_es": "Ruta ciclista de EE.UU."
+  },
+  {
+    "image": "mutcd_m1_10.png",
+    "description": "Eisenhower interstate system",
+    "description_ru": "Система межштатных автомагистралей Эйзенхауэра",
+    "description_es": "Sistema interestatal Eisenhower"
+  },
+  {
+    "image": "mutcd_m1_10a.png",
+    "description": "Eisenhower interstate system",
+    "description_ru": "Система межштатных автомагистралей Эйзенхауэра",
+    "description_es": "Sistema interestatal Eisenhower"
+  },
+  {
+    "image": "jct_plate.png",
+    "description": "Junction",
+    "description_ru": "Перекресток",
+    "description_es": "Cruce"
+  },
+  {
+    "image": "mutcd_m2_2.png",
+    "description": "Combination junction (2 route signs)",
+    "description_ru": "Перекресток с комбинированными маршрутами (2 знака)",
+    "description_es": "Cruce combinado (2 señales de ruta)"
+  },
+  {
+    "image": "north_plate.png",
+    "description": "Cardinal Direction - North",
+    "description_ru": "Основное направление - Север",
+    "description_es": "Dirección cardinal - Norte"
+  },
+  {
+    "image": "east_plate.png",
+    "description": "Cardinal Direction - East",
+    "description_ru": "Основное направление - Восток",
+    "description_es": "Dirección cardinal - Este"
+  },
+  {
+    "image": "south_plate.png",
+    "description": "Cardinal Direction - South",
+    "description_ru": "Основное направление - Юг",
+    "description_es": "Dirección cardinal - Sur"
+  },
+  {
+    "image": "west_plate.png",
+    "description": "Cardinal Direction - West",
+    "description_ru": "Основное направление - Запад",
+    "description_es": "Dirección cardinal - Oeste"
+  },
+  {
+    "image": "alternate_plate.png",
+    "description": "Alternate",
+    "description_ru": "Альтернативный маршрут",
+    "description_es": "Ruta alternativa"
+  },
+  {
+    "image": "alt_plate.png",
+    "description": "Alt",
+    "description_ru": "Альтернативный маршрут (сокращенно)",
+    "description_es": "Ruta alternativa (abreviado)"
+  },
+  {
+    "image": "by_pass_plate.png",
+    "description": "By-Pass",
+    "description_ru": "Объезд",
+    "description_es": "Desvío"
+  },
+  {
+    "image": "business_plate.png",
+    "description": "Business",
+    "description_ru": "Бизнес-маршрут",
+    "description_es": "Ruta comercial"
+  },
+  {
+    "image": "truck_plate.png",
+    "description": "Truck",
+    "description_ru": "Транспортный маршрут",
+    "description_es": "Ruta para camiones"
+  },
+  {
+    "image": "to_plate.png",
+    "description": "To",
+    "description_ru": "В сторону",
+    "description_es": "Hacia"
+  },
+  {
+    "image": "end_plate.png",
+    "description": "End",
+    "description_ru": "Конец",
+    "description_es": "Fin"
+  },
+  {
+    "image": "temporary_plate.png",
+    "description": "Temporary",
+    "description_ru": "Временный",
+    "description_es": "Temporal"
+  },
+  {
+    "image": "temp_plate.png",
+    "description": "Temp",
+    "description_ru": "Временный (сокращенно)",
+    "description_es": "Temporal (abreviado)"
+  },
+  {
+    "image": "mutcd_m4_8p.png",
+    "description": "Detour",
+    "description_ru": "Объезд",
+    "description_es": "Desvío"
+  },
+  {
+    "image": "mutcd_m4_8a.png",
+    "description": "End detour",
+    "description_ru": "Конец объезда",
+    "description_es": "Fin del desvío"
+  },
+  {
+    "image": "mutcd_m4_8b.png",
+    "description": "End (if a road work blocked road)",
+    "description_ru": "Конец (если дорога была заблокирована ремонтом)",
+    "description_es": "Fin (si un trabajo en la carretera bloqueó la ruta)"
+  },
+  {
+    "image": "mutcd_m4_9r.png",
+    "description": "Detour Right Arrow",
+    "description_ru": "Объезд (стрела направо)",
+    "description_es": "Desvío (flecha a la derecha)"
+  },
+  {
+    "image": "mutcd_m4_9l.png",
+    "description": "Detour Left Arrow",
+    "description_ru": "Объезд (стрела налево)",
+    "description_es": "Desvío (flecha a la izquierda)"
+  },
+  {
+    "image": "mutcd_m4_9ar.png",
+    "description": "Bicycle and Pedestrian Detour Right Arrow",
+    "description_ru": "Объезд для велосипедистов и пешеходов (стрела направо)",
+    "description_es": "Desvío para ciclistas y peatones (flecha a la derecha)"
+  },
+  {
+    "image": "mutcd_m4_9al.png",
+    "description": "Bicycle and Pedestrian Detour Left Arrow",
+    "description_ru": "Объезд для велосипедистов и пешеходов (стрела налево)",
+    "description_es": "Desvío para ciclistas y peatones (flecha a la izquierda)"
+  },
+  {
+    "image": "mutcd_m4_9br.png",
+    "description": "Pedestrian Detour Right Arrow",
+    "description_ru": "Объезд для пешеходов (стрела направо)",
+    "description_es": "Desvío para peatones (flecha a la derecha)"
+  },
+  {
+    "image": "mutcd_m4_9bl.png",
+    "description": "Pedestrian Detour Left Arrow",
+    "description_ru": "Объезд для пешеходов (стрела налево)",
+    "description_es": "Desvío para peatones (flecha a la izquierda)"
+  },
+  {
+    "image": "mutcd_m4_9cr.png",
+    "description": "Bicycle Detour Right Arrow",
+    "description_ru": "Объезд для велосипедистов (стрела направо)",
+    "description_es": "Desvío para ciclistas (flecha a la derecha)"
+  },
+  {
+    "image": "mutcd_m4_9cl.png",
+    "description": "Bicycle Detour Left Arrow",
+    "description_ru": "Объезд для велосипедистов (стрела налево)",
+    "description_es": "Desvío para ciclistas (flecha a la izquierda)"
+  },
+  {
+    "image": "mutcd_m4_10r.png",
+    "description": "Detour Right Arrow",
+    "description_ru": "Объезд (стрела направо)",
+    "description_es": "Desvío (flecha a la derecha)"
+  },
+  {
+    "image": "mutcd_m4_10l.png",
+    "description": "Detour Left Arrow",
+    "description_ru": "Объезд (стрела налево)",
+    "description_es": "Desvío (flecha a la izquierda)"
+  },
+  {
+    "image": "mutcd_m4_11.png",
+    "description": "Emergency Route",
+    "description_ru": "Экстренный маршрут",
+    "description_es": "Ruta de emergencia"
+  },
+  {
+    "image": "mutcd_m4_11a.png",
+    "description": "Emergency Route",
+    "description_ru": "Экстренный маршрут",
+    "description_es": "Ruta de emergencia"
+  },
+  {
+    "image": "mutcd_m4_11bp.png",
+    "description": "Emergency Route To",
+    "description_ru": "Экстренный маршрут к",
+    "description_es": "Ruta de emergencia a"
+  },
+  {
+    "image": "mutcd_m4_11cp.png",
+    "description": "Emergency Route To",
+    "description_ru": "Экстренный маршрут к",
+    "description_es": "Ruta de emergencia a"
+  },
+  {
+    "image": "mutcd_m4_12.png",
+    "description": "End Emergency Route",
+    "description_ru": "Конец экстренного маршрута",
+    "description_es": "Fin de la ruta de emergencia"
+  },
+  {
+    "image": "mutcd_m4_14p.png",
+    "description": "Begin",
+    "description_ru": "Начало",
+    "description_es": "Comienzo"
+  },
+  {
+    "image": "cashier_symbol.png",
+    "description": "Toll Collector Symbol Panel",
+    "description_ru": "Панель с символом сборщика пошлины",
+    "description_es": "Panel de símbolo de cobrador de peaje"
+  },
+  {
+    "image": "exact_change_symbol.png",
+    "description": "Exact Change Symbol Panel",
+    "description_ru": "Панель с символом точной сдачи",
+    "description_es": "Panel de símbolo de cambio exacto"
+  },
+  {
+    "image": "mutcd_m5_1pr.png",
+    "description": "Advance Right Turn Arrow (90 Degree Angle)",
+    "description_ru": "Стрела поворота направо (угол 90 градусов)",
+    "description_es": "Flecha de giro a la derecha (ángulo de 90 grados)"
+  },
+  {
+    "image": "mutcd_m5_1pl.png",
+    "description": "Advance Left Turn Arrow (90 Degree Angle)",
+    "description_ru": "Стрела поворота налево (угол 90 градусов)",
+    "description_es": "Flecha de giro a la izquierda (ángulo de 90 grados)"
+  },
+  {
+    "image": "mutcd_m5_2pr.png",
+    "description": "Advance Right Turn Arrow (45 Degree Angle)",
+    "description_ru": "Стрела поворота направо (угол 45 градусов)",
+    "description_es": "Flecha de giro a la derecha (ángulo de 45 grados)"
+  },
+  {
+    "image": "mutcd_m5_2pl.png",
+    "description": "Advance Left Turn Arrow (45 Degree Angle)",
+    "description_ru": "Стрела поворота налево (угол 45 градусов)",
+    "description_es": "Flecha de giro a la izquierda (ángulo de 45 grados)"
+  },
+  {
+    "image": "mutcd_m5_3pr.png",
+    "description": "Advance Right Turn Arrow (Circular Intersection)",
+    "description_ru": "Стрела поворота направо (круговое движение)",
+    "description_es": "Flecha de giro a la derecha (intersección circular)"
+  },
+  {
+    "image": "mutcd_m5_3pl.png",
+    "description": "Advance Left Turn Arrow (Circular Intersection)",
+    "description_ru": "Стрела поворота налево (круговое движение)",
+    "description_es": "Flecha de giro a la izquierda (intersección circular)"
+  },
+  {
+    "image": "mutcd_m5_4p.png",
+    "description": "Lane Designation - Left Lane",
+    "description_ru": "Разметка полосы - Левая полоса",
+    "description_es": "Designación de carril - Carril izquierdo"
+  },
+  {
+    "image": "mutcd_m5_5p.png",
+    "description": "Lane Designation - Center Lane",
+    "description_ru": "Разметка полосы - Центральная полоса",
+    "description_es": "Designación de carril - Carril central"
+  },
+  {
+    "image": "mutcd_m5_6p.png",
+    "description": "Lane Designation - Right Lane",
+    "description_ru": "Разметка полосы - Правая полоса",
+    "description_es": "Designación de carril - Carril derecho"
+  },
+  {
+    "image": "mutcd_m6_1pr.png",
+    "description": "Right Directional Arrow",
+    "description_ru": "Стрела направо",
+    "description_es": "Flecha direccional a la derecha"
+  },
+  {
+    "image": "mutcd_m6_1pl.png",
+    "description": "Left Directional Arrow",
+    "description_ru": "Стрела налево",
+    "description_es": "Flecha direccional a la izquierda"
+  },
+  {
+    "image": "mutcd_m6_2pr.png",
+    "description": "Diagonal Right Directional Arrow",
+    "description_ru": "Диагональная стрела направо",
+    "description_es": "Flecha direccional diagonal a la derecha"
+  },
+  {
+    "image": "mutcd_m6_2pl.png",
+    "description": "Diagonal Left Directional Arrow",
+    "description_ru": "Диагональная стрела налево",
+    "description_es": "Flecha direccional diagonal a la izquierda"
+  },
+  {
+    "image": "mutcd_m6_2apr.png",
+    "description": "Downward Diagonal Right Directional Arrow",
+    "description_ru": "Нисходящая диагональная стрела направо",
+    "description_es": "Flecha direccional diagonal hacia abajo a la derecha"
+  },
+  {
+    "image": "mutcd_m6_2apl.png",
+    "description": "Downward Diagonal Left Directional Arrow",
+    "description_ru": "Нисходящая диагональная стрела налево",
+    "description_es": "Flecha direccional diagonal hacia abajo a la izquierda"
+  },
+  {
+    "image": "mutcd_m6_3p.png",
+    "description": "Straight Directional Arrow",
+    "description_ru": "Прямая стрелка направления",
+    "description_es": "Flecha direccional recta"
+  },
+  {
+    "image": "mutcd_m6_4p.png",
+    "description": "Double Directional Arrow",
+    "description_ru": "Двойная стрелка направления",
+    "description_es": "Flecha direccional doble"
+  },
+  {
+    "image": "mutcd_m6_5pr.png",
+    "description": "Double Diagonal Right Directional Arrow",
+    "description_ru": "Двойная диагональная стрелка направо",
+    "description_es": "Flecha direccional diagonal doble a la derecha"
+  },
+  {
+    "image": "mutcd_m6_5pl.png",
+    "description": "Double Diagonal Left Directional Arrow",
+    "description_ru": "Двойная диагональная стрелка налево",
+    "description_es": "Flecha direccional diagonal doble a la izquierda"
+  },
+  {
+    "image": "mutcd_m6_6pr.png",
+    "description": "Straight And Right Directional Arrow",
+    "description_ru": "Прямой и правый направляющий стрелка",
+    "description_es": "Flecha direccional recta y derecha"
+  },
+  {
+    "image": "mutcd_m6_6pl.png",
+    "description": "Left And Straight Directional Arrow",
+    "description_ru": "Левый и прямой направляющий стрелка",
+    "description_es": "Flecha direccional izquierda y recta"
+  },
+  {
+    "image": "mutcd_m6_7pr.png",
+    "description": "Straight And Diagonal Right Directional Arrow",
+    "description_ru": "Прямой и диагональный правый направляющий стрелка",
+    "description_es": "Flecha direccional recta y diagonal derecha"
+  },
+  {
+    "image": "mutcd_m6_7pl.png",
+    "description": "Diagonal Left And Straight Directional Arrow",
+    "description_ru": "Диагональный левый и прямой направляющий стрелка",
+    "description_es": "Flecha direccional diagonal izquierda y recta"
+  },
+  {
+    "image": "mutcd_m10_1.png",
+    "description": "National Scenic Byway",
+    "description_ru": "Национальная живописная дорога",
+    "description_es": "Ruta panorámica nacional"
+  },
+  {
+    "image": "mutcd_m10_1ap.png",
+    "description": "National Scenic Byway",
+    "description_ru": "Национальная живописная дорога",
+    "description_es": "Ruta panorámica nacional"
+  },
+  {
+    "image": "mutcd_m10_2.png",
+    "description": "Byway identification",
+    "description_ru": "Идентификация маршрута",
+    "description_es": "Identificación de ruta"
+  },
+  {
+    "image": "mutcd_m10_2ap.png",
+    "description": "Byway identification",
+    "description_ru": "Идентификация маршрута",
+    "description_es": "Identificación de ruta"
+  },
+  {
+    "image": "mutcd_m10_3.png",
+    "description": "State scenic byway system",
+    "description_ru": "Система государственных живописных дорог",
+    "description_es": "Sistema de rutas panorámicas estatales"
+  },
+  {
+    "image": "mutcd_m10_3a.png",
+    "description": "State scenic byway system - simple graphic and byway identification",
+    "description_ru": "Система государственных живописных дорог - простая графика и идентификация маршрута",
+    "description_es": "Sistema de rutas panorámicas estatales - gráfico simple e identificación de ruta"
+  },
+  {
+    "image": "mutcd_m10_3bp.png",
+    "description": "Scenic byway",
+    "description_ru": "Живописный маршрут",
+    "description_es": "Ruta panorámica"
+  },
+  {
+    "image": "mutcd_m11_1.png",
+    "description": "National Historic Trail - Identification",
+    "description_ru": "Национальный исторический маршрут - Идентификация",
+    "description_es": "Ruta histórica nacional - Identificación"
+  },
+  {
+    "image": "mutcd_m11_1ap.png",
+    "description": "National Historic Trail - Historic Route",
+    "description_ru": "Национальный исторический маршрут - Исторический маршрут",
+    "description_es": "Ruta histórica nacional - Ruta histórica"
+  },
+  {
+    "image": "mutcd_m11_1bp.png",
+    "description": "National Historic Trail - Crossing",
+    "description_ru": "Национальный исторический маршрут - Пересечение",
+    "description_es": "Ruta histórica nacional - Cruce"
+  },
+  {
+    "image": "mutcd_m11_1cp.png",
+    "description": "National Historic Trail - Auto Tour Route",
+    "description_ru": "Национальный исторический маршрут - Автомузейный маршрут",
+    "description_es": "Ruta histórica nacional - Ruta de tour en automóvil"
+  },
+  {
+    "image": "mutcd_m11_1dp.png",
+    "description": "National Historic Trail - Distance",
+    "description_ru": "Национальный исторический маршрут - Расстояние",
+    "description_es": "Ruta histórica nacional - Distancia"
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "image": "mutcd_s1_1.png",
+    "description": "School zone",
+    "description_ru": "Зона школы",
+    "description_es": "Zona escolar"
+  },
+  {
+    "image": "mutcd_s3_1_28new29.png",
+    "description": "School bus stop ahead",
+    "description_ru": "Остановка школьного автобуса впереди",
+    "description_es": "Parada de autobús escolar adelante"
+  },
+  {
+    "image": "mutcd_s3_2.png",
+    "description": "School bus turn ahead",
+    "description_ru": "Поворот школьного автобуса впереди",
+    "description_es": "Giro del autobús escolar adelante"
+  },
+  {
+    "image": "mutcd_s4_1p.png",
+    "description": "Times of day",
+    "description_ru": "Время суток",
+    "description_es": "Horarios del día"
+  },
+  {
+    "image": "mutcd_s4_2p.png",
+    "description": "When children are present",
+    "description_ru": "Когда дети присутствуют",
+    "description_es": "Cuando hay niños presentes"
+  },
+  {
+    "image": "mutcd_s4_3p.png",
+    "description": "School",
+    "description_ru": "Школа",
+    "description_es": "Escuela"
+  },
+  {
+    "image": "mutcd_s4_4p.png",
+    "description": "When flashing",
+    "description_ru": "Когда мигает",
+    "description_es": "Cuando parpadea"
+  },
+  {
+    "image": "mutcd_s4_5.png",
+    "description": "School speed limit ahead",
+    "description_ru": "Ограничение скорости в зоне школы впереди",
+    "description_es": "Límite de velocidad escolar adelante"
+  },
+  {
+    "image": "mutcd_s4_5a.png",
+    "description": "School speed zone ahead",
+    "description_ru": "Зона ограничения скорости в зоне школы впереди",
+    "description_es": "Zona de velocidad escolar adelante"
+  },
+  {
+    "image": "mutcd_s4_6p.png",
+    "description": "Days of week",
+    "description_ru": "Дни недели",
+    "description_es": "Días de la semana"
+  },
+  {
+    "image": "mutcd_s4_7p.png",
+    "description": "All year",
+    "description_ru": "В течение всего года",
+    "description_es": "Todo el año"
+  },
+  {
+    "image": "mutcd_s5_1.png",
+    "description": "School speed limit when flashing",
+    "description_ru": "Ограничение скорости в зоне школы при мигании огней",
+    "description_es": "Límite de velocidad escolar cuando parpadea"
+  },
+  {
+    "image": "mutcd_s5_2.png",
+    "description": "End school zone",
+    "description_ru": "Конец школьной зоны",
+    "description_es": "Fin de la zona escolar"
+  },
+  {
+    "image": "mutcd_s5_3.png",
+    "description": "End school speed limit",
+    "description_ru": "Конец ограничения скорости в зоне школы",
+    "description_es": "Fin del límite de velocidad escolar"
+  }
+]

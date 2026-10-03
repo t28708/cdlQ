@@ -1,0 +1,320 @@
+[
+  {
+    "image": "mutcd_d9_1.png",
+    "description": "D9-1 Telephone",
+    "description_ru": "D9-1 Телефон",
+    "description_es": "D9-1 Teléfono"
+  },
+  {
+    "image": "mutcd_d9_2.png",
+    "description": "D9-2 Hospital",
+    "description_ru": "D9-2 Больница",
+    "description_es": "D9-2 Hospital"
+  },
+  {
+    "image": "mutcd_d9_3.png",
+    "description": "D9-3 Camping",
+    "description_ru": "D9-3 Кемпинг",
+    "description_es": "D9-3 Camping"
+  },
+  {
+    "image": "mutcd_d9_4.png",
+    "description": "D9-4 Litter container",
+    "description_ru": "D9-4 Контейнер для мусора",
+    "description_es": "D9-4 Contenedor de basura"
+  },
+  {
+    "image": "mutcd_d9_6.png",
+    "description": "D9-6 Handicapped accessible",
+    "description_ru": "D9-6 Доступно для инвалидов",
+    "description_es": "D9-6 Accesible para discapacitados"
+  },
+  {
+    "image": "mutcd_d9_6p.png",
+    "description": "D9-6P Van accessible",
+    "description_ru": "D9-6P Доступно для фургона",
+    "description_es": "D9-6P Accesible para furgonetas"
+  },
+  {
+    "image": "mutcd_d9_7.png",
+    "description": "D9-7 Gasoline",
+    "description_ru": "D9-7 Бензин",
+    "description_es": "D9-7 Gasolina"
+  },
+  {
+    "image": "mutcd_d9_8.png",
+    "description": "D9-8 Food",
+    "description_ru": "D9-8 Еда",
+    "description_es": "D9-8 Comida"
+  },
+  {
+    "image": "mutcd_d9_9.png",
+    "description": "D9-9 Lodging",
+    "description_ru": "D9-9 Проживание",
+    "description_es": "D9-9 Alojamiento"
+  },
+  {
+    "image": "mutcd_d9_10.png",
+    "description": "D9-10 Tourist information",
+    "description_ru": "D9-10 Туристическая информация",
+    "description_es": "D9-10 Información turística"
+  },
+  {
+    "image": "mutcd_d9_11.png",
+    "description": "D9-11 Diesel fuel",
+    "description_ru": "D9-11 Дизельное топливо",
+    "description_es": "D9-11 Combustible diésel"
+  },
+  {
+    "image": "mutcd_d9_11a.png",
+    "description": "D9-11a Alternative fuel (compressed natural gas)",
+    "description_ru": "D9-11a Альтернативное топливо (сжиженный природный газ)",
+    "description_es": "D9-11a Combustible alternativo (gas natural comprimido)"
+  },
+  {
+    "image": "mutcd_d9_11b.png",
+    "description": "D9-11b Electric vehicle charging",
+    "description_ru": "D9-11b Зарядка электромобилей",
+    "description_es": "D9-11b Carga de vehículos eléctricos"
+  },
+  {
+    "image": "mutcd_d9_11bp.png",
+    "description": "D9-11bP Electric vehicle charging",
+    "description_ru": "D9-11bP Зарядка электромобилей",
+    "description_es": "D9-11bP Carga de vehículos eléctricos"
+  },
+  {
+    "image": "mutcd_d9_11c.png",
+    "description": "D9-11c Alternative fuel (ethanol)",
+    "description_ru": "D9-11c Альтернативное топливо (этанол)",
+    "description_es": "D9-11c Combustible alternativo (etanol)"
+  },
+  {
+    "image": "mutcd_d9_11d.png",
+    "description": "D9-11d Alternative fuel (liquefied natural gas)",
+    "description_ru": "D9-11d Альтернативное топливо (жиженый природный газ)",
+    "description_es": "D9-11d Combustible alternativo (gas natural licuado)"
+  },
+  {
+    "image": "mutcd_d9_11e.png",
+    "description": "D9-11e Alternative fuel (liquefied petroleum gas)",
+    "description_ru": "D9-11e Альтернативное топливо (жиженый нефтяной газ)",
+    "description_es": "D9-11e Combustible alternativo (gas licuado de petróleo)"
+  },
+  {
+    "image": "mutcd_d9_11f.png",
+    "description": "D9-11f Alternative fuel (hydrogen)",
+    "description_ru": "D9-11f Альтернативное топливо (водород)",
+    "description_es": "D9-11f Combustible alternativo (hidrógeno)"
+  },
+  {
+    "image": "mutcd_d9_11g.png",
+    "description": "D9-11g Alternative fuel (biofuel)",
+    "description_ru": "D9-11g Альтернативное топливо (биотопливо)",
+    "description_es": "D9-11g Combustible alternativo (biocombustible)"
+  },
+  {
+    "image": "mutcd_d9_12.png",
+    "description": "D9-12 RV sanitary station",
+    "description_ru": "D9-12 Станция санитарной обработки для жилых автомобилей",
+    "description_es": "D9-12 Estación sanitaria para vehículos recreativos"
+  },
+  {
+    "image": "mutcd_d9_13.png",
+    "description": "D9-13 Emergency medical services",
+    "description_ru": "D9-13 Экстренная медицинская помощь",
+    "description_es": "D9-13 Servicios médicos de emergencia"
+  },
+  {
+    "image": "mutcd_d9_13ap.png",
+    "description": "D9-13aP Hospital",
+    "description_ru": "D9-13aP Больница",
+    "description_es": "D9-13aP Hospital"
+  },
+  {
+    "image": "mutcd_d9_13bp.png",
+    "description": "D9-13bP Ambulance station",
+    "description_ru": "D9-13bP Станция скорой помощи",
+    "description_es": "D9-13bP Estación de ambulancias"
+  },
+  {
+    "image": "mutcd_d9_13cp.png",
+    "description": "D9-13cP Emergency medical care",
+    "description_ru": "D9-13cP Экстренная медицинская помощь",
+    "description_es": "D9-13cP Atención médica de emergencia"
+  },
+  {
+    "image": "mutcd_d9_13dp.png",
+    "description": "D9-13dP Trauma center",
+    "description_ru": "D9-13dP Центр травматологии",
+    "description_es": "D9-13dP Centro de trauma"
+  },
+  {
+    "image": "mutcd_d9_14.png",
+    "description": "D9-14 Police",
+    "description_ru": "D9-14 Полиция",
+    "description_es": "D9-14 Policía"
+  },
+  {
+    "image": "mutcd_d9_16.png",
+    "description": "D9-16 Truck parking",
+    "description_ru": "D9-16 Парковка для грузовиков",
+    "description_es": "D9-16 Estacionamiento de camiones"
+  },
+  {
+    "image": "mutcd_d9_16ap.png",
+    "description": "D9-16aP Truck external power",
+    "description_ru": "D9-16aP Внешнее питание для грузовиков",
+    "description_es": "D9-16aP Energía externa para camiones"
+  },
+  {
+    "image": "mutcd_d9_16b.png",
+    "description": "D9-16b Truck parking availability - exit number",
+    "description_ru": "D9-16b Доступность парковки для грузовиков - номер съезда",
+    "description_es": "D9-16b Disponibilidad de estacionamiento para camiones - número de salida"
+  },
+  {
+    "image": "mutcd_d9_16c.png",
+    "description": "D9-16c Truck parking availability - distance",
+    "description_ru": "D9-16c Доступность парковки для грузовиков - расстояние",
+    "description_es": "D9-16c Disponibilidad de estacionamiento para camiones - distancia"
+  },
+  {
+    "image": "mutcd_d9_16c_28full29.png",
+    "description": "D9-16c Truck parking availability - distance",
+    "description_ru": "D9-16c Доступность парковки для грузовиков - расстояние",
+    "description_es": "D9-16c Disponibilidad de estacionamiento para camiones - distancia"
+  },
+  {
+    "image": "mutcd_d9_16d.png",
+    "description": "D9-16d Truck parking availability - rest area",
+    "description_ru": "D9-16d Доступность парковки для грузовиков - зона отдыха",
+    "description_es": "D9-16d Disponibilidad de estacionamiento para camiones - área de descanso"
+  },
+  {
+    "image": "mutcd_d9_16d_283_facilities29.png",
+    "description": "D9-16d Truck parking availability - rest area",
+    "description_ru": "D9-16d Доступность парковки для грузовиков - зона отдыха",
+    "description_es": "D9-16d Disponibilidad de estacionamiento para camiones - área de descanso"
+  },
+  {
+    "image": "mutcd_d9_16e.png",
+    "description": "D9-16e Truck parking availability - combined",
+    "description_ru": "D9-16e Доступность парковки для грузовиков - комбинированная",
+    "description_es": "D9-16e Disponibilidad de estacionamiento para camiones - combinada"
+  },
+  {
+    "image": "mutcd_d9_16e_28rest_area2c_exit29.png",
+    "description": "D9-16e Truck parking availability - combined",
+    "description_ru": "D9-16e Доступность парковки для грузовиков - комбинированная",
+    "description_es": "D9-16e Disponibilidad de estacionamiento para camiones - combinada"
+  },
+  {
+    "image": "mutcd_d9_16e_28rest_area2c_weigh_station29.png",
+    "description": "D9-16e Truck parking availability - combined",
+    "description_ru": "D9-16e Доступность парковки для грузовиков - комбинированная",
+    "description_es": "D9-16e Disponibilidad de estacionamiento para camiones - combinada"
+  },
+  {
+    "image": "mutcd_d9_16e_283_exits29.png",
+    "description": "D9-16e Truck parking availability - combined",
+    "description_ru": "D9-16e Доступность парковки для грузовиков - комбинированная",
+    "description_es": "D9-16e Disponibilidad de estacionamiento para camiones - combinada"
+  },
+  {
+    "image": "mutcd_d9_17p.png",
+    "description": "D9-17P Next services (distance)",
+    "description_ru": "D9-17P Следующие услуги (расстояние)",
+    "description_es": "D9-17P Próximos servicios (distancia)"
+  },
+  {
+    "image": "mutcd_d9_17a.png",
+    "description": "D9-17a Next EV charging (distance)",
+    "description_ru": "D9-17a Следующая зарядка для электромобилей (расстояние)",
+    "description_es": "D9-17a Próxima carga de EV (distancia)"
+  },
+  {
+    "image": "mutcd_d9_18b_28exit_number29.png",
+    "description": "D9-18 General services (up to 6 symbols) with exit number",
+    "description_ru": "D9-18 Общие услуги (до 6 символов) с номером съезда",
+    "description_es": "D9-18 Servicios generales (hasta 6 símbolos) con número de salida"
+  },
+  {
+    "image": "mutcd_d9_18a.png",
+    "description": "D9-18a General services with exit number",
+    "description_ru": "D9-18a Общие услуги с номером съезда",
+    "description_es": "D9-18a Servicios generales con número de salida"
+  },
+  {
+    "image": "mutcd_d9_18b.png",
+    "description": "D9-18b General services (up to 6 symbols) with action message",
+    "description_ru": "D9-18b Общие услуги (до 6 символов) с сообщением действия",
+    "description_es": "D9-18b Servicios generales (hasta 6 símbolos) con mensaje de acción"
+  },
+  {
+    "image": "mutcd_d9_18c.png",
+    "description": "D9-18c General services with action message",
+    "description_ru": "D9-18c Общие услуги с сообщением действия",
+    "description_es": "D9-18c Servicios generales con mensaje de acción"
+  },
+  {
+    "image": "mutcd_d9_18dp.png",
+    "description": "D9-18dP Rural interchange general services (up to 3 symbols)",
+    "description_ru": "D9-18dP Общие услуги сельских развязок (до 3 символов)",
+    "description_es": "D9-18dP Servicios generales de intercambiadores rurales (hasta 3 símbolos)"
+  },
+  {
+    "image": "mutcd_d9_18ep.png",
+    "description": "D9-18eP Rural interchange general services (1 line)",
+    "description_ru": "D9-18eP Общие услуги сельских развязок (1 линия)",
+    "description_es": "D9-18eP Servicios generales de intercambiadores rurales (1 línea)"
+  },
+  {
+    "image": "mutcd_d9_18fp.png",
+    "description": "D9-18fP Rural interchange general services (2 lines)",
+    "description_ru": "D9-18fP Общие услуги сельских развязок (2 линии)",
+    "description_es": "D9-18fP Servicios generales de intercambiadores rurales (2 líneas)"
+  },
+  {
+    "image": "mutcd_d9_19.png",
+    "description": "D9-19 Alternative fuels corridor",
+    "description_ru": "D9-19 Коридор альтернативных топлив",
+    "description_es": "D9-19 Corredor de combustibles alternativos"
+  },
+  {
+    "image": "mutcd_d9_19ap.png",
+    "description": "D9-19aP Alternative fuels corridor (1 line)",
+    "description_ru": "D9-19aP Коридор альтернативных топлив (1 линия)",
+    "description_es": "D9-19aP Corredor de combustibles alternativos (1 línea)"
+  },
+  {
+    "image": "mutcd_d9_19bp.png",
+    "description": "D9-19bP Alternative fuels corridor (2 lines)",
+    "description_ru": "D9-19bP Коридор альтернативных топлив (2 линии)",
+    "description_es": "D9-19bP Corredor de combustibles alternativos (2 líneas)"
+  },
+  {
+    "image": "mutcd_d9_20.png",
+    "description": "D9-20 Pharmacy",
+    "description_ru": "D9-20 Аптека",
+    "description_es": "D9-20 Farmacia"
+  },
+  {
+    "image": "mutcd_d9_20ap.png",
+    "description": "D9-20aP 24 HR",
+    "description_ru": "D9-20aP Круглосуточно",
+    "description_es": "D9-20aP 24 horas"
+  },
+  {
+    "image": "mutcd_d9_21.png",
+    "description": "D9-21 Telecommunication (TDD/TTY)",
+    "description_ru": "D9-21 Телекоммуникации (TDD/TTY)",
+    "description_es": "D9-21 Telecomunicaciones (TDD/TTY)"
+  },
+  {
+    "image": "mutcd_d9_22.png",
+    "description": "D9-22 Wireless internet",
+    "description_ru": "D9-22 Беспроводной интернет",
+    "description_es": "D9-22 Internet inalámbrico"
+  }
+]

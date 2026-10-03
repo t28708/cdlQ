@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <!-- Рекламный блок вверху -->
+    <FrameLayout
+        android:id="@+id/ad_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="80dp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Кнопки для выбора тестов -->
+
+    <TextView
+        android:id="@+id/questionTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"
+        android:text="Вопрос появится здесь"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+
+    <ImageView
+        android:id="@+id/signImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="Дорожный знак"
+        android:src="@drawable/mutcd_r5_2" />
+
+    <TextView
+        android:id="@+id/answerTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"
+        android:text="Ответ появится здесь"
+        android:textSize="18sp"
+        android:textStyle="bold"  />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="16dp">
+
+        <!-- Горизонтальный ряд с двумя кнопками -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/prevQuizButtonQuiz"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Prev"
+                android:layout_marginEnd="16dp" />
+
+            <Button
+                android:id="@+id/nextQuizButtonQuiz"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Next"
+                android:enabled="false" />
+        </LinearLayout>
+
+        <!-- Кнопка "Перемешать" снизу -->
+        <Button
+            android:id="@+id/shuffleButtonQuiz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Shuffle"
+            android:layout_marginTop="16dp" />
+    </LinearLayout>
+
+
+</LinearLayout>

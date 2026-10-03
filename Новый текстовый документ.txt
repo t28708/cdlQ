@@ -1,0 +1,1 @@
+java -jar pepk.jar --keystore=foo.keystore --alias=foo --output=output.zip  --signing-keystore=uploadkey.keystore --signing-key-alias=upload-key-alias --rsa-aes-encryption --encryption-key-path=/path/to/encryption_public_key.pem
