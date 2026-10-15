@@ -9,16 +9,17 @@ android {
     defaultConfig {
         applicationId = "com.drive.cdlq"
         minSdk = 24
-        targetSdk = 35
-        versionCode = 35
-        versionName = "35.0"
+        targetSdk = 36
+        versionCode = 36
+        versionName = "36.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 
     buildTypes {
         release {
-            isMinifyEnabled = false
+            isMinifyEnabled = true
+            isShrinkResources = true
             proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
             signingConfig = signingConfigs.getByName("debug")
         }

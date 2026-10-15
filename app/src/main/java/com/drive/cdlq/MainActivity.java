@@ -9,7 +9,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.util.Log;
-import android.view.View;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
@@ -49,21 +49,15 @@ public class MainActivity extends AppCompatActivity implements BillingManager.On
 
     private Button buttonGeneralKnowledges, buttonAirBrakes, buttonCombinated ;
 
-    // reviews goople-play
+    // reviews goople-play / rating card
     private static final String PREFS_NAME = "RateAppPrefs";
     private static final String FIRST_LAUNCH_DATE = "firstLaunchDate";
     private static final String LAST_PROMPT_DATE = "lastPromptDate";
-    private static final int DAYS_UNTIL_NEXT_PROMPT = 3; // Интервал в днях
-    private static final int FIRST_PROMPT_DELAY = 1; // Задержка первого показа в днях
+    private static final String KEY_HAS_RATED = "hasRated";
+    private static final int DAYS_UNTIL_NEXT_PROMPT = 5; // Повторный показ через 5 дней
 
     private String appLanguage;
     private String ChapterText;
-
-    private String TitleCompareText;
-    private String MessageCompareText;
-
-    private String PositiveCompareText;
-    private String NegativeCompareText;
     private String RemoveAdsText;
     
     // UI Elements
@@ -107,8 +101,6 @@ public class MainActivity extends AppCompatActivity implements BillingManager.On
         LinearLayout linearLayoutTheoryRU = findViewById(R.id.linear_theoryRU);
         LinearLayout linearLayoutTheoryUA = findViewById(R.id.linear_theoryUA);
         LinearLayout linearLayoutTheoryES = findViewById(R.id.linear_theoryES);
-        TextView textViewReviews = findViewById(R.id.textReviews);
-        Button reviewButton = findViewById(R.id.reviewButton);
         Button learnEnglishButton = findViewById(R.id.learnEnglish);
         Button learnEnglishSpanishButton = findViewById(R.id.learnEnglishSpanish);
 
@@ -118,51 +110,30 @@ public class MainActivity extends AppCompatActivity implements BillingManager.On
             linearLayoutTheoryRU.setVisibility(View.GONE);
             linearLayoutTheoryES.setVisibility(View.GONE);
             linearLayoutTheoryUA.setVisibility(View.VISIBLE);
-            textViewReviews.setText("If our app has been helpful to you, please take a moment to leave a review.");
-            reviewButton.setText("Leave a review");
             learnEnglishButton.setVisibility(View.GONE);
             learnEnglishSpanishButton.setVisibility(View.GONE);
             String titleCaption = "Change language";
             ChapterText = "Chapter";
-            ////
-            TitleCompareText = "Rate our app";
-            MessageCompareText = "If you enjoyed using the app, please rate us on Google Play!";
-            PositiveCompareText = "Rate now";
-            NegativeCompareText = "Later";
             RemoveAdsText = "Remove Ads";
         }
         if ("ru".equals(appLanguage)) {
             linearLayoutTheoryUA.setVisibility(View.GONE);
             linearLayoutTheoryES.setVisibility(View.GONE);
             linearLayoutTheoryRU.setVisibility(View.VISIBLE);
-            textViewReviews.setText("Если наше приложение оказалось полезным для вас, пожалуйста, уделите одну минуту на оставление отзыва.");
-            reviewButton.setText("Оставить отзыв");
             learnEnglishButton.setVisibility(View.VISIBLE);
             learnEnglishSpanishButton.setVisibility(View.GONE);
             String titleCaption = "Выберите язык";
             ChapterText = "Часть ";
-            //
-            TitleCompareText = "Оцените наше приложение";
-            MessageCompareText = "Если вам понравилось приложение, пожалуйста, оцените его в Google Play!";
-            PositiveCompareText = "Оценить";
-            NegativeCompareText = "Позже";
             RemoveAdsText = "Убрать рекламу";
         }
         if ("es".equals(appLanguage)) {
             linearLayoutTheoryUA.setVisibility(View.GONE);
             linearLayoutTheoryRU.setVisibility(View.GONE);
             linearLayoutTheoryES.setVisibility(View.VISIBLE);
-            textViewReviews.setText("Si nuestra aplicación le ha sido útil, por favor, tómese un minuto para dejar una reseña.");
-            reviewButton.setText("Dejar reseña");
             learnEnglishButton.setVisibility(View.GONE);
             learnEnglishSpanishButton.setVisibility(View.VISIBLE);
             String titleCaption = "Выберите язык";
             ChapterText = "Parte ";
-            //
-            TitleCompareText = "Califica nuestra aplicación";
-            MessageCompareText = "Si te gustó la aplicación, por favor califícanos en Google Play";
-            PositiveCompareText = "Calificar ahora";
-            NegativeCompareText = "Más tarde";
             RemoveAdsText = "Quitar anuncios";
         }
 
@@ -194,13 +165,18 @@ public class MainActivity extends AppCompatActivity implements BillingManager.On
         // Сохранить дату первого запуска, если это первый запуск
         saveFirstLaunchDate();
 
-        // Проверяем, нужно ли показывать диалог
-        if (shouldShowRateDialog()) {
-            showRateAppDialog(TitleCompareText, MessageCompareText, PositiveCompareText, NegativeCompareText);
-        }
+        // Настройка карточки оценки приложения
+        setupRateCard(appLanguage);
 
-        // Расскоментируй чтобы проверить стартовое меню для отзыва
-        //showRateAppDialog(TitleCompareText, MessageCompareText, PositiveCompareText, NegativeCompareText);
+        // Настройка промо-карточек приложений
+        View cardTruckParking = findViewById(R.id.card_truck_parking);
+        if (cardTruckParking != null) {
+            cardTruckParking.setOnClickListener(this::openTruckParkingApp);
+        }
+        View cardAxleWeight = findViewById(R.id.card_axle_weight);
+        if (cardAxleWeight != null) {
+            cardAxleWeight.setOnClickListener(this::openAxleWeightApp);
+        }
 
         //
         // Настраиваем все заголовки и их контент для переключения видимости
@@ -910,54 +886,97 @@ public class MainActivity extends AppCompatActivity implements BillingManager.On
     }
 
     // Метод для отображения диалога
-    private void showRateAppDialog(String TitleCompareText, String MessageCompareText, String PositiveCompareText, String NegativeCompareText) {
-        AlertDialog.Builder builder = new AlertDialog.Builder(this);
-        builder.setTitle(TitleCompareText)
-                .setMessage(MessageCompareText)
-                .setPositiveButton(PositiveCompareText, new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialog, int which) {
-                        openAppInGooglePlay();
-                        saveLastPromptDate(); // Сохранить дату показа
-                    }
-                })
-                .setNegativeButton(NegativeCompareText, new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialog, int which) {
-                        saveLastPromptDate(); // Сохранить дату показа
-                        dialog.dismiss();
-                    }
-                });
-        builder.create().show();
+    // Настройка карточки оценки приложения
+    private void setupRateCard(String language) {
+        View cardRateApp = findViewById(R.id.card_rate_app);
+        if (cardRateApp == null) return;
+
+        if (!shouldShowRateBlock()) {
+            cardRateApp.setVisibility(View.GONE);
+            return;
+        }
+
+        cardRateApp.setVisibility(View.VISIBLE);
+
+        TextView tvTitle = findViewById(R.id.tv_rate_card_title);
+        TextView tvSubtitle = findViewById(R.id.tv_rate_card_subtitle);
+        Button btnAction = findViewById(R.id.btn_rate_card_action);
+        ImageView btnClose = findViewById(R.id.btn_close_rate_card);
+
+        if ("ru".equals(language)) {
+            tvTitle.setText("Оцените наше приложение");
+            tvSubtitle.setText("Оставь отзыв в Google Play");
+            btnAction.setText("Оценить в 1 клик");
+        } else if ("es".equals(language)) {
+            tvTitle.setText("Califica nuestra app");
+            tvSubtitle.setText("Deja una reseña en Google Play");
+            btnAction.setText("Calificar en 1 clic");
+        } else { // "eng" or default
+            tvTitle.setText("Rate our app");
+            tvSubtitle.setText("Leave a review on Google Play");
+            btnAction.setText("Rate in 1 click");
+        }
+
+        btnClose.setOnClickListener(v -> {
+            cardRateApp.setVisibility(View.GONE);
+            saveLastPromptDate(); // Сохраняем дату закрытия крестиком, отсчитываем 5 дней
+        });
+
+        btnAction.setOnClickListener(v -> {
+            markAsRated(); // Пользователь нажал оценить — блок больше никогда не выводится
+            cardRateApp.setVisibility(View.GONE);
+            openAppInGooglePlay();
+        });
+    }
+
+    // Проверяем, нужно ли показывать карточку оценки
+    private boolean shouldShowRateBlock() {
+        SharedPreferences prefs = getSharedPreferences(PREFS_NAME, MODE_PRIVATE);
+        // Если пользователь уже нажал оценить — блок больше никогда не выводится
+        if (prefs.getBoolean(KEY_HAS_RATED, false)) {
+            return false;
+        }
+
+        long lastPromptTime = prefs.getLong(LAST_PROMPT_DATE, 0);
+        long currentTime = Calendar.getInstance().getTimeInMillis();
+
+        // Если крестик нажимался, проверяем, прошло ли 5 дней
+        if (lastPromptTime > 0) {
+            return (currentTime - lastPromptTime) >= (DAYS_UNTIL_NEXT_PROMPT * 24 * 60 * 60 * 1000L);
+        }
+
+        return true;
+    }
+
+    // Отметка о том, что пользователь нажал оценить
+    private void markAsRated() {
+        SharedPreferences prefs = getSharedPreferences(PREFS_NAME, MODE_PRIVATE);
+        SharedPreferences.Editor editor = prefs.edit();
+        editor.putBoolean(KEY_HAS_RATED, true);
+        editor.apply();
     }
 
     // Метод для открытия страницы приложения в Google Play
     private void openAppInGooglePlay() {
-        String packageName = getPackageName(); // Получение имени пакета текущего приложения
-        try {
-            // Попробовать открыть через приложение Google Play
-            startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("market://details?id=" + packageName)));
-        } catch (ActivityNotFoundException e) {
-            // Если Google Play недоступен, открыть через браузер
-            startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=" + packageName)));
-        }
+        openPlayStoreApp(getPackageName());
     }
 
-    // Проверяем, нужно ли показывать диалог
-    private boolean shouldShowRateDialog() {
-        SharedPreferences prefs = getSharedPreferences(PREFS_NAME, MODE_PRIVATE);
-        long firstLaunchTime = prefs.getLong(FIRST_LAUNCH_DATE, 0);
-        long lastPromptTime = prefs.getLong(LAST_PROMPT_DATE, 0);
+    // Переход на приложение симулятора парковки
+    public void openTruckParkingApp(View view) {
+        openPlayStoreApp("com.drive.cdlracetruck");
+    }
 
-        long currentTime = Calendar.getInstance().getTimeInMillis();
+    // Переход на приложение калькулятора развесовки
+    public void openAxleWeightApp(View view) {
+        openPlayStoreApp("com.drive.axleweightcalc");
+    }
 
-        // Проверяем, прошло ли достаточно времени с момента первого запуска
-        if (currentTime - firstLaunchTime < FIRST_PROMPT_DELAY * 24 * 60 * 60 * 1000L) {
-            return false;
+    private void openPlayStoreApp(String packageName) {
+        try {
+            startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("market://details?id=" + packageName)));
+        } catch (ActivityNotFoundException e) {
+            startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=" + packageName)));
         }
-
-        // Проверяем, прошло ли достаточно времени с момента последнего показа
-        return (currentTime - lastPromptTime) >= (DAYS_UNTIL_NEXT_PROMPT * 24 * 60 * 60 * 1000L);
     }
 
     // Сохраняем текущую дату как дату первого запуска

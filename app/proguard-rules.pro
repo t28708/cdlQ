@@ -22,3 +22,8 @@
 
 # Google Play Billing Library rules
 -keep class com.android.billingclient.api.** { *; }
+
+# Preserve XML onClick handlers in Activities
+-keepclassmembers class * extends android.app.Activity {
+    public void *(android.view.View);
+}
