@@ -83,8 +83,16 @@ public class MainActivity extends AppCompatActivity implements BillingManager.On
             // Получаем текущий язык системы
             String systemLanguage = Locale.getDefault().getLanguage();
 
-            // Определяем язык (если ru, то сохраняем 'ru', иначе 'eng')
-            appLanguage = systemLanguage.equals("ru") ? "ru" : "eng";
+            // Определяем язык
+            if ("ru".equals(systemLanguage)) {
+                appLanguage = "ru";
+            } else if ("es".equals(systemLanguage)) {
+                appLanguage = "es";
+            } else if ("fr".equals(systemLanguage)) {
+                appLanguage = "fr";
+            } else {
+                appLanguage = "eng";
+            }
 
             // Сохраняем язык в SharedPreferences
             SharedPreferences.Editor editor = sharedPreferences.edit();
@@ -101,17 +109,21 @@ public class MainActivity extends AppCompatActivity implements BillingManager.On
         LinearLayout linearLayoutTheoryRU = findViewById(R.id.linear_theoryRU);
         LinearLayout linearLayoutTheoryUA = findViewById(R.id.linear_theoryUA);
         LinearLayout linearLayoutTheoryES = findViewById(R.id.linear_theoryES);
+        LinearLayout linearLayoutTheoryFR = findViewById(R.id.linear_theoryFR);
         Button learnEnglishButton = findViewById(R.id.learnEnglish);
         Button learnEnglishSpanishButton = findViewById(R.id.learnEnglishSpanish);
+        Button learnEnglishFrenchButton = findViewById(R.id.learnEnglishFrench);
 
 
         if ("eng".equals(appLanguage)) {
             // Или скрыть полностью (не занимает место в макете)
             linearLayoutTheoryRU.setVisibility(View.GONE);
             linearLayoutTheoryES.setVisibility(View.GONE);
+            if (linearLayoutTheoryFR != null) linearLayoutTheoryFR.setVisibility(View.GONE);
             linearLayoutTheoryUA.setVisibility(View.VISIBLE);
             learnEnglishButton.setVisibility(View.GONE);
             learnEnglishSpanishButton.setVisibility(View.GONE);
+            if (learnEnglishFrenchButton != null) learnEnglishFrenchButton.setVisibility(View.GONE);
             String titleCaption = "Change language";
             ChapterText = "Chapter";
             RemoveAdsText = "Remove Ads";
@@ -119,9 +131,11 @@ public class MainActivity extends AppCompatActivity implements BillingManager.On
         if ("ru".equals(appLanguage)) {
             linearLayoutTheoryUA.setVisibility(View.GONE);
             linearLayoutTheoryES.setVisibility(View.GONE);
+            if (linearLayoutTheoryFR != null) linearLayoutTheoryFR.setVisibility(View.GONE);
             linearLayoutTheoryRU.setVisibility(View.VISIBLE);
             learnEnglishButton.setVisibility(View.VISIBLE);
             learnEnglishSpanishButton.setVisibility(View.GONE);
+            if (learnEnglishFrenchButton != null) learnEnglishFrenchButton.setVisibility(View.GONE);
             String titleCaption = "Выберите язык";
             ChapterText = "Часть ";
             RemoveAdsText = "Убрать рекламу";
@@ -129,12 +143,26 @@ public class MainActivity extends AppCompatActivity implements BillingManager.On
         if ("es".equals(appLanguage)) {
             linearLayoutTheoryUA.setVisibility(View.GONE);
             linearLayoutTheoryRU.setVisibility(View.GONE);
+            if (linearLayoutTheoryFR != null) linearLayoutTheoryFR.setVisibility(View.GONE);
             linearLayoutTheoryES.setVisibility(View.VISIBLE);
             learnEnglishButton.setVisibility(View.GONE);
             learnEnglishSpanishButton.setVisibility(View.VISIBLE);
+            if (learnEnglishFrenchButton != null) learnEnglishFrenchButton.setVisibility(View.GONE);
             String titleCaption = "Выберите язык";
             ChapterText = "Parte ";
             RemoveAdsText = "Quitar anuncios";
+        }
+        if ("fr".equals(appLanguage)) {
+            linearLayoutTheoryUA.setVisibility(View.GONE);
+            linearLayoutTheoryRU.setVisibility(View.GONE);
+            linearLayoutTheoryES.setVisibility(View.GONE);
+            if (linearLayoutTheoryFR != null) linearLayoutTheoryFR.setVisibility(View.VISIBLE);
+            learnEnglishButton.setVisibility(View.GONE);
+            learnEnglishSpanishButton.setVisibility(View.GONE);
+            if (learnEnglishFrenchButton != null) learnEnglishFrenchButton.setVisibility(View.VISIBLE);
+            String titleCaption = "Choisir la langue";
+            ChapterText = "Partie ";
+            RemoveAdsText = "Supprimer les pubs";
         }
 
 
@@ -155,6 +183,15 @@ public class MainActivity extends AppCompatActivity implements BillingManager.On
         btnRemoveAds.setText(RemoveAdsText);
         btnRemoveAds.setOnClickListener(v -> billingManager.launchPurchaseFlow());
         
+        if ("ru".equals(appLanguage)) {
+            tvRestorePurchases.setText("Уже покупали? Восстановить доступ");
+        } else if ("es".equals(appLanguage)) {
+            tvRestorePurchases.setText("¿Ya lo compraste? Restaurar acceso");
+        } else if ("fr".equals(appLanguage)) {
+            tvRestorePurchases.setText("Déjà acheté ? Restaurer l'accès");
+        } else {
+            tvRestorePurchases.setText("Already purchased? Restore access");
+        }
         tvRestorePurchases.setOnClickListener(v -> billingManager.restorePurchases());
         
         updateUI();
@@ -168,15 +205,11 @@ public class MainActivity extends AppCompatActivity implements BillingManager.On
         // Настройка карточки оценки приложения
         setupRateCard(appLanguage);
 
-        // Настройка промо-карточек приложений
-        View cardTruckParking = findViewById(R.id.card_truck_parking);
-        if (cardTruckParking != null) {
-            cardTruckParking.setOnClickListener(this::openTruckParkingApp);
-        }
-        View cardAxleWeight = findViewById(R.id.card_axle_weight);
-        if (cardAxleWeight != null) {
-            cardAxleWeight.setOnClickListener(this::openAxleWeightApp);
-        }
+        // Настройка промо-карточек приложений и их локализация
+        setupPromoToolsSection(appLanguage);
+
+        // Настройка локализации секции дорожных знаков
+        setupRoadSignsSection(appLanguage);
 
         //
         // Настраиваем все заголовки и их контент для переключения видимости
@@ -190,6 +223,10 @@ public class MainActivity extends AppCompatActivity implements BillingManager.On
         setupToggle(findViewById(R.id.tvTitleES4), findViewById(R.id.ESContent4));
         setupToggle(findViewById(R.id.tvTitleES5), findViewById(R.id.ESContent5));
         setupToggle(findViewById(R.id.tvTitleES6), findViewById(R.id.ESContent6));
+
+        setupToggle(findViewById(R.id.tvTitleFR4), findViewById(R.id.FRContent4));
+        setupToggle(findViewById(R.id.tvTitleFR5), findViewById(R.id.FRContent5));
+        setupToggle(findViewById(R.id.tvTitleFR6), findViewById(R.id.FRContent6));
         //
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
@@ -205,6 +242,11 @@ public class MainActivity extends AppCompatActivity implements BillingManager.On
 
 
         // Вызовы метода для различных типов вопросов
+        refreshAllTestButtons();
+
+    }
+
+    private void refreshAllTestButtons() {
         processQuestionType(QuestionGeneral.question, "GENERAL KNOWLEDGE", "btn1_", 1);
         processQuestionType(QuestionAir.question, "AIR BRAKES", "btn2_", 1);
         processQuestionType(QuestionCombinated.question, "COMBINATION VEHICLE", "btn3_", 1);
@@ -217,6 +259,9 @@ public class MainActivity extends AppCompatActivity implements BillingManager.On
         processQuestionType(QuestionAir.question, "AIR BRAKES ES", "btnES2_", 1);
         processQuestionType(QuestionCombinated.question, "COMBINATION VEHICLE ES", "btnES3_", 1);
 
+        processQuestionType(QuestionGeneral.question, "GENERAL KNOWLEDGE FR", "btnFR1_", 1);
+        processQuestionType(QuestionAir.question, "AIR BRAKES FR", "btnFR2_", 1);
+        processQuestionType(QuestionCombinated.question, "COMBINATION VEHICLE FR", "btnFR3_", 1);
     }
 
     private void setupToggle(final TextView title, final LinearLayout content) {
@@ -284,6 +329,7 @@ public class MainActivity extends AppCompatActivity implements BillingManager.On
     protected void onResume() {
         super.onResume();
         updateUI();
+        refreshAllTestButtons();
     }
 
     private void updateUI() {
@@ -740,6 +786,146 @@ public class MainActivity extends AppCompatActivity implements BillingManager.On
         startActivity(newIntent);
     }
 
+    public void startNewActivityGeneralFR1(View v) {
+        Intent newIntent = new Intent(this, TestActivity.class);
+        newIntent.putExtra("typeOfVariant", "GENERAL KNOWLEDGE FR");
+        newIntent.putExtra("part", "1");
+        startActivity(newIntent);
+    }
+
+    public void startNewActivityGeneralFR2(View v) {
+        Intent newIntent = new Intent(this, TestActivity.class);
+        newIntent.putExtra("typeOfVariant", "GENERAL KNOWLEDGE FR");
+        newIntent.putExtra("part", "2");
+        startActivity(newIntent);
+    }
+
+    public void startNewActivityGeneralFR3(View v) {
+        Intent newIntent = new Intent(this, TestActivity.class);
+        newIntent.putExtra("typeOfVariant", "GENERAL KNOWLEDGE FR");
+        newIntent.putExtra("part", "3");
+        startActivity(newIntent);
+    }
+
+    public void startNewActivityGeneralFR4(View v) {
+        Intent newIntent = new Intent(this, TestActivity.class);
+        newIntent.putExtra("typeOfVariant", "GENERAL KNOWLEDGE FR");
+        newIntent.putExtra("part", "4");
+        startActivity(newIntent);
+    }
+
+    public void startNewActivityGeneralFR5(View v) {
+        Intent newIntent = new Intent(this, TestActivity.class);
+        newIntent.putExtra("typeOfVariant", "GENERAL KNOWLEDGE FR");
+        newIntent.putExtra("part", "5");
+        startActivity(newIntent);
+    }
+
+    public void startNewActivityGeneralFR6(View v) {
+        Intent newIntent = new Intent(this, TestActivity.class);
+        newIntent.putExtra("typeOfVariant", "GENERAL KNOWLEDGE FR");
+        newIntent.putExtra("part", "6");
+        startActivity(newIntent);
+    }
+
+    public void startNewActivityGeneralFR7(View v) {
+        Intent newIntent = new Intent(this, TestActivity.class);
+        newIntent.putExtra("typeOfVariant", "GENERAL KNOWLEDGE FR");
+        newIntent.putExtra("part", "7");
+        startActivity(newIntent);
+    }
+
+    public void startNewActivityGeneralFR8(View v) {
+        Intent newIntent = new Intent(this, TestActivity.class);
+        newIntent.putExtra("typeOfVariant", "GENERAL KNOWLEDGE FR");
+        newIntent.putExtra("part", "8");
+        startActivity(newIntent);
+    }
+
+    public void startNewActivityGeneralFR9(View v) {
+        Intent newIntent = new Intent(this, TestActivity.class);
+        newIntent.putExtra("typeOfVariant", "GENERAL KNOWLEDGE FR");
+        newIntent.putExtra("part", "9");
+        startActivity(newIntent);
+    }
+
+    public void startNewActivityGeneralFR10(View v) {
+        Intent newIntent = new Intent(this, TestActivity.class);
+        newIntent.putExtra("typeOfVariant", "GENERAL KNOWLEDGE FR");
+        newIntent.putExtra("part", "10");
+        startActivity(newIntent);
+    }
+
+    public void startNewActivityGeneralFR11(View v) {
+        Intent newIntent = new Intent(this, TestActivity.class);
+        newIntent.putExtra("typeOfVariant", "GENERAL KNOWLEDGE FR");
+        newIntent.putExtra("part", "11");
+        startActivity(newIntent);
+    }
+
+    public void startNewActivityGeneralFR12(View v) {
+        Intent newIntent = new Intent(this, TestActivity.class);
+        newIntent.putExtra("typeOfVariant", "GENERAL KNOWLEDGE FR");
+        newIntent.putExtra("part", "12");
+        startActivity(newIntent);
+    }
+
+    public void startNewActivityAirFR1(View v) {
+        Intent newIntent = new Intent(this, TestActivity.class);
+        newIntent.putExtra("typeOfVariant", "AIR BRAKES FR");
+        newIntent.putExtra("part", "1");
+        startActivity(newIntent);
+    }
+
+    public void startNewActivityAirFR2(View v) {
+        Intent newIntent = new Intent(this, TestActivity.class);
+        newIntent.putExtra("typeOfVariant", "AIR BRAKES FR");
+        newIntent.putExtra("part", "2");
+        startActivity(newIntent);
+    }
+
+    public void startNewActivityAirFR3(View v) {
+        Intent newIntent = new Intent(this, TestActivity.class);
+        newIntent.putExtra("typeOfVariant", "AIR BRAKES FR");
+        newIntent.putExtra("part", "3");
+        startActivity(newIntent);
+    }
+
+    public void startNewActivityAirFR4(View v) {
+        Intent newIntent = new Intent(this, TestActivity.class);
+        newIntent.putExtra("typeOfVariant", "AIR BRAKES FR");
+        newIntent.putExtra("part", "4");
+        startActivity(newIntent);
+    }
+
+    public void startNewActivityCombinatedFR1(View v) {
+        Intent newIntent = new Intent(this, TestActivity.class);
+        newIntent.putExtra("typeOfVariant", "COMBINATION VEHICLE FR");
+        newIntent.putExtra("part", "1");
+        startActivity(newIntent);
+    }
+
+    public void startNewActivityCombinatedFR2(View v) {
+        Intent newIntent = new Intent(this, TestActivity.class);
+        newIntent.putExtra("typeOfVariant", "COMBINATION VEHICLE FR");
+        newIntent.putExtra("part", "2");
+        startActivity(newIntent);
+    }
+
+    public void startNewActivityCombinatedFR3(View v) {
+        Intent newIntent = new Intent(this, TestActivity.class);
+        newIntent.putExtra("typeOfVariant", "COMBINATION VEHICLE FR");
+        newIntent.putExtra("part", "3");
+        startActivity(newIntent);
+    }
+
+    public void startNewActivityCombinatedFR4(View v) {
+        Intent newIntent = new Intent(this, TestActivity.class);
+        newIntent.putExtra("typeOfVariant", "COMBINATION VEHICLE FR");
+        newIntent.putExtra("part", "4");
+        startActivity(newIntent);
+    }
+
     public void startNewActivityDriverLicense(View v) {
         Intent newIntent = new Intent(this,TestActivityDriverLicense.class);
         newIntent.putExtra("typeOfVariant", "Driver License RU");
@@ -886,47 +1072,198 @@ public class MainActivity extends AppCompatActivity implements BillingManager.On
     }
 
     // Метод для отображения диалога
-    // Настройка карточки оценки приложения
+    // Настройка верхней и нижней карточек оценки приложения
     private void setupRateCard(String language) {
         View cardRateApp = findViewById(R.id.card_rate_app);
+        View cardRateAppBottom = findViewById(R.id.card_rate_app_bottom);
         if (cardRateApp == null) return;
-
-        if (!shouldShowRateBlock()) {
-            cardRateApp.setVisibility(View.GONE);
-            return;
-        }
-
-        cardRateApp.setVisibility(View.VISIBLE);
 
         TextView tvTitle = findViewById(R.id.tv_rate_card_title);
         TextView tvSubtitle = findViewById(R.id.tv_rate_card_subtitle);
         Button btnAction = findViewById(R.id.btn_rate_card_action);
         ImageView btnClose = findViewById(R.id.btn_close_rate_card);
 
+        TextView tvBottomTitle = findViewById(R.id.tv_rate_card_bottom_title);
+        TextView tvBottomSubtitle = findViewById(R.id.tv_rate_card_bottom_subtitle);
+        Button btnBottomAction = findViewById(R.id.btn_rate_card_bottom_action);
+
+        String titleText;
+        String subtitleText;
+        String actionText;
+
         if ("ru".equals(language)) {
-            tvTitle.setText("Оцените наше приложение");
-            tvSubtitle.setText("Оставь отзыв в Google Play");
-            btnAction.setText("Оценить в 1 клик");
+            titleText = "Оцените наше приложение";
+            subtitleText = "Оставь отзыв в Google Play";
+            actionText = "Оценить в 1 клик";
         } else if ("es".equals(language)) {
-            tvTitle.setText("Califica nuestra app");
-            tvSubtitle.setText("Deja una reseña en Google Play");
-            btnAction.setText("Calificar en 1 clic");
+            titleText = "Califica nuestra app";
+            subtitleText = "Deja una reseña en Google Play";
+            actionText = "Calificar en 1 clic";
+        } else if ("fr".equals(language)) {
+            titleText = "Évaluez notre application";
+            subtitleText = "Laissez un avis sur Google Play";
+            actionText = "Noter en 1 clic";
         } else { // "eng" or default
-            tvTitle.setText("Rate our app");
-            tvSubtitle.setText("Leave a review on Google Play");
-            btnAction.setText("Rate in 1 click");
+            titleText = "Rate our app";
+            subtitleText = "Leave a review on Google Play";
+            actionText = "Rate in 1 click";
+        }
+
+        if (tvTitle != null) tvTitle.setText(titleText);
+        if (tvSubtitle != null) tvSubtitle.setText(subtitleText);
+        if (btnAction != null) btnAction.setText(actionText);
+
+        if (tvBottomTitle != null) tvBottomTitle.setText(titleText);
+        if (tvBottomSubtitle != null) tvBottomSubtitle.setText(subtitleText);
+        if (btnBottomAction != null) btnBottomAction.setText(actionText);
+
+        if (btnBottomAction != null) {
+            btnBottomAction.setOnClickListener(v -> {
+                markAsRated();
+                openAppInGooglePlay();
+            });
+        }
+
+        // Если верхний блок должен быть открыт -> верхний открыт, нижний закрыт.
+        // Если верхний блок закрыт -> верхний закрыт, нижний открыт постоянно.
+        if (shouldShowRateBlock()) {
+            cardRateApp.setVisibility(View.VISIBLE);
+            if (cardRateAppBottom != null) {
+                cardRateAppBottom.setVisibility(View.GONE);
+            }
+        } else {
+            cardRateApp.setVisibility(View.GONE);
+            if (cardRateAppBottom != null) {
+                cardRateAppBottom.setVisibility(View.VISIBLE);
+            }
         }
 
         btnClose.setOnClickListener(v -> {
             cardRateApp.setVisibility(View.GONE);
-            saveLastPromptDate(); // Сохраняем дату закрытия крестиком, отсчитываем 5 дней
+            if (cardRateAppBottom != null) {
+                cardRateAppBottom.setVisibility(View.VISIBLE);
+            }
+            saveLastPromptDate(); // Сохраняем дату закрытия крестиком, отсчитываем 5 дней для верхнего блока
         });
 
         btnAction.setOnClickListener(v -> {
-            markAsRated(); // Пользователь нажал оценить — блок больше никогда не выводится
+            markAsRated(); // Пользователь нажал оценить — верхний блок больше никогда не выводится
             cardRateApp.setVisibility(View.GONE);
+            if (cardRateAppBottom != null) {
+                cardRateAppBottom.setVisibility(View.VISIBLE);
+            }
             openAppInGooglePlay();
         });
+    }
+
+    // Настройка и локализация секции CDL Practical Tools & Simulator
+    private void setupPromoToolsSection(String language) {
+        View cardTruckParking = findViewById(R.id.card_truck_parking);
+        if (cardTruckParking != null) {
+            cardTruckParking.setOnClickListener(this::openTruckParkingApp);
+        }
+        View cardAxleWeight = findViewById(R.id.card_axle_weight);
+        if (cardAxleWeight != null) {
+            cardAxleWeight.setOnClickListener(this::openAxleWeightApp);
+        }
+
+        TextView tvSectionTitle = findViewById(R.id.tv_tools_section_title);
+        TextView tvParkingTitle = findViewById(R.id.tv_parking_title);
+        TextView tvParkingBadge = findViewById(R.id.tv_parking_badge);
+        TextView tvParkingDesc = findViewById(R.id.tv_parking_desc);
+        Button btnParkingApp = findViewById(R.id.btn_parking_app);
+
+        TextView tvAxleTitle = findViewById(R.id.tv_axle_title);
+        TextView tvAxleBadge = findViewById(R.id.tv_axle_badge);
+        TextView tvAxleDesc = findViewById(R.id.tv_axle_desc);
+        Button btnAxleApp = findViewById(R.id.btn_axle_app);
+
+        if ("ru".equals(language)) {
+            if (tvSectionTitle != null) tvSectionTitle.setText("Практические инструменты");
+            if (tvParkingTitle != null) tvParkingTitle.setText("🚛  Симулятор парковки трака CDL");
+            if (tvParkingBadge != null) tvParkingBadge.setText("Маневры и площадка");
+            if (tvParkingDesc != null) tvParkingDesc.setText("Освойте парковку 90° Alley Dock, Offset Backing и параллельную парковку перед экзаменом. Реальная физика 53-футового прицепа!");
+            if (btnParkingApp != null) btnParkingApp.setText("Тренировать парковку");
+
+            if (tvAxleTitle != null) tvAxleTitle.setText("⚖️  Калькулятор веса по осям");
+            if (tvAxleBadge != null) tvAxleBadge.setText("Расчет тандема и DOT");
+            if (tvAxleDesc != null) tvAxleDesc.setText("Хватит гадать на весах CAT. Рассчитайте сдвиг тандема по отверстиям (шаг 4″ и 6″) и мгновенно сбалансируйте вес на осях.");
+            if (btnAxleApp != null) btnAxleApp.setText("Открыть калькулятор");
+        } else if ("es".equals(language)) {
+            if (tvSectionTitle != null) tvSectionTitle.setText("Herramientas prácticas");
+            if (tvParkingTitle != null) tvParkingTitle.setText("🚛  Simulador de estacionamiento CDL");
+            if (tvParkingBadge != null) tvParkingBadge.setText("Maniobras en patio");
+            if (tvParkingDesc != null) tvParkingDesc.setText("Domina el estacionamiento en 90° Alley Dock, retroceso desplazado y paralelo antes de tu examen. ¡Física real de remolque de 53 pies!");
+            if (btnParkingApp != null) btnParkingApp.setText("Practicar maniobras");
+
+            if (tvAxleTitle != null) tvAxleTitle.setText("⚖️  Calculadora de peso por eje");
+            if (tvAxleBadge != null) tvAxleBadge.setText("Ajuste de tándem y DOT");
+            if (tvAxleDesc != null) tvAxleDesc.setText("Deja de adivinar en las básculas CAT. Calcula el ajuste de los pines del tándem (4″ y 6″) y equilibra el peso de los ejes al instante.");
+            if (btnAxleApp != null) btnAxleApp.setText("Abrir calculadora");
+        } else if ("fr".equals(language)) {
+            if (tvSectionTitle != null) tvSectionTitle.setText("Outils pratiques");
+            if (tvParkingTitle != null) tvParkingTitle.setText("🚛  Simulateur de stationnement CDL");
+            if (tvParkingBadge != null) tvParkingBadge.setText("Manœuvres sur piste");
+            if (tvParkingDesc != null) tvParkingDesc.setText("Maîtrisez le stationnement à 90° Alley Dock, le recul décalé et le créneau avant votre examen. Physique réelle de remorque de 53 pieds !");
+            if (btnParkingApp != null) btnParkingApp.setText("S'entraîner aux manœuvres");
+
+            if (tvAxleTitle != null) tvAxleTitle.setText("⚖️  Calculateur de poids par essieu");
+            if (tvAxleBadge != null) tvAxleBadge.setText("Réglage tandem et DOT");
+            if (tvAxleDesc != null) tvAxleDesc.setText("Ne devinez plus sur les balances CAT. Calculez le décalage des trous du tandem (4″ et 6″) et équilibrez le poids des essieux instantanément.");
+            if (btnAxleApp != null) btnAxleApp.setText("Ouvrir le calculateur");
+        } else { // "eng" or default
+            if (tvSectionTitle != null) tvSectionTitle.setText("Practical Tools");
+            if (tvParkingTitle != null) tvParkingTitle.setText("🚛  CDL Truck Parking Simulator");
+            if (tvParkingBadge != null) tvParkingBadge.setText("Yard Skills & Maneuvers");
+            if (tvParkingDesc != null) tvParkingDesc.setText("Master 90° Alley Dock, Offset Backing, and Parallel Parking before your road test. Real 53ft trailer articulated physics!");
+            if (btnParkingApp != null) btnParkingApp.setText("Practice Backing");
+
+            if (tvAxleTitle != null) tvAxleTitle.setText("⚖️  Axle Weight Scale for Trucker");
+            if (tvAxleBadge != null) tvAxleBadge.setText("DOT & Tandem Slide Tool");
+            if (tvAxleDesc != null) tvAxleDesc.setText("Stop guessing at CAT scales. Calculate tandem hole shifts (4″ & 6″ spacing) and balance drive/trailer axle weights instantly.");
+            if (btnAxleApp != null) btnAxleApp.setText("Open Calculator");
+        }
+    }
+
+    // Локализация секции дорожных знаков (Road signs in the USA)
+    private void setupRoadSignsSection(String language) {
+        TextView tvRoadSignsTitle = findViewById(R.id.tv_road_signs_title);
+        Button btnSignR = findViewById(R.id.check_sign_r);
+        Button btnSignW = findViewById(R.id.check_sign_w);
+        Button btnSignO = findViewById(R.id.check_sign_o);
+        Button btnSignM = findViewById(R.id.check_sign_m);
+        Button btnSignD = findViewById(R.id.check_sign_d);
+        Button btnSignG = findViewById(R.id.check_sign_g);
+        Button btnSignD9 = findViewById(R.id.check_sign_d9);
+        Button btnSignI = findViewById(R.id.check_sign_i);
+        Button btnSignE = findViewById(R.id.check_sign_e);
+        Button btnSignS = findViewById(R.id.check_sign_s);
+
+        if ("fr".equals(language)) {
+            if (tvRoadSignsTitle != null) tvRoadSignsTitle.setText("Panneaux routiers aux USA");
+            if (btnSignR != null) btnSignR.setText("Panneaux de réglementation");
+            if (btnSignW != null) btnSignW.setText("Panneaux d'avertissement");
+            if (btnSignO != null) btnSignO.setText("Balises d'obstacles");
+            if (btnSignM != null) btnSignM.setText("Balises d'itinéraire");
+            if (btnSignD != null) btnSignD.setText("Panneaux de direction");
+            if (btnSignG != null) btnSignG.setText("Travaux routiers");
+            if (btnSignD9 != null) btnSignD9.setText("Services aux conducteurs");
+            if (btnSignI != null) btnSignI.setText("Informations générales");
+            if (btnSignE != null) btnSignE.setText("Autoroutes et voies rapides");
+            if (btnSignS != null) btnSignS.setText("Zone scolaire");
+        } else {
+            if (tvRoadSignsTitle != null) tvRoadSignsTitle.setText("Road signs in the USA");
+            if (btnSignR != null) btnSignR.setText("Regulatory signs");
+            if (btnSignW != null) btnSignW.setText("Warning signs");
+            if (btnSignO != null) btnSignO.setText("Object markers");
+            if (btnSignM != null) btnSignM.setText("Route marker");
+            if (btnSignD != null) btnSignD.setText("Destination signs");
+            if (btnSignG != null) btnSignG.setText("Construction");
+            if (btnSignD9 != null) btnSignD9.setText("Motorist services");
+            if (btnSignI != null) btnSignI.setText("General");
+            if (btnSignE != null) btnSignE.setText("Freeway, expressway");
+            if (btnSignS != null) btnSignS.setText("School");
+        }
     }
 
     // Проверяем, нужно ли показывать карточку оценки
@@ -1002,7 +1339,7 @@ public class MainActivity extends AppCompatActivity implements BillingManager.On
 
     /// Метод для отображения диалогового окна
     private void showLanguageDialog() {
-        String[] languages = {"Русский", "English", "Español"};
+        String[] languages = {"Русский", "English", "Español", "Français"};
         new AlertDialog.Builder(this)
                 .setTitle("Language (язык)")
                 .setItems(languages, (dialog, which) -> {
@@ -1016,6 +1353,9 @@ public class MainActivity extends AppCompatActivity implements BillingManager.On
                             break;
                         case 2:
                             selectedLanguage = "es";
+                            break;
+                        case 3:
+                            selectedLanguage = "fr";
                             break;
                         default:
                             selectedLanguage = "eng"; // По умолчанию
@@ -1075,14 +1415,21 @@ public class MainActivity extends AppCompatActivity implements BillingManager.On
         switch (testStatus) {
             case "pass":
                 testButton.setBackgroundColor(Color.GREEN); // Зелёная кнопка, если тест сдан
+                testButton.setTextColor(Color.WHITE);
                 break;
             case "not pass":
                 testButton.setBackgroundColor(Color.RED); // Красная кнопка, если тест не сдан
+                testButton.setTextColor(Color.WHITE);
+                break;
+            case "in_progress":
+                testButton.setBackgroundColor(Color.YELLOW); // Жёлтая кнопка, если тест начат, но не завершён
+                testButton.setTextColor(Color.BLACK);
                 break;
             case "not_taken":
             default:
                 // Цвет кнопки по умолчанию (например, серый)
                 testButton.setBackgroundColor(Color.GRAY);
+                testButton.setTextColor(Color.WHITE);
                 break;
         }
     }

@@ -3,30 +3,35 @@
     "image": "mutcd_g20_1.png",
     "description": "Road work next (distance) miles",
     "description_ru": "Дорожные работы через (расстояние) миль",
-    "description_es": "Trabajos en carretera a (distancia) millas"
+    "description_es": "Trabajos en carretera a (distancia) millas",
+    "description_fr": "Travaux routiers sur les prochains (distance) miles"
   },
   {
     "image": "mutcd_g20_2.png",
     "description": "Road work ends",
     "description_ru": "Работы на дороге закончены",
-    "description_es": "Fin de los trabajos en carretera"
+    "description_es": "Fin de los trabajos en carretera",
+    "description_fr": "Fin des travaux routiers"
   },
   {
     "image": "mutcd_g20_4.png",
     "description": "Pilot car follow me",
     "description_ru": "Следуйте за пилотным автомобилем",
-    "description_es": "Coche piloto, sígueme"
+    "description_es": "Coche piloto, sígueme",
+    "description_fr": "Voiture-pilote, suivez-moi"
   },
   {
     "image": "mutcd_g20_5ap.png",
     "description": "Work zone",
     "description_ru": "Зона дорожных работ",
-    "description_es": "Zona de trabajo"
+    "description_es": "Zona de trabajo",
+    "description_fr": "Zone de travaux"
   },
   {
     "image": "mutcd_ia_23_1p.png",
     "description": "IA-23-1P Turn Only In Direction Of Arrow Used with RDTS",
     "description_ru": "IA-23-1P Поворот только в направлении стрелки, используется с RDTS",
-    "description_es": "IA-23-1P Giro solo en la dirección de la flecha, utilizado con RDTS"
+    "description_es": "IA-23-1P Giro solo en la dirección de la flecha, utilizado con RDTS",
+    "description_fr": "IA-23-1P Tourner uniquement dans le sens de la flèche, utilisé avec RDTS"
   }
 ]

@@ -51,6 +51,8 @@ public class VocabularyActivity extends AppCompatActivity {
     private HashMap<String, String> wordPairsTest2;
     private HashMap<String, String> wordPairsTest3;
     private HashMap<String, String> wordPairsTest4;
+    private HashMap<String, String> wordPairsTest5;
+    private HashMap<String, String> wordPairsTest6;
 
     private String currentWord;
     private String correctAnswer;
@@ -97,6 +99,8 @@ public class VocabularyActivity extends AppCompatActivity {
         wordPairsTest2 = new HashMap<>();
         wordPairsTest3 = new HashMap<>();
         wordPairsTest4 = new HashMap<>();
+        wordPairsTest5 = new HashMap<>();
+        wordPairsTest6 = new HashMap<>();
 
         // Заполнение массивов
         wordPairsTest1.put("Mounting trailer arm {Маунтинг трейлер арм}", "Кронштейн прицепного рычага");
@@ -365,6 +369,97 @@ public class VocabularyActivity extends AppCompatActivity {
         wordPairsTest4.put("no grease {noh grees}", "sin grasa");
         wordPairsTest4.put("Should be clean {Shud bee kleen}", "Debe estar limpio");
 
+        // Французский словарь (основные понятия)
+        wordPairsTest5.put("Mounting trailer arm {Moun-ting tray-lehr ahrm}", "Bras de montage de la remorque");
+        wordPairsTest5.put("Bracket of the mirror {Bra-keht of the mee-rohr}", "Support du rétroviseur");
+        wordPairsTest5.put("Door Hingers {Dor Heen-gehrs}", "Charnières de porte");
+        wordPairsTest5.put("Weather seals {Weh-ther see-ls}", "Joints d'étanchéité");
+        wordPairsTest5.put("Steps to the cab {Steps tooh the cab}", "Marches d'accès à la cabine");
+        wordPairsTest5.put("Under Engine {Uhn-der en-gin}", "Sous le moteur");
+        wordPairsTest5.put("Step to the catwalk {Step tooh the cat-walk}", "Marche d'accès à la passerelle");
+        wordPairsTest5.put("Cross members of the frame {Cross mem-behrs of the frame}", "Traverses du châssis");
+        wordPairsTest5.put("Drive Shaft {Drive Shaft}", "Arbre de transmission");
+        wordPairsTest5.put("Frame {Frame}", "Châssis");
+        wordPairsTest5.put("Back Light {Bak Layt}", "Feu arrière");
+        wordPairsTest5.put("Spring mounted {Spring moun-tehd}", "Supports de ressort");
+        wordPairsTest5.put("Spring leaves {Spring leevs}", "Lames de ressort");
+        wordPairsTest5.put("U-bolt {Yu-bohlt}", "Boulon en U (étrier)");
+        wordPairsTest5.put("Shock absorber {Shok ahb-sor-behr}", "Amortisseur");
+        wordPairsTest5.put("Air Bag {Air Bag}", "Coussin d'air (suspension pneumatique)");
+        wordPairsTest5.put("Dual Wheels {Doo-ahl Weels}", "Roues jumelées");
+        wordPairsTest5.put("Sidewall of the tires {Said-wall of the tay-ers}", "Flanc des pneus");
+        wordPairsTest5.put("Budd spacing {Bood spay-sing}", "Espacement entre les roues jumelées");
+        wordPairsTest5.put("Rim {Rim}", "Jante");
+        wordPairsTest5.put("Lug Nuts {Luhg Nuh-ts}", "Écrous de roue");
+        wordPairsTest5.put("Axle seal {Aks-el seel}", "Joint d'essieu");
+        wordPairsTest5.put("Air valve {Air valv}", "Valve d'air");
+        wordPairsTest5.put("Bracket of the mud flap {Bra-keht of the mud flap}", "Support de bavette");
+        wordPairsTest5.put("Mud Flap {Mud Flap}", "Bavette garde-boue");
+        wordPairsTest5.put("Rear light {Rear Light}", "Feu arrière");
+        wordPairsTest5.put("License Plate {Lai-sens Pleit}", "Plaque d'immatriculation");
+        wordPairsTest5.put("Air Hoses and ABS line {Eyr Hoses ahnd ABS layn}", "Flexibles d'air et ligne ABS");
+        wordPairsTest5.put("Air brake chamber {Eyr breyk cheym-behr}", "Chambre de frein à air");
+        wordPairsTest5.put("Slack adjuster and push road {Slak ahd-jus-tehr ahnd poosh rohd}", "Levier de réglage et tige de poussée");
+        wordPairsTest5.put("Brake lining {Breyk lay-ning}", "Garniture de frein");
+        wordPairsTest5.put("Brake Drum {Breyk Drum}", "Tambour de frein");
+        wordPairsTest5.put("The muffler and pips {Theh muf-lehr ahnd peeps}", "Silencieux et tuyaux d'échappement");
+        wordPairsTest5.put("Clearance lights {Klee-rahns layts}", "Feux de gabarit");
+        wordPairsTest5.put("Back door {Bak Dor}", "Porte arrière");
+        wordPairsTest5.put("Lock latch {Lok Latch}", "Loquet de verrouillage");
+        wordPairsTest5.put("DOT reflective tape {DOT reh-flek-teev tape}", "Bande réfléchissante DOT");
+        wordPairsTest5.put("Headboard of the trailer {Hed-bohrd of the tray-lehr}", "Paroi avant de la remorque");
+        wordPairsTest5.put("Clearance light front and side {Klee-rahns layt front ahnd sahyd}", "Feux de gabarit avant et latéraux");
+        wordPairsTest5.put("Sidewall of the trailer {Sahyd-wall of the tray-lehr}", "Paroi latérale de la remorque");
+        wordPairsTest5.put("Side rail of the trailer {Sahyd rayl of the tray-lehr}", "Rail latéral de la remorque");
+        wordPairsTest5.put("Wood floor {Wood Floor}", "Plancher en bois");
+        wordPairsTest5.put("Landing gears {Lan-ding geers}", "Béquilles de remorque");
+        wordPairsTest5.put("Support of the landing gears {Soo-port of the lan-ding geers}", "Support des béquilles");
+        wordPairsTest5.put("Crack handle {Krahk han-dle}", "Manivelle des béquilles");
+        wordPairsTest5.put("Between MUD flap and landing gear {Be-tween Mud flap ahnd lan-ding geer}", "Entre la bavette et la béquille");
+        wordPairsTest5.put("Abs light {ABS Layt}", "Voyant ABS");
+
+        // Французский словарь (термины и глаголы)
+        wordPairsTest6.put("Brake light {Breyk Layt}", "Feu stop");
+        wordPairsTest6.put("Turn signal {Tern Sig-nal}", "Clignotant");
+        wordPairsTest6.put("Clearance light {Klee-ah-rens Layt}", "Feu de gabarit");
+        wordPairsTest6.put("Reflector {Reh-flek-tor}", "Réflecteur");
+        wordPairsTest6.put("Running light {Ruh-ning Layt}", "Feu de position");
+        wordPairsTest6.put("Headlight {Hed-layt}", "Phare");
+        wordPairsTest6.put("Fog light {Fohg Layt}", "Feu antibrouillard");
+        wordPairsTest6.put("Emergency light {Eh-mehr-gen-see Layt}", "Feu d'urgence");
+        wordPairsTest6.put("Hazard lights {Haz-ard Layts}", "Feux de détresse");
+        wordPairsTest6.put("Bulb {Bahlb}", "Ampoule");
+        wordPairsTest6.put("Mounting bracket {Moun-ting Brah-ket}", "Support de fixation");
+        wordPairsTest6.put("Wiring {Wai-ring}", "Câblage");
+        wordPairsTest6.put("Connector {Koh-nek-tor}", "Connecteur");
+        wordPairsTest6.put("Voltage {Vohl-teyj}", "Tension");
+        wordPairsTest6.put("Fuse {Fyooz}", "Fusible");
+        wordPairsTest6.put("no missing lens {Noh mis-sing lenz}", "aucune lentille manquante");
+        wordPairsTest6.put("amber color {Am-ber kol-or}", "couleur ambre");
+        wordPairsTest6.put("clean and working properly {Kleen end wor-king pro-per-lee}", "propre et fonctionne correctement");
+        wordPairsTest6.put("No cracks {Noh kraks}", "Pas de fissures");
+        wordPairsTest6.put("No damages {Noh deh-muh-jiz}", "Pas de dommages");
+        wordPairsTest6.put("No chips {Noh chip-s}", "Pas d'éclats");
+        wordPairsTest6.put("Not broken {Not broh-ken}", "Non cassé");
+        wordPairsTest6.put("properly install with the rubber seal {Pro-per-lee in-stal uiz zhe rah-ber seel}", "correctement installé avec le joint en caoutchouc");
+        wordPairsTest6.put("No holes {Noh hohlz}", "Pas de trous");
+        wordPairsTest6.put("no missing rivets {Noh mis-sing riv-ets}", "aucun rivet manquant");
+        wordPairsTest6.put("not bent {Not bent}", "non plié");
+        wordPairsTest6.put("not shifted {Not shift-ed}", "non déplacé");
+        wordPairsTest6.put("not loose {Noh loose}", "non desserré");
+        wordPairsTest6.put("Must be fully raised {Must bee foo-lee rays-d}", "Doit être complètement relevé");
+        wordPairsTest6.put("no abrasion {noh ah-bray-shun}", "sans abrasion");
+        wordPairsTest6.put("no bulges {noh bool-jez}", "sans bosses ni hernies");
+        wordPairsTest6.put("no cuts {noh kut-s}", "sans coupures");
+        wordPairsTest6.put("NO AIR LEAKS {noh air leeks}", "AUCUNE FUITE D'AIR");
+        wordPairsTest6.put("Free play no more than 1 inch when release brake {Free play no more than 1 inch when re-lease brake}", "Jeu libre d'au plus 1 pouce lorsque le frein est relâché");
+        wordPairsTest6.put("no missing clevis pin {noh miss-ing kleh-vis pin}", "aucun axe de chape manquant");
+        wordPairsTest6.put("and cotter pins {end koh-ter pinz}", "et goupilles fendues");
+        wordPairsTest6.put("no less than a quarter of an inch thickness {noh les than a kwar-ter of an inch thik-ness}", "épaisseur d'au moins un quart de pouce");
+        wordPairsTest6.put("no oil debris between brake lining and brake drums {noh oy-il deh-brees bee-tween brake ly-ning end brake drums}", "pas d'huile ni de débris entre la garniture et le tambour de frein");
+        wordPairsTest6.put("No missing parts {Noh miss-ing parts}", "Aucune pièce manquante");
+        wordPairsTest6.put("all mirrors should be clean {All mirrors should be kleen}", "tous les rétroviseurs doivent être propres");
+
         // Получаем SharedPreferences
         SharedPreferences sharedPreferences = getSharedPreferences("MyPrefs", MODE_PRIVATE);
 
@@ -387,8 +482,15 @@ public class VocabularyActivity extends AppCompatActivity {
             adThanks = "Desbloquear parte";
             adMessage = "Mira un anuncio para desbloquear la siguiente parte";
             adButton = "Continuar";
-
-
+        } else if ("fr".equals(appLanguage)) {
+            test1Button.setOnClickListener(v -> loadTest(wordPairsTest5));
+            test2Button.setOnClickListener(v -> loadTest(wordPairsTest6));
+            test1Button.setText("Concepts principaux");
+            test2Button.setText("Termes et verbes");
+            nextQuizButton.setText("Quiz suivant");
+            adThanks = "Débloquer la partie";
+            adMessage = "Regardez une publicité pour débloquer la partie suivante";
+            adButton = "Continuer";
         } else if ("ru".equals(appLanguage)) {
             // Установка обработчиков кнопок
             test1Button.setOnClickListener(v -> loadTest(wordPairsTest1));
@@ -425,7 +527,9 @@ public class VocabularyActivity extends AppCompatActivity {
         // Загрузить тест 1 по умолчанию
         if ("es".equals(appLanguage)) {
             loadTest(wordPairsTest3);
-        } if ("ru".equals(appLanguage)) {
+        } else if ("fr".equals(appLanguage)) {
+            loadTest(wordPairsTest5);
+        } else {
             loadTest(wordPairsTest1);
         }
 

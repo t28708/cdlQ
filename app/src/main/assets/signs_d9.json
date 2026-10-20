@@ -3,318 +3,371 @@
     "image": "mutcd_d9_1.png",
     "description": "Telephone",
     "description_ru": "Телефон",
-    "description_es": "Teléfono"
+    "description_es": "Teléfono",
+    "description_fr": "Téléphone"
   },
   {
     "image": "mutcd_d9_2.png",
     "description": "Hospital",
     "description_ru": "Больница",
-    "description_es": "Hospital"
+    "description_es": "Hospital",
+    "description_fr": "Hôpital"
   },
   {
     "image": "mutcd_d9_3.png",
     "description": "Camping",
     "description_ru": "Кемпинг",
-    "description_es": "Camping"
+    "description_es": "Camping",
+    "description_fr": "Camping"
   },
   {
     "image": "mutcd_d9_4.png",
     "description": "Litter container",
     "description_ru": "Контейнер для мусора",
-    "description_es": "Contenedor de basura"
+    "description_es": "Contenedor de basura",
+    "description_fr": "Poubelle"
   },
   {
     "image": "mutcd_d9_6.png",
     "description": "Handicapped accessible",
     "description_ru": "Доступно для инвалидов",
-    "description_es": "Accesible para discapacitados"
+    "description_es": "Accesible para discapacitados",
+    "description_fr": "Accessible aux personnes handicapées"
   },
   {
     "image": "mutcd_d9_6p.png",
     "description": "Van accessible",
     "description_ru": "Доступно для фургона",
-    "description_es": "Accesible para furgonetas"
+    "description_es": "Accesible para furgonetas",
+    "description_fr": "Accessible aux fourgonnettes"
   },
   {
     "image": "mutcd_d9_7.png",
     "description": "Gasoline",
     "description_ru": "Бензин",
-    "description_es": "Gasolina"
+    "description_es": "Gasolina",
+    "description_fr": "Essence"
   },
   {
     "image": "mutcd_d9_8.png",
     "description": "Food",
     "description_ru": "Еда",
-    "description_es": "Comida"
+    "description_es": "Comida",
+    "description_fr": "Restauration"
   },
   {
     "image": "mutcd_d9_9.png",
     "description": "Lodging",
     "description_ru": "Проживание",
-    "description_es": "Alojamiento"
+    "description_es": "Alojamiento",
+    "description_fr": "Hébergement"
   },
   {
     "image": "mutcd_d9_10.png",
     "description": "Tourist information",
     "description_ru": "Туристическая информация",
-    "description_es": "Información turística"
+    "description_es": "Información turística",
+    "description_fr": "Information touristique"
   },
   {
     "image": "mutcd_d9_11.png",
     "description": "Diesel fuel",
     "description_ru": "Дизельное топливо",
-    "description_es": "Combustible diésel"
+    "description_es": "Combustible diésel",
+    "description_fr": "Carburant diesel"
   },
   {
     "image": "mutcd_d9_11a.png",
     "description": "Alternative fuel (compressed natural gas)",
     "description_ru": "Альтернативное топливо (сжиженный природный газ)",
-    "description_es": "Combustible alternativo (gas natural comprimido)"
+    "description_es": "Combustible alternativo (gas natural comprimido)",
+    "description_fr": "Carburant alternatif (gaz naturel comprimé)"
   },
   {
     "image": "mutcd_d9_11b.png",
     "description": "Electric vehicle charging",
     "description_ru": "Зарядка электромобилей",
-    "description_es": "Carga de vehículos eléctricos"
+    "description_es": "Carga de vehículos eléctricos",
+    "description_fr": "Recharge de véhicules électriques"
   },
   {
     "image": "mutcd_d9_11bp.png",
     "description": "Electric vehicle charging",
     "description_ru": "Зарядка электромобилей",
-    "description_es": "Carga de vehículos eléctricos"
+    "description_es": "Carga de vehículos eléctricos",
+    "description_fr": "Recharge de véhicules électriques"
   },
   {
     "image": "mutcd_d9_11c.png",
     "description": "Alternative fuel (ethanol)",
     "description_ru": "Альтернативное топливо (этанол)",
-    "description_es": "Combustible alternativo (etanol)"
+    "description_es": "Combustible alternativo (etanol)",
+    "description_fr": "Carburant alternatif (éthanol)"
   },
   {
     "image": "mutcd_d9_11d.png",
     "description": "Alternative fuel (liquefied natural gas)",
     "description_ru": "Альтернативное топливо (жиженый природный газ)",
-    "description_es": "Combustible alternativo (gas natural licuado)"
+    "description_es": "Combustible alternativo (gas natural licuado)",
+    "description_fr": "Carburant alternatif (gaz naturel liquéfié)"
   },
   {
     "image": "mutcd_d9_11e.png",
     "description": "Alternative fuel (liquefied petroleum gas)",
     "description_ru": "Альтернативное топливо (жиженый нефтяной газ)",
-    "description_es": "Combustible alternativo (gas licuado de petróleo)"
+    "description_es": "Combustible alternativo (gas licuado de petróleo)",
+    "description_fr": "Carburant alternatif (gaz de pétrole liquéfié)"
   },
   {
     "image": "mutcd_d9_11f.png",
     "description": "Alternative fuel (hydrogen)",
     "description_ru": "Альтернативное топливо (водород)",
-    "description_es": "Combustible alternativo (hidrógeno)"
+    "description_es": "Combustible alternativo (hidrógeno)",
+    "description_fr": "Carburant alternatif (hydrogène)"
   },
   {
     "image": "mutcd_d9_11g.png",
     "description": "Alternative fuel (biofuel)",
     "description_ru": "Альтернативное топливо (биотопливо)",
-    "description_es": "Combustible alternativo (biocombustible)"
+    "description_es": "Combustible alternativo (biocombustible)",
+    "description_fr": "Carburant alternatif (biocarburant)"
   },
   {
     "image": "mutcd_d9_12.png",
     "description": "RV sanitary station",
     "description_ru": "Станция санитарной обработки для жилых автомобилей",
-    "description_es": "Estación sanitaria para vehículos recreativos"
+    "description_es": "Estación sanitaria para vehículos recreativos",
+    "description_fr": "Station de vidange pour camping-cars"
   },
   {
     "image": "mutcd_d9_13.png",
     "description": "Emergency medical services",
     "description_ru": "Экстренная медицинская помощь",
-    "description_es": "Servicios médicos de emergencia"
+    "description_es": "Servicios médicos de emergencia",
+    "description_fr": "Services médicaux d'urgence"
   },
   {
     "image": "mutcd_d9_13ap.png",
     "description": "Hospital",
     "description_ru": "Больница",
-    "description_es": "Hospital"
+    "description_es": "Hospital",
+    "description_fr": "Hôpital"
   },
   {
     "image": "mutcd_d9_13bp.png",
     "description": "Ambulance station",
     "description_ru": "Станция скорой помощи",
-    "description_es": "Estación de ambulancias"
+    "description_es": "Estación de ambulancias",
+    "description_fr": "Poste d'ambulance"
   },
   {
     "image": "mutcd_d9_13cp.png",
     "description": "Emergency medical care",
     "description_ru": "Экстренная медицинская помощь",
-    "description_es": "Atención médica de emergencia"
+    "description_es": "Atención médica de emergencia",
+    "description_fr": "Soins médicaux d'urgence"
   },
   {
     "image": "mutcd_d9_13dp.png",
     "description": "Trauma center",
     "description_ru": "Центр травматологии",
-    "description_es": "Centro de trauma"
+    "description_es": "Centro de trauma",
+    "description_fr": "Centre de traumatologie"
   },
   {
     "image": "mutcd_d9_14.png",
     "description": "Police",
     "description_ru": "Полиция",
-    "description_es": "Policía"
+    "description_es": "Policía",
+    "description_fr": "Police"
   },
   {
     "image": "mutcd_d9_16.png",
     "description": "Truck parking",
     "description_ru": "Парковка для грузовиков",
-    "description_es": "Estacionamiento de camiones"
+    "description_es": "Estacionamiento de camiones",
+    "description_fr": "Stationnement pour camions"
   },
   {
     "image": "mutcd_d9_16ap.png",
     "description": "Truck external power",
     "description_ru": "Внешнее питание для грузовиков",
-    "description_es": "Energía externa para camiones"
+    "description_es": "Energía externa para camiones",
+    "description_fr": "Alimentation électrique externe pour camions"
   },
   {
     "image": "mutcd_d9_16b.png",
     "description": "Truck parking availability - exit number",
     "description_ru": "Доступность парковки для грузовиков - номер съезда",
-    "description_es": "Disponibilidad de estacionamiento para camiones - número de salida"
+    "description_es": "Disponibilidad de estacionamiento para camiones - número de salida",
+    "description_fr": "Disponibilité du stationnement pour camions - numéro de sortie"
   },
   {
     "image": "mutcd_d9_16c.png",
     "description": "Truck parking availability - distance",
     "description_ru": "Доступность парковки для грузовиков - расстояние",
-    "description_es": "Disponibilidad de estacionamiento para camiones - distancia"
+    "description_es": "Disponibilidad de estacionamiento para camiones - distancia",
+    "description_fr": "Disponibilité du stationnement pour camions - distance"
   },
   {
     "image": "mutcd_d9_16c_28full29.png",
     "description": "Truck parking availability - distance",
     "description_ru": "Доступность парковки для грузовиков - расстояние",
-    "description_es": "Disponibilidad de estacionamiento para camiones - distancia"
+    "description_es": "Disponibilidad de estacionamiento para camiones - distancia",
+    "description_fr": "Disponibilité du stationnement pour camions - distance"
   },
   {
     "image": "mutcd_d9_16d.png",
     "description": "Truck parking availability - rest area",
     "description_ru": "Доступность парковки для грузовиков - зона отдыха",
-    "description_es": "Disponibilidad de estacionamiento para camiones - área de descanso"
+    "description_es": "Disponibilidad de estacionamiento para camiones - área de descanso",
+    "description_fr": "Disponibilité du stationnement pour camions - aire de repos"
   },
   {
     "image": "mutcd_d9_16d_283_facilities29.png",
     "description": "Truck parking availability - rest area",
     "description_ru": "Доступность парковки для грузовиков - зона отдыха",
-    "description_es": "Disponibilidad de estacionamiento para camiones - área de descanso"
+    "description_es": "Disponibilidad de estacionamiento para camiones - área de descanso",
+    "description_fr": "Disponibilité du stationnement pour camions - aire de repos"
   },
   {
     "image": "mutcd_d9_16e.png",
     "description": "Truck parking availability - combined",
     "description_ru": "Доступность парковки для грузовиков - комбинированная",
-    "description_es": "Disponibilidad de estacionamiento para camiones - combinada"
+    "description_es": "Disponibilidad de estacionamiento para camiones - combinada",
+    "description_fr": "Disponibilité du stationnement pour camions - combinée"
   },
   {
     "image": "mutcd_d9_16e_28rest_area2c_exit29.png",
     "description": "Truck parking availability - combined",
     "description_ru": "Доступность парковки для грузовиков - комбинированная",
-    "description_es": "Disponibilidad de estacionamiento para camiones - combinada"
+    "description_es": "Disponibilidad de estacionamiento para camiones - combinada",
+    "description_fr": "Disponibilité du stationnement pour camions - combinée"
   },
   {
     "image": "mutcd_d9_16e_28rest_area2c_weigh_station29.png",
     "description": "Truck parking availability - combined",
     "description_ru": "Доступность парковки для грузовиков - комбинированная",
-    "description_es": "Disponibilidad de estacionamiento para camiones - combinada"
+    "description_es": "Disponibilidad de estacionamiento para camiones - combinada",
+    "description_fr": "Disponibilité du stationnement pour camions - combinée"
   },
   {
     "image": "mutcd_d9_16e_283_exits29.png",
     "description": "Truck parking availability - combined",
     "description_ru": "Доступность парковки для грузовиков - комбинированная",
-    "description_es": "Disponibilidad de estacionamiento para camiones - combinada"
+    "description_es": "Disponibilidad de estacionamiento para camiones - combinada",
+    "description_fr": "Disponibilité du stationnement pour camions - combinée"
   },
   {
     "image": "mutcd_d9_17p.png",
     "description": "Next services (distance)",
     "description_ru": "Следующие услуги (расстояние)",
-    "description_es": "Próximos servicios (distancia)"
+    "description_es": "Próximos servicios (distancia)",
+    "description_fr": "Prochains services (distance)"
   },
   {
     "image": "mutcd_d9_17a.png",
     "description": "Next EV charging (distance)",
     "description_ru": "Следующая зарядка для электромобилей (расстояние)",
-    "description_es": "Próxima carga de EV (distancia)"
+    "description_es": "Próxima carga de EV (distancia)",
+    "description_fr": "Prochaine recharge VE (distance)"
   },
   {
     "image": "mutcd_d9_18b_28exit_number29.png",
     "description": "General services (up to 6 symbols) with exit number",
     "description_ru": "Общие услуги (до 6 символов) с номером съезда",
-    "description_es": "Servicios generales (hasta 6 símbolos) con número de salida"
+    "description_es": "Servicios generales (hasta 6 símbolos) con número de salida",
+    "description_fr": "Services généraux (jusqu'à 6 symboles) avec numéro de sortie"
   },
   {
     "image": "mutcd_d9_18a.png",
     "description": "General services with exit number",
     "description_ru": "Общие услуги с номером съезда",
-    "description_es": "Servicios generales con número de salida"
+    "description_es": "Servicios generales con número de salida",
+    "description_fr": "Services généraux avec numéro de sortie"
   },
   {
     "image": "mutcd_d9_18b.png",
     "description": "General services (up to 6 symbols) with action message",
     "description_ru": "Общие услуги (до 6 символов) с сообщением действия",
-    "description_es": "Servicios generales (hasta 6 símbolos) con mensaje de acción"
+    "description_es": "Servicios generales (hasta 6 símbolos) con mensaje de acción",
+    "description_fr": "Services généraux (jusqu'à 6 symboles) avec message d'action"
   },
   {
     "image": "mutcd_d9_18c.png",
     "description": "General services with action message",
     "description_ru": "Общие услуги с сообщением действия",
-    "description_es": "Servicios generales con mensaje de acción"
+    "description_es": "Servicios generales con mensaje de acción",
+    "description_fr": "Services généraux avec message d'action"
   },
   {
     "image": "mutcd_d9_18dp.png",
     "description": "Rural interchange general services (up to 3 symbols)",
     "description_ru": "Общие услуги сельских развязок (до 3 символов)",
-    "description_es": "Servicios generales de intercambiadores rurales (hasta 3 símbolos)"
+    "description_es": "Servicios generales de intercambiadores rurales (hasta 3 símbolos)",
+    "description_fr": "Services généraux d'échangeur rural (jusqu'à 3 symboles)"
   },
   {
     "image": "mutcd_d9_18ep.png",
     "description": "Rural interchange general services (1 line)",
     "description_ru": "Общие услуги сельских развязок (1 линия)",
-    "description_es": "Servicios generales de intercambiadores rurales (1 línea)"
+    "description_es": "Servicios generales de intercambiadores rurales (1 línea)",
+    "description_fr": "Services généraux d'échangeur rural (1 ligne)"
   },
   {
     "image": "mutcd_d9_18fp.png",
     "description": "Rural interchange general services (2 lines)",
     "description_ru": "Общие услуги сельских развязок (2 линии)",
-    "description_es": "Servicios generales de intercambiadores rurales (2 líneas)"
+    "description_es": "Servicios generales de intercambiadores rurales (2 líneas)",
+    "description_fr": "Services généraux d'échangeur rural (2 lignes)"
   },
   {
     "image": "mutcd_d9_19.png",
     "description": "Alternative fuels corridor",
     "description_ru": "Коридор альтернативных топлив",
-    "description_es": "Corredor de combustibles alternativos"
+    "description_es": "Corredor de combustibles alternativos",
+    "description_fr": "Corridor de carburants alternatifs"
   },
   {
     "image": "mutcd_d9_19ap.png",
     "description": "Alternative fuels corridor (1 line)",
     "description_ru": "Коридор альтернативных топлив (1 линия)",
-    "description_es": "Corredor de combustibles alternativos (1 línea)"
+    "description_es": "Corredor de combustibles alternativos (1 línea)",
+    "description_fr": "Corridor de carburants alternatifs (1 ligne)"
   },
   {
     "image": "mutcd_d9_19bp.png",
     "description": "Alternative fuels corridor (2 lines)",
     "description_ru": "Коридор альтернативных топлив (2 линии)",
-    "description_es": "Corredor de combustibles alternativos (2 líneas)"
+    "description_es": "Corredor de combustibles alternativos (2 líneas)",
+    "description_fr": "Corridor de carburants alternatifs (2 lignes)"
   },
   {
     "image": "mutcd_d9_20.png",
     "description": "Pharmacy",
     "description_ru": "Аптека",
-    "description_es": "Farmacia"
+    "description_es": "Farmacia",
+    "description_fr": "Pharmacie"
   },
   {
     "image": "mutcd_d9_20ap.png",
     "description": "24 HR",
     "description_ru": "Круглосуточно",
-    "description_es": "24 horas"
+    "description_es": "24 horas",
+    "description_fr": "24 h/24"
   },
   {
     "image": "mutcd_d9_21.png",
     "description": "Telecommunication (TDD/TTY)",
     "description_ru": "Телекоммуникации (TDD/TTY)",
-    "description_es": "Telecomunicaciones (TDD/TTY)"
+    "description_es": "Telecomunicaciones (TDD/TTY)",
+    "description_fr": "Télécommunications (ATS/TTY)"
   },
   {
     "image": "mutcd_d9_22.png",
     "description": "Wireless internet",
     "description_ru": "Беспроводной интернет",
-    "description_es": "Internet inalámbrico"
+    "description_es": "Internet inalámbrico",
+    "description_fr": "Internet sans fil"
   }
 ]

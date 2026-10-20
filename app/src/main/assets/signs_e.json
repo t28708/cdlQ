@@ -3,402 +3,469 @@
     "image": "mutcd_e1_1.png",
     "description": "Interchange Advance Guide (1 Destination)",
     "description_ru": "Руководство по развязке (1 пункт назначения)",
-    "description_es": "Guía anticipada de intercambiadores (1 destino)"
+    "description_es": "Guía anticipada de intercambiadores (1 destino)",
+    "description_fr": "Guide avancé d'échangeur (1 destination)"
   },
   {
     "image": "mutcd_e1_2.png",
     "description": "Interchange Advance Guide (2 Destinations)",
     "description_ru": "Руководство по развязке (2 пункта назначения)",
-    "description_es": "Guía anticipada de intercambiadores (2 destinos)"
+    "description_es": "Guía anticipada de intercambiadores (2 destinos)",
+    "description_fr": "Guide avancé d'échangeur (2 destinations)"
   },
   {
     "image": "mutcd_e1_3.png",
     "description": "Interchange Advance Guide (3 Destinations)",
     "description_ru": "Руководство по развязке (3 пункта назначения)",
-    "description_es": "Guía anticipada de intercambiadores (3 destinos)"
+    "description_es": "Guía anticipada de intercambiadores (3 destinos)",
+    "description_fr": "Guide avancé d'échangeur (3 destinations)"
   },
   {
     "image": "mutcd_e1_5p.png",
     "description": "1 or 2 Digit Exit Number",
     "description_ru": "Номер съезда из 1 или 2 цифр",
-    "description_es": "Número de salida de 1 o 2 dígitos"
+    "description_es": "Número de salida de 1 o 2 dígitos",
+    "description_fr": "Numéro de sortie à 1 ou 2 chiffres"
   },
   {
     "image": "mutcd_e1_5ap.png",
     "description": "3 Digit Exit Number",
     "description_ru": "Номер съезда из 3 цифр",
-    "description_es": "Número de salida de 3 dígitos"
+    "description_es": "Número de salida de 3 dígitos",
+    "description_fr": "Numéro de sortie à 3 chiffres"
   },
   {
     "image": "mutcd_e1_5bp.png",
     "description": "1 or 2 Digit Exit Number with single letter suffix",
     "description_ru": "Номер съезда из 1 или 2 цифр с суффиксом из одной буквы",
-    "description_es": "Número de salida de 1 o 2 dígitos con sufijo de una letra"
+    "description_es": "Número de salida de 1 o 2 dígitos con sufijo de una letra",
+    "description_fr": "Numéro de sortie à 1 ou 2 chiffres avec suffixe d'une lettre"
   },
   {
     "image": "mutcd_e1_5cp.png",
     "description": "3 Digit Exit Number with single letter suffix",
     "description_ru": "Номер съезда из 3 цифр с суффиксом из одной буквы",
-    "description_es": "Número de salida de 3 dígitos con sufijo de una letra"
+    "description_es": "Número de salida de 3 dígitos con sufijo de una letra",
+    "description_fr": "Numéro de sortie à 3 chiffres avec suffixe d'une lettre"
   },
   {
     "image": "mutcd_e1_5dp.png",
     "description": "1 or 2 Digit Exit Number with dual letter suffix",
     "description_ru": "Номер съезда из 1 или 2 цифр с двойным суффиксом из букв",
-    "description_es": "Número de salida de 1 o 2 dígitos con sufijo de dos letras"
+    "description_es": "Número de salida de 1 o 2 dígitos con sufijo de dos letras",
+    "description_fr": "Numéro de sortie à 1 ou 2 chiffres avec suffixe de deux lettres"
   },
   {
     "image": "mutcd_e1_5ep.png",
     "description": "3 Digit Exit Number with dual letter suffix",
     "description_ru": "Номер съезда из 3 цифр с двойным суффиксом из букв",
-    "description_es": "Número de salida de 3 dígitos con sufijo de dos letras"
+    "description_es": "Número de salida de 3 dígitos con sufijo de dos letras",
+    "description_fr": "Numéro de sortie à 3 chiffres avec suffixe de deux lettres"
   },
   {
     "image": "mutcd_e1_5fp.png",
     "description": "1 or 2 Digit Left Exit Number",
     "description_ru": "Номер съезда из 1 или 2 цифр, левый съезд",
-    "description_es": "Número de salida de 1 o 2 dígitos, salida izquierda"
+    "description_es": "Número de salida de 1 o 2 dígitos, salida izquierda",
+    "description_fr": "Numéro de sortie à gauche à 1 ou 2 chiffres"
   },
   {
     "image": "mutcd_e1_5gp.png",
     "description": "3 Digit Left Exit Number",
     "description_ru": "Номер съезда из 3 цифр, левый съезд",
-    "description_es": "Número de salida de 3 dígitos, salida izquierda"
+    "description_es": "Número de salida de 3 dígitos, salida izquierda",
+    "description_fr": "Numéro de sortie à gauche à 3 chiffres"
   },
   {
     "image": "mutcd_e1_5hp.png",
     "description": "1 or 2 Digit Left Exit Number with single letter suffix",
     "description_ru": "Номер съезда из 1 или 2 цифр, левый съезд с суффиксом из одной буквы",
-    "description_es": "Número de salida de 1 o 2 dígitos, salida izquierda con sufijo de una letra"
+    "description_es": "Número de salida de 1 o 2 dígitos, salida izquierda con sufijo de una letra",
+    "description_fr": "Numéro de sortie à gauche à 1 ou 2 chiffres avec suffixe d'une lettre"
   },
   {
     "image": "mutcd_e1_5ip.png",
     "description": "3 Digit Left Exit Number with single letter suffix",
     "description_ru": "Номер съезда из 3 цифр, левый съезд с суффиксом из одной буквы",
-    "description_es": "Número de salida de 3 dígitos, salida izquierda con sufijo de una letra"
+    "description_es": "Número de salida de 3 dígitos, salida izquierda con sufijo de una letra",
+    "description_fr": "Numéro de sortie à gauche à 3 chiffres avec suffixe d'une lettre"
   },
   {
     "image": "mutcd_e1_5jp.png",
     "description": "1 or 2 Digit Left Exit Number with dual letter suffix",
     "description_ru": "Номер съезда из 1 или 2 цифр, левый съезд с двойным суффиксом из букв",
-    "description_es": "Número de salida de 1 o 2 dígitos, salida izquierda con sufijo de dos letras"
+    "description_es": "Número de salida de 1 o 2 dígitos, salida izquierda con sufijo de dos letras",
+    "description_fr": "Numéro de sortie à gauche à 1 ou 2 chiffres avec suffixe de deux lettres"
   },
   {
     "image": "mutcd_e1_5kp.png",
     "description": "3 Digit Left Exit Number with dual letter suffix",
     "description_ru": "Номер съезда из 3 цифр, левый съезд с двойным суффиксом из букв",
-    "description_es": "Número de salida de 3 dígitos, salida izquierda con sufijo de dos letras"
+    "description_es": "Número de salida de 3 dígitos, salida izquierda con sufijo de dos letras",
+    "description_fr": "Numéro de sortie à gauche à 3 chiffres avec suffixe de deux lettres"
   },
   {
     "image": "mutcd_e1_5mp.png",
     "description": "Left",
     "description_ru": "Левый",
-    "description_es": "Izquierda"
+    "description_es": "Izquierda",
+    "description_fr": "Gauche"
   },
   {
     "image": "mutcd_e2_1p.png",
     "description": "Next Exit (1 Line)",
     "description_ru": "Следующий съезд (1 строка)",
-    "description_es": "Salida siguiente (1 línea)"
+    "description_es": "Salida siguiente (1 línea)",
+    "description_fr": "Prochaine sortie (1 ligne)"
   },
   {
     "image": "mutcd_e2_1ap.png",
     "description": "Next Exit (2 Lines) (Plaques)",
     "description_ru": "Следующий съезд (2 строки) (Плаки)",
-    "description_es": "Salida siguiente (2 líneas) (Placas)"
+    "description_es": "Salida siguiente (2 líneas) (Placas)",
+    "description_fr": "Prochaine sortie (2 lignes) (Panonceaux)"
   },
   {
     "image": "mutcd_e4_1.png",
     "description": "Exit Direction (1 Destination)",
     "description_ru": "Направление съезда (1 пункт назначения)",
-    "description_es": "Dirección de salida (1 destino)"
+    "description_es": "Dirección de salida (1 destino)",
+    "description_fr": "Direction de sortie (1 destination)"
   },
   {
     "image": "mutcd_e4_2.png",
     "description": "Exit Direction (2 Destinations)",
     "description_ru": "Направление съезда (2 пункта назначения)",
-    "description_es": "Dirección de salida (2 destinos)"
+    "description_es": "Dirección de salida (2 destinos)",
+    "description_fr": "Direction de sortie (2 destinations)"
   },
   {
     "image": "mutcd_e4_3.png",
     "description": "Exit Direction (3 Destinations)",
     "description_ru": "Направление съезда (3 пункта назначения)",
-    "description_es": "Dirección de salida (3 destinos)"
+    "description_es": "Dirección de salida (3 destinos)",
+    "description_fr": "Direction de sortie (3 destinations)"
   },
   {
     "image": "mutcd_e5_1.png",
     "description": "Exit Gore (No Exit Number)",
     "description_ru": "Пропуск съезда (без номера съезда)",
-    "description_es": "Salida Gore (sin número de salida)"
+    "description_es": "Salida Gore (sin número de salida)",
+    "description_fr": "Pointe de sortie (sans numéro de sortie)"
   },
   {
     "image": "mutcd_e5_1a.png",
     "description": "Exit Gore (1 or 2 Digits)",
     "description_ru": "Пропуск съезда (1 или 2 цифры)",
-    "description_es": "Salida Gore (1 o 2 dígitos)"
+    "description_es": "Salida Gore (1 o 2 dígitos)",
+    "description_fr": "Pointe de sortie (1 ou 2 chiffres)"
   },
   {
     "image": "mutcd_e5_1bp.png",
     "description": "Exit Number",
     "description_ru": "Номер съезда",
-    "description_es": "Número de salida"
+    "description_es": "Número de salida",
+    "description_fr": "Numéro de sortie"
   },
   {
     "image": "mutcd_e5_1c.png",
     "description": "Narrow Exit Gore",
     "description_ru": "Узкий пропуск съезда",
-    "description_es": "Salida estrecha Gore"
+    "description_es": "Salida estrecha Gore",
+    "description_fr": "Pointe de sortie étroite"
   },
   {
     "image": "mutcd_e5_2.png",
     "description": "Exit Open",
     "description_ru": "Выход открыт",
-    "description_es": "Salida abierta"
+    "description_es": "Salida abierta",
+    "description_fr": "Sortie ouverte"
   },
   {
     "image": "mutcd_e5_2a.png",
     "description": "Exit Closed",
     "description_ru": "Выход закрыт",
-    "description_es": "Salida cerrada"
+    "description_es": "Salida cerrada",
+    "description_fr": "Sortie fermée"
   },
   {
     "image": "mutcd_e5_3.png",
     "description": "Exit Only",
     "description_ru": "Только выход",
-    "description_es": "Solo salida"
+    "description_es": "Solo salida",
+    "description_fr": "Sortie seulement"
   },
   {
     "image": "mutcd_e6_1.png",
     "description": "Pull-Through",
     "description_ru": "Выход через (для переезда)",
-    "description_es": "Paso a través"
+    "description_es": "Paso a través",
+    "description_fr": "Voies directes"
   },
   {
     "image": "mutcd_e6_1a.png",
     "description": "Pull-Through (Destination)",
     "description_ru": "Выход через (пункт назначения)",
-    "description_es": "Paso a través (Destino)"
+    "description_es": "Paso a través (Destino)",
+    "description_fr": "Voies directes (Destination)"
   },
   {
     "image": "mutcd_e7_3.png",
     "description": "Post-Interchange Distance (3 lines)",
     "description_ru": "Расстояние после развязки (3 строки)",
-    "description_es": "Distancia post-intercambio (3 líneas)"
+    "description_es": "Distancia post-intercambio (3 líneas)",
+    "description_fr": "Distance après l'échangeur (3 lignes)"
   },
   {
     "image": "mutcd_e7_4.png",
     "description": "Post-Interchange Travel Time",
     "description_ru": "Время в пути после развязки",
-    "description_es": "Tiempo de viaje post-intercambio"
+    "description_es": "Tiempo de viaje post-intercambio",
+    "description_fr": "Temps de parcours après l'échangeur"
   },
   {
     "image": "mutcd_e7_5.png",
     "description": "Distance and Travel Time",
     "description_ru": "Расстояние и время в пути",
-    "description_es": "Distancia y tiempo de viaje"
+    "description_es": "Distancia y tiempo de viaje",
+    "description_fr": "Distance et temps de parcours"
   },
   {
     "image": "mutcd_e7_5_28destination29.png",
     "description": "Distance and Travel Time",
     "description_ru": "Расстояние и время в пути",
-    "description_es": "Distancia y tiempo de viaje"
+    "description_es": "Distancia y tiempo de viaje",
+    "description_fr": "Distance et temps de parcours"
   },
   {
     "image": "mutcd_e7_6.png",
     "description": "Comparative Travel Time",
     "description_ru": "Сравнительное время в пути",
-    "description_es": "Tiempo de viaje comparativo"
+    "description_es": "Tiempo de viaje comparativo",
+    "description_fr": "Temps de parcours comparatif"
   },
   {
     "image": "mutcd_e8_1.png",
     "description": "Preferential Lane Entrance Gore",
     "description_ru": "Вход в предпочтительную полосу (съезд)",
-    "description_es": "Entrada a carril preferencial (salida)"
+    "description_es": "Entrada a carril preferencial (salida)",
+    "description_fr": "Pointe d'entrée de voie réservée"
   },
   {
     "image": "mutcd_e8_1a.png",
     "description": "Preferential Lane Intermediate Entrance Gore",
     "description_ru": "Вход в предпочтительную полосу (переход)",
-    "description_es": "Entrada intermedia a carril preferencial"
+    "description_es": "Entrada intermedia a carril preferencial",
+    "description_fr": "Pointe d'entrée intermédiaire de voie réservée"
   },
   {
     "image": "mutcd_e8_2.png",
     "description": "Preferential Lane Entrance Direction (Overhead)",
     "description_ru": "Направление входа в предпочтительную полосу (надголовное)",
-    "description_es": "Dirección de entrada a carril preferencial (por encima)"
+    "description_es": "Dirección de entrada a carril preferencial (por encima)",
+    "description_fr": "Direction d'entrée de voie réservée (en surplomb)"
   },
   {
     "image": "mutcd_e8_2a.png",
     "description": "Preferential Lane Entrance Direction (Post-Mounted)",
     "description_ru": "Направление входа в предпочтительную полосу (на столбе)",
-    "description_es": "Dirección de entrada a carril preferencial (montado en poste)"
+    "description_es": "Dirección de entrada a carril preferencial (montado en poste)",
+    "description_fr": "Direction d'entrée de voie réservée (sur poteau)"
   },
   {
     "image": "mutcd_e8_3.png",
     "description": "Preferential Lane Entrance Advance",
     "description_ru": "Преждевременный вход в предпочтительную полосу",
-    "description_es": "Entrada anticipada a carril preferencial"
+    "description_es": "Entrada anticipada a carril preferencial",
+    "description_fr": "Préannonce d'entrée de voie réservée"
   },
   {
     "image": "mutcd_e8_4.png",
     "description": "Preferential Lane Direct Exit Gore",
     "description_ru": "Прямой выход из предпочтительной полосы",
-    "description_es": "Salida directa de carril preferencial"
+    "description_es": "Salida directa de carril preferencial",
+    "description_fr": "Pointe de sortie directe de voie réservée"
   },
   {
     "image": "mutcd_e8_5.png",
     "description": "Preferential Lane Intermediate Egress Direction",
     "description_ru": "Направление промежуточного выхода из предпочтительной полосы",
-    "description_es": "Dirección de salida intermedia de carril preferencial"
+    "description_es": "Dirección de salida intermedia de carril preferencial",
+    "description_fr": "Direction de sortie intermédiaire de voie réservée"
   },
   {
     "image": "mutcd_e8_6.png",
     "description": "Preferential Lane Intermediate Egress Advance",
     "description_ru": "Преждевременный выход из предпочтительной полосы",
-    "description_es": "Salida anticipada intermedia de carril preferencial"
+    "description_es": "Salida anticipada intermedia de carril preferencial",
+    "description_fr": "Préannonce de sortie intermédiaire de voie réservée"
   },
   {
     "image": "mutcd_e11_1.png",
     "description": "Exit Only (With Arrow)",
     "description_ru": "Только выход (с стрелкой)",
-    "description_es": "Solo salida (con flecha)"
+    "description_es": "Solo salida (con flecha)",
+    "description_fr": "Sortie seulement (avec flèche)"
   },
   {
     "image": "mutcd_e11_1a.png",
     "description": "Exit",
     "description_ru": "Выход",
-    "description_es": "Salida"
+    "description_es": "Salida",
+    "description_fr": "Sortie"
   },
   {
     "image": "mutcd_e11_1b.png",
     "description": "Only",
     "description_ru": "Только",
-    "description_es": "Solo"
+    "description_es": "Solo",
+    "description_fr": "Seulement"
   },
   {
     "image": "mutcd_e11_1c.png",
     "description": "Exit Only",
     "description_ru": "Только выход",
-    "description_es": "Solo salida"
+    "description_es": "Solo salida",
+    "description_fr": "Sortie seulement"
   },
   {
     "image": "mutcd_e11_1d.png",
     "description": "Exit Only (With Arrow)",
     "description_ru": "Только выход (с стрелкой)",
-    "description_es": "Solo salida (con flecha)"
+    "description_es": "Solo salida (con flecha)",
+    "description_fr": "Sortie seulement (avec flèche)"
   },
   {
     "image": "mutcd_e11_1e.png",
     "description": "Exit Only (With 2 Arrows)",
     "description_ru": "Только выход (с 2 стрелками)",
-    "description_es": "Solo salida (con 2 flechas)"
+    "description_es": "Solo salida (con 2 flechas)",
+    "description_fr": "Sortie seulement (avec 2 flèches)"
   },
   {
     "image": "mutcd_e11_1f.png",
     "description": "Exit Only (With 2 Arrows)",
     "description_ru": "Только выход (с 2 стрелками)",
-    "description_es": "Solo salida (con 2 flechas)"
+    "description_es": "Solo salida (con 2 flechas)",
+    "description_fr": "Sortie seulement (avec 2 flèches)"
   },
   {
     "image": "mutcd_e11_2.png",
     "description": "Left (Panel)",
     "description_ru": "Левый (панель)",
-    "description_es": "Izquierda (Panel)"
+    "description_es": "Izquierda (Panel)",
+    "description_fr": "Gauche (Panneau)"
   },
   {
     "image": "mutcd_e13_2b.png",
     "description": "Exit Direction Advisory Speed - Exit (Panel)",
     "description_ru": "Направление выхода и рекомендуемая скорость - выход (панель)",
-    "description_es": "Dirección de salida y velocidad recomendada - Salida (Panel)"
+    "description_es": "Dirección de salida y velocidad recomendada - Salida (Panel)",
+    "description_fr": "Direction de sortie et vitesse conseillée - Sortie (Panneau)"
   },
   {
     "image": "mutcd_e13_2a.png",
     "description": "Exit Direction Advisory Speed - Ramp (Panel)",
     "description_ru": "Направление выхода и рекомендуемая скорость - съезд (панель)",
-    "description_es": "Dirección de salida y velocidad recomendada - Rampa (Panel)"
+    "description_es": "Dirección de salida y velocidad recomendada - Rampa (Panel)",
+    "description_fr": "Direction de sortie et vitesse conseillée - Bretelle (Panneau)"
   },
   {
     "image": "mutcd_em1_1.png",
     "description": "Evacuation route",
     "description_ru": "Маршрут эвакуации",
-    "description_es": "Ruta de evacuación"
+    "description_es": "Ruta de evacuación",
+    "description_fr": "Itinéraire d'évacuation"
   },
   {
     "image": "mutcd_em1_1a.png",
     "description": "EM1-1a Hurricane evacuation route",
     "description_ru": "EM1-1a Маршрут эвакуации при урагане",
-    "description_es": "EM1-1a Ruta de evacuación por huracán"
+    "description_es": "EM1-1a Ruta de evacuación por huracán",
+    "description_fr": "EM1-1a Itinéraire d'évacuation en cas d'ouragan"
   },
   {
     "image": "mutcd_em1_2.png",
     "description": "Tsunami evacuation route",
     "description_ru": "Маршрут эвакуации при цунами",
-    "description_es": "Ruta de evacuación por tsunami"
+    "description_es": "Ruta de evacuación por tsunami",
+    "description_fr": "Itinéraire d'évacuation en cas de tsunami"
   },
   {
     "image": "mutcd_em2_1.png",
     "description": "Area Closed",
     "description_ru": "Закрытая зона",
-    "description_es": "Área cerrada"
+    "description_es": "Área cerrada",
+    "description_fr": "Zone fermée"
   },
   {
     "image": "mutcd_em2_2.png",
     "description": "Traffic Control Point",
     "description_ru": "Пункт контроля движения",
-    "description_es": "Punto de control de tráfico"
+    "description_es": "Punto de control de tráfico",
+    "description_fr": "Point de contrôle de la circulation"
   },
   {
     "image": "mutcd_em2_3.png",
     "description": "Maintain Top Safe Speed",
     "description_ru": "Поддержание безопасной максимальной скорости",
-    "description_es": "Mantener velocidad segura máxima"
+    "description_es": "Mantener velocidad segura máxima",
+    "description_fr": "Maintenir la vitesse maximale sécuritaire"
   },
   {
     "image": "mutcd_em2_4.png",
     "description": "Road Use Permit Required For Thru Traffic",
     "description_ru": "Требуется разрешение на использование дороги для проходящего транспорта",
-    "description_es": "Se requiere permiso para uso de la carretera para tráfico que pasa"
+    "description_es": "Se requiere permiso para uso de la carretera para tráfico que pasa",
+    "description_fr": "Permis d'utilisation de la route requis pour la circulation de transit"
   },
   {
     "image": "mutcd_em3_1.png",
     "description": "Medical Center",
     "description_ru": "Медицинский центр",
-    "description_es": "Centro médico"
+    "description_es": "Centro médico",
+    "description_fr": "Centre médical"
   },
   {
     "image": "mutcd_em3_1a.png",
     "description": "EM3-1a Welfare Center",
     "description_ru": "EM3-1a Центр социального обеспечения",
-    "description_es": "EM3-1a Centro de bienestar"
+    "description_es": "EM3-1a Centro de bienestar",
+    "description_fr": "EM3-1a Centre d'aide sociale"
   },
   {
     "image": "mutcd_em3_1b.png",
     "description": "EM3-1b Registration Center",
     "description_ru": "EM3-1b Центр регистрации",
-    "description_es": "EM3-1b Centro de registro"
+    "description_es": "EM3-1b Centro de registro",
+    "description_fr": "EM3-1b Centre d'enregistrement"
   },
   {
     "image": "mutcd_em3_1c.png",
     "description": "EM3-1c Decontamination Center",
     "description_ru": "EM3-1c Центр дегазации",
-    "description_es": "EM3-1c Centro de descontaminación"
+    "description_es": "EM3-1c Centro de descontaminación",
+    "description_fr": "EM3-1c Centre de décontamination"
   },
   {
     "image": "mutcd_em4_1.png",
     "description": "Emergency Shelter",
     "description_ru": "Экстренное укрытие",
-    "description_es": "Refugio de emergencia"
+    "description_es": "Refugio de emergencia",
+    "description_fr": "Abri d'urgence"
   },
   {
     "image": "mutcd_em4_1a.png",
     "description": "EM4-1a Hurricane Shelter",
     "description_ru": "EM4-1a Укрытие от урагана",
-    "description_es": "EM4-1a Refugio para huracán"
+    "description_es": "EM4-1a Refugio para huracán",
+    "description_fr": "EM4-1a Abri contre les ouragans"
   },
   {
     "image": "mutcd_em4_1b.png",
     "description": "EM4-1b Fallout Shelter",
     "description_ru": "EM4-1b Укрытие от радиации",
-    "description_es": "EM4-1b Refugio contra la radiación"
+    "description_es": "EM4-1b Refugio contra la radiación",
+    "description_fr": "EM4-1b Abri antiatomique"
   }
 ]

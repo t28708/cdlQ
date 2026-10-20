@@ -153,10 +153,31 @@ public class TestActivity extends AppCompatActivity implements BillingManager.On
             captionResult = "Resultado: 0 de 0";
             captionPart = "Parte ";
             captionQuestionOnly = "Pregunta ";
+            captionOf = " de ";
+            CaptionResultStatus = "Resultado: ";
+            captionStatusPass = "Aprobado";
+            captionStatusNotPass = "No aprobado";
+            captionRestart = "Reiniciar prueba";
+            captionNext = "Siguiente";
             captionArrayQuestions = "A la lista de preguntas";
             adThanks = "Desbloquear parte";
             adMessage = "Mira un anuncio para desbloquear la siguiente parte";
             adButton = "Continuar";
+        } if ("fr".equals(appLanguage)) {
+            captionQuestion = "Question 1 sur ";
+            captionResult = "Résultat : 0 sur 0";
+            captionPart = "Partie ";
+            captionQuestionOnly = "Question ";
+            captionOf = " sur ";
+            CaptionResultStatus = "Résultat : ";
+            captionStatusPass = "Réussi";
+            captionStatusNotPass = "Échoué";
+            captionRestart = "Recommencer le test";
+            captionNext = "Suivant";
+            captionArrayQuestions = "Retour aux questions";
+            adThanks = "Débloquer la partie";
+            adMessage = "Regardez une publicité pour débloquer la partie suivante";
+            adButton = "Continuer";
         }
 
         Button submitButton = findViewById(R.id.submit_btn);
@@ -173,6 +194,9 @@ public class TestActivity extends AppCompatActivity implements BillingManager.On
         part = arguments.get("part").toString();
 
         keyName = name + "_" + part;
+
+        // Помечаем начатое задание жёлтым ("in_progress"), пока тест не пройден до конца
+        sharedPreferences.edit().putString(keyName, "in_progress").apply();
 
         Integer start;
         Integer end;
@@ -229,14 +253,16 @@ public class TestActivity extends AppCompatActivity implements BillingManager.On
         if (name.equals("AIR BRAKES") && (part.equals("4"))) {  start = 60; end = 70;}
         if (name.equals("AIR BRAKES UA") && (part.equals("4"))) {  start = 60; end = 70;}
         if (name.equals("AIR BRAKES ES") && (part.equals("4"))) {  start = 60; end = 70;}
+        if (name.equals("AIR BRAKES FR") && (part.equals("4"))) {  start = 60; end = 70;}
 
         if (name.equals("COMBINATION VEHICLE") && (part.equals("4"))) {  start = 60; end = 70;}
         if (name.equals("COMBINATION VEHICLE UA") && (part.equals("4"))) {  start = 60; end = 70;}
         if (name.equals("COMBINATION VEHICLE ES") && (part.equals("4"))) {  start = 60; end = 70;}
+        if (name.equals("COMBINATION VEHICLE FR") && (part.equals("4"))) {  start = 60; end = 70;}
 
         textView = findViewById(R.id.textHeader);
         String newName = name;
-        newName = newName.replace(" UA", ""); // Убираем запятую
+        newName = newName.replace(" UA", "").replace(" FR", "").replace(" ES", "");
         textView.setText(newName);
 
         textView = findViewById(R.id.textPart);
@@ -288,6 +314,18 @@ public class TestActivity extends AppCompatActivity implements BillingManager.On
             QuestionAnswer = QuestionCombinatedES.question;
             QuestionAnswerChoices = QuestionCombinatedES.choices;
             QuestionAnswerCorrect = QuestionCombinatedES.correctAnswers;
+        } else if (name.equals("GENERAL KNOWLEDGE FR")) {
+            QuestionAnswer = QuestionGeneralFR.question;
+            QuestionAnswerChoices = QuestionGeneralFR.choices;
+            QuestionAnswerCorrect = QuestionGeneralFR.correctAnswers;
+        } else if (name.equals("AIR BRAKES FR")) {
+            QuestionAnswer = QuestionAirFR.question;
+            QuestionAnswerChoices = QuestionAirFR.choices;
+            QuestionAnswerCorrect = QuestionAirFR.correctAnswers;
+        } else if (name.equals("COMBINATION VEHICLE FR")) {
+            QuestionAnswer = QuestionCombinatedFR.question;
+            QuestionAnswerChoices = QuestionCombinatedFR.choices;
+            QuestionAnswerCorrect = QuestionCombinatedFR.correctAnswers;
         }
 
 
@@ -443,6 +481,9 @@ public class TestActivity extends AppCompatActivity implements BillingManager.On
             score++;
         }
 
+        SharedPreferences sharedPreferences = getSharedPreferences("MyPrefs", MODE_PRIVATE);
+        sharedPreferences.edit().putString(keyName, "in_progress").apply();
+
         questionTextView.setText(QuestionAnswer[currentQuestionIndex]);
         String[] choices = QuestionAnswerChoices[currentQuestionIndex];
 
@@ -527,10 +568,9 @@ public class TestActivity extends AppCompatActivity implements BillingManager.On
         totalQuestionsTextView.setText(captionQuestion + totalQuestion);
     }
 
-    // Кнопка возврата назад
+    // Кнопка возврата назад (закрывает тест и возвращает в открытое меню на том же месте)
     public void startMainActivity(View v) {
-        Intent newIntent = new Intent(this, MainActivity.class);
-        startActivity(newIntent);
+        finish();
     }
 
     private void showAdNoticeThenShowAd() {

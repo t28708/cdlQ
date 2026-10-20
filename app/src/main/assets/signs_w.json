@@ -3,1710 +3,1995 @@
     "image": "mutcd_w1_1r.png",
     "description": "Turn (right)",
     "description_ru": "Поворот (направо)",
-    "description_es": "Giro (a la derecha)"
+    "description_es": "Giro (a la derecha)",
+    "description_fr": "Virage serré (à droite)"
   },
   {
     "image": "mutcd_w1_1l.png",
     "description": "Turn (left)",
     "description_ru": "Поворот (налево)",
-    "description_es": "Giro (a la izquierda)"
+    "description_es": "Giro (a la izquierda)",
+    "description_fr": "Virage serré (à gauche)"
   },
   {
     "image": "mutcd_w1_2r.png",
     "description": "Curve (right)",
     "description_ru": "Кривой поворот (направо)",
-    "description_es": "Curva (a la derecha)"
+    "description_es": "Curva (a la derecha)",
+    "description_fr": "Courbe (à droite)"
   },
   {
     "image": "mutcd_w1_2l.png",
     "description": "Curve (left)",
     "description_ru": "Кривой поворот (налево)",
-    "description_es": "Curva (a la izquierda)"
+    "description_es": "Curva (a la izquierda)",
+    "description_fr": "Courbe (à gauche)"
   },
   {
     "image": "mutcd_w1_3r.png",
     "description": "Reverse turn (right)",
     "description_ru": "Обратный поворот (направо)",
-    "description_es": "Giro inverso (a la derecha)"
+    "description_es": "Giro inverso (a la derecha)",
+    "description_fr": "Double virage serré (à droite)"
   },
   {
     "image": "mutcd_w1_3l.png",
     "description": "Reverse turn (left)",
     "description_ru": "Обратный поворот (налево)",
-    "description_es": "Giro inverso (a la izquierda)"
+    "description_es": "Giro inverso (a la izquierda)",
+    "description_fr": "Double virage serré (à gauche)"
   },
   {
     "image": "mutcd_w1_4r.png",
     "description": "Reverse curve (right)",
     "description_ru": "Обратная кривизна (направо)",
-    "description_es": "Curva inversa (a la derecha)"
+    "description_es": "Curva inversa (a la derecha)",
+    "description_fr": "Double courbe (à droite)"
   },
   {
     "image": "mutcd_w1_4l.png",
     "description": "Reverse curve (left)",
     "description_ru": "Обратная кривизна (налево)",
-    "description_es": "Curva inversa (a la izquierda)"
+    "description_es": "Curva inversa (a la izquierda)",
+    "description_fr": "Double courbe (à gauche)"
   },
   {
     "image": "mutcd_w1_5r.png",
     "description": "Winding road (right)",
     "description_ru": "Извилистая дорога (направо)",
-    "description_es": "Carretera sinuosa (a la derecha)"
+    "description_es": "Carretera sinuosa (a la derecha)",
+    "description_fr": "Route sinueuse (à droite)"
   },
   {
     "image": "mutcd_w1_5l.png",
     "description": "Winding road (left)",
     "description_ru": "Извилистая дорога (налево)",
-    "description_es": "Carretera sinuosa (a la izquierda)"
+    "description_es": "Carretera sinuosa (a la izquierda)",
+    "description_fr": "Route sinueuse (à gauche)"
   },
   {
     "image": "mutcd_w1_6r.png",
     "description": "Arrow (right)",
     "description_ru": "Стрела (направо)",
-    "description_es": "Flecha (a la derecha)"
+    "description_es": "Flecha (a la derecha)",
+    "description_fr": "Flèche (à droite)"
   },
   {
     "image": "mutcd_w1_6l.png",
     "description": "Arrow (left)",
     "description_ru": "Стрела (налево)",
-    "description_es": "Flecha (a la izquierda)"
+    "description_es": "Flecha (a la izquierda)",
+    "description_fr": "Flèche (à gauche)"
   },
   {
     "image": "mutcd_w1_7.png",
     "description": "Two-direction large arrow",
     "description_ru": "Двусторонняя большая стрела",
-    "description_es": "Flecha grande bidireccional"
+    "description_es": "Flecha grande bidireccional",
+    "description_fr": "Grande flèche bidirectionnelle"
   },
   {
     "image": "mutcd_w1_8r.png",
     "description": "Chevron (right)",
     "description_ru": "Челн (направо)",
-    "description_es": "Chevron (a la derecha)"
+    "description_es": "Chevron (a la derecha)",
+    "description_fr": "Chevron (à droite)"
   },
   {
     "image": "mutcd_w1_8l.png",
     "description": "Chevron (left)",
     "description_ru": "Челн (налево)",
-    "description_es": "Chevron (a la izquierda)"
+    "description_es": "Chevron (a la izquierda)",
+    "description_fr": "Chevron (à gauche)"
   },
   {
     "image": "mutcd_w1_10r.png",
     "description": "Curve with side road (right)",
     "description_ru": "Поворот с боковой дорогой (направо)",
-    "description_es": "Curva con carretera secundaria (a la derecha)"
+    "description_es": "Curva con carretera secundaria (a la derecha)",
+    "description_fr": "Courbe avec route secondaire (à droite)"
   },
   {
     "image": "mutcd_w1_10l.png",
     "description": "Curve with side road (left)",
     "description_ru": "Поворот с боковой дорогой (налево)",
-    "description_es": "Curva con carretera secundaria (a la izquierda)"
+    "description_es": "Curva con carretera secundaria (a la izquierda)",
+    "description_fr": "Courbe avec route secondaire (à gauche)"
   },
   {
     "image": "mutcd_w1_10ar.png",
     "description": "Curve with crossroad (right)",
     "description_ru": "Поворот с перекрестком (направо)",
-    "description_es": "Curva con cruce de caminos (a la derecha)"
+    "description_es": "Curva con cruce de caminos (a la derecha)",
+    "description_fr": "Courbe avec carrefour (à droite)"
   },
   {
     "image": "mutcd_w1_10al.png",
     "description": "Curve with crossroad (left)",
     "description_ru": "Поворот с перекрестком (налево)",
-    "description_es": "Curva con cruce de caminos (a la izquierda)"
+    "description_es": "Curva con cruce de caminos (a la izquierda)",
+    "description_fr": "Courbe avec carrefour (à gauche)"
   },
   {
     "image": "mutcd_w1_10br.png",
     "description": "Curve with tangent (right)",
     "description_ru": "Поворот с касательной (направо)",
-    "description_es": "Curva con tangente (a la derecha)"
+    "description_es": "Curva con tangente (a la derecha)",
+    "description_fr": "Courbe avec tangente (à droite)"
   },
   {
     "image": "mutcd_w1_10bl.png",
     "description": "Curve with tangent (left)",
     "description_ru": "Поворот с касательной (налево)",
-    "description_es": "Curva con tangente (a la izquierda)"
+    "description_es": "Curva con tangente (a la izquierda)",
+    "description_fr": "Courbe avec tangente (à gauche)"
   },
   {
     "image": "mutcd_w1_10cr.png",
     "description": "Curve with tangent from side (right)",
     "description_ru": "Поворот с касательной с боковой дороги (направо)",
-    "description_es": "Curva con tangente desde el lado (a la derecha)"
+    "description_es": "Curva con tangente desde el lado (a la derecha)",
+    "description_fr": "Courbe avec tangente latérale (à droite)"
   },
   {
     "image": "mutcd_w1_10cl.png",
     "description": "Curve with tangent from side (left)",
     "description_ru": "Поворот с касательной с боковой дороги (налево)",
-    "description_es": "Curva con tangente desde el lado (a la izquierda)"
+    "description_es": "Curva con tangente desde el lado (a la izquierda)",
+    "description_fr": "Courbe avec tangente latérale (à gauche)"
   },
   {
     "image": "mutcd_w1_10dr.png",
     "description": "Reverse curve with side road (right)",
     "description_ru": "Обратный поворот с боковой дорогой (направо)",
-    "description_es": "Curva inversa con carretera secundaria (a la derecha)"
+    "description_es": "Curva inversa con carretera secundaria (a la derecha)",
+    "description_fr": "Double courbe avec route secondaire (à droite)"
   },
   {
     "image": "mutcd_w1_10dl.png",
     "description": "Reverse curve with side road (left)",
     "description_ru": "Обратный поворот с боковой дорогой (налево)",
-    "description_es": "Curva inversa con carretera secundaria (a la izquierda)"
+    "description_es": "Curva inversa con carretera secundaria (a la izquierda)",
+    "description_fr": "Double courbe avec route secondaire (à gauche)"
   },
   {
     "image": "mutcd_w1_10er.png",
     "description": "Reverse curve with crossroad (right)",
     "description_ru": "Обратный поворот с перекрестком (направо)",
-    "description_es": "Curva inversa con cruce de caminos (a la derecha)"
+    "description_es": "Curva inversa con cruce de caminos (a la derecha)",
+    "description_fr": "Double courbe avec carrefour (à droite)"
   },
   {
     "image": "mutcd_w1_10el.png",
     "description": "Reverse curve with crossroad (left)",
     "description_ru": "Обратный поворот с перекрестком (налево)",
-    "description_es": "Curva inversa con cruce de caminos (a la izquierda)"
+    "description_es": "Curva inversa con cruce de caminos (a la izquierda)",
+    "description_fr": "Double courbe avec carrefour (à gauche)"
   },
   {
     "image": "mutcd_w1_11r.png",
     "description": "Hairpin curve (right)",
     "description_ru": "Крутой поворот (направо)",
-    "description_es": "Curva cerrada (a la derecha)"
+    "description_es": "Curva cerrada (a la derecha)",
+    "description_fr": "Virage en épingle (à droite)"
   },
   {
     "image": "mutcd_w1_11l.png",
     "description": "Hairpin curve (left)",
     "description_ru": "Крутой поворот (налево)",
-    "description_es": "Curva cerrada (a la izquierda)"
+    "description_es": "Curva cerrada (a la izquierda)",
+    "description_fr": "Virage en épingle (à gauche)"
   },
   {
     "image": "mutcd_w1_13r.png",
     "description": "Truck rollover warning (right)",
     "description_ru": "Предупреждение о переворачивании грузовика (направо)",
-    "description_es": "Advertencia de vuelco de camión (a la derecha)"
+    "description_es": "Advertencia de vuelco de camión (a la derecha)",
+    "description_fr": "Avertissement de renversement de camion (à droite)"
   },
   {
     "image": "mutcd_w1_13l.png",
     "description": "Truck rollover warning (left)",
     "description_ru": "Предупреждение о переворачивании грузовика (налево)",
-    "description_es": "Advertencia de vuelco de camión (a la izquierda)"
+    "description_es": "Advertencia de vuelco de camión (a la izquierda)",
+    "description_fr": "Avertissement de renversement de camion (à gauche)"
   },
   {
     "image": "mutcd_w1_15r.png",
     "description": "270 degree loop curve (right)",
     "description_ru": "Поворот на 270 градусов (направо)",
-    "description_es": "Curva de 270 grados (a la derecha)"
+    "description_es": "Curva de 270 grados (a la derecha)",
+    "description_fr": "Courbe en boucle de 270 degrés (à droite)"
   },
   {
     "image": "mutcd_w1_15l.png",
     "description": "270 degree loop curve (left)",
     "description_ru": "Поворот на 270 градусов (налево)",
-    "description_es": "Curva de 270 grados (a la izquierda)"
+    "description_es": "Curva de 270 grados (a la izquierda)",
+    "description_fr": "Courbe en boucle de 270 degrés (à gauche)"
   },
   {
     "image": "mutcd_w2_1.png",
     "description": "Crossroad",
     "description_ru": "Перекресток",
-    "description_es": "Cruce de caminos"
+    "description_es": "Cruce de caminos",
+    "description_fr": "Carrefour"
   },
   {
     "image": "mutcd_w2_2r.png",
     "description": "Side road (right)",
     "description_ru": "Боковая дорога (направо)",
-    "description_es": "Carretera secundaria (a la derecha)"
+    "description_es": "Carretera secundaria (a la derecha)",
+    "description_fr": "Route secondaire (à droite)"
   },
   {
     "image": "mutcd_w2_2l.png",
     "description": "Side road (left)",
     "description_ru": "Боковая дорога (налево)",
-    "description_es": "Carretera secundaria (a la izquierda)"
+    "description_es": "Carretera secundaria (a la izquierda)",
+    "description_fr": "Route secondaire (à gauche)"
   },
   {
     "image": "mutcd_w2_3r.png",
     "description": "Side road at an acute angle (right)",
     "description_ru": "Боковая дорога под острым углом (направо)",
-    "description_es": "Carretera secundaria en ángulo agudo (a la derecha)"
+    "description_es": "Carretera secundaria en ángulo agudo (a la derecha)",
+    "description_fr": "Route secondaire à angle aigu (à droite)"
   },
   {
     "image": "mutcd_w2_3l.png",
     "description": "Side road at an acute angle (left)",
     "description_ru": "Боковая дорога под острым углом (налево)",
-    "description_es": "Carretera secundaria en ángulo agudo (a la izquierda)"
+    "description_es": "Carretera secundaria en ángulo agudo (a la izquierda)",
+    "description_fr": "Route secondaire à angle aigu (à gauche)"
   },
   {
     "image": "mutcd_w2_3ar.png",
     "description": "Side road at an obtuse angle (right)",
     "description_ru": "Боковая дорога под тупым углом (направо)",
-    "description_es": "Carretera secundaria en ángulo obtuso (a la derecha)"
+    "description_es": "Carretera secundaria en ángulo obtuso (a la derecha)",
+    "description_fr": "Route secondaire à angle obtus (à droite)"
   },
   {
     "image": "mutcd_w2_3al.png",
     "description": "Side road at an obtuse angle (left)",
     "description_ru": "Боковая дорога под тупым углом (налево)",
-    "description_es": "Carretera secundaria en ángulo obtuso (a la izquierda)"
+    "description_es": "Carretera secundaria en ángulo obtuso (a la izquierda)",
+    "description_fr": "Route secondaire à angle obtus (à gauche)"
   },
   {
     "image": "mutcd_w2_4.png",
     "description": "T-intersection",
     "description_ru": "Т-образный перекресток",
-    "description_es": "Intersección en T"
+    "description_es": "Intersección en T",
+    "description_fr": "Intersection en T"
   },
   {
     "image": "mutcd_w2_5.png",
     "description": "Y-intersection",
     "description_ru": "Y-образный перекресток",
-    "description_es": "Intersección en Y"
+    "description_es": "Intersección en Y",
+    "description_fr": "Intersection en Y"
   },
   {
     "image": "mutcd_w2_6.png",
     "description": "Roundabout",
     "description_ru": "Кольцевая развязка",
-    "description_es": "Glorieta"
+    "description_es": "Glorieta",
+    "description_fr": "Carrefour giratoire"
   },
   {
     "image": "mutcd_w2_7r.png",
     "description": "Offset side roads (right and left)",
     "description_ru": "Смещенные боковые дороги (направо и налево)",
-    "description_es": "Carreteras secundarias desplazadas (derecha e izquierda)"
+    "description_es": "Carreteras secundarias desplazadas (derecha e izquierda)",
+    "description_fr": "Routes secondaires décalées (droite et gauche)"
   },
   {
     "image": "mutcd_w2_7l.png",
     "description": "Offset side roads (left and right)",
     "description_ru": "Смещенные боковые дороги (налево и направо)",
-    "description_es": "Carreteras secundarias desplazadas (izquierda y derecha)"
+    "description_es": "Carreteras secundarias desplazadas (izquierda y derecha)",
+    "description_fr": "Routes secondaires décalées (gauche et droite)"
   },
   {
     "image": "mutcd_w2_8r.png",
     "description": "Double side roads (right)",
     "description_ru": "Двойные боковые дороги (направо)",
-    "description_es": "Doble carretera secundaria (a la derecha)"
+    "description_es": "Doble carretera secundaria (a la derecha)",
+    "description_fr": "Double route secondaire (à droite)"
   },
   {
     "image": "mutcd_w2_8l.png",
     "description": "Double side roads (left)",
     "description_ru": "Двойные боковые дороги (налево)",
-    "description_es": "Doble carretera secundaria (a la izquierda)"
+    "description_es": "Doble carretera secundaria (a la izquierda)",
+    "description_fr": "Double route secondaire (à gauche)"
   },
   {
     "image": "mutcd_w2_10.png",
     "description": "Traffic Entering When Flashing",
     "description_ru": "Движение при мигающем сигнале",
-    "description_es": "Tráfico entrando cuando parpadea"
+    "description_es": "Tráfico entrando cuando parpadea",
+    "description_fr": "Circulation entrante lorsque clignotant"
   },
   {
     "image": "mutcd_w2_11.png",
     "description": "Traffic Approaching When Flashing",
     "description_ru": "Движение приближается при мигающем сигнале",
-    "description_es": "Tráfico acercándose cuando parpadea"
+    "description_es": "Tráfico acercándose cuando parpadea",
+    "description_fr": "Circulation en approche lorsque clignotant"
   },
   {
     "image": "mutcd_w3_1.png",
     "description": "Stop sign ahead",
     "description_ru": "Знак остановки впереди",
-    "description_es": "Señal de alto adelante"
+    "description_es": "Señal de alto adelante",
+    "description_fr": "Panneau d'arrêt à l'avant"
   },
   {
     "image": "mutcd_w3_2.png",
     "description": "Yield sign ahead",
     "description_ru": "Знак уступи дорогу впереди",
-    "description_es": "Señal de ceda el paso adelante"
+    "description_es": "Señal de ceda el paso adelante",
+    "description_fr": "Panneau cédez le passage à l'avant"
   },
   {
     "image": "mutcd_w3_3.png",
     "description": "Traffic light ahead",
     "description_ru": "Светофор впереди",
-    "description_es": "Semáforo adelante"
+    "description_es": "Semáforo adelante",
+    "description_fr": "Feu de circulation à l'avant"
   },
   {
     "image": "mutcd_w3_4.png",
     "description": "Be prepared to stop",
     "description_ru": "Будьте готовы остановиться",
-    "description_es": "Prepárese para detenerse"
+    "description_es": "Prepárese para detenerse",
+    "description_fr": "Préparez-vous à vous arrêter"
   },
   {
     "image": "mutcd_w3_5.png",
     "description": "Speed limit ahead",
     "description_ru": "Ограничение скорости впереди",
-    "description_es": "Límite de velocidad adelante"
+    "description_es": "Límite de velocidad adelante",
+    "description_fr": "Limite de vitesse à l'avant"
   },
   {
     "image": "mutcd_w3_5a.png",
     "description": "Speed zone ahead",
     "description_ru": "Зона ограничения скорости впереди",
-    "description_es": "Zona de velocidad adelante"
+    "description_es": "Zona de velocidad adelante",
+    "description_fr": "Zone de vitesse à l'avant"
   },
   {
     "image": "mutcd_w3_5b.png",
     "description": "Variable Speed Zone Ahead",
     "description_ru": "Зона переменной скорости впереди",
-    "description_es": "Zona de velocidad variable adelante"
+    "description_es": "Zona de velocidad variable adelante",
+    "description_fr": "Zone de vitesse variable à l'avant"
   },
   {
     "image": "mutcd_w3_5c.png",
     "description": "Truck Speed Zone Ahead",
     "description_ru": "Зона ограничения скорости для грузовиков впереди",
-    "description_es": "Zona de velocidad para camiones adelante"
+    "description_es": "Zona de velocidad para camiones adelante",
+    "description_fr": "Zone de vitesse pour camions à l'avant"
   },
   {
     "image": "mutcd_w3_6.png",
     "description": "Draw bridge ahead",
     "description_ru": "Подъемный мост впереди",
-    "description_es": "Puente levadizo adelante"
+    "description_es": "Puente levadizo adelante",
+    "description_fr": "Pont-levis à l'avant"
   },
   {
     "image": "mutcd_w3_7.png",
     "description": "Ramp meter ahead",
     "description_ru": "Метрическая система на съезде впереди",
-    "description_es": "Medidor de rampa adelante"
+    "description_es": "Medidor de rampa adelante",
+    "description_fr": "Feu de régulation de bretelle à l'avant"
   },
   {
     "image": "mutcd_w3_8.png",
     "description": "Ramp metered when flashing",
     "description_ru": "Сигнализация съезда включена",
-    "description_es": "Rampa medida cuando parpadea"
+    "description_es": "Rampa medida cuando parpadea",
+    "description_fr": "Bretelle régulée par feu lorsque clignotant"
   },
   {
     "image": "mutcd_w3_9.png",
     "description": "Traffic Using Shoulder (times and days)",
     "description_ru": "Движение по обочине (время и дни)",
-    "description_es": "Tráfico usando el arcén (horarios y días)"
+    "description_es": "Tráfico usando el arcén (horarios y días)",
+    "description_fr": "Circulation utilisant l'accotement (heures et jours)"
   },
   {
     "image": "mutcd_w4_1r.png",
     "description": "Merge (right)",
     "description_ru": "Слияние (направо)",
-    "description_es": "Fusión (a la derecha)"
+    "description_es": "Fusión (a la derecha)",
+    "description_fr": "Insertion (à droite)"
   },
   {
     "image": "mutcd_w4_1l.png",
     "description": "Merge (left)",
     "description_ru": "Слияние (налево)",
-    "description_es": "Fusión (a la izquierda)"
+    "description_es": "Fusión (a la izquierda)",
+    "description_fr": "Insertion (à gauche)"
   },
   {
     "image": "mutcd_w4_2r.png",
     "description": "Lane ends (right)",
     "description_ru": "Конец полосы (направо)",
-    "description_es": "Fin de carril (a la derecha)"
+    "description_es": "Fin de carril (a la derecha)",
+    "description_fr": "Fin de voie (à droite)"
   },
   {
     "image": "mutcd_w4_2l.png",
     "description": "Lane ends (left)",
     "description_ru": "Конец полосы (налево)",
-    "description_es": "Fin de carril (a la izquierda)"
+    "description_es": "Fin de carril (a la izquierda)",
+    "description_fr": "Fin de voie (à gauche)"
   },
   {
     "image": "mutcd_w4_3r.png",
     "description": "Added right lane",
     "description_ru": "Дополнительная полоса справа",
-    "description_es": "Carril adicional a la derecha"
+    "description_es": "Carril adicional a la derecha",
+    "description_fr": "Voie supplémentaire à droite"
   },
   {
     "image": "mutcd_w4_3l.png",
     "description": "Added left lane",
     "description_ru": "Дополнительная полоса слева",
-    "description_es": "Carril adicional a la izquierda"
+    "description_es": "Carril adicional a la izquierda",
+    "description_fr": "Voie supplémentaire à gauche"
   },
   {
     "image": "mutcd_w4_4p.png",
     "description": "Cross traffic does not stop",
     "description_ru": "Пересекающийся транспорт не останавливается",
-    "description_es": "El tráfico cruzado no se detiene"
+    "description_es": "El tráfico cruzado no se detiene",
+    "description_fr": "La circulation transversale ne s'arrête pas"
   },
   {
     "image": "mutcd_w4_4apr.png",
     "description": "Traffic from right does not stop",
     "description_ru": "Трафик справа не останавливается",
-    "description_es": "El tráfico desde la derecha no se detiene"
+    "description_es": "El tráfico desde la derecha no se detiene",
+    "description_fr": "La circulation venant de droite ne s'arrête pas"
   },
   {
     "image": "mutcd_w4_4ap.png",
     "description": "Traffic from left does not stop",
     "description_ru": "Трафик слева не останавливается",
-    "description_es": "El tráfico desde la izquierda no se detiene"
+    "description_es": "El tráfico desde la izquierda no se detiene",
+    "description_fr": "La circulation venant de gauche ne s'arrête pas"
   },
   {
     "image": "mutcd_w4_4bp.png",
     "description": "Oncoming traffic does not stop",
     "description_ru": "Встречный трафик не останавливается",
-    "description_es": "El tráfico en sentido contrario no se detiene"
+    "description_es": "El tráfico en sentido contrario no se detiene",
+    "description_fr": "La circulation en sens inverse ne s'arrête pas"
   },
   {
     "image": "mutcd_w4_5r.png",
     "description": "Merge right (entering roadway)",
     "description_ru": "Слияние направо (въезд на дорогу)",
-    "description_es": "Fusión a la derecha (entrada a la vía)"
+    "description_es": "Fusión a la derecha (entrada a la vía)",
+    "description_fr": "Insertion à droite (entrée sur la chaussée)"
   },
   {
     "image": "mutcd_w4_5l.png",
     "description": "Merge left (entering roadway)",
     "description_ru": "Слияние налево (въезд на дорогу)",
-    "description_es": "Fusión a la izquierda (entrada a la vía)"
+    "description_es": "Fusión a la izquierda (entrada a la vía)",
+    "description_fr": "Insertion à gauche (entrée sur la chaussée)"
   },
   {
     "image": "mutcd_w4_5ap.png",
     "description": "No merge area",
     "description_ru": "Нет зоны слияния",
-    "description_es": "Sin área de fusión"
+    "description_es": "Sin área de fusión",
+    "description_fr": "Sans zone d'insertion"
   },
   {
     "image": "mutcd_w4_6r.png",
     "description": "Added right lane (entering roadway)",
     "description_ru": "Дополнительная полоса справа (въезд на дорогу)",
-    "description_es": "Carril adicional a la derecha (entrada a la vía)"
+    "description_es": "Carril adicional a la derecha (entrada a la vía)",
+    "description_fr": "Voie supplémentaire à droite (entrée sur la chaussée)"
   },
   {
     "image": "mutcd_w4_6l.png",
     "description": "Added left lane (entering roadway)",
     "description_ru": "Дополнительная полоса слева (въезд на дорогу)",
-    "description_es": "Carril adicional a la izquierda (entrada a la vía)"
+    "description_es": "Carril adicional a la izquierda (entrada a la vía)",
+    "description_fr": "Voie supplémentaire à gauche (entrée sur la chaussée)"
   },
   {
     "image": "mutcd_w4_7r.png",
     "description": "Heavy merge from right",
     "description_ru": "Интенсивное слияние справа",
-    "description_es": "Fusión intensa desde la derecha"
+    "description_es": "Fusión intensa desde la derecha",
+    "description_fr": "Insertion dense venant de droite"
   },
   {
     "image": "mutcd_w4_7l.png",
     "description": "Heavy merge from left",
     "description_ru": "Интенсивное слияние слева",
-    "description_es": "Fusión intensa desde la izquierda"
+    "description_es": "Fusión intensa desde la izquierda",
+    "description_fr": "Insertion dense venant de gauche"
   },
   {
     "image": "mutcd_w4_8.png",
     "description": "Single lane transition",
     "description_ru": "Переход на одну полосу",
-    "description_es": "Transición a un solo carril"
+    "description_es": "Transición a un solo carril",
+    "description_fr": "Transition vers une seule voie"
   },
   {
     "image": "mutcd_w5_1.png",
     "description": "Road narrows",
     "description_ru": "Дорога сужается",
-    "description_es": "Carretera se estrecha"
+    "description_es": "Carretera se estrecha",
+    "description_fr": "Chaussée rétrécie"
   },
   {
     "image": "mutcd_w5_2.png",
     "description": "Narrow bridge",
     "description_ru": "Узкий мост",
-    "description_es": "Puente estrecho"
+    "description_es": "Puente estrecho",
+    "description_fr": "Pont étroit"
   },
   {
     "image": "mutcd_w5_2a.png",
     "description": "Narrow Underpass",
     "description_ru": "Узкий подземный переход",
-    "description_es": "Paso subterráneo estrecho"
+    "description_es": "Paso subterráneo estrecho",
+    "description_fr": "Passage inférieur étroit"
   },
   {
     "image": "mutcd_w5_3.png",
     "description": "One lane bridge",
     "description_ru": "Однополосный мост",
-    "description_es": "Puente de un solo carril"
+    "description_es": "Puente de un solo carril",
+    "description_fr": "Pont à une seule voie"
   },
   {
     "image": "mutcd_w5_3a.png",
     "description": "One lane underpass",
     "description_ru": "Однополосный подземный переход",
-    "description_es": "Paso subterráneo de un solo carril"
+    "description_es": "Paso subterráneo de un solo carril",
+    "description_fr": "Passage inférieur à une seule voie"
   },
   {
     "image": "mutcd_w5_4.png",
     "description": "Ramp narrows",
     "description_ru": "Полоса сужается",
-    "description_es": "La rampa se estrecha"
+    "description_es": "La rampa se estrecha",
+    "description_fr": "Bretelle rétrécie"
   },
   {
     "image": "mutcd_w5_4a.png",
     "description": "Path narrows",
     "description_ru": "Тропа сужается",
-    "description_es": "El camino se estrecha"
+    "description_es": "El camino se estrecha",
+    "description_fr": "Sentier rétréci"
   },
   {
     "image": "mutcd_w6_1.png",
     "description": "Divided highway begins",
     "description_ru": "Начало разделенной дороги",
-    "description_es": "Comienza la carretera dividida"
+    "description_es": "Comienza la carretera dividida",
+    "description_fr": "Début de route à chaussées séparées"
   },
   {
     "image": "mutcd_w6_2.png",
     "description": "Divided highway ends",
     "description_ru": "Конец разделенной дороги",
-    "description_es": "Fin de la carretera dividida"
+    "description_es": "Fin de la carretera dividida",
+    "description_fr": "Fin de route à chaussées séparées"
   },
   {
     "image": "mutcd_w6_3.png",
     "description": "Two-way traffic",
     "description_ru": "Двухстороннее движение",
-    "description_es": "Tráfico en ambos sentidos"
+    "description_es": "Tráfico en ambos sentidos",
+    "description_fr": "Circulation dans les deux sens"
   },
   {
     "image": "mutcd_w6_5.png",
     "description": "Two-way traffic (3-Lane, two lanes in the opposing direction)",
     "description_ru": "Двухстороннее движение (3 полосы, две в противоположном направлении)",
-    "description_es": "Tráfico en ambos sentidos (3 carriles, dos en dirección opuesta)"
+    "description_es": "Tráfico en ambos sentidos (3 carriles, dos en dirección opuesta)",
+    "description_fr": "Circulation dans les deux sens (3 voies, deux voies en sens inverse)"
   },
   {
     "image": "mutcd_w6_5a.png",
     "description": "Two-way traffic (3-Lane, one lane in the opposing direction)",
     "description_ru": "Двухстороннее движение (3 полосы, одна в противоположном направлении)",
-    "description_es": "Tráfico en ambos sentidos (3 carriles, uno en dirección opuesta)"
+    "description_es": "Tráfico en ambos sentidos (3 carriles, uno en dirección opuesta)",
+    "description_fr": "Circulation dans les deux sens (3 voies, une voie en sens inverse)"
   },
   {
     "image": "mutcd_w7_1.png",
     "description": "Steep grade/hill",
     "description_ru": "Крутой склон/холм",
-    "description_es": "Pendiente empinada/colina"
+    "description_es": "Pendiente empinada/colina",
+    "description_fr": "Forte pente / côte"
   },
   {
     "image": "mutcd_w7_2p.png",
     "description": "Use low gear",
     "description_ru": "Используйте низшую передачу",
-    "description_es": "Use baja marcha"
+    "description_es": "Use baja marcha",
+    "description_fr": "Utilisez un rapport inférieur"
   },
   {
     "image": "mutcd_w7_2bp.png",
     "description": "Trucks use lower gear",
     "description_ru": "Грузовики используют низшую передачу",
-    "description_es": "Los camiones usan marcha baja"
+    "description_es": "Los camiones usan marcha baja",
+    "description_fr": "Les camions utilisent un rapport inférieur"
   },
   {
     "image": "mutcd_w7_3p.png",
     "description": "(percent) grade ahead",
     "description_ru": "(процент) наклон впереди",
-    "description_es": "(porcentaje) pendiente adelante"
+    "description_es": "(porcentaje) pendiente adelante",
+    "description_fr": "Pente de (pourcentage) à l'avant"
   },
   {
     "image": "mutcd_w7_3ap.png",
     "description": "Next (distance) miles ahead",
     "description_ru": "Следующие (расстояние) мили впереди",
-    "description_es": "Siguientes (distancia) millas adelante"
+    "description_es": "Siguientes (distancia) millas adelante",
+    "description_fr": "Sur les (distance) prochains miles à l'avant"
   },
   {
     "image": "mutcd_w7_3bp.png",
     "description": "(percent) grade (distance) miles ahead",
     "description_ru": "(процент) наклон (расстояние) мили впереди",
-    "description_es": "(porcentaje) pendiente (distancia) millas adelante"
+    "description_es": "(porcentaje) pendiente (distancia) millas adelante",
+    "description_fr": "Pente de (pourcentage) à (distance) miles à l'avant"
   },
   {
     "image": "mutcd_w7_4.png",
     "description": "Runaway truck ramp (distance)",
     "description_ru": "Рамп для безконтрольных грузовиков (расстояние)",
-    "description_es": "Rampa para camiones fuera de control (distancia)"
+    "description_es": "Rampa para camiones fuera de control (distancia)",
+    "description_fr": "Voie de détresse pour camions (distance)"
   },
   {
     "image": "mutcd_w7_4b.png",
     "description": "Runaway truck ramp",
     "description_ru": "Рамп для безконтрольных грузовиков",
-    "description_es": "Rampa para camiones fuera de control"
+    "description_es": "Rampa para camiones fuera de control",
+    "description_fr": "Voie de détresse pour camions"
   },
   {
     "image": "mutcd_w7_4c.png",
     "description": "Truck escape ramp",
     "description_ru": "Рамп для спасения грузовиков",
-    "description_es": "Rampa de escape para camiones"
+    "description_es": "Rampa de escape para camiones",
+    "description_fr": "Rampe de détresse pour camions"
   },
   {
     "image": "mutcd_w7_4dp.png",
     "description": "Sand",
     "description_ru": "Песок",
-    "description_es": "Arena"
+    "description_es": "Arena",
+    "description_fr": "Sable"
   },
   {
     "image": "mutcd_w7_4ep.png",
     "description": "Gravel",
     "description_ru": "Гравий",
-    "description_es": "Grava"
+    "description_es": "Grava",
+    "description_fr": "Gravier"
   },
   {
     "image": "mutcd_w7_4fp.png",
     "description": "Paved",
     "description_ru": "Асфальтированное",
-    "description_es": "Pavimentado"
+    "description_es": "Pavimentado",
+    "description_fr": "Chaussée revêtue"
   },
   {
     "image": "mutcd_w7_5.png",
     "description": "Hill (bicycle)",
     "description_ru": "Холм (для велосипедистов)",
-    "description_es": "Colina (para bicicletas)"
+    "description_es": "Colina (para bicicletas)",
+    "description_fr": "Pente (pour vélos)"
   },
   {
     "image": "mutcd_w7_6.png",
     "description": "Hill blocks view",
     "description_ru": "Холм ограничивает обзор",
-    "description_es": "Colina bloquea la vista"
+    "description_es": "Colina bloquea la vista",
+    "description_fr": "Colline masquant la vue"
   },
   {
     "image": "mutcd_w8_1.png",
     "description": "Bump",
     "description_ru": "Кочки",
-    "description_es": "Bache"
+    "description_es": "Bache",
+    "description_fr": "Dos d'âne / Bosse"
   },
   {
     "image": "mutcd_w8_2.png",
     "description": "Dip",
     "description_ru": "Низина",
-    "description_es": "Hondonada"
+    "description_es": "Hondonada",
+    "description_fr": "Cassis / Creux"
   },
   {
     "image": "mutcd_w8_3.png",
     "description": "Pavement ends",
     "description_ru": "Конец покрытия",
-    "description_es": "Fin del pavimento"
+    "description_es": "Fin del pavimento",
+    "description_fr": "Fin du revêtement"
   },
   {
     "image": "mutcd_w8_4.png",
     "description": "Soft shoulder",
     "description_ru": "Мягкая обочина",
-    "description_es": "Arrollo blando"
+    "description_es": "Arrollo blando",
+    "description_fr": "Accotement meuble"
   },
   {
     "image": "mutcd_w8_5.png",
     "description": "Slippery when wet ahead",
     "description_ru": "Скользко при влажности впереди",
-    "description_es": "Resbaladizo cuando esté mojado adelante"
+    "description_es": "Resbaladizo cuando esté mojado adelante",
+    "description_fr": "Chaussée glissante par temps humide à l'avant"
   },
   {
     "image": "mutcd_w8_5p.png",
     "description": "When wet",
     "description_ru": "Когда мокро",
-    "description_es": "Cuando esté mojado"
+    "description_es": "Cuando esté mojado",
+    "description_fr": "Par temps humide"
   },
   {
     "image": "mutcd_w8_5ap.png",
     "description": "Ice",
     "description_ru": "Лед",
-    "description_es": "Hielo"
+    "description_es": "Hielo",
+    "description_fr": "Verglas"
   },
   {
     "image": "mutcd_w8_5bp.png",
     "description": "Steel deck",
     "description_ru": "Стальная поверхность",
-    "description_es": "Puente de acero"
+    "description_es": "Puente de acero",
+    "description_fr": "Tablier métallique"
   },
   {
     "image": "mutcd_w8_5cp.png",
     "description": "Excess oil",
     "description_ru": "Избыточное масло",
-    "description_es": "Aceite en exceso"
+    "description_es": "Aceite en exceso",
+    "description_fr": "Excès d'huile"
   },
   {
     "image": "mutcd_w8_6.png",
     "description": "Truck crossing",
     "description_ru": "Перехождение грузовиков",
-    "description_es": "Cruce de camiones"
+    "description_es": "Cruce de camiones",
+    "description_fr": "Traversée de camions"
   },
   {
     "image": "mutcd_w8_7.png",
     "description": "Loose gravel",
     "description_ru": "Сыпучий гравий",
-    "description_es": "Grava suelta"
+    "description_es": "Grava suelta",
+    "description_fr": "Gravier meuble"
   },
   {
     "image": "mutcd_w8_8.png",
     "description": "Rough road",
     "description_ru": "Неровная дорога",
-    "description_es": "Camino áspero"
+    "description_es": "Camino áspero",
+    "description_fr": "Route cahoteuse"
   },
   {
     "image": "mutcd_w8_9.png",
     "description": "Low shoulder",
     "description_ru": "Низкая обочина",
-    "description_es": "Arrollo bajo"
+    "description_es": "Arrollo bajo",
+    "description_fr": "Accotement bas"
   },
   {
     "image": "mutcd_w8_10.png",
     "description": "Bicycle slippery when wet ahead",
     "description_ru": "Скользко для велосипедистов впереди",
-    "description_es": "Resbaladizo para bicicletas cuando esté mojado adelante"
+    "description_es": "Resbaladizo para bicicletas cuando esté mojado adelante",
+    "description_fr": "Chaussée glissante pour les vélos par temps humide à l'avant"
   },
   {
     "image": "mutcd_w8_10p.png",
     "description": "Slippery when wet",
     "description_ru": "Скользко, когда мокро",
-    "description_es": "Resbaladizo cuando esté mojado"
+    "description_es": "Resbaladizo cuando esté mojado",
+    "description_fr": "Chaussée glissante par temps humide"
   },
   {
     "image": "mutcd_w8_11.png",
     "description": "Uneven lanes",
     "description_ru": "Неровные полосы",
-    "description_es": "Carriles desiguales"
+    "description_es": "Carriles desiguales",
+    "description_fr": "Voies dénivelées"
   },
   {
     "image": "mutcd_w8_12.png",
     "description": "No center line",
     "description_ru": "Нет центральной линии",
-    "description_es": "Sin línea central"
+    "description_es": "Sin línea central",
+    "description_fr": "Pas de ligne centrale"
   },
   {
     "image": "mutcd_w8_13.png",
     "description": "Bridge ices before road",
     "description_ru": "Мост замерзает раньше дороги",
-    "description_es": "El puente se congela antes que la carretera"
+    "description_es": "El puente se congela antes que la carretera",
+    "description_fr": "Le pont gèle avant la route"
   },
   {
     "image": "mutcd_w8_14.png",
     "description": "Fallen rocks",
     "description_ru": "Падение камней",
-    "description_es": "Rocas caídas"
+    "description_es": "Rocas caídas",
+    "description_fr": "Chutes de pierres"
   },
   {
     "image": "mutcd_w8_15.png",
     "description": "Grooved pavement",
     "description_ru": "Ребристое покрытие",
-    "description_es": "Pavimento estriado"
+    "description_es": "Pavimento estriado",
+    "description_fr": "Chaussée rainurée"
   },
   {
     "image": "mutcd_w8_15ap.png",
     "description": "Motorcycle",
     "description_ru": "Мотоцикл",
-    "description_es": "Motocicleta"
+    "description_es": "Motocicleta",
+    "description_fr": "Motocyclette"
   },
   {
     "image": "mutcd_w8_16.png",
     "description": "Metal bridge deck",
     "description_ru": "Металлическая мостовая поверхность",
-    "description_es": "Puente de metal"
+    "description_es": "Puente de metal",
+    "description_fr": "Tablier de pont métallique"
   },
   {
     "image": "mutcd_w8_17r.png",
     "description": "Right shoulder drop-off ahead",
     "description_ru": "Сплошной обрыв обочины справа впереди",
-    "description_es": "Desprendimiento en el arcén derecho adelante"
+    "description_es": "Desprendimiento en el arcén derecho adelante",
+    "description_fr": "Dénivellation de l'accotement droit à l'avant"
   },
   {
     "image": "mutcd_w8_17l.png",
     "description": "Left shoulder drop-off ahead",
     "description_ru": "Обрыв обочины слева впереди",
-    "description_es": "Desprendimiento en el arcén izquierdo adelante"
+    "description_es": "Desprendimiento en el arcén izquierdo adelante",
+    "description_fr": "Dénivellation de l'accotement gauche à l'avant"
   },
   {
     "image": "mutcd_w8_17p.png",
     "description": "Shoulder drop-off",
     "description_ru": "Обрыв обочины",
-    "description_es": "Desprendimiento del arcén"
+    "description_es": "Desprendimiento del arcén",
+    "description_fr": "Dénivellation de l'accotement"
   },
   {
     "image": "mutcd_w8_18.png",
     "description": "Road may flood",
     "description_ru": "Возможен разлив дороги",
-    "description_es": "Posible inundación en la carretera"
+    "description_es": "Posible inundación en la carretera",
+    "description_fr": "Route inondable"
   },
   {
     "image": "mutcd_w8_19.png",
     "description": "Depth gauge",
     "description_ru": "Индикатор глубины",
-    "description_es": "Medidor de profundidad"
+    "description_es": "Medidor de profundidad",
+    "description_fr": "Jauge de profondeur"
   },
   {
     "image": "mutcd_w8_21.png",
     "description": "Gusty Winds Area",
     "description_ru": "Район сильного ветра",
-    "description_es": "Zona de vientos fuertes"
+    "description_es": "Zona de vientos fuertes",
+    "description_fr": "Zone de vents violents"
   },
   {
     "image": "mutcd_w8_22.png",
     "description": "Fog area",
     "description_ru": "Район тумана",
-    "description_es": "Zona de niebla"
+    "description_es": "Zona de niebla",
+    "description_fr": "Zone de brouillard"
   },
   {
     "image": "mutcd_w8_23.png",
     "description": "No shoulder ahead",
     "description_ru": "Впереди нет обочины",
-    "description_es": "Sin arcén adelante"
+    "description_es": "Sin arcén adelante",
+    "description_fr": "Pas d'accotement à l'avant"
   },
   {
     "image": "mutcd_w8_25.png",
     "description": "Shoulder ends",
     "description_ru": "Обочина заканчивается",
-    "description_es": "Fin del arcén"
+    "description_es": "Fin del arcén",
+    "description_fr": "Fin de l'accotement"
   },
   {
     "image": "mutcd_w8_26.png",
     "description": "Road Ends (distance)",
     "description_ru": "Конец дороги (расстояние)",
-    "description_es": "Fin del camino (distancia)"
+    "description_es": "Fin del camino (distancia)",
+    "description_fr": "Fin de la route (distance)"
   },
   {
     "image": "mutcd_w8_26a.png",
     "description": "Street Ends (distance)",
     "description_ru": "Конец улицы (расстояние)",
-    "description_es": "Fin de la calle (distancia)"
+    "description_es": "Fin de la calle (distancia)",
+    "description_fr": "Fin de la rue (distance)"
   },
   {
     "image": "mutcd_w9_1.png",
     "description": "Right lane ends",
     "description_ru": "Правая полоса заканчивается",
-    "description_es": "Carril derecho termina"
+    "description_es": "Carril derecho termina",
+    "description_fr": "La voie de droite se termine"
   },
   {
     "image": "mutcd_w9_1l.png",
     "description": "Lane lane ends",
     "description_ru": "Левая полоса заканчивается",
-    "description_es": "Carril izquierdo termina"
+    "description_es": "Carril izquierdo termina",
+    "description_fr": "La voie de gauche se termine"
   },
   {
     "image": "mutcd_w9_4.png",
     "description": "Lanes Merge",
     "description_ru": "Слияние полос",
-    "description_es": "Fusión de carriles"
+    "description_es": "Fusión de carriles",
+    "description_fr": "Fusion des voies"
   },
   {
     "image": "mutcd_w9_5.png",
     "description": "Bicycle Lane Ends",
     "description_ru": "Конец велосипедной дорожки",
-    "description_es": "Fin del carril bici"
+    "description_es": "Fin del carril bici",
+    "description_fr": "Fin de la bande cyclable"
   },
   {
     "image": "mutcd_w9_5a.png",
     "description": "Bicycles Merging",
     "description_ru": "Слияние с велосипедистами",
-    "description_es": "Fusión de bicicletas"
+    "description_es": "Fusión de bicicletas",
+    "description_fr": "Insertion de vélos"
   },
   {
     "image": "mutcd_w9_6.png",
     "description": "Pay toll (distance) cars (price)",
     "description_ru": "Платите за проезд (расстояние) легковые (цена)",
-    "description_es": "Pague peaje (distancia) autos (precio)"
+    "description_es": "Pague peaje (distancia) autos (precio)",
+    "description_fr": "Péage à (distance) voitures (prix)"
   },
   {
     "image": "mutcd_w9_6a.png",
     "description": "Stop Ahead Pay Toll Cars (price)",
     "description_ru": "Остановка впереди – платите за проезд (цена)",
-    "description_es": "Alto adelante – Pague peaje autos (precio)"
+    "description_es": "Alto adelante – Pague peaje autos (precio)",
+    "description_fr": "Arrêt à l'avant — Péage voitures (prix)"
   },
   {
     "image": "mutcd_w9_6bp.png",
     "description": "Pay toll (distance) cars (price)",
     "description_ru": "Платите за проезд (расстояние) легковые (цена)",
-    "description_es": "Pague peaje (distancia) autos (precio)"
+    "description_es": "Pague peaje (distancia) autos (precio)",
+    "description_fr": "Péage à (distance) voitures (prix)"
   },
   {
     "image": "mutcd_w9_6cp.png",
     "description": "Stop Ahead Pay Toll",
     "description_ru": "Остановка впереди — платите за проезд",
-    "description_es": "Alto adelante — pague peaje"
+    "description_es": "Alto adelante — pague peaje",
+    "description_fr": "Arrêt à l'avant — Péage"
   },
   {
     "image": "mutcd_w9_6dp.png",
     "description": "Stop Ahead Pay Toll",
     "description_ru": "Остановка впереди — платите за проезд",
-    "description_es": "Alto adelante — pague peaje"
+    "description_es": "Alto adelante — pague peaje",
+    "description_fr": "Arrêt à l'avant — Péage"
   },
   {
     "image": "mutcd_w9_6e.png",
     "description": "Take Ticket (distance)",
     "description_ru": "Возьмите билет (расстояние)",
-    "description_es": "Tome boleto (distancia)"
+    "description_es": "Tome boleto (distancia)",
+    "description_fr": "Prenez un ticket (distance)"
   },
   {
     "image": "mutcd_w9_6f.png",
     "description": "Stop Ahead Take Ticket",
     "description_ru": "Остановка впереди — возьмите билет",
-    "description_es": "Alto adelante — tome boleto"
+    "description_es": "Alto adelante — tome boleto",
+    "description_fr": "Arrêt à l'avant — Prenez un ticket"
   },
   {
     "image": "mutcd_w9_6gp.png",
     "description": "Take Ticket (distance)",
     "description_ru": "Возьмите билет (расстояние)",
-    "description_es": "Tome boleto (distancia)"
+    "description_es": "Tome boleto (distancia)",
+    "description_fr": "Prenez un ticket (distance)"
   },
   {
     "image": "mutcd_w9_6hp.png",
     "description": "Stop Ahead Take Ticket",
     "description_ru": "Остановка впереди — возьмите билет",
-    "description_es": "Alto adelante — tome boleto"
+    "description_es": "Alto adelante — tome boleto",
+    "description_fr": "Arrêt à l'avant — Prenez un ticket"
   },
   {
     "image": "mutcd_w9_7r.png",
     "description": "Right lane for exit only",
     "description_ru": "Правая полоса — только для съезда",
-    "description_es": "Carril derecho solo para salida"
+    "description_es": "Carril derecho solo para salida",
+    "description_fr": "Voie de droite réservée à la sortie"
   },
   {
     "image": "mutcd_w9_7l.png",
     "description": "Left lane for exit only",
     "description_ru": "Левая полоса — только для съезда",
-    "description_es": "Carril izquierdo solo para salida"
+    "description_es": "Carril izquierdo solo para salida",
+    "description_fr": "Voie de gauche réservée à la sortie"
   },
   {
     "image": "mutcd_w10_1.png",
     "description": "Railroad crossing ahead",
     "description_ru": "Впереди железнодорожный переезд",
-    "description_es": "Cruce ferroviario adelante"
+    "description_es": "Cruce ferroviario adelante",
+    "description_fr": "Passage à niveau à l'avant"
   },
   {
     "image": "mutcd_w10_1ap.png",
     "description": "Exempt",
     "description_ru": "Освобождено (например, от остановки)",
-    "description_es": "Exento"
+    "description_es": "Exento",
+    "description_fr": "Exempté"
   },
   {
     "image": "mutcd_w10_2r.png",
     "description": "Crossroads with parallel tracks (right)",
     "description_ru": "Перекресток с параллельными путями (справа)",
-    "description_es": "Cruce con vías paralelas (derecha)"
+    "description_es": "Cruce con vías paralelas (derecha)",
+    "description_fr": "Carrefour avec voies ferrées parallèles (à droite)"
   },
   {
     "image": "mutcd_w10_2l.png",
     "description": "Crossroads with parallel tracks (left)",
     "description_ru": "Перекресток с параллельными путями (слева)",
-    "description_es": "Cruce con vías paralelas (izquierda)"
+    "description_es": "Cruce con vías paralelas (izquierda)",
+    "description_fr": "Carrefour avec voies ferrées parallèles (à gauche)"
   },
   {
     "image": "mutcd_w10_3r.png",
     "description": "Side road with parallel tracks (right)",
     "description_ru": "Боковая дорога с параллельными путями (справа)",
-    "description_es": "Camino lateral con vías paralelas (derecha)"
+    "description_es": "Camino lateral con vías paralelas (derecha)",
+    "description_fr": "Route secondaire avec voies ferrées parallèles (à droite)"
   },
   {
     "image": "mutcd_w10_3l.png",
     "description": "Side road with parallel tracks (left)",
     "description_ru": "Боковая дорога с параллельными путями (слева)",
-    "description_es": "Camino lateral con vías paralelas (izquierda)"
+    "description_es": "Camino lateral con vías paralelas (izquierda)",
+    "description_fr": "Route secondaire avec voies ferrées parallèles (à gauche)"
   },
   {
     "image": "mutcd_w10_4r.png",
     "description": "T intersection with parallel tracks (right)",
     "description_ru": "Т-образный перекресток с параллельными путями (справа)",
-    "description_es": "Intersección en T con vías paralelas (derecha)"
+    "description_es": "Intersección en T con vías paralelas (derecha)",
+    "description_fr": "Intersection en T avec voies ferrées parallèles (à droite)"
   },
   {
     "image": "mutcd_w10_4l.png",
     "description": "T intersection with parallel tracks (left)",
     "description_ru": "Т-образный перекресток с параллельными путями (слева)",
-    "description_es": "Intersección en T con vías paralelas (izquierda)"
+    "description_es": "Intersección en T con vías paralelas (izquierda)",
+    "description_fr": "Intersection en T avec voies ferrées parallèles (à gauche)"
   },
   {
     "image": "mutcd_w10_5.png",
     "description": "Low ground clearance railroad crossing",
     "description_ru": "Железнодорожный переезд с низким клиренсом",
-    "description_es": "Cruce ferroviario con poca distancia al suelo"
+    "description_es": "Cruce ferroviario con poca distancia al suelo",
+    "description_fr": "Passage à niveau à faible garde au sol"
   },
   {
     "image": "mutcd_w10_5p.png",
     "description": "Low ground clearance plaque",
     "description_ru": "Табличка: низкий клиренс",
-    "description_es": "Placa: poca distancia al suelo"
+    "description_es": "Placa: poca distancia al suelo",
+    "description_fr": "Panonceau : faible garde au sol"
   },
   {
     "image": "mutcd_w10_7.png",
     "description": "Light rail transit approaching sign (Activated, blank-out)",
     "description_ru": "Приближается легкорельсовый транспорт (знак активируется)",
-    "description_es": "Señal de tranvía ligero aproximándose (activado)"
+    "description_es": "Señal de tranvía ligero aproximándose (activado)",
+    "description_fr": "Panneau d'approche de tramway (activé)"
   },
   {
     "image": "mutcd_w10_8.png",
     "description": "Trains may exceed (speed)",
     "description_ru": "Поезда могут превышать (скорость)",
-    "description_es": "Los trenes pueden exceder (velocidad)"
+    "description_es": "Los trenes pueden exceder (velocidad)",
+    "description_fr": "Les trains peuvent dépasser (vitesse)"
   },
   {
     "image": "mutcd_w10_9.png",
     "description": "No train horn warning",
     "description_ru": "Без звукового сигнала поезда",
-    "description_es": "Sin bocina de tren"
+    "description_es": "Sin bocina de tren",
+    "description_fr": "Avertissement : pas de klaxon de train"
   },
   {
     "image": "mutcd_w10_9p.png",
     "description": "No train horn plaque",
     "description_ru": "Табличка: без звукового сигнала поезда",
-    "description_es": "Placa: sin bocina de tren"
+    "description_es": "Placa: sin bocina de tren",
+    "description_fr": "Panonceau : pas de klaxon de train"
   },
   {
     "image": "mutcd_w10_11.png",
     "description": "Storage space symbol",
     "description_ru": "Символ места ожидания перед переездом",
-    "description_es": "Símbolo de espacio de almacenamiento"
+    "description_es": "Símbolo de espacio de almacenamiento",
+    "description_fr": "Symbole d'espace de stockage"
   },
   {
     "image": "mutcd_w10_11a.png",
     "description": "XX feet between tracks and highway",
     "description_ru": "XX футов между рельсами и дорогой",
-    "description_es": "XX pies entre las vías y la carretera"
+    "description_es": "XX pies entre las vías y la carretera",
+    "description_fr": "XX pieds entre la voie ferrée et la route"
   },
   {
     "image": "mutcd_w10_11b.png",
     "description": "XX feet between highway and tracks behind you",
     "description_ru": "XX футов между дорогой и рельсами позади вас",
-    "description_es": "XX pies entre la carretera y las vías detrás de usted"
+    "description_es": "XX pies entre la carretera y las vías detrás de usted",
+    "description_fr": "XX pieds entre la route et la voie ferrée derrière vous"
   },
   {
     "image": "mutcd_w10_12l.png",
     "description": "Skewed crossing ahead (right)",
     "description_ru": "Впереди диагональный переезд (справа)",
-    "description_es": "Cruce sesgado adelante (derecha)"
+    "description_es": "Cruce sesgado adelante (derecha)",
+    "description_fr": "Passage à niveau oblique à l'avant (à droite)"
   },
   {
     "image": "mutcd_w10_12r.png",
     "description": "Skewed crossing ahead (left)",
     "description_ru": "Впереди диагональный переезд (слева)",
-    "description_es": "Cruce sesgado adelante (izquierda)"
+    "description_es": "Cruce sesgado adelante (izquierda)",
+    "description_fr": "Passage à niveau oblique à l'avant (à gauche)"
   },
   {
     "image": "mutcd_w10_13p.png",
     "description": "No gates or lights",
     "description_ru": "Без шлагбаума и сигналов",
-    "description_es": "Sin barreras ni luces"
+    "description_es": "Sin barreras ni luces",
+    "description_fr": "Sans barrières ni feux"
   },
   {
     "image": "mutcd_w10_14p.png",
     "description": "Next crossing",
     "description_ru": "Следующий переезд",
-    "description_es": "Próximo cruce"
+    "description_es": "Próximo cruce",
+    "description_fr": "Prochain passage à niveau"
   },
   {
     "image": "mutcd_w10_14ap.png",
     "description": "Use next crossing",
     "description_ru": "Используйте следующий переезд",
-    "description_es": "Use el próximo cruce"
+    "description_es": "Use el próximo cruce",
+    "description_fr": "Utilisez le prochain passage à niveau"
   },
   {
     "image": "mutcd_w10_15p.png",
     "description": "Rough crossing",
     "description_ru": "Неровный переезд",
-    "description_es": "Cruce irregular"
+    "description_es": "Cruce irregular",
+    "description_fr": "Passage à niveau irrégulier"
   },
   {
     "image": "mutcd_w10_16.png",
     "description": "Another train coming (Activated, Blank-Out)",
     "description_ru": "Приближается другой поезд (активируется)",
-    "description_es": "Otro tren aproximándose (activado)"
+    "description_es": "Otro tren aproximándose (activado)",
+    "description_fr": "Un autre train arrive (activé)"
   },
   {
     "image": "mutcd_w10_21.png",
     "description": "Busway Crossing",
     "description_ru": "Пересечение автобусной полосы",
-    "description_es": "Cruce de vía de autobuses"
+    "description_es": "Cruce de vía de autobuses",
+    "description_fr": "Traversée de voie de bus"
   },
   {
     "image": "mutcd_w10_21ap.png",
     "description": "Signal Ahead",
     "description_ru": "Впереди светофор",
-    "description_es": "Señal adelante"
+    "description_es": "Señal adelante",
+    "description_fr": "Feu de signalisation à l'avant"
   },
   {
     "image": "mutcd_w11_1.png",
     "description": "Bicycle",
     "description_ru": "Велосипедисты",
-    "description_es": "Bicicletas"
+    "description_es": "Bicicletas",
+    "description_fr": "Vélos"
   },
   {
     "image": "mutcd_w11_2.png",
     "description": "Pedestrians",
     "description_ru": "Пешеходы",
-    "description_es": "Peatones"
+    "description_es": "Peatones",
+    "description_fr": "Piétons"
   },
   {
     "image": "mutcd_w11_3.png",
     "description": "Deer",
     "description_ru": "Олени",
-    "description_es": "Venados"
+    "description_es": "Venados",
+    "description_fr": "Cerfs"
   },
   {
     "image": "mutcd_w11_4.png",
     "description": "Cattle",
     "description_ru": "Крупный рогатый скот",
-    "description_es": "Ganado"
+    "description_es": "Ganado",
+    "description_fr": "Bétail"
   },
   {
     "image": "mutcd_w11_5.png",
     "description": "Farm vehicles",
     "description_ru": "Сельскохозяйственная техника",
-    "description_es": "Vehículos agrícolas"
+    "description_es": "Vehículos agrícolas",
+    "description_fr": "Véhicules agricoles"
   },
   {
     "image": "mutcd_w11_6.png",
     "description": "Snowmobile",
     "description_ru": "Снегоход",
-    "description_es": "Moto de nieve"
+    "description_es": "Moto de nieve",
+    "description_fr": "Motoneige"
   },
   {
     "image": "mutcd_w11_7.png",
     "description": "Equestrian",
     "description_ru": "Верховая езда",
-    "description_es": "Ecuestre"
+    "description_es": "Ecuestre",
+    "description_fr": "Cavaliers"
   },
   {
     "image": "mutcd_w11_8.png",
     "description": "Emergency vehicle",
     "description_ru": "Аварийные (спец) транспортные средства",
-    "description_es": "Vehículo de emergencia"
+    "description_es": "Vehículo de emergencia",
+    "description_fr": "Véhicule d'urgence"
   },
   {
     "image": "mutcd_w11_9.png",
     "description": "Handicapped",
     "description_ru": "Инвалиды на дороге",
-    "description_es": "Personas con discapacidad"
+    "description_es": "Personas con discapacidad",
+    "description_fr": "Personnes handicapées"
   },
   {
     "image": "mutcd_w11_10.png",
     "description": "Truck",
     "description_ru": "Грузовики",
-    "description_es": "Camiones"
+    "description_es": "Camiones",
+    "description_fr": "Camions"
   },
   {
     "image": "mutcd_w11_11.png",
     "description": "Golf cart",
     "description_ru": "Гольф-кар",
-    "description_es": "Carrito de golf"
+    "description_es": "Carrito de golf",
+    "description_fr": "Voiturette de golf"
   },
   {
     "image": "mutcd_w11_12p.png",
     "description": "Emergency signal ahead",
     "description_ru": "Впереди аварийный сигнал",
-    "description_es": "Señal de emergencia adelante"
+    "description_es": "Señal de emergencia adelante",
+    "description_fr": "Signal d'urgence à l'avant"
   },
   {
     "image": "mutcd_w11_14.png",
     "description": "Horse-drawn vehicles",
     "description_ru": "Повозки с лошадьми",
-    "description_es": "Vehículos tirados por caballos"
+    "description_es": "Vehículos tirados por caballos",
+    "description_fr": "Véhicules hippomobiles"
   },
   {
     "image": "mutcd_w11_15.png",
     "description": "Bicycle and pedestrians",
     "description_ru": "Велосипедисты и пешеходы",
-    "description_es": "Bicicletas y peatones"
+    "description_es": "Bicicletas y peatones",
+    "description_fr": "Vélos et piétons"
   },
   {
     "image": "mutcd_w11_15p.png",
     "description": "Trail x-ing",
     "description_ru": "Пересечение тропы",
-    "description_es": "Cruce de sendero"
+    "description_es": "Cruce de sendero",
+    "description_fr": "Traversée de sentier"
   },
   {
     "image": "mutcd_w11_15a.png",
     "description": "Trail crossing",
     "description_ru": "Пересечение тропы",
-    "description_es": "Cruce de sendero"
+    "description_es": "Cruce de sendero",
+    "description_fr": "Traversée de sentier"
   },
   {
     "image": "mutcd_w11_16.png",
     "description": "Bear",
     "description_ru": "Медведь",
-    "description_es": "Oso"
+    "description_es": "Oso",
+    "description_fr": "Ours"
   },
   {
     "image": "mutcd_w11_17.png",
     "description": "Sheep",
     "description_ru": "Овцы",
-    "description_es": "Ovejas"
+    "description_es": "Ovejas",
+    "description_fr": "Moutons"
   },
   {
     "image": "mutcd_w11_18.png",
     "description": "Ram",
     "description_ru": "Баран",
-    "description_es": "Carnero"
+    "description_es": "Carnero",
+    "description_fr": "Bélier"
   },
   {
     "image": "mutcd_w11_19.png",
     "description": "Donkey",
     "description_ru": "Осёл",
-    "description_es": "Burro"
+    "description_es": "Burro",
+    "description_fr": "Âne"
   },
   {
     "image": "mutcd_w11_20.png",
     "description": "Elk",
     "description_ru": "Лось",
-    "description_es": "Alce"
+    "description_es": "Alce",
+    "description_fr": "Wapiti"
   },
   {
     "image": "mutcd_w11_21.png",
     "description": "Moose",
     "description_ru": "Лось",
-    "description_es": "Alce"
+    "description_es": "Alce",
+    "description_fr": "Élan / Orignal"
   },
   {
     "image": "mutcd_w11_22.png",
     "description": "Wild horse",
     "description_ru": "Дикая лошадь",
-    "description_es": "Caballo salvaje"
+    "description_es": "Caballo salvaje",
+    "description_fr": "Cheval sauvage"
   },
   {
     "image": "mutcd_w12_1.png",
     "description": "Double arrow",
     "description_ru": "Двойная стрелка",
-    "description_es": "Flecha doble"
+    "description_es": "Flecha doble",
+    "description_fr": "Double flèche"
   },
   {
     "image": "mutcd_w12_2.png",
     "description": "Low clearance",
     "description_ru": "Низкий просвет",
-    "description_es": "Altura limitada"
+    "description_es": "Altura limitada",
+    "description_fr": "Hauteur limitée"
   },
   {
     "image": "mutcd_w12_2a.png",
     "description": "Low Clearance (Overhead)",
     "description_ru": "Низкий просвет (над головой)",
-    "description_es": "Altura limitada (superior)"
+    "description_es": "Altura limitada (superior)",
+    "description_fr": "Hauteur limitée (en surplomb)"
   },
   {
     "image": "mutcd_w12_2b.png",
     "description": "Low Clearance (Overhead)",
     "description_ru": "Низкий просвет (над головой)",
-    "description_es": "Altura limitada (superior)"
+    "description_es": "Altura limitada (superior)",
+    "description_fr": "Hauteur limitée (en surplomb)"
   },
   {
     "image": "mutcd_w13_1p.png",
     "description": "Speed advisory",
     "description_ru": "Рекомендуемая скорость",
-    "description_es": "Velocidad recomendada"
+    "description_es": "Velocidad recomendada",
+    "description_fr": "Vitesse conseillée"
   },
   {
     "image": "mutcd_w13_1ap.png",
     "description": "Speed advisory Confirmation",
     "description_ru": "Подтверждение рекомендуемой скорости",
-    "description_es": "Confirmación de velocidad recomendada"
+    "description_es": "Confirmación de velocidad recomendada",
+    "description_fr": "Confirmation de vitesse conseillée"
   },
   {
     "image": "mutcd_w13_2.png",
     "description": "Exit speed advisory",
     "description_ru": "Рекомендуемая скорость на съезде",
-    "description_es": "Velocidad recomendada en salida"
+    "description_es": "Velocidad recomendada en salida",
+    "description_fr": "Vitesse conseillée à la sortie"
   },
   {
     "image": "mutcd_w13_3.png",
     "description": "Ramp speed advisory",
     "description_ru": "Рекомендуемая скорость на съездной рампе",
-    "description_es": "Velocidad recomendada en rampa"
+    "description_es": "Velocidad recomendada en rampa",
+    "description_fr": "Vitesse conseillée sur la bretelle"
   },
   {
     "image": "mutcd_w13_6.png",
     "description": "Exit speed advisory (270 degree loop curve)",
     "description_ru": "Рекомендуемая скорость на съезде (петля 270°)",
-    "description_es": "Velocidad salida recomendada (curva de 270 grados)"
+    "description_es": "Velocidad salida recomendada (curva de 270 grados)",
+    "description_fr": "Vitesse conseillée à la sortie (courbe en boucle de 270 degrés)"
   },
   {
     "image": "mutcd_w13_7.png",
     "description": "Ramp speed advisory (270 degree loop curve)",
     "description_ru": "Рекомендуемая скорость на рампе (петля 270°)",
-    "description_es": "Velocidad rampa recomendada (curva de 270 grados)"
+    "description_es": "Velocidad rampa recomendada (curva de 270 grados)",
+    "description_fr": "Vitesse conseillée sur la bretelle (courbe en boucle de 270 degrés)"
   },
   {
     "image": "mutcd_w13_8.png",
     "description": "Exit speed advisory (hairpin curve)",
     "description_ru": "Рекомендуемая скорость на съезде (резкий поворот)",
-    "description_es": "Velocidad salida recomendada (curva cerrada)"
+    "description_es": "Velocidad salida recomendada (curva cerrada)",
+    "description_fr": "Vitesse conseillée à la sortie (virage en épingle)"
   },
   {
     "image": "mutcd_w13_9.png",
     "description": "Ramp speed advisory (hairpin curve)",
     "description_ru": "Рекомендуемая скорость на рампе (резкий поворот)",
-    "description_es": "Velocidad rampa recomendada (curva cerrada)"
+    "description_es": "Velocidad rampa recomendada (curva cerrada)",
+    "description_fr": "Vitesse conseillée sur la bretelle (virage en épingle)"
   },
   {
     "image": "mutcd_w13_10.png",
     "description": "Exit speed advisory (turn)",
     "description_ru": "Рекомендуемая скорость на съезде (поворот)",
-    "description_es": "Velocidad recomendada en salida (curva)"
+    "description_es": "Velocidad recomendada en salida (curva)",
+    "description_fr": "Vitesse conseillée à la sortie (virage)"
   },
   {
     "image": "mutcd_w13_11.png",
     "description": "Ramp speed advisory (turn)",
     "description_ru": "Рекомендуемая скорость на рампе (поворот)",
-    "description_es": "Velocidad recomendada en rampa (curva)"
+    "description_es": "Velocidad recomendada en rampa (curva)",
+    "description_fr": "Vitesse conseillée sur la bretelle (virage)"
   },
   {
     "image": "mutcd_w13_12.png",
     "description": "Exit speed advisory (truck rollover)",
     "description_ru": "Рекомендуемая скорость на съезде (опасность опрокидывания грузовика)",
-    "description_es": "Velocidad salida recomendada (vuelco de camión)"
+    "description_es": "Velocidad salida recomendada (vuelco de camión)",
+    "description_fr": "Vitesse conseillée à la sortie (renversement de camion)"
   },
   {
     "image": "mutcd_w13_13.png",
     "description": "Ramp speed advisory (truck rollover)",
     "description_ru": "Рекомендуемая скорость на рампе (опасность опрокидывания грузовика)",
-    "description_es": "Velocidad rampa recomendada (vuelco de camión)"
+    "description_es": "Velocidad rampa recomendada (vuelco de camión)",
+    "description_fr": "Vitesse conseillée sur la bretelle (renversement de camion)"
   },
   {
     "image": "mutcd_w13_20.png",
     "description": "Variable Speed Feedback",
     "description_ru": "Отображение переменной скорости",
-    "description_es": "Comentarios de velocidad variable"
+    "description_es": "Comentarios de velocidad variable",
+    "description_fr": "Affichage de vitesse variable"
   },
   {
     "image": "mutcd_w13_20ap.png",
     "description": "Variable Speed Feedback",
     "description_ru": "Отображение переменной скорости",
-    "description_es": "Comentarios de velocidad variable"
+    "description_es": "Comentarios de velocidad variable",
+    "description_fr": "Affichage de vitesse variable"
   },
   {
     "image": "mutcd_w14_1.png",
     "description": "Dead end",
     "description_ru": "Тупик",
-    "description_es": "Calle sin salida"
+    "description_es": "Calle sin salida",
+    "description_fr": "Impasse"
   },
   {
     "image": "mutcd_w14_1ar.png",
     "description": "Dead end on the right",
     "description_ru": "Тупик справа",
-    "description_es": "Calle sin salida a la derecha"
+    "description_es": "Calle sin salida a la derecha",
+    "description_fr": "Impasse à droite"
   },
   {
     "image": "mutcd_w14_1al.png",
     "description": "Dead end on the left",
     "description_ru": "Тупик слева",
-    "description_es": "Calle sin salida a la izquierda"
+    "description_es": "Calle sin salida a la izquierda",
+    "description_fr": "Impasse à gauche"
   },
   {
     "image": "mutcd_w14_2.png",
     "description": "No outlet",
     "description_ru": "Без выезда",
-    "description_es": "Sin salida"
+    "description_es": "Sin salida",
+    "description_fr": "Voie sans issue"
   },
   {
     "image": "mutcd_w14_2ar.png",
     "description": "No outlet on the right",
     "description_ru": "Без выезда справа",
-    "description_es": "Sin salida a la derecha"
+    "description_es": "Sin salida a la derecha",
+    "description_fr": "Voie sans issue à droite"
   },
   {
     "image": "mutcd_w14_2al.png",
     "description": "No outlet on the left",
     "description_ru": "Без выезда слева",
-    "description_es": "Sin salida a la izquierda"
+    "description_es": "Sin salida a la izquierda",
+    "description_fr": "Voie sans issue à gauche"
   },
   {
     "image": "mutcd_w14_3.png",
     "description": "No passing zone",
     "description_ru": "Зона, где обгон запрещён",
-    "description_es": "Zona de no adelantar"
+    "description_es": "Zona de no adelantar",
+    "description_fr": "Zone de dépassement interdit"
   },
   {
     "image": "mutcd_w15_1.png",
     "description": "Playground",
     "description_ru": "Детская площадка",
-    "description_es": "Parque infantil"
+    "description_es": "Parque infantil",
+    "description_fr": "Aire de jeux"
   },
   {
     "image": "mutcd_w16_1p.png",
     "description": "In Road",
     "description_ru": "На дороге",
-    "description_es": "En la carretera"
+    "description_es": "En la carretera",
+    "description_fr": "Sur la route"
   },
   {
     "image": "mutcd_w16_1ap.png",
     "description": "In Street",
     "description_ru": "На улице",
-    "description_es": "En la calle"
+    "description_es": "En la calle",
+    "description_fr": "Dans la rue"
   },
   {
     "image": "mutcd_w16_2p.png",
     "description": "(distance) feet",
     "description_ru": "(расстояние) футов",
-    "description_es": "(distancia) pies"
+    "description_es": "(distancia) pies",
+    "description_fr": "(distance) pieds"
   },
   {
     "image": "mutcd_w16_2ap.png",
     "description": "(distance) feet",
     "description_ru": "(расстояние) футов",
-    "description_es": "(distancia) pies"
+    "description_es": "(distancia) pies",
+    "description_fr": "(distance) pieds"
   },
   {
     "image": "mutcd_w16_3p.png",
     "description": "(distance) miles",
     "description_ru": "(расстояние) миль",
-    "description_es": "(distancia) millas"
+    "description_es": "(distancia) millas",
+    "description_fr": "(distance) miles"
   },
   {
     "image": "mutcd_w16_3ap.png",
     "description": "(distance) miles",
     "description_ru": "(расстояние) миль",
-    "description_es": "(distancia) millas"
+    "description_es": "(distancia) millas",
+    "description_fr": "(distance) miles"
   },
   {
     "image": "mutcd_w16_4p.png",
     "description": "Next (distance) feet",
     "description_ru": "Следующие (расстояние) футов",
-    "description_es": "Próximos (distancia) pies"
+    "description_es": "Próximos (distancia) pies",
+    "description_fr": "Prochains (distance) pieds"
   },
   {
     "image": "mutcd_w16_5pr.png",
     "description": "Supplemental arrow to the right",
     "description_ru": "Дополнительная стрелка направо",
-    "description_es": "Flecha suplementaria a la derecha"
+    "description_es": "Flecha suplementaria a la derecha",
+    "description_fr": "Flèche supplémentaire vers la droite"
   },
   {
     "image": "mutcd_w16_5pl.png",
     "description": "Supplemental arrow to the left",
     "description_ru": "Дополнительная стрелка налево",
-    "description_es": "Flecha suplementaria a la izquierda"
+    "description_es": "Flecha suplementaria a la izquierda",
+    "description_fr": "Flèche supplémentaire vers la gauche"
   },
   {
     "image": "mutcd_w16_6pr.png",
     "description": "Supplemental arrow to the right",
     "description_ru": "Дополнительная стрелка направо",
-    "description_es": "Flecha suplementaria a la derecha"
+    "description_es": "Flecha suplementaria a la derecha",
+    "description_fr": "Flèche supplémentaire vers la droite"
   },
   {
     "image": "mutcd_w16_6pl.png",
     "description": "Supplemental arrow to the left",
     "description_ru": "Дополнительная стрелка налево",
-    "description_es": "Flecha suplementaria a la izquierda"
+    "description_es": "Flecha suplementaria a la izquierda",
+    "description_fr": "Flèche supplémentaire vers la gauche"
   },
   {
     "image": "mutcd_w16_7pr.png",
     "description": "Downward diagonal arrow to the right",
     "description_ru": "Диагональная стрелка вниз направо",
-    "description_es": "Flecha diagonal descendente a la derecha"
+    "description_es": "Flecha diagonal descendente a la derecha",
+    "description_fr": "Flèche diagonale descendante vers la droite"
   },
   {
     "image": "mutcd_w16_7pl.png",
     "description": "Downward diagonal arrow to the left",
     "description_ru": "Диагональная стрелка вниз налево",
-    "description_es": "Flecha diagonal descendente a la izquierda"
+    "description_es": "Flecha diagonal descendente a la izquierda",
+    "description_fr": "Flèche diagonale descendante vers la gauche"
   },
   {
     "image": "mutcd_w16_7ap.png",
     "description": "Dual Downward Diagonal Arrow",
     "description_ru": "Две диагональные стрелки вниз",
-    "description_es": "Doble flecha diagonal descendente"
+    "description_es": "Doble flecha diagonal descendente",
+    "description_fr": "Double flèche diagonale descendante"
   },
   {
     "image": "mutcd_w16_8p.png",
     "description": "Advance Street Name Plaque",
     "description_ru": "Табличка с названием улицы заранее",
-    "description_es": "Placa con nombre de calle (adelantada)"
+    "description_es": "Placa con nombre de calle (adelantada)",
+    "description_fr": "Panonceau de nom de rue avancé"
   },
   {
     "image": "mutcd_w16_8ap.png",
     "description": "Advance Street Name Plaque (double arrow)",
     "description_ru": "Табличка с названием улицы заранее (двойная стрелка)",
-    "description_es": "Placa con nombre de calle (flecha doble)"
+    "description_es": "Placa con nombre de calle (flecha doble)",
+    "description_fr": "Panonceau de nom de rue avancé (double flèche)"
   },
   {
     "image": "mutcd_w16_9p.png",
     "description": "Ahead",
     "description_ru": "Впереди",
-    "description_es": "Adelante"
+    "description_es": "Adelante",
+    "description_fr": "À l'avant"
   },
   {
     "image": "mutcd_w16_10p.png",
     "description": "Photo enforced (symbol)",
     "description_ru": "Контроль с помощью камеры (символ)",
-    "description_es": "Controlado por cámara (símbolo)"
+    "description_es": "Controlado por cámara (símbolo)",
+    "description_fr": "Contrôlé par radar photo (symbole)"
   },
   {
     "image": "mutcd_w16_10ap.png",
     "description": "Photo enforced",
     "description_ru": "Контроль с помощью камеры",
-    "description_es": "Controlado por cámara"
+    "description_es": "Controlado por cámara",
+    "description_fr": "Contrôlé par radar photo"
   },
   {
     "image": "mutcd_w16_11p.png",
     "description": "HOV",
     "description_ru": "Полоса для автомобилей с несколькими пассажирами (HOV)",
-    "description_es": "Carril para vehículos de alta ocupación (HOV)"
+    "description_es": "Carril para vehículos de alta ocupación (HOV)",
+    "description_fr": "Voie réservée aux véhicules à occupation multiple (VOM)"
   },
   {
     "image": "mutcd_w16_12p.png",
     "description": "Traffic circle plaque",
     "description_ru": "Табличка: круговое движение",
-    "description_es": "Placa de rotonda"
+    "description_es": "Placa de rotonda",
+    "description_fr": "Panonceau de rond-point"
   },
   {
     "image": "mutcd_w16_12ap.png",
     "description": "Roundabout junction plaque",
     "description_ru": "Табличка: перекрёсток с круговым движением",
-    "description_es": "Placa de intersección en rotonda"
+    "description_es": "Placa de intersección en rotonda",
+    "description_fr": "Panonceau de carrefour giratoire"
   },
   {
     "image": "mutcd_w16_13p.png",
     "description": "When flashing",
     "description_ru": "При мигающем сигнале",
-    "description_es": "Cuando parpadea"
+    "description_es": "Cuando parpadea",
+    "description_fr": "Lorsque clignotant"
   },
   {
     "image": "mutcd_w16_15p.png",
     "description": "New",
     "description_ru": "Новый знак/изменение",
-    "description_es": "Nuevo"
+    "description_es": "Nuevo",
+    "description_fr": "Nouveau"
   },
   {
     "image": "mutcd_w16_16p.png",
     "description": "Last Exit Before Toll (1-line plaque)",
     "description_ru": "Последний съезд перед платной дорогой (1 строка)",
-    "description_es": "Última salida antes del peaje (1 línea)"
+    "description_es": "Última salida antes del peaje (1 línea)",
+    "description_fr": "Dernière sortie avant péage (panonceau 1 ligne)"
   },
   {
     "image": "mutcd_w16_16ap.png",
     "description": "Last Exit Before Toll (2-line plaque)",
     "description_ru": "Последний съезд перед платной дорогой (2 строки)",
-    "description_es": "Última salida antes del peaje (2 líneas)"
+    "description_es": "Última salida antes del peaje (2 líneas)",
+    "description_fr": "Dernière sortie avant péage (panonceau 2 lignes)"
   },
   {
     "image": "mutcd_w16_17p.png",
     "description": "Toll",
     "description_ru": "Платная дорога",
-    "description_es": "Peaje"
+    "description_es": "Peaje",
+    "description_fr": "Péage"
   },
   {
     "image": "mutcd_w16_18p.png",
     "description": "Notice",
     "description_ru": "Объявление",
-    "description_es": "Aviso"
+    "description_es": "Aviso",
+    "description_fr": "Avis"
   },
   {
     "image": "mutcd_w16_19p.png",
     "description": "Last In Corridor",
     "description_ru": "Последний в коридоре",
-    "description_es": "Último en el corredor"
+    "description_es": "Último en el corredor",
+    "description_fr": "Dernier dans le corridor"
   },
   {
     "image": "mutcd_w16_20p.png",
     "description": "Except Bicycles",
     "description_ru": "За исключением велосипедов",
-    "description_es": "Excepto bicicletas"
+    "description_es": "Excepto bicicletas",
+    "description_fr": "Sauf vélos"
   },
   {
     "image": "mutcd_w16_21p.png",
     "description": "2-Way Bicycle Cross Traffic",
     "description_ru": "Двустороннее велосипедное пересечение",
-    "description_es": "Cruce de bicicletas en ambos sentidos"
+    "description_es": "Cruce de bicicletas en ambos sentidos",
+    "description_fr": "Circulation transversale de vélos dans les deux sens"
   },
   {
     "image": "mutcd_w17_1.png",
     "description": "Speed hump",
     "description_ru": "Искусственная неровность (лежачий полицейский)",
-    "description_es": "Resalto de velocidad"
+    "description_es": "Resalto de velocidad",
+    "description_fr": "Ralentisseur"
   },
   {
     "image": "mutcd_w18_1.png",
     "description": "No traffic signs",
     "description_ru": "Нет дорожных знаков",
-    "description_es": "No hay señales de tráfico"
+    "description_es": "No hay señales de tráfico",
+    "description_fr": "Pas de panneaux de signalisation"
   },
   {
     "image": "mutcd_w19_1.png",
     "description": "Freeway ends (distance)",
     "description_ru": "Конец автомагистрали (через расстояние)",
-    "description_es": "Fin de autopista (distancia)"
+    "description_es": "Fin de autopista (distancia)",
+    "description_fr": "Fin d'autoroute (distance)"
   },
   {
     "image": "mutcd_w19_2.png",
     "description": "Expressway ends (distance)",
     "description_ru": "Конец скоростной дороги (через расстояние)",
-    "description_es": "Fin de vía rápida (distancia)"
+    "description_es": "Fin de vía rápida (distancia)",
+    "description_fr": "Fin de voie rapide (distance)"
   },
   {
     "image": "mutcd_w19_3.png",
     "description": "Freeway ends",
     "description_ru": "Конец автомагистрали",
-    "description_es": "Fin de autopista"
+    "description_es": "Fin de autopista",
+    "description_fr": "Fin d'autoroute"
   },
   {
     "image": "mutcd_w19_4.png",
     "description": "Expressway ends",
     "description_ru": "Конец скоростной дороги",
-    "description_es": "Fin de vía rápida"
+    "description_es": "Fin de vía rápida",
+    "description_fr": "Fin de voie rapide"
   },
   {
     "image": "mutcd_w19_5.png",
     "description": "All traffic must exit",
     "description_ru": "Всем водителям необходимо съехать",
-    "description_es": "Todo el tráfico debe salir"
+    "description_es": "Todo el tráfico debe salir",
+    "description_fr": "Toute la circulation doit sortir"
   },
   {
     "image": "mutcd_w23_2.png",
     "description": "New traffic pattern ahead",
     "description_ru": "Новый порядок движения впереди",
-    "description_es": "Nuevo patrón de tráfico más adelante"
+    "description_es": "Nuevo patrón de tráfico más adelante",
+    "description_fr": "Nouvelle configuration de circulation à l'avant"
   },
   {
     "image": "mutcd_w23_2a.png",
     "description": "New Signal Operation Ahead",
     "description_ru": "Новая работа светофора впереди",
-    "description_es": "Nuevo funcionamiento del semáforo más adelante"
+    "description_es": "Nuevo funcionamiento del semáforo más adelante",
+    "description_fr": "Nouveau fonctionnement des feux à l'avant"
   },
   {
     "image": "mutcd_w25_1.png",
     "description": "Oncoming traffic has extended green",
     "description_ru": "Встречный транспорт имеет продлённый зелёный",
-    "description_es": "El tráfico en sentido contrario tiene luz verde prolongada"
+    "description_es": "El tráfico en sentido contrario tiene luz verde prolongada",
+    "description_fr": "La circulation en sens inverse a un feu vert prolongé"
   },
   {
     "image": "mutcd_w25_2.png",
     "description": "Oncoming traffic may have extended green",
     "description_ru": "У встречного транспорта может быть продлённый зелёный",
-    "description_es": "El tráfico en sentido contrario puede tener luz verde prolongada"
+    "description_es": "El tráfico en sentido contrario puede tener luz verde prolongada",
+    "description_fr": "La circulation en sens inverse peut avoir un feu vert prolongé"
   },
   {
     "image": "mutcd_w26_1.png",
     "description": "Watch For Stopped Traffic",
     "description_ru": "Осторожно: возможна остановившаяся пробка",
-    "description_es": "Precaución: tráfico detenido"
+    "description_es": "Precaución: tráfico detenido",
+    "description_fr": "Attention à la circulation arrêtée"
   },
   {
     "image": "mutcd_om1_1.png",
     "description": "Object Marker",
     "description_ru": "Маркер объекта",
-    "description_es": "Marcador de objeto"
+    "description_es": "Marcador de objeto",
+    "description_fr": "Balise d'obstacle"
   },
   {
     "image": "mutcd_om1_2.png",
     "description": "Object Marker",
     "description_ru": "Маркер объекта",
-    "description_es": "Marcador de objeto"
+    "description_es": "Marcador de objeto",
+    "description_fr": "Balise d'obstacle"
   },
   {
     "image": "mutcd_om1_3.png",
     "description": "Object Marker",
     "description_ru": "Маркер объекта",
-    "description_es": "Marcador de objeto"
+    "description_es": "Marcador de objeto",
+    "description_fr": "Balise d'obstacle"
   },
   {
     "image": "mutcd_om2_1v.png",
     "description": "Vertical Culvert Marker",
     "description_ru": "Вертикальный маркер водопропускной трубы",
-    "description_es": "Marcador vertical de alcantarilla"
+    "description_es": "Marcador vertical de alcantarilla",
+    "description_fr": "Balise verticale de ponceau"
   },
   {
     "image": "mutcd_om2_1h.png",
     "description": "Horizontal Culvert Marker",
     "description_ru": "Горизонтальный маркер водопропускной трубы",
-    "description_es": "Marcador horizontal de alcantarilla"
+    "description_es": "Marcador horizontal de alcantarilla",
+    "description_fr": "Balise horizontale de ponceau"
   },
   {
     "image": "mutcd_om2_2v.png",
     "description": "Vertical Culvert Marker",
     "description_ru": "Вертикальный маркер водопропускной трубы",
-    "description_es": "Marcador vertical de alcantarilla"
+    "description_es": "Marcador vertical de alcantarilla",
+    "description_fr": "Balise verticale de ponceau"
   },
   {
     "image": "mutcd_om2_2h.png",
     "description": "Horizontal Culvert Marker",
     "description_ru": "Горизонтальный маркер водопропускной трубы",
-    "description_es": "Marcador horizontal de alcantarilla"
+    "description_es": "Marcador horizontal de alcantarilla",
+    "description_fr": "Balise horizontale de ponceau"
   },
   {
     "image": "mutcd_om3_r.png",
     "description": "OM3-R Right Object Marker",
     "description_ru": "OM3-R Правый маркер объекта",
-    "description_es": "OM3-R Marcador de objeto derecho"
+    "description_es": "OM3-R Marcador de objeto derecho",
+    "description_fr": "OM3-R Balise d'obstacle droite"
   },
   {
     "image": "mutcd_om3_c.png",
     "description": "OM3-C Chevron Object Marker",
     "description_ru": "OM3-C Объект с маркировкой в виде шеврона",
-    "description_es": "OM3-C Marcador de objeto en forma de cheurón"
+    "description_es": "OM3-C Marcador de objeto en forma de cheurón",
+    "description_fr": "OM3-C Balise d'obstacle à chevrons"
   },
   {
     "image": "mutcd_om3_l.png",
     "description": "OM3-L Left Object Marker",
     "description_ru": "OM3-L Левый маркер объекта",
-    "description_es": "OM3-L Marcador de objeto izquierdo"
+    "description_es": "OM3-L Marcador de objeto izquierdo",
+    "description_fr": "OM3-L Balise d'obstacle gauche"
   },
   {
     "image": "mutcd_om4_1.png",
     "description": "End Of Road Marker",
     "description_ru": "Маркер конца дороги",
-    "description_es": "Marcador de fin de camino"
+    "description_es": "Marcador de fin de camino",
+    "description_fr": "Balise de fin de route"
   },
   {
     "image": "mutcd_om4_2.png",
     "description": "End Of Road Marker",
     "description_ru": "Маркер конца дороги",
-    "description_es": "Marcador de fin de camino"
+    "description_es": "Marcador de fin de camino",
+    "description_fr": "Balise de fin de route"
   },
   {
     "image": "mutcd_om4_3.png",
     "description": "End Of Road Marker",
     "description_ru": "Маркер конца дороги",
-    "description_es": "Marcador de fin de camino"
+    "description_es": "Marcador de fin de camino",
+    "description_fr": "Balise de fin de route"
   }
 ]

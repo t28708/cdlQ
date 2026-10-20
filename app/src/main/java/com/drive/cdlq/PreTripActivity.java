@@ -97,8 +97,12 @@ public class PreTripActivity extends AppCompatActivity {
             adButton = "Продолжить";
         } if ("es".equals(appLanguage)) {
             adThanks = "Desbloquear parte";
-            adMessage = "Mira un anuncio para desbloquear la siguiente parte"; // Wait, "the next part" should be "la siguiente parte"!
+            adMessage = "Mira un anuncio para desbloquear la siguiente parte";
             adButton = "Continuar";
+        } if ("fr".equals(appLanguage)) {
+            adThanks = "Débloquer la partie";
+            adMessage = "Regardez une publicité pour débloquer la partie suivante";
+            adButton = "Continuer";
         }
 
         Bundle arguments = getIntent().getExtras();

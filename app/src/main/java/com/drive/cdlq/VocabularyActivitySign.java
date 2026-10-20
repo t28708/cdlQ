@@ -171,6 +171,15 @@ public class VocabularyActivitySign extends AppCompatActivity {
                         adMessage = "Mira un anuncio para desbloquear la siguiente parte";
                         adButton = "Continuar";
                         break;
+                    case "fr":
+                        localized = obj.optString("description_fr", "");
+                        localizeNextButton = "Suivant";
+                        localizePrevButton = "Précédent";
+                        localizeShuffleButton = "Mélanger";
+                        adThanks = "Débloquer la partie";
+                        adMessage = "Regardez une publicité pour débloquer la partie suivante";
+                        adButton = "Continuer";
+                        break;
                     default:
                         localized = description;
                         localizeNextButton = "Next";
